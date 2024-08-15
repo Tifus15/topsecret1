@@ -1,0 +1,70 @@
+5
+GNN_maker_HNN(
+  (net): Sequential(
+    (0): GATLayer(
+      (fc): Linear(in_features=2, out_features=128, bias=False)
+      (attn_fc): Linear(in_features=256, out_features=1, bias=False)
+    )
+    (1): Tanh()
+    (2): GATLayer(
+      (fc): Linear(in_features=128, out_features=6, bias=False)
+      (attn_fc): Linear(in_features=12, out_features=1, bias=False)
+    )
+  )
+)
+torch.Size([128, 50, 1, 5])
+50
+torch.Size([32, 1, 4])
+GNN_maker_HNN(
+  (net): Sequential(
+    (0): GATLayer(
+      (fc): Linear(in_features=2, out_features=128, bias=False)
+      (attn_fc): Linear(in_features=256, out_features=1, bias=False)
+    )
+    (1): Tanh()
+    (2): GATLayer(
+      (fc): Linear(in_features=128, out_features=6, bias=False)
+      (attn_fc): Linear(in_features=12, out_features=1, bias=False)
+    )
+  )
+)
+TRAIN BATCHES : 133
+TEST BATCHES : 14
+TRAIN
+torch.Size([32, 32, 2])
+torch.Size([32, 32, 2])
+torch.Size([32, 32, 1])
+  0%|                                                                                                                                                  | 0/133 [00:00<?, ?it/s]
+  0%|                                                                                                                                                    | 0/5 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "/home/denis/Desktop/server-graph-models/new_HGNN/main_pend.py", line 934, in <module>
+    train1dof(configs)
+  File "/home/denis/Desktop/server-graph-models/new_HGNN/main_pend.py", line 205, in train1dof
+    x_pred = RKroll_for_learning(model,x0,ts)
+  File "/home/denis/Desktop/server-graph-models/new_HGNN/utils.py", line 159, in RKroll_for_learning
+    K1 = evaluate_model(model,out_l[i-1].squeeze())
+  File "/home/denis/Desktop/server-graph-models/new_HGNN/utils.py", line 148, in evaluate_model
+    h_pred = model(x)
+  File "/home/denis/anaconda3/envs/dgl_hnn/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/denis/anaconda3/envs/dgl_hnn/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1582, in _call_impl
+    result = forward_call(*args, **kwargs)
+  File "/home/denis/Desktop/server-graph-models/new_HGNN/HGNN.py", line 157, in forward
+    H_feat = self.net(x.float())
+  File "/home/denis/anaconda3/envs/dgl_hnn/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/denis/anaconda3/envs/dgl_hnn/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/denis/anaconda3/envs/dgl_hnn/lib/python3.9/site-packages/torch/nn/modules/container.py", line 217, in forward
+    input = module(input)
+  File "/home/denis/anaconda3/envs/dgl_hnn/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/denis/anaconda3/envs/dgl_hnn/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/denis/Desktop/server-graph-models/new_HGNN/HGNN.py", line 49, in forward
+    self.g.ndata['z'] = z
+  File "/home/denis/anaconda3/envs/dgl_hnn/lib/python3.9/site-packages/dgl/view.py", line 99, in __setitem__
+    self._graph._set_n_repr(self._ntid, self._nodes, {key: val})
+  File "/home/denis/anaconda3/envs/dgl_hnn/lib/python3.9/site-packages/dgl/heterograph.py", line 4344, in _set_n_repr
+    raise DGLError(
+dgl._ffi.base.DGLError: Expect number of features to match number of nodes (len(u)). Got 32 and 1024 instead.

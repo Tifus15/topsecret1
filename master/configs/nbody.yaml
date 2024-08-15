@@ -1,0 +1,18 @@
+model: GCN
+sob: True
+sob_a: 0.01
+a : 0.01
+opti : adamW
+reg : none
+loss: Huber
+acts : 
+  - tanh
+  - 
+epochs: 1000
+modelsize : 128
+batchsize : 8
+timesize : 32
+lr: 0.0005
+split: 0.9
+device: cpu
+single: True

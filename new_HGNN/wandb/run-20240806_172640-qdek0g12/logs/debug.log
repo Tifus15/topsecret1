@@ -1,0 +1,30 @@
+2024-08-06 17:26:40,998 INFO    MainThread:73443 [wandb_setup.py:_flush():76] Current SDK version is 0.17.5
+2024-08-06 17:26:40,998 INFO    MainThread:73443 [wandb_setup.py:_flush():76] Configure stats pid to 73443
+2024-08-06 17:26:40,998 INFO    MainThread:73443 [wandb_setup.py:_flush():76] Loading settings from /home/denis/.config/wandb/settings
+2024-08-06 17:26:40,998 INFO    MainThread:73443 [wandb_setup.py:_flush():76] Loading settings from /home/denis/Desktop/server-graph-models/new_HGNN/wandb/settings
+2024-08-06 17:26:40,998 INFO    MainThread:73443 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-08-06 17:26:40,998 INFO    MainThread:73443 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-08-06 17:26:40,998 INFO    MainThread:73443 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'new_HGNN/main_pend.py', 'program_abspath': '/home/denis/Desktop/server-graph-models/new_HGNN/main_pend.py', 'program': '/home/denis/Desktop/server-graph-models/new_HGNN/main_pend.py'}
+2024-08-06 17:26:40,998 INFO    MainThread:73443 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-08-06 17:26:40,998 INFO    MainThread:73443 [wandb_init.py:_log_setup():529] Logging user logs to /home/denis/Desktop/server-graph-models/new_HGNN/wandb/run-20240806_172640-qdek0g12/logs/debug.log
+2024-08-06 17:26:40,998 INFO    MainThread:73443 [wandb_init.py:_log_setup():530] Logging internal logs to /home/denis/Desktop/server-graph-models/new_HGNN/wandb/run-20240806_172640-qdek0g12/logs/debug-internal.log
+2024-08-06 17:26:40,998 INFO    MainThread:73443 [wandb_init.py:init():569] calling init triggers
+2024-08-06 17:26:40,998 INFO    MainThread:73443 [wandb_init.py:init():576] wandb.init called with sweep_config: {}
+config: {}
+2024-08-06 17:26:40,998 INFO    MainThread:73443 [wandb_init.py:init():619] starting backend
+2024-08-06 17:26:40,998 INFO    MainThread:73443 [wandb_init.py:init():623] setting up manager
+2024-08-06 17:26:40,999 INFO    MainThread:73443 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-08-06 17:26:41,000 INFO    MainThread:73443 [wandb_init.py:init():631] backend started and connected
+2024-08-06 17:26:41,002 INFO    MainThread:73443 [wandb_init.py:init():720] updated telemetry
+2024-08-06 17:26:41,021 INFO    MainThread:73443 [wandb_init.py:init():753] communicating run to backend with 90.0 second timeout
+2024-08-06 17:26:41,385 INFO    MainThread:73443 [wandb_run.py:_on_init():2435] communicating current version
+2024-08-06 17:26:41,441 INFO    MainThread:73443 [wandb_run.py:_on_init():2444] got version response 
+2024-08-06 17:26:41,441 INFO    MainThread:73443 [wandb_init.py:init():804] starting run threads in backend
+2024-08-06 17:26:43,873 INFO    MainThread:73443 [wandb_run.py:_console_start():2413] atexit reg
+2024-08-06 17:26:43,873 INFO    MainThread:73443 [wandb_run.py:_redirect():2255] redirect: wrap_raw
+2024-08-06 17:26:43,873 INFO    MainThread:73443 [wandb_run.py:_redirect():2320] Wrapping output streams.
+2024-08-06 17:26:43,873 INFO    MainThread:73443 [wandb_run.py:_redirect():2345] Redirects installed.
+2024-08-06 17:26:43,874 INFO    MainThread:73443 [wandb_init.py:init():847] run started, returning control to user process
+2024-08-06 17:26:45,446 INFO    MainThread:73443 [wandb_watch.py:watch():51] Watching
+2024-08-06 19:43:31,956 INFO    MainThread:73443 [wandb_watch.py:watch():51] Watching
+2024-08-06 22:07:46,371 WARNING MsgRouterThr:73443 [router.py:message_loop():77] message_loop has been closed

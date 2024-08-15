@@ -1,0 +1,29 @@
+2024-06-16 18:58:34,545 INFO    MainThread:3191528 [wandb_setup.py:_flush():76] Current SDK version is 0.17.1
+2024-06-16 18:58:34,545 INFO    MainThread:3191528 [wandb_setup.py:_flush():76] Configure stats pid to 3191528
+2024-06-16 18:58:34,546 INFO    MainThread:3191528 [wandb_setup.py:_flush():76] Loading settings from /home/denis/.config/wandb/settings
+2024-06-16 18:58:34,546 INFO    MainThread:3191528 [wandb_setup.py:_flush():76] Loading settings from /home/denis/Desktop/nbody_dgl/wandb/settings
+2024-06-16 18:58:34,546 INFO    MainThread:3191528 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-06-16 18:58:34,546 INFO    MainThread:3191528 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-06-16 18:58:34,546 INFO    MainThread:3191528 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'server_pack/main_body.py', 'program_abspath': '/home/denis/Desktop/nbody_dgl/server_pack/main_body.py', 'program': '/home/denis/Desktop/nbody_dgl/server_pack/main_body.py'}
+2024-06-16 18:58:34,546 INFO    MainThread:3191528 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-06-16 18:58:34,546 INFO    MainThread:3191528 [wandb_init.py:_log_setup():520] Logging user logs to /home/denis/Desktop/nbody_dgl/wandb/run-20240616_185834-ojpjqabf/logs/debug.log
+2024-06-16 18:58:34,546 INFO    MainThread:3191528 [wandb_init.py:_log_setup():521] Logging internal logs to /home/denis/Desktop/nbody_dgl/wandb/run-20240616_185834-ojpjqabf/logs/debug-internal.log
+2024-06-16 18:58:34,546 INFO    MainThread:3191528 [wandb_init.py:init():560] calling init triggers
+2024-06-16 18:58:34,546 INFO    MainThread:3191528 [wandb_init.py:init():567] wandb.init called with sweep_config: {}
+config: {'epochs': 100, 'model': 'GNN', 'lr': 0.0005, 'batch_size': 256, 'time_size': 32, 'optimizer': 'adamW', 'loss': 'Huber'}
+2024-06-16 18:58:34,546 INFO    MainThread:3191528 [wandb_init.py:init():610] starting backend
+2024-06-16 18:58:34,546 INFO    MainThread:3191528 [wandb_init.py:init():614] setting up manager
+2024-06-16 18:58:34,547 INFO    MainThread:3191528 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-06-16 18:58:34,555 INFO    MainThread:3191528 [wandb_init.py:init():622] backend started and connected
+2024-06-16 18:58:34,557 INFO    MainThread:3191528 [wandb_init.py:init():711] updated telemetry
+2024-06-16 18:58:34,558 INFO    MainThread:3191528 [wandb_init.py:init():744] communicating run to backend with 90.0 second timeout
+2024-06-16 18:58:34,978 INFO    MainThread:3191528 [wandb_run.py:_on_init():2402] communicating current version
+2024-06-16 18:58:35,036 INFO    MainThread:3191528 [wandb_run.py:_on_init():2411] got version response 
+2024-06-16 18:58:35,037 INFO    MainThread:3191528 [wandb_init.py:init():795] starting run threads in backend
+2024-06-16 18:58:36,492 INFO    MainThread:3191528 [wandb_run.py:_console_start():2380] atexit reg
+2024-06-16 18:58:36,492 INFO    MainThread:3191528 [wandb_run.py:_redirect():2235] redirect: wrap_raw
+2024-06-16 18:58:36,492 INFO    MainThread:3191528 [wandb_run.py:_redirect():2300] Wrapping output streams.
+2024-06-16 18:58:36,492 INFO    MainThread:3191528 [wandb_run.py:_redirect():2325] Redirects installed.
+2024-06-16 18:58:36,493 INFO    MainThread:3191528 [wandb_init.py:init():838] run started, returning control to user process
+2024-06-16 18:58:36,493 INFO    MainThread:3191528 [wandb_watch.py:watch():51] Watching
+2024-06-16 18:58:38,947 WARNING MsgRouterThr:3191528 [router.py:message_loop():77] message_loop has been closed

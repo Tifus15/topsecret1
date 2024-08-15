@@ -1,0 +1,188 @@
+2024-08-09 19:25:26,292 INFO    StreamThr :288072 [internal.py:wandb_internal():85] W&B internal server running at pid: 288072, started at: 2024-08-09 19:25:26.292283
+2024-08-09 19:25:26,293 DEBUG   HandlerThread:288072 [handler.py:handle_request():158] handle_request: status
+2024-08-09 19:25:26,295 INFO    WriterThread:288072 [datastore.py:open_for_write():87] open: /home/denis/Desktop/server-graph-models/new_HGNN/wandb/run-20240809_192526-tgs5rvuy/run-tgs5rvuy.wandb
+2024-08-09 19:25:26,295 DEBUG   SenderThread:288072 [sender.py:send():379] send: header
+2024-08-09 19:25:26,313 DEBUG   SenderThread:288072 [sender.py:send():379] send: run
+2024-08-09 19:25:26,758 INFO    SenderThread:288072 [dir_watcher.py:__init__():211] watching files in: /home/denis/Desktop/server-graph-models/new_HGNN/wandb/run-20240809_192526-tgs5rvuy/files
+2024-08-09 19:25:26,758 INFO    SenderThread:288072 [sender.py:_start_run_threads():1188] run started: tgs5rvuy with start time 1723224326.292319
+2024-08-09 19:25:26,764 DEBUG   HandlerThread:288072 [handler.py:handle_request():158] handle_request: check_version
+2024-08-09 19:25:26,764 DEBUG   SenderThread:288072 [sender.py:send_request():406] send_request: check_version
+2024-08-09 19:25:26,820 DEBUG   HandlerThread:288072 [handler.py:handle_request():158] handle_request: run_start
+2024-08-09 19:25:27,963 DEBUG   HandlerThread:288072 [system_info.py:__init__():26] System info init
+2024-08-09 19:25:27,963 DEBUG   HandlerThread:288072 [system_info.py:__init__():41] System info init done
+2024-08-09 19:25:27,964 INFO    HandlerThread:288072 [system_monitor.py:start():194] Starting system monitor
+2024-08-09 19:25:27,964 INFO    SystemMonitor:288072 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-08-09 19:25:27,964 INFO    HandlerThread:288072 [system_monitor.py:probe():214] Collecting system info
+2024-08-09 19:25:27,964 INFO    SystemMonitor:288072 [interfaces.py:start():188] Started cpu monitoring
+2024-08-09 19:25:27,965 INFO    SystemMonitor:288072 [interfaces.py:start():188] Started disk monitoring
+2024-08-09 19:25:27,965 INFO    SystemMonitor:288072 [interfaces.py:start():188] Started gpu monitoring
+2024-08-09 19:25:27,966 INFO    SystemMonitor:288072 [interfaces.py:start():188] Started memory monitoring
+2024-08-09 19:25:27,967 INFO    SystemMonitor:288072 [interfaces.py:start():188] Started network monitoring
+2024-08-09 19:25:27,973 DEBUG   HandlerThread:288072 [system_info.py:probe():152] Probing system
+2024-08-09 19:25:27,979 DEBUG   HandlerThread:288072 [system_info.py:_probe_git():137] Probing git
+2024-08-09 19:25:27,994 DEBUG   HandlerThread:288072 [system_info.py:_probe_git():145] Probing git done
+2024-08-09 19:25:27,994 DEBUG   HandlerThread:288072 [system_info.py:probe():200] Probing system done
+2024-08-09 19:25:27,994 DEBUG   HandlerThread:288072 [system_monitor.py:probe():223] {'os': 'Linux-6.5.0-44-generic-x86_64-with-glibc2.35', 'python': '3.9.19', 'heartbeatAt': '2024-08-09T17:25:27.973140', 'startedAt': '2024-08-09T17:25:26.280322', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '/home/denis/Desktop/server-graph-models/new_HGNN/main_pend.py', 'codePathLocal': 'main_pend.py', 'codePath': 'new_HGNN/main_pend.py', 'git': {'remote': 'https://git.ias.informatik.tu-darmstadt.de/andric/server-graph-models.git', 'commit': '3142703f37aec4a602d3831962d9bf1aad071aad'}, 'email': 'andridenis@gmail.com', 'root': '/home/denis/Desktop/server-graph-models', 'host': 'denis-ROG-Strix-G713QM-G713QM', 'username': 'denis', 'executable': '/home/denis/anaconda3/envs/dgl_hnn/bin/python3', 'cpu_count': 8, 'cpu_count_logical': 16, 'cpu_freq': {'current': 2656.9601250000005, 'min': 400.0, 'max': 4890.0}, 'cpu_freq_per_core': [{'current': 4032.193, 'min': 400.0, 'max': 4890.0}, {'current': 400.0, 'min': 400.0, 'max': 4890.0}, {'current': 4272.789, 'min': 400.0, 'max': 4890.0}, {'current': 400.0, 'min': 400.0, 'max': 4890.0}, {'current': 4490.654, 'min': 400.0, 'max': 4890.0}, {'current': 3525.591, 'min': 400.0, 'max': 4890.0}, {'current': 3663.431, 'min': 400.0, 'max': 4890.0}, {'current': 3612.49, 'min': 400.0, 'max': 4890.0}, {'current': 4123.372, 'min': 400.0, 'max': 4890.0}, {'current': 400.0, 'min': 400.0, 'max': 4890.0}, {'current': 4230.765, 'min': 400.0, 'max': 4890.0}, {'current': 3874.527, 'min': 400.0, 'max': 4890.0}, {'current': 4497.153, 'min': 400.0, 'max': 4890.0}, {'current': 4502.074, 'min': 400.0, 'max': 4890.0}, {'current': 4108.796, 'min': 400.0, 'max': 4890.0}, {'current': 400.0, 'min': 400.0, 'max': 4890.0}], 'disk': {'/': {'total': 163.2414779663086, 'used': 125.05005264282227}}, 'gpu': 'NVIDIA GeForce RTX 3060 Laptop GPU', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 3060 Laptop GPU', 'memory_total': 6442450944}], 'memory': {'total': 15.035839080810547}}
+2024-08-09 19:25:27,994 INFO    HandlerThread:288072 [system_monitor.py:probe():224] Finished collecting system info
+2024-08-09 19:25:27,994 INFO    HandlerThread:288072 [system_monitor.py:probe():227] Publishing system info
+2024-08-09 19:25:27,994 DEBUG   HandlerThread:288072 [system_info.py:_save_conda():209] Saving list of conda packages installed into the current environment
+2024-08-09 19:25:28,760 INFO    Thread-12 :288072 [dir_watcher.py:_on_file_created():271] file/dir created: /home/denis/Desktop/server-graph-models/new_HGNN/wandb/run-20240809_192526-tgs5rvuy/files/conda-environment.yaml
+2024-08-09 19:25:29,266 DEBUG   HandlerThread:288072 [system_info.py:_save_conda():224] Saving conda packages done
+2024-08-09 19:25:29,267 INFO    HandlerThread:288072 [system_monitor.py:probe():229] Finished publishing system info
+2024-08-09 19:25:29,269 DEBUG   SenderThread:288072 [sender.py:send():379] send: files
+2024-08-09 19:25:29,269 INFO    SenderThread:288072 [sender.py:_save_file():1454] saving file wandb-metadata.json with policy now
+2024-08-09 19:25:29,309 DEBUG   HandlerThread:288072 [handler.py:handle_request():158] handle_request: python_packages
+2024-08-09 19:25:29,310 DEBUG   HandlerThread:288072 [handler.py:handle_request():158] handle_request: stop_status
+2024-08-09 19:25:29,310 DEBUG   SenderThread:288072 [sender.py:send_request():406] send_request: python_packages
+2024-08-09 19:25:29,310 DEBUG   SenderThread:288072 [sender.py:send_request():406] send_request: stop_status
+2024-08-09 19:25:29,312 DEBUG   HandlerThread:288072 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-09 19:25:29,570 DEBUG   SenderThread:288072 [sender.py:send():379] send: telemetry
+2024-08-09 19:25:29,742 DEBUG   SenderThread:288072 [sender.py:send():379] send: exit
+2024-08-09 19:25:29,742 INFO    SenderThread:288072 [sender.py:send_exit():586] handling exit code: 1
+2024-08-09 19:25:29,742 INFO    SenderThread:288072 [sender.py:send_exit():588] handling runtime: 2
+2024-08-09 19:25:29,743 INFO    SenderThread:288072 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-08-09 19:25:29,743 INFO    SenderThread:288072 [sender.py:send_exit():594] send defer
+2024-08-09 19:25:29,743 DEBUG   HandlerThread:288072 [handler.py:handle_request():158] handle_request: defer
+2024-08-09 19:25:29,743 INFO    HandlerThread:288072 [handler.py:handle_request_defer():184] handle defer: 0
+2024-08-09 19:25:29,743 DEBUG   SenderThread:288072 [sender.py:send_request():406] send_request: defer
+2024-08-09 19:25:29,743 INFO    SenderThread:288072 [sender.py:send_request_defer():610] handle sender defer: 0
+2024-08-09 19:25:29,743 INFO    SenderThread:288072 [sender.py:transition_state():614] send defer: 1
+2024-08-09 19:25:29,743 DEBUG   HandlerThread:288072 [handler.py:handle_request():158] handle_request: defer
+2024-08-09 19:25:29,744 INFO    HandlerThread:288072 [handler.py:handle_request_defer():184] handle defer: 1
+2024-08-09 19:25:29,744 DEBUG   SenderThread:288072 [sender.py:send_request():406] send_request: defer
+2024-08-09 19:25:29,744 INFO    SenderThread:288072 [sender.py:send_request_defer():610] handle sender defer: 1
+2024-08-09 19:25:29,744 INFO    SenderThread:288072 [sender.py:transition_state():614] send defer: 2
+2024-08-09 19:25:29,744 DEBUG   HandlerThread:288072 [handler.py:handle_request():158] handle_request: defer
+2024-08-09 19:25:29,744 INFO    HandlerThread:288072 [handler.py:handle_request_defer():184] handle defer: 2
+2024-08-09 19:25:29,744 INFO    HandlerThread:288072 [system_monitor.py:finish():203] Stopping system monitor
+2024-08-09 19:25:29,744 INFO    HandlerThread:288072 [interfaces.py:finish():200] Joined cpu monitor
+2024-08-09 19:25:29,744 DEBUG   SystemMonitor:288072 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-08-09 19:25:29,745 INFO    HandlerThread:288072 [interfaces.py:finish():200] Joined disk monitor
+2024-08-09 19:25:29,745 DEBUG   SystemMonitor:288072 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-08-09 19:25:29,745 DEBUG   SystemMonitor:288072 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-08-09 19:25:29,759 INFO    Thread-12 :288072 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/server-graph-models/new_HGNN/wandb/run-20240809_192526-tgs5rvuy/files/conda-environment.yaml
+2024-08-09 19:25:29,759 INFO    Thread-12 :288072 [dir_watcher.py:_on_file_created():271] file/dir created: /home/denis/Desktop/server-graph-models/new_HGNN/wandb/run-20240809_192526-tgs5rvuy/files/wandb-metadata.json
+2024-08-09 19:25:29,759 INFO    Thread-12 :288072 [dir_watcher.py:_on_file_created():271] file/dir created: /home/denis/Desktop/server-graph-models/new_HGNN/wandb/run-20240809_192526-tgs5rvuy/files/wandb-summary.json
+2024-08-09 19:25:29,759 INFO    Thread-12 :288072 [dir_watcher.py:_on_file_created():271] file/dir created: /home/denis/Desktop/server-graph-models/new_HGNN/wandb/run-20240809_192526-tgs5rvuy/files/requirements.txt
+2024-08-09 19:25:29,759 INFO    Thread-12 :288072 [dir_watcher.py:_on_file_created():271] file/dir created: /home/denis/Desktop/server-graph-models/new_HGNN/wandb/run-20240809_192526-tgs5rvuy/files/output.log
+2024-08-09 19:25:29,792 INFO    HandlerThread:288072 [interfaces.py:finish():200] Joined gpu monitor
+2024-08-09 19:25:29,793 INFO    HandlerThread:288072 [interfaces.py:finish():200] Joined memory monitor
+2024-08-09 19:25:29,793 INFO    HandlerThread:288072 [interfaces.py:finish():200] Joined network monitor
+2024-08-09 19:25:29,793 DEBUG   SenderThread:288072 [sender.py:send_request():406] send_request: defer
+2024-08-09 19:25:29,793 INFO    SenderThread:288072 [sender.py:send_request_defer():610] handle sender defer: 2
+2024-08-09 19:25:29,793 INFO    SenderThread:288072 [sender.py:transition_state():614] send defer: 3
+2024-08-09 19:25:29,793 DEBUG   HandlerThread:288072 [handler.py:handle_request():158] handle_request: defer
+2024-08-09 19:25:29,793 INFO    HandlerThread:288072 [handler.py:handle_request_defer():184] handle defer: 3
+2024-08-09 19:25:29,793 DEBUG   SenderThread:288072 [sender.py:send():379] send: stats
+2024-08-09 19:25:29,794 DEBUG   SenderThread:288072 [sender.py:send_request():406] send_request: defer
+2024-08-09 19:25:29,794 INFO    SenderThread:288072 [sender.py:send_request_defer():610] handle sender defer: 3
+2024-08-09 19:25:29,794 INFO    SenderThread:288072 [sender.py:transition_state():614] send defer: 4
+2024-08-09 19:25:29,794 DEBUG   HandlerThread:288072 [handler.py:handle_request():158] handle_request: defer
+2024-08-09 19:25:29,794 INFO    HandlerThread:288072 [handler.py:handle_request_defer():184] handle defer: 4
+2024-08-09 19:25:29,794 DEBUG   SenderThread:288072 [sender.py:send_request():406] send_request: defer
+2024-08-09 19:25:29,794 INFO    SenderThread:288072 [sender.py:send_request_defer():610] handle sender defer: 4
+2024-08-09 19:25:29,794 INFO    SenderThread:288072 [sender.py:transition_state():614] send defer: 5
+2024-08-09 19:25:29,794 DEBUG   HandlerThread:288072 [handler.py:handle_request():158] handle_request: defer
+2024-08-09 19:25:29,794 INFO    HandlerThread:288072 [handler.py:handle_request_defer():184] handle defer: 5
+2024-08-09 19:25:29,794 DEBUG   SenderThread:288072 [sender.py:send():379] send: summary
+2024-08-09 19:25:29,794 INFO    SenderThread:288072 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-08-09 19:25:29,795 DEBUG   SenderThread:288072 [sender.py:send_request():406] send_request: defer
+2024-08-09 19:25:29,795 INFO    SenderThread:288072 [sender.py:send_request_defer():610] handle sender defer: 5
+2024-08-09 19:25:29,795 INFO    SenderThread:288072 [sender.py:transition_state():614] send defer: 6
+2024-08-09 19:25:29,795 DEBUG   HandlerThread:288072 [handler.py:handle_request():158] handle_request: defer
+2024-08-09 19:25:29,795 INFO    HandlerThread:288072 [handler.py:handle_request_defer():184] handle defer: 6
+2024-08-09 19:25:29,795 DEBUG   SenderThread:288072 [sender.py:send_request():406] send_request: defer
+2024-08-09 19:25:29,795 INFO    SenderThread:288072 [sender.py:send_request_defer():610] handle sender defer: 6
+2024-08-09 19:25:29,797 DEBUG   HandlerThread:288072 [handler.py:handle_request():158] handle_request: status_report
+2024-08-09 19:25:29,812 INFO    wandb-upload_0:288072 [upload_job.py:push():130] Uploaded file /tmp/tmpre_3kq4xwandb/ov9rv0tr-wandb-metadata.json
+2024-08-09 19:25:29,952 INFO    SenderThread:288072 [sender.py:transition_state():614] send defer: 7
+2024-08-09 19:25:29,952 DEBUG   HandlerThread:288072 [handler.py:handle_request():158] handle_request: defer
+2024-08-09 19:25:29,952 INFO    HandlerThread:288072 [handler.py:handle_request_defer():184] handle defer: 7
+2024-08-09 19:25:29,953 DEBUG   SenderThread:288072 [sender.py:send_request():406] send_request: defer
+2024-08-09 19:25:29,953 INFO    SenderThread:288072 [sender.py:send_request_defer():610] handle sender defer: 7
+2024-08-09 19:25:30,742 DEBUG   HandlerThread:288072 [handler.py:handle_request():158] handle_request: poll_exit
+2024-08-09 19:25:30,759 INFO    Thread-12 :288072 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/server-graph-models/new_HGNN/wandb/run-20240809_192526-tgs5rvuy/files/wandb-summary.json
+2024-08-09 19:25:30,760 INFO    Thread-12 :288072 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/server-graph-models/new_HGNN/wandb/run-20240809_192526-tgs5rvuy/files/config.yaml
+2024-08-09 19:25:31,748 INFO    SenderThread:288072 [sender.py:transition_state():614] send defer: 8
+2024-08-09 19:25:31,748 DEBUG   SenderThread:288072 [sender.py:send_request():406] send_request: poll_exit
+2024-08-09 19:25:31,749 DEBUG   HandlerThread:288072 [handler.py:handle_request():158] handle_request: defer
+2024-08-09 19:25:31,749 INFO    HandlerThread:288072 [handler.py:handle_request_defer():184] handle defer: 8
+2024-08-09 19:25:31,749 DEBUG   SenderThread:288072 [sender.py:send_request():406] send_request: defer
+2024-08-09 19:25:31,749 INFO    SenderThread:288072 [sender.py:send_request_defer():610] handle sender defer: 8
+2024-08-09 19:25:31,749 INFO    SenderThread:288072 [job_builder.py:build():440] Attempting to build job artifact
+2024-08-09 19:25:31,749 INFO    SenderThread:288072 [job_builder.py:_get_source_type():569] is repo sourced job
+2024-08-09 19:25:31,759 INFO    Thread-12 :288072 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/server-graph-models/new_HGNN/wandb/run-20240809_192526-tgs5rvuy/files/output.log
+2024-08-09 19:25:31,765 INFO    SenderThread:288072 [job_builder.py:build():545] adding wandb-job metadata file
+2024-08-09 19:25:31,775 INFO    SenderThread:288072 [sender.py:transition_state():614] send defer: 9
+2024-08-09 19:25:31,775 DEBUG   HandlerThread:288072 [handler.py:handle_request():158] handle_request: defer
+2024-08-09 19:25:31,775 DEBUG   SenderThread:288072 [sender.py:send():379] send: artifact
+2024-08-09 19:25:31,775 INFO    HandlerThread:288072 [handler.py:handle_request_defer():184] handle defer: 9
+2024-08-09 19:25:32,719 INFO    wandb-upload_1:288072 [upload_job.py:push():85] Skipped uploading /home/denis/.local/share/wandb/artifacts/staging/tmpt507g1u4
+2024-08-09 19:25:32,744 DEBUG   HandlerThread:288072 [handler.py:handle_request():158] handle_request: poll_exit
+2024-08-09 19:25:32,912 INFO    wandb-upload_0:288072 [upload_job.py:push():88] Uploaded file /tmp/tmpi9xb5iuv/wandb-job.json
+2024-08-09 19:25:33,938 INFO    SenderThread:288072 [sender.py:send_artifact():1537] sent artifact job-https___git.ias.informatik.tu-darmstadt.de_andric_server-graph-models.git_new_HGNN_main_pend.py - {'id': 'QXJ0aWZhY3Q6MTEyNjI5Njk5OQ==', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjM4MjE4NzIwNQ==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MTEyNjI5MTk0Nw==', 'versionIndex': 13}}}
+2024-08-09 19:25:33,938 DEBUG   SenderThread:288072 [sender.py:send_request():406] send_request: defer
+2024-08-09 19:25:33,938 INFO    SenderThread:288072 [sender.py:send_request_defer():610] handle sender defer: 9
+2024-08-09 19:25:33,938 INFO    SenderThread:288072 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-08-09 19:25:34,761 INFO    SenderThread:288072 [dir_watcher.py:finish():388] scan: /home/denis/Desktop/server-graph-models/new_HGNN/wandb/run-20240809_192526-tgs5rvuy/files
+2024-08-09 19:25:34,761 INFO    SenderThread:288072 [dir_watcher.py:finish():402] scan save: /home/denis/Desktop/server-graph-models/new_HGNN/wandb/run-20240809_192526-tgs5rvuy/files/config.yaml config.yaml
+2024-08-09 19:25:34,761 INFO    SenderThread:288072 [dir_watcher.py:finish():402] scan save: /home/denis/Desktop/server-graph-models/new_HGNN/wandb/run-20240809_192526-tgs5rvuy/files/conda-environment.yaml conda-environment.yaml
+2024-08-09 19:25:34,763 INFO    SenderThread:288072 [dir_watcher.py:finish():402] scan save: /home/denis/Desktop/server-graph-models/new_HGNN/wandb/run-20240809_192526-tgs5rvuy/files/requirements.txt requirements.txt
+2024-08-09 19:25:34,763 INFO    SenderThread:288072 [dir_watcher.py:finish():402] scan save: /home/denis/Desktop/server-graph-models/new_HGNN/wandb/run-20240809_192526-tgs5rvuy/files/wandb-metadata.json wandb-metadata.json
+2024-08-09 19:25:34,763 INFO    SenderThread:288072 [dir_watcher.py:finish():402] scan save: /home/denis/Desktop/server-graph-models/new_HGNN/wandb/run-20240809_192526-tgs5rvuy/files/wandb-summary.json wandb-summary.json
+2024-08-09 19:25:34,763 INFO    SenderThread:288072 [dir_watcher.py:finish():402] scan save: /home/denis/Desktop/server-graph-models/new_HGNN/wandb/run-20240809_192526-tgs5rvuy/files/output.log output.log
+2024-08-09 19:25:34,765 INFO    SenderThread:288072 [sender.py:transition_state():614] send defer: 10
+2024-08-09 19:25:34,768 DEBUG   SenderThread:288072 [sender.py:send_request():406] send_request: poll_exit
+2024-08-09 19:25:34,769 DEBUG   HandlerThread:288072 [handler.py:handle_request():158] handle_request: defer
+2024-08-09 19:25:34,770 INFO    HandlerThread:288072 [handler.py:handle_request_defer():184] handle defer: 10
+2024-08-09 19:25:34,770 DEBUG   SenderThread:288072 [sender.py:send_request():406] send_request: defer
+2024-08-09 19:25:34,770 INFO    SenderThread:288072 [sender.py:send_request_defer():610] handle sender defer: 10
+2024-08-09 19:25:34,770 INFO    SenderThread:288072 [file_pusher.py:finish():169] shutting down file pusher
+2024-08-09 19:25:35,129 INFO    wandb-upload_0:288072 [upload_job.py:push():130] Uploaded file /home/denis/Desktop/server-graph-models/new_HGNN/wandb/run-20240809_192526-tgs5rvuy/files/conda-environment.yaml
+2024-08-09 19:25:35,156 INFO    wandb-upload_1:288072 [upload_job.py:push():130] Uploaded file /home/denis/Desktop/server-graph-models/new_HGNN/wandb/run-20240809_192526-tgs5rvuy/files/config.yaml
+2024-08-09 19:25:35,174 INFO    wandb-upload_4:288072 [upload_job.py:push():130] Uploaded file /home/denis/Desktop/server-graph-models/new_HGNN/wandb/run-20240809_192526-tgs5rvuy/files/output.log
+2024-08-09 19:25:35,187 INFO    wandb-upload_3:288072 [upload_job.py:push():130] Uploaded file /home/denis/Desktop/server-graph-models/new_HGNN/wandb/run-20240809_192526-tgs5rvuy/files/wandb-summary.json
+2024-08-09 19:25:35,223 INFO    wandb-upload_2:288072 [upload_job.py:push():130] Uploaded file /home/denis/Desktop/server-graph-models/new_HGNN/wandb/run-20240809_192526-tgs5rvuy/files/requirements.txt
+2024-08-09 19:25:35,423 INFO    Thread-11 :288072 [sender.py:transition_state():614] send defer: 11
+2024-08-09 19:25:35,423 DEBUG   HandlerThread:288072 [handler.py:handle_request():158] handle_request: defer
+2024-08-09 19:25:35,423 INFO    HandlerThread:288072 [handler.py:handle_request_defer():184] handle defer: 11
+2024-08-09 19:25:35,424 DEBUG   SenderThread:288072 [sender.py:send_request():406] send_request: defer
+2024-08-09 19:25:35,424 INFO    SenderThread:288072 [sender.py:send_request_defer():610] handle sender defer: 11
+2024-08-09 19:25:35,424 INFO    SenderThread:288072 [file_pusher.py:join():175] waiting for file pusher
+2024-08-09 19:25:35,425 INFO    SenderThread:288072 [sender.py:transition_state():614] send defer: 12
+2024-08-09 19:25:35,425 DEBUG   HandlerThread:288072 [handler.py:handle_request():158] handle_request: defer
+2024-08-09 19:25:35,425 INFO    HandlerThread:288072 [handler.py:handle_request_defer():184] handle defer: 12
+2024-08-09 19:25:35,425 DEBUG   SenderThread:288072 [sender.py:send_request():406] send_request: defer
+2024-08-09 19:25:35,425 INFO    SenderThread:288072 [sender.py:send_request_defer():610] handle sender defer: 12
+2024-08-09 19:25:35,425 INFO    SenderThread:288072 [file_stream.py:finish():601] file stream finish called
+2024-08-09 19:25:35,577 INFO    SenderThread:288072 [file_stream.py:finish():605] file stream finish is done
+2024-08-09 19:25:35,577 INFO    SenderThread:288072 [sender.py:transition_state():614] send defer: 13
+2024-08-09 19:25:35,577 DEBUG   HandlerThread:288072 [handler.py:handle_request():158] handle_request: defer
+2024-08-09 19:25:35,577 INFO    HandlerThread:288072 [handler.py:handle_request_defer():184] handle defer: 13
+2024-08-09 19:25:35,577 DEBUG   SenderThread:288072 [sender.py:send_request():406] send_request: defer
+2024-08-09 19:25:35,577 INFO    SenderThread:288072 [sender.py:send_request_defer():610] handle sender defer: 13
+2024-08-09 19:25:35,577 INFO    SenderThread:288072 [sender.py:transition_state():614] send defer: 14
+2024-08-09 19:25:35,577 DEBUG   HandlerThread:288072 [handler.py:handle_request():158] handle_request: defer
+2024-08-09 19:25:35,577 INFO    HandlerThread:288072 [handler.py:handle_request_defer():184] handle defer: 14
+2024-08-09 19:25:35,578 DEBUG   SenderThread:288072 [sender.py:send():379] send: final
+2024-08-09 19:25:35,578 DEBUG   SenderThread:288072 [sender.py:send():379] send: footer
+2024-08-09 19:25:35,578 DEBUG   SenderThread:288072 [sender.py:send_request():406] send_request: defer
+2024-08-09 19:25:35,578 INFO    SenderThread:288072 [sender.py:send_request_defer():610] handle sender defer: 14
+2024-08-09 19:25:35,579 DEBUG   HandlerThread:288072 [handler.py:handle_request():158] handle_request: poll_exit
+2024-08-09 19:25:35,579 DEBUG   HandlerThread:288072 [handler.py:handle_request():158] handle_request: server_info
+2024-08-09 19:25:35,579 DEBUG   HandlerThread:288072 [handler.py:handle_request():158] handle_request: poll_exit
+2024-08-09 19:25:35,579 DEBUG   HandlerThread:288072 [handler.py:handle_request():158] handle_request: get_summary
+2024-08-09 19:25:35,579 DEBUG   HandlerThread:288072 [handler.py:handle_request():158] handle_request: sampled_history
+2024-08-09 19:25:35,579 DEBUG   HandlerThread:288072 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-09 19:25:35,579 DEBUG   SenderThread:288072 [sender.py:send_request():406] send_request: poll_exit
+2024-08-09 19:25:35,579 DEBUG   SenderThread:288072 [sender.py:send_request():406] send_request: server_info
+2024-08-09 19:25:35,720 DEBUG   SenderThread:288072 [sender.py:send_request():406] send_request: poll_exit
+2024-08-09 19:25:35,720 INFO    MainThread:288072 [wandb_run.py:_footer_history_summary_info():4016] rendering history
+2024-08-09 19:25:35,721 INFO    MainThread:288072 [wandb_run.py:_footer_history_summary_info():4048] rendering summary
+2024-08-09 19:25:35,721 INFO    MainThread:288072 [wandb_run.py:_footer_sync_info():3975] logging synced files
+2024-08-09 19:25:35,721 DEBUG   HandlerThread:288072 [handler.py:handle_request():158] handle_request: shutdown
+2024-08-09 19:25:35,721 INFO    HandlerThread:288072 [handler.py:finish():882] shutting down handler
+2024-08-09 19:25:36,579 INFO    WriterThread:288072 [datastore.py:close():296] close: /home/denis/Desktop/server-graph-models/new_HGNN/wandb/run-20240809_192526-tgs5rvuy/run-tgs5rvuy.wandb
+2024-08-09 19:25:36,721 INFO    SenderThread:288072 [sender.py:finish():1615] shutting down sender
+2024-08-09 19:25:36,721 INFO    SenderThread:288072 [file_pusher.py:finish():169] shutting down file pusher
+2024-08-09 19:25:36,721 INFO    SenderThread:288072 [file_pusher.py:join():175] waiting for file pusher

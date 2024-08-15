@@ -1,0 +1,38 @@
+2024-08-07 16:35:05,446 INFO    MainThread:239873 [wandb_setup.py:_flush():76] Current SDK version is 0.17.5
+2024-08-07 16:35:05,446 INFO    MainThread:239873 [wandb_setup.py:_flush():76] Configure stats pid to 239873
+2024-08-07 16:35:05,446 INFO    MainThread:239873 [wandb_setup.py:_flush():76] Loading settings from /home/denis/.config/wandb/settings
+2024-08-07 16:35:05,446 INFO    MainThread:239873 [wandb_setup.py:_flush():76] Loading settings from /home/denis/Desktop/server-graph-models/new_HGNN/wandb/settings
+2024-08-07 16:35:05,446 INFO    MainThread:239873 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-08-07 16:35:05,446 INFO    MainThread:239873 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-08-07 16:35:05,446 INFO    MainThread:239873 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'new_HGNN/main_pend.py', 'program_abspath': '/home/denis/Desktop/server-graph-models/new_HGNN/main_pend.py', 'program': '/home/denis/Desktop/server-graph-models/new_HGNN/main_pend.py'}
+2024-08-07 16:35:05,446 INFO    MainThread:239873 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-08-07 16:35:05,446 INFO    MainThread:239873 [wandb_init.py:_log_setup():529] Logging user logs to /home/denis/Desktop/server-graph-models/new_HGNN/wandb/run-20240807_163505-gmosu1gq/logs/debug.log
+2024-08-07 16:35:05,446 INFO    MainThread:239873 [wandb_init.py:_log_setup():530] Logging internal logs to /home/denis/Desktop/server-graph-models/new_HGNN/wandb/run-20240807_163505-gmosu1gq/logs/debug-internal.log
+2024-08-07 16:35:05,446 INFO    MainThread:239873 [wandb_init.py:init():569] calling init triggers
+2024-08-07 16:35:05,446 INFO    MainThread:239873 [wandb_init.py:init():576] wandb.init called with sweep_config: {}
+config: {}
+2024-08-07 16:35:05,446 INFO    MainThread:239873 [wandb_init.py:init():619] starting backend
+2024-08-07 16:35:05,446 INFO    MainThread:239873 [wandb_init.py:init():623] setting up manager
+2024-08-07 16:35:05,447 INFO    MainThread:239873 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-08-07 16:35:05,457 INFO    MainThread:239873 [wandb_init.py:init():631] backend started and connected
+2024-08-07 16:35:05,459 INFO    MainThread:239873 [wandb_init.py:init():720] updated telemetry
+2024-08-07 16:35:05,477 INFO    MainThread:239873 [wandb_init.py:init():753] communicating run to backend with 90.0 second timeout
+2024-08-07 16:35:05,905 INFO    MainThread:239873 [wandb_run.py:_on_init():2435] communicating current version
+2024-08-07 16:35:05,972 INFO    MainThread:239873 [wandb_run.py:_on_init():2444] got version response 
+2024-08-07 16:35:05,973 INFO    MainThread:239873 [wandb_init.py:init():804] starting run threads in backend
+2024-08-07 16:35:08,724 INFO    MainThread:239873 [wandb_run.py:_console_start():2413] atexit reg
+2024-08-07 16:35:08,724 INFO    MainThread:239873 [wandb_run.py:_redirect():2255] redirect: wrap_raw
+2024-08-07 16:35:08,724 INFO    MainThread:239873 [wandb_run.py:_redirect():2320] Wrapping output streams.
+2024-08-07 16:35:08,725 INFO    MainThread:239873 [wandb_run.py:_redirect():2345] Redirects installed.
+2024-08-07 16:35:08,726 INFO    MainThread:239873 [wandb_init.py:init():847] run started, returning control to user process
+2024-08-07 16:35:10,361 INFO    MainThread:239873 [wandb_watch.py:watch():51] Watching
+2024-08-07 17:10:09,858 INFO    MainThread:239873 [wandb_watch.py:watch():51] Watching
+2024-08-07 17:46:14,570 INFO    MainThread:239873 [wandb_watch.py:watch():51] Watching
+2024-08-07 18:23:40,653 INFO    MainThread:239873 [wandb_watch.py:watch():51] Watching
+2024-08-07 19:03:05,197 INFO    MainThread:239873 [wandb_run.py:_finish():2107] finishing run nobodyimportant/server-graph-models-new_HGNN/gmosu1gq
+2024-08-07 19:03:05,197 INFO    MainThread:239873 [wandb_run.py:_atexit_cleanup():2374] got exitcode: 0
+2024-08-07 19:03:05,198 INFO    MainThread:239873 [wandb_run.py:_restore():2352] restore
+2024-08-07 19:03:05,198 INFO    MainThread:239873 [wandb_run.py:_restore():2358] restore done
+2024-08-07 19:03:14,375 INFO    MainThread:239873 [wandb_run.py:_footer_history_summary_info():4016] rendering history
+2024-08-07 19:03:14,376 INFO    MainThread:239873 [wandb_run.py:_footer_history_summary_info():4048] rendering summary
+2024-08-07 19:03:14,379 INFO    MainThread:239873 [wandb_run.py:_footer_sync_info():3975] logging synced files

@@ -1,0 +1,67 @@
+Config file content:
+{'model': 'GAT', 'sob': [True, True], 'sob_a': [1.0, 1.0, 1.0], 'a': 0.01, 'opti': 'adamW', 'reg': 'none', 'loss': 'Huber', 'acts': ['tanh', None], 'epochs': 5, 'modelsize': 256, 'batchsize': 128, 'timesize': 32, 'lr': 0.001, 'split': 0.9, 'device': 'cpu', 'single': False, 'noloops': True, 'samples': 50}
+5
+torch.Size([128, 50, 1, 9])
+50
+torch.Size([32, 1, 8])
+GNN_maker_HNN(
+  (net): Sequential(
+    (0): GATLayer(
+      (fc): Linear(in_features=2, out_features=128, bias=False)
+      (attn_fc): Linear(in_features=256, out_features=1, bias=False)
+    )
+    (1): Tanh()
+    (2): GATLayer(
+      (fc): Linear(in_features=128, out_features=6, bias=False)
+      (attn_fc): Linear(in_features=12, out_features=1, bias=False)
+    )
+  )
+)
+TRAIN BATCHES : 33
+TEST BATCHES : 3
+TRAIN
+torch.Size([8192, 2])
+torch.Size([1, 4096])
+torch.Size([4096, 1])
+  0%|                                                                                                                                                    | 0/5 [00:00<?, ?it/s]
+  0%|                                                                                                                                                   | 0/33 [00:00<?, ?it/s]
+
+  3%|████▏                                                                                                                                      | 1/33 [00:05<02:49,  5.31s/it]
+torch.Size([1, 4096])
+torch.Size([4096, 1])
+
+  6%|████████▍                                                                                                                                  | 2/33 [00:10<02:43,  5.27s/it]
+torch.Size([1, 4096])
+torch.Size([4096, 1])
+torch.Size([8192, 2])
+torch.Size([1, 4096])
+
+  0%|                                                                                                                                                    | 0/5 [00:19<?, ?it/s]
+Traceback (most recent call last):
+  File "/home/denis/Desktop/server-graph-models/new_HGNN/main_pend.py", line 953, in <module>
+    train2dof(configs)
+  File "/home/denis/Desktop/server-graph-models/new_HGNN/main_pend.py", line 450, in train2dof
+    x_pred = RKroll_for_learning(model,x0,ts)
+  File "/home/denis/Desktop/server-graph-models/new_HGNN/utils.py", line 161, in RKroll_for_learning
+    K3 = evaluate_model(model,out_l[i-1].squeeze()+dt*K2/2)
+  File "/home/denis/Desktop/server-graph-models/new_HGNN/utils.py", line 148, in evaluate_model
+    h_pred = model(x)
+  File "/home/denis/anaconda3/envs/dgl_hnn/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/denis/anaconda3/envs/dgl_hnn/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1582, in _call_impl
+    result = forward_call(*args, **kwargs)
+  File "/home/denis/Desktop/server-graph-models/new_HGNN/HGNN.py", line 160, in forward
+    gs = dgl.unbatch(self.g_hnn)
+  File "/home/denis/anaconda3/envs/dgl_hnn/lib/python3.9/site-packages/dgl/batch.py", line 424, in unbatch
+    gs = [
+  File "/home/denis/anaconda3/envs/dgl_hnn/lib/python3.9/site-packages/dgl/batch.py", line 425, in <listcomp>
+    convert.heterograph(edge_dict, num_nodes_dict, idtype=g.idtype)
+  File "/home/denis/anaconda3/envs/dgl_hnn/lib/python3.9/site-packages/dgl/convert.py", line 332, in heterograph
+    (sparse_fmt, arrays), urange, vrange = utils.graphdata2tensors(
+  File "/home/denis/anaconda3/envs/dgl_hnn/lib/python3.9/site-packages/dgl/utils/data.py", line 201, in graphdata2tensors
+    num_src, num_dst = infer_num_nodes(data, bipartite=bipartite)
+  File "/home/denis/anaconda3/envs/dgl_hnn/lib/python3.9/site-packages/dgl/utils/data.py", line 348, in infer_num_nodes
+    nsrc = F.as_scalar(F.max(u, dim=0)) + 1 if len(u) > 0 else 0
+  File "/home/denis/anaconda3/envs/dgl_hnn/lib/python3.9/site-packages/dgl/backend/pytorch/tensor.py", line 178, in max
+    return th.max(input, dim=dim)[0]
+KeyboardInterrupt

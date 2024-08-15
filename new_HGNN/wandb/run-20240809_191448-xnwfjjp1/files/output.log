@@ -1,0 +1,87 @@
+Config file content:
+{'model': 'PULL', 'sob': [True, True], 'sob_a': [1.0, 0.15], 'a': 0.01, 'opti': 'adamW', 'reg': 'none', 'loss': 'Huber', 'acts': ['relu', None], 'epochs': 100, 'modelsize': 256, 'batchsize': 128, 'timesize': 32, 'lr': 0.001, 'split': 0.9, 'device': 'cpu', 'single': False, 'noloops': True, 'samples': 15}
+100
+GNN_maker_HNN(
+  (net): Sequential(
+    (0): PulloutLayer(
+      (w): Linear(in_features=4, out_features=128, bias=True)
+    )
+    (1): Tanh()
+    (2): PulloutLayer(
+      (w): Linear(in_features=256, out_features=6, bias=True)
+    )
+  )
+)
+torch.Size([128, 15, 1, 5])
+15
+torch.Size([32, 1, 4])
+GNN_maker_HNN(
+  (net): Sequential(
+    (0): PulloutLayer(
+      (w): Linear(in_features=4, out_features=128, bias=True)
+    )
+    (1): Tanh()
+    (2): PulloutLayer(
+      (w): Linear(in_features=256, out_features=6, bias=True)
+    )
+  )
+)
+TRAIN BATCHES : 10
+TEST BATCHES : 1
+TRAIN
+  0%|                                                                                                                                                  | 0/100 [00:00<?, ?it/s]
+
+
+
+
+
+
+
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 10/10 [00:17<00:00,  1.72s/it]
+  0%|                                                                                                                                                    | 0/1 [00:00<?, ?it/s]
+  1%|█▍                                                                                                                                        | 1/100 [00:19<31:26, 19.06s/it]
+  0%|                                                                                                                                                   | 0/10 [00:00<?, ?it/s]
+Epoch: 1
+LOSS: train: 2.052068   ham: 8.941929 |   test: 1.834614  ham: 7.343276
+{'net.0.w.weight_grad': -0.0001250488421646878, 'net.0.w.bias_grad': -0.00014901628310326487, 'net.2.w.weight_grad': -0.0009059941512532532, 'net.2.w.bias_grad': -0.09119384735822678}
+
+
+
+
+  1%|█▍                                                                                                                                        | 1/100 [00:28<47:33, 28.82s/it]
+Traceback (most recent call last):
+  File "/home/denis/Desktop/server-graph-models/new_HGNN/main_pend.py", line 991, in <module>
+    train1dof(configs)
+  File "/home/denis/Desktop/server-graph-models/new_HGNN/main_pend.py", line 208, in train1dof
+    x_pred = Euler_for_learning(model,x0,ts)
+  File "/home/denis/Desktop/server-graph-models/new_HGNN/utils.py", line 182, in Euler_for_learning
+    K1 = evaluate_model(model,out_l[i-1].squeeze())
+  File "/home/denis/Desktop/server-graph-models/new_HGNN/utils.py", line 171, in evaluate_model
+    h_pred = model(x)
+  File "/home/denis/anaconda3/envs/dgl_hnn/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/denis/anaconda3/envs/dgl_hnn/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1582, in _call_impl
+    result = forward_call(*args, **kwargs)
+  File "/home/denis/Desktop/server-graph-models/new_HGNN/HGNN.py", line 214, in forward
+    gs = dgl.unbatch(self.g_hnn)
+  File "/home/denis/anaconda3/envs/dgl_hnn/lib/python3.9/site-packages/dgl/batch.py", line 434, in unbatch
+    subg.nodes[ntype].data[key] = subf
+  File "/home/denis/anaconda3/envs/dgl_hnn/lib/python3.9/site-packages/dgl/view.py", line 99, in __setitem__
+    self._graph._set_n_repr(self._ntid, self._nodes, {key: val})
+  File "/home/denis/anaconda3/envs/dgl_hnn/lib/python3.9/site-packages/dgl/heterograph.py", line 4371, in _set_n_repr
+    self._node_frames[ntid].update(data)
+  File "/home/denis/anaconda3/envs/dgl_hnn/lib/python3.9/_collections_abc.py", line 941, in update
+    self[key] = other[key]
+  File "/home/denis/anaconda3/envs/dgl_hnn/lib/python3.9/site-packages/dgl/frame.py", line 700, in __setitem__
+    self.update_column(name, data)
+  File "/home/denis/anaconda3/envs/dgl_hnn/lib/python3.9/site-packages/dgl/frame.py", line 786, in update_column
+    col = Column.create(data)
+  File "/home/denis/anaconda3/envs/dgl_hnn/lib/python3.9/site-packages/dgl/frame.py", line 478, in create
+    return Column(data)
+  File "/home/denis/anaconda3/envs/dgl_hnn/lib/python3.9/site-packages/dgl/frame.py", line 212, in __init__
+    self._init(*args, **kwargs)
+  File "/home/denis/anaconda3/envs/dgl_hnn/lib/python3.9/site-packages/dgl/frame.py", line 518, in _init
+    self.scheme = scheme if scheme else infer_scheme(self.storage)
+  File "/home/denis/anaconda3/envs/dgl_hnn/lib/python3.9/site-packages/dgl/frame.py", line 164, in infer_scheme
+    return Scheme(tuple(F.shape(tensor)[1:]), F.dtype(tensor))
+KeyboardInterrupt

@@ -1,0 +1,21 @@
+2024-06-26 21:21:23,160 INFO    MainThread:154505 [wandb_setup.py:_flush():76] Current SDK version is 0.16.0
+2024-06-26 21:21:23,160 INFO    MainThread:154505 [wandb_setup.py:_flush():76] Configure stats pid to 154505
+2024-06-26 21:21:23,160 INFO    MainThread:154505 [wandb_setup.py:_flush():76] Loading settings from /home/da35hevy/.config/wandb/settings
+2024-06-26 21:21:23,160 INFO    MainThread:154505 [wandb_setup.py:_flush():76] Loading settings from /work/scratch/da35hevy/server-graph-models/HGN/wandb/settings
+2024-06-26 21:21:23,160 INFO    MainThread:154505 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'_service_wait': '600'}
+2024-06-26 21:21:23,160 INFO    MainThread:154505 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-06-26 21:21:23,160 INFO    MainThread:154505 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'HGN/main.py', 'program_abspath': '/work/scratch/da35hevy/server-graph-models/HGN/main.py', 'program': '/work/scratch/da35hevy/server-graph-models/HGN/main.py'}
+2024-06-26 21:21:23,160 INFO    MainThread:154505 [wandb_init.py:_log_setup():524] Logging user logs to /work/scratch/da35hevy/server-graph-models/HGN/wandb/run-20240626_212123-v533zkgw/logs/debug.log
+2024-06-26 21:21:23,160 INFO    MainThread:154505 [wandb_init.py:_log_setup():525] Logging internal logs to /work/scratch/da35hevy/server-graph-models/HGN/wandb/run-20240626_212123-v533zkgw/logs/debug-internal.log
+2024-06-26 21:21:23,160 INFO    MainThread:154505 [wandb_init.py:init():564] calling init triggers
+2024-06-26 21:21:23,160 INFO    MainThread:154505 [wandb_init.py:init():571] wandb.init called with sweep_config: {}
+config: {'epochs': 20, 'model': 'GNN', 'lr': 0.0001, 'batch_size': 32, 'time_size': 32, 'optimizer': 'adamW', 'loss': 'Huber'}
+2024-06-26 21:21:23,160 INFO    MainThread:154505 [wandb_init.py:init():609] wandb.init() called when a run is still active
+2024-06-26 21:27:26,314 INFO    MainThread:154505 [wandb_run.py:_finish():1962] finishing run andridenis/pend/2ryu7wty
+2024-06-26 21:27:26,314 INFO    MainThread:154505 [wandb_run.py:_atexit_cleanup():2202] got exitcode: 0
+2024-06-26 21:27:26,317 INFO    MainThread:154505 [wandb_run.py:_restore():2185] restore
+2024-06-26 21:27:26,317 INFO    MainThread:154505 [wandb_run.py:_restore():2191] restore done
+2024-06-26 21:27:31,113 INFO    MainThread:154505 [wandb_run.py:_footer_history_summary_info():3760] rendering history
+2024-06-26 21:27:31,114 INFO    MainThread:154505 [wandb_run.py:_footer_history_summary_info():3792] rendering summary
+2024-06-26 21:27:31,116 INFO    MainThread:154505 [wandb_run.py:_footer_sync_info():3719] logging synced files
+2024-06-26 21:27:31,164 INFO    MainThread:154505 [wandb_run.py:_finish():1962] finishing run andridenis/pend/2ryu7wty

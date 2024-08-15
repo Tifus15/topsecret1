@@ -1,0 +1,66 @@
+Config file content:
+{'model': 'GAT', 'sob': [True, True], 'sob_a': [0.15, 1.0], 'a': 0.01, 'opti': 'adamW', 'reg': 'none', 'loss': 'Huber', 'acts': ['tanh', None], 'epochs': 100, 'modelsize': 256, 'batchsize': 128, 'timesize': 32, 'lr': 0.001, 'split': 0.9, 'device': 'cpu', 'single': False, 'noloops': True, 'samples': 25}
+100
+GNN_maker_HNN(
+  (net): Sequential(
+    (0): GATLayer(
+      (fc): Linear(in_features=2, out_features=128, bias=False)
+      (attn_fc): Linear(in_features=256, out_features=1, bias=False)
+    )
+    (1): Tanh()
+    (2): GATLayer(
+      (fc): Linear(in_features=128, out_features=6, bias=False)
+      (attn_fc): Linear(in_features=12, out_features=1, bias=False)
+    )
+  )
+)
+torch.Size([128, 25, 1, 5])
+25
+torch.Size([32, 1, 4])
+GNN_maker_HNN(
+  (net): Sequential(
+    (0): GATLayer(
+      (fc): Linear(in_features=2, out_features=128, bias=False)
+      (attn_fc): Linear(in_features=256, out_features=1, bias=False)
+    )
+    (1): Tanh()
+    (2): GATLayer(
+      (fc): Linear(in_features=128, out_features=6, bias=False)
+      (attn_fc): Linear(in_features=12, out_features=1, bias=False)
+    )
+  )
+)
+TRAIN BATCHES : 16
+TEST BATCHES : 1
+TRAIN
+  0%|                                                                                                                                                  | 0/100 [00:00<?, ?it/s]
+
+
+
+  0%|                                                                                                                                                  | 0/100 [00:20<?, ?it/s]
+Traceback (most recent call last):
+  File "/home/denis/Desktop/server-graph-models/new_HGNN/main_pend.py", line 991, in <module>
+    train1dof(configs)
+  File "/home/denis/Desktop/server-graph-models/new_HGNN/main_pend.py", line 198, in train1dof
+    h_pred = model(x_tr_flat)
+  File "/home/denis/anaconda3/envs/dgl_hnn/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/denis/anaconda3/envs/dgl_hnn/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1582, in _call_impl
+    result = forward_call(*args, **kwargs)
+  File "/home/denis/Desktop/server-graph-models/new_HGNN/HGNN.py", line 160, in forward
+    gs = dgl.unbatch(self.g_hnn)
+  File "/home/denis/anaconda3/envs/dgl_hnn/lib/python3.9/site-packages/dgl/batch.py", line 424, in unbatch
+    gs = [
+  File "/home/denis/anaconda3/envs/dgl_hnn/lib/python3.9/site-packages/dgl/batch.py", line 425, in <listcomp>
+    convert.heterograph(edge_dict, num_nodes_dict, idtype=g.idtype)
+  File "/home/denis/anaconda3/envs/dgl_hnn/lib/python3.9/site-packages/dgl/convert.py", line 360, in heterograph
+    ) = heterograph_index.create_metagraph_index(
+  File "/home/denis/anaconda3/envs/dgl_hnn/lib/python3.9/site-packages/dgl/heterograph_index.py", line 1250, in create_metagraph_index
+    metagraph = from_coo(len(ntypes), meta_edges_src, meta_edges_dst, True)
+  File "/home/denis/anaconda3/envs/dgl_hnn/lib/python3.9/site-packages/dgl/graph_index.py", line 1085, in from_coo
+    src.todgltensor(), dst.todgltensor(), int(num_nodes), readonly
+  File "/home/denis/anaconda3/envs/dgl_hnn/lib/python3.9/site-packages/dgl/utils/internal.py", line 152, in todgltensor
+    dlpack = F.zerocopy_to_dlpack(tsor)
+  File "/home/denis/anaconda3/envs/dgl_hnn/lib/python3.9/site-packages/dgl/backend/pytorch/tensor.py", line 416, in zerocopy_to_dlpack
+    return dlpack.to_dlpack(input.contiguous())
+KeyboardInterrupt

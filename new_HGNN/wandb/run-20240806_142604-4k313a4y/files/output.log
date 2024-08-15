@@ -1,0 +1,46 @@
+Config file content:
+{'model': 'GAT', 'sob': [True, True], 'sob_a': [1.0, 1.0, 1.0], 'a': 0.01, 'opti': 'adamW', 'reg': 'none', 'loss': 'Huber', 'acts': ['tanh', None], 'epochs': 5, 'modelsize': 256, 'batchsize': 128, 'timesize': 32, 'lr': 0.001, 'split': 0.9, 'device': 'cpu', 'single': False, 'noloops': True, 'samples': 50}
+5
+torch.Size([128, 50, 1, 9])
+50
+torch.Size([32, 1, 8])
+GNN_maker_HNN(
+  (net): Sequential(
+    (0): GATLayer(
+      (fc): Linear(in_features=2, out_features=128, bias=False)
+      (attn_fc): Linear(in_features=256, out_features=1, bias=False)
+    )
+    (1): Tanh()
+    (2): GATLayer(
+      (fc): Linear(in_features=128, out_features=6, bias=False)
+      (attn_fc): Linear(in_features=12, out_features=1, bias=False)
+    )
+  )
+)
+TRAIN BATCHES : 33
+TEST BATCHES : 3
+TRAIN
+torch.Size([32, 256, 2])
+torch.Size([32, 256, 2])
+torch.Size([32, 256, 1])
+torch.Size([1, 4096])
+  0%|                                                                                                                                                    | 0/5 [00:00<?, ?it/s]/home/denis/anaconda3/envs/dgl_hnn/lib/python3.9/site-packages/torch/nn/modules/loss.py:999: UserWarning: Using a target size (torch.Size([8192])) that is different to the input size (torch.Size([4096])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.huber_loss(input, target, reduction=self.reduction, delta=self.delta)                                                                        | 0/33 [00:00<?, ?it/s]
+  0%|                                                                                                                                                   | 0/33 [00:00<?, ?it/s]
+  0%|                                                                                                                                                    | 0/5 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "/home/denis/Desktop/server-graph-models/new_HGNN/main_pend.py", line 949, in <module>
+    train2dof(configs)
+  File "/home/denis/Desktop/server-graph-models/new_HGNN/main_pend.py", line 437, in train2dof
+    lossH = lossfn(h_pred.flatten(),h_tr.flatten())
+  File "/home/denis/anaconda3/envs/dgl_hnn/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/denis/anaconda3/envs/dgl_hnn/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/denis/anaconda3/envs/dgl_hnn/lib/python3.9/site-packages/torch/nn/modules/loss.py", line 999, in forward
+    return F.huber_loss(input, target, reduction=self.reduction, delta=self.delta)
+  File "/home/denis/anaconda3/envs/dgl_hnn/lib/python3.9/site-packages/torch/nn/functional.py", line 3304, in huber_loss
+    expanded_input, expanded_target = torch.broadcast_tensors(input, target)
+  File "/home/denis/anaconda3/envs/dgl_hnn/lib/python3.9/site-packages/torch/functional.py", line 76, in broadcast_tensors
+    return _VF.broadcast_tensors(tensors)  # type: ignore[attr-defined]
+RuntimeError: The size of tensor a (4096) must match the size of tensor b (8192) at non-singleton dimension 0

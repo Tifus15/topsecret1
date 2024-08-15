@@ -1,0 +1,106 @@
+Config file content:
+{'model': 'GAT', 'sob': [True, True], 'sob_a': [1.0, 0.15], 'a': 0.01, 'opti': 'adamW', 'reg': 'none', 'loss': 'Huber', 'acts': ['tanh', None], 'epochs': 25, 'modelsize': 256, 'batchsize': 128, 'timesize': 32, 'lr': 0.001, 'split': 0.9, 'device': 'cpu', 'single': False, 'noloops': True, 'samples': 15}
+25
+GNN_maker_HNN(
+  (net): Sequential(
+    (0): GATLayer(
+      (fc): Linear(in_features=2, out_features=128, bias=False)
+      (attn_fc): Linear(in_features=256, out_features=1, bias=False)
+    )
+    (1): Tanh()
+    (2): GATLayer(
+      (fc): Linear(in_features=128, out_features=6, bias=False)
+      (attn_fc): Linear(in_features=12, out_features=1, bias=False)
+    )
+  )
+)
+torch.Size([128, 15, 1, 5])
+15
+torch.Size([32, 1, 4])
+GNN_maker_HNN(
+  (net): Sequential(
+    (0): GATLayer(
+      (fc): Linear(in_features=2, out_features=128, bias=False)
+      (attn_fc): Linear(in_features=256, out_features=1, bias=False)
+    )
+    (1): Tanh()
+    (2): GATLayer(
+      (fc): Linear(in_features=128, out_features=6, bias=False)
+      (attn_fc): Linear(in_features=12, out_features=1, bias=False)
+    )
+  )
+)
+TRAIN BATCHES : 10
+TEST BATCHES : 1
+TRAIN
+  0%|                                                                                                                                                   | 0/25 [00:00<?, ?it/s]
+
+
+
+
+
+
+
+
+
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 10/10 [00:48<00:00,  4.82s/it]
+  0%|                                                                                                                                                    | 0/1 [00:00<?, ?it/s]
+  4%|█████▌                                                                                                                                     | 1/25 [00:52<21:10, 52.96s/it]
+  0%|                                                                                                                                                   | 0/10 [00:00<?, ?it/s]
+Epoch: 1
+LOSS: train: 2.331006   ham: 10.748215 |   test: 9.651977  ham: 9.543312
+{'net.0.fc.weight_grad': 0.00031115999445319176, 'net.0.attn_fc.weight_grad': 0.0, 'net.2.fc.weight_grad': 0.0021807095035910606, 'net.2.attn_fc.weight_grad': 0.0}
+
+
+
+
+
+
+
+
+
+ 90%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████              | 9/10 [00:43<00:04,  4.88s/it]
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 10/10 [00:48<00:00,  4.98s/it]
+  8%|███████████                                                                                                                                | 2/25 [01:46<20:28, 53.43s/it]
+  0%|                                                                                                                                                   | 0/10 [00:00<?, ?it/s]
+Epoch: 2
+LOSS: train: 2.171417   ham: 9.860302 |   test: 8.675036  ham: 8.576214
+{'net.0.fc.weight_grad': -0.00043068022932857275, 'net.0.attn_fc.weight_grad': 0.0, 'net.2.fc.weight_grad': 0.0009125302894972265, 'net.2.attn_fc.weight_grad': 0.0}
+
+
+
+
+
+
+
+
+  8%|███████████                                                                                                                                | 2/25 [02:31<29:01, 75.71s/it]
+Traceback (most recent call last):
+  File "/home/denis/Desktop/server-graph-models/new_HGNN/main_pend.py", line 991, in <module>
+    train1dof(configs)
+  File "/home/denis/Desktop/server-graph-models/new_HGNN/main_pend.py", line 208, in train1dof
+    x_pred = RKroll_for_learning(model,x0,ts)
+  File "/home/denis/Desktop/server-graph-models/new_HGNN/utils.py", line 161, in RKroll_for_learning
+    K3 = evaluate_model(model,out_l[i-1].squeeze()+dt*K2/2)
+  File "/home/denis/Desktop/server-graph-models/new_HGNN/utils.py", line 148, in evaluate_model
+    h_pred = model(x)
+  File "/home/denis/anaconda3/envs/dgl_hnn/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/denis/anaconda3/envs/dgl_hnn/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1582, in _call_impl
+    result = forward_call(*args, **kwargs)
+  File "/home/denis/Desktop/server-graph-models/new_HGNN/HGNN.py", line 160, in forward
+    gs = dgl.unbatch(self.g_hnn)
+  File "/home/denis/anaconda3/envs/dgl_hnn/lib/python3.9/site-packages/dgl/batch.py", line 424, in unbatch
+    gs = [
+  File "/home/denis/anaconda3/envs/dgl_hnn/lib/python3.9/site-packages/dgl/batch.py", line 425, in <listcomp>
+    convert.heterograph(edge_dict, num_nodes_dict, idtype=g.idtype)
+  File "/home/denis/anaconda3/envs/dgl_hnn/lib/python3.9/site-packages/dgl/convert.py", line 381, in heterograph
+    hgidx = heterograph_index.create_heterograph_from_relations(
+  File "/home/denis/anaconda3/envs/dgl_hnn/lib/python3.9/site-packages/dgl/heterograph_index.py", line 1374, in create_heterograph_from_relations
+    return _CAPI_DGLHeteroCreateHeteroGraphWithNumNodes(
+  File "dgl/_ffi/_cython/./function.pxi", line 296, in dgl._ffi._cy3.core.FunctionBase.__call__
+  File "dgl/_ffi/_cython/./function.pxi", line 172, in dgl._ffi._cy3.core.make_ret
+  File "dgl/_ffi/_cython/./object.pxi", line 25, in dgl._ffi._cy3.core.make_ret_object
+  File "/home/denis/anaconda3/envs/dgl_hnn/lib/python3.9/site-packages/dgl/heterograph_index.py", line 27, in __new__
+    def __new__(cls):
+KeyboardInterrupt

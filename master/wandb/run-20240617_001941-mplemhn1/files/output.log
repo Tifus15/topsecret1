@@ -1,0 +1,46 @@
+DEBUG MODE: False
+Config file content:
+{'model': 'GCN', 'sob': True, 'sob_a': 0.01, 'a': 0.01, 'opti': 'adamW', 'reg': 'none', 'loss': 'Huber', 'acts': ['tanh', None], 'epochs': 100, 'modelsize': 128, 'batchsize': 32, 'timesize': 32, 'lr': '5e-4', 'split': 0.9, 'device': 'cpu', 'single': True}
+100
+torch.Size([512, 1000, 6, 1])
+torch.Size([512, 1000, 6, 4])
+torch.Size([512, 1000, 6, 4])
+[0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 4, 5, 5, 5, 5, 5, 5]
+[0, 1, 2, 3, 4, 5, 0, 1, 2, 3, 4, 5, 0, 1, 2, 3, 4, 5, 0, 1, 2, 3, 4, 5, 0, 1, 2, 3, 4, 5, 0, 1, 2, 3, 4, 5]
+torch.Size([512, 1, 6, 9])
+torch.Size([512, 1, 6, 9])
+480 snapshots
+torch.Size([32, 6, 9])
+converting
+480
+rollout_GNN_GRU(
+  (GRU): GRU(4, 128)
+  (GNN): GNN_maker(
+    (net): Sequential(
+      (0): GNNlayer(
+        (NN): Linear(in_features=128, out_features=128, bias=True)
+      )
+      (1): Tanh()
+      (2): GNNlayer(
+        (NN): Linear(in_features=128, out_features=4, bias=True)
+      )
+    )
+  )
+)
+100%|██████████| 480/480 [00:00<00:00, 11951.43it/s]
+Traceback (most recent call last):
+  File "/work/scratch/da35hevy/server-graph-models/master/main.py", line 58, in <module>
+    run_experiment(experiment)
+  File "/work/scratch/da35hevy/experiment_launcher/experiment_launcher/launcher.py", line 485, in run_experiment
+    func(**args)
+  File "/work/scratch/da35hevy/experiment_launcher/experiment_launcher/decorators.py", line 35, in wrapper
+    exp_func(*args, **kwargs)
+  File "/work/scratch/da35hevy/server-graph-models/master/main.py", line 53, in experiment
+    train6body(configs)
+  File "/work/scratch/da35hevy/server-graph-models/master/main_body.py", line 102, in train6body
+    opti = torch.optim.AdamW(model.parameters(),lr=LR)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/da35hevy/.conda/envs/hnn/lib/python3.11/site-packages/torch/optim/adamw.py", line 28, in __init__
+    if not 0.0 <= lr:
+           ^^^^^^^^^
+TypeError: '<=' not supported between instances of 'float' and 'str'

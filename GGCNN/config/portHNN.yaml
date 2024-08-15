@@ -1,0 +1,13 @@
+lr: 0.001
+dataset: 3dof pendelum
+dim: 2
+dt: 0.01
+epochs: 5
+opti: AdamW
+loss: MSE
+batch: 8
+file: trajdof3.pt
+T: 5
+t_size: 150
+t_batch: 50
+

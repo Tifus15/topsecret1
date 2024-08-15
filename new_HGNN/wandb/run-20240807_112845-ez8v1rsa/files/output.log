@@ -1,0 +1,75 @@
+Config file content:
+{'model': 'GAT', 'sob': [True, True], 'sob_a': [0.15, 1.0], 'a': 0.01, 'opti': 'adamW', 'reg': 'none', 'loss': 'Huber', 'acts': ['tanh', None], 'epochs': 100, 'modelsize': 256, 'batchsize': 128, 'timesize': 32, 'lr': 0.001, 'split': 0.9, 'device': 'cpu', 'single': False, 'noloops': True, 'samples': 25}
+100
+GNN_maker_HNN(
+  (net): Sequential(
+    (0): GATLayer(
+      (fc): Linear(in_features=2, out_features=128, bias=False)
+      (attn_fc): Linear(in_features=256, out_features=1, bias=False)
+    )
+    (1): Tanh()
+    (2): GATLayer(
+      (fc): Linear(in_features=128, out_features=6, bias=False)
+      (attn_fc): Linear(in_features=12, out_features=1, bias=False)
+    )
+  )
+)
+torch.Size([128, 25, 1, 5])
+25
+torch.Size([32, 1, 4])
+GNN_maker_HNN(
+  (net): Sequential(
+    (0): GATLayer(
+      (fc): Linear(in_features=2, out_features=128, bias=False)
+      (attn_fc): Linear(in_features=256, out_features=1, bias=False)
+    )
+    (1): Tanh()
+    (2): GATLayer(
+      (fc): Linear(in_features=128, out_features=6, bias=False)
+      (attn_fc): Linear(in_features=12, out_features=1, bias=False)
+    )
+  )
+)
+TRAIN BATCHES : 16
+TEST BATCHES : 1
+TRAIN
+  0%|                                                                                                                                                  | 0/100 [00:00<?, ?it/s]
+  0%|                                                                                                                                                  | 0/100 [00:03<?, ?it/s]
+Traceback (most recent call last):
+  File "/home/denis/Desktop/server-graph-models/new_HGNN/main_pend.py", line 991, in <module>
+    train1dof(configs)
+  File "/home/denis/Desktop/server-graph-models/new_HGNN/main_pend.py", line 208, in train1dof
+    x_pred = RKroll_for_learning(model,x0,ts)
+  File "/home/denis/Desktop/server-graph-models/new_HGNN/utils.py", line 162, in RKroll_for_learning
+    K4 = evaluate_model(model,out_l[i-1].squeeze()+dt*K3)
+  File "/home/denis/Desktop/server-graph-models/new_HGNN/utils.py", line 148, in evaluate_model
+    h_pred = model(x)
+  File "/home/denis/anaconda3/envs/dgl_hnn/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/denis/anaconda3/envs/dgl_hnn/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1582, in _call_impl
+    result = forward_call(*args, **kwargs)
+  File "/home/denis/Desktop/server-graph-models/new_HGNN/HGNN.py", line 157, in forward
+    H_feat = self.net(x.float())
+  File "/home/denis/anaconda3/envs/dgl_hnn/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/denis/anaconda3/envs/dgl_hnn/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/denis/anaconda3/envs/dgl_hnn/lib/python3.9/site-packages/torch/nn/modules/container.py", line 217, in forward
+    input = module(input)
+  File "/home/denis/anaconda3/envs/dgl_hnn/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/denis/anaconda3/envs/dgl_hnn/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/denis/Desktop/server-graph-models/new_HGNN/HGNN.py", line 49, in forward
+    self.g.ndata['z'] = z
+  File "/home/denis/anaconda3/envs/dgl_hnn/lib/python3.9/site-packages/dgl/view.py", line 99, in __setitem__
+    self._graph._set_n_repr(self._ntid, self._nodes, {key: val})
+  File "/home/denis/anaconda3/envs/dgl_hnn/lib/python3.9/site-packages/dgl/heterograph.py", line 4371, in _set_n_repr
+    self._node_frames[ntid].update(data)
+  File "/home/denis/anaconda3/envs/dgl_hnn/lib/python3.9/_collections_abc.py", line 941, in update
+    self[key] = other[key]
+  File "/home/denis/anaconda3/envs/dgl_hnn/lib/python3.9/site-packages/dgl/frame.py", line 700, in __setitem__
+    self.update_column(name, data)
+  File "/home/denis/anaconda3/envs/dgl_hnn/lib/python3.9/site-packages/dgl/frame.py", line 792, in update_column
+    self._columns[name] = col
+KeyboardInterrupt

@@ -1,0 +1,201 @@
+Config file content:
+{'model': 'PULL', 'sob': [True, True], 'sob_a': [1.0, 0.15], 'a': 0.01, 'opti': 'adamW', 'reg': 'none', 'loss': 'Huber', 'acts': ['relu', None], 'epochs': 100, 'modelsize': 256, 'batchsize': 128, 'timesize': 32, 'lr': 0.001, 'split': 0.9, 'device': 'cpu', 'single': False, 'noloops': True, 'samples': 15, 'bias': True}
+100
+torch.Size([128, 15, 1, 9])
+15
+torch.Size([32, 1, 8])
+GNN_maker_HNN(
+  (net): Sequential(
+    (0): PulloutLayer(
+      (in_w): Linear(in_features=2, out_features=128, bias=True)
+      (out_w): Linear(in_features=2, out_features=128, bias=True)
+    )
+    (1): Tanh()
+    (2): PulloutLayer(
+      (in_w): Linear(in_features=128, out_features=6, bias=True)
+      (out_w): Linear(in_features=128, out_features=6, bias=True)
+    )
+  )
+)
+TRAIN BATCHES : 10
+TEST BATCHES : 1
+TRAIN
+  0%|                                                                                                                                                  | 0/100 [00:00<?, ?it/s]
+
+
+
+
+
+
+
+
+ 90%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████              | 9/10 [00:16<00:01,  1.79s/it]
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:01<00:00,  1.65s/it]
+  1%|█▍                                                                                                                                        | 1/100 [00:19<32:29, 19.70s/it]
+  0%|                                                                                                                                                   | 0/10 [00:00<?, ?it/s]
+Epoch: 1
+LOSS: train: 4.019279   ham: 18.862898 |   test: 5.575982  ham: 29.781355
+{'net.0.in_w.weight_grad': 0.000627288653049618, 'net.0.in_w.bias_grad': -0.0017028511501848698, 'net.0.out_w.weight_grad': 0.0002412223839201033, 'net.0.out_w.bias_grad': -0.0017028511501848698, 'net.2.in_w.weight_grad': -0.00701729953289032, 'net.2.in_w.bias_grad': -0.29999998211860657, 'net.2.out_w.weight_grad': -0.007017297670245171, 'net.2.out_w.bias_grad': -0.29999998211860657}
+
+
+
+
+
+
+
+
+
+ 90%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████              | 9/10 [00:16<00:01,  1.82s/it]
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:01<00:00,  1.72s/it]
+  2%|██▊                                                                                                                                       | 2/100 [00:39<32:30, 19.91s/it]
+  0%|                                                                                                                                                   | 0/10 [00:00<?, ?it/s]
+Epoch: 2
+LOSS: train: 4.224184   ham: 20.130865 |   test: 5.180023  ham: 26.899754
+{'net.0.in_w.weight_grad': 0.00047102494863793254, 'net.0.in_w.bias_grad': -0.0015016300603747368, 'net.0.out_w.weight_grad': -0.0002621931489557028, 'net.0.out_w.bias_grad': -0.0015016300603747368, 'net.2.in_w.weight_grad': -0.006129615008831024, 'net.2.in_w.bias_grad': -0.29999998211860657, 'net.2.out_w.weight_grad': -0.006129616405814886, 'net.2.out_w.bias_grad': -0.29999998211860657}
+
+
+
+
+
+
+
+
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 10/10 [00:18<00:00,  1.81s/it]
+  0%|                                                                                                                                                    | 0/1 [00:00<?, ?it/s]
+  3%|████▏                                                                                                                                     | 3/100 [00:59<32:16, 19.96s/it]
+  0%|                                                                                                                                                   | 0/10 [00:00<?, ?it/s]
+Epoch: 3
+LOSS: train: 5.031351   ham: 25.330408 |   test: 6.720100  ham: 37.074986
+{'net.0.in_w.weight_grad': 4.569868906401098e-06, 'net.0.in_w.bias_grad': -0.0012218363117426634, 'net.0.out_w.weight_grad': -0.000264202943071723, 'net.0.out_w.bias_grad': -0.0012218363117426634, 'net.2.in_w.weight_grad': -0.006547688972204924, 'net.2.in_w.bias_grad': -0.29999998211860657, 'net.2.out_w.weight_grad': -0.006547689903527498, 'net.2.out_w.bias_grad': -0.29999998211860657}
+
+
+
+
+
+
+
+
+
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 10/10 [00:18<00:00,  1.90s/it]
+  0%|                                                                                                                                                    | 0/1 [00:00<?, ?it/s]
+  4%|█████▌                                                                                                                                    | 4/100 [01:20<32:14, 20.15s/it]
+  0%|                                                                                                                                                   | 0/10 [00:00<?, ?it/s]
+Epoch: 4
+LOSS: train: 5.212876   ham: 26.186993 |   test: 4.718125  ham: 23.135319
+{'net.0.in_w.weight_grad': 0.00024358581868000329, 'net.0.in_w.bias_grad': -0.0015526760835200548, 'net.0.out_w.weight_grad': -0.0008571526850573719, 'net.0.out_w.bias_grad': -0.0015526760835200548, 'net.2.in_w.weight_grad': -0.004619257990270853, 'net.2.in_w.bias_grad': -0.29999998211860657, 'net.2.out_w.weight_grad': -0.004619258921593428, 'net.2.out_w.bias_grad': -0.29999998211860657}
+
+
+
+
+
+
+
+
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 10/10 [00:18<00:00,  1.89s/it]
+  0%|                                                                                                                                                    | 0/1 [00:00<?, ?it/s]
+  5%|██████▉                                                                                                                                   | 5/100 [01:40<32:14, 20.36s/it]
+  0%|                                                                                                                                                   | 0/10 [00:00<?, ?it/s]
+Epoch: 5
+LOSS: train: 4.798343   ham: 22.889874 |   test: 3.402829  ham: 14.142646
+{'net.0.in_w.weight_grad': -0.0019006088841706514, 'net.0.in_w.bias_grad': 0.0011406484991312027, 'net.0.out_w.weight_grad': 0.00013441493501886725, 'net.0.out_w.bias_grad': 0.0011406484991312027, 'net.2.in_w.weight_grad': 0.011666525155305862, 'net.2.in_w.bias_grad': 0.17813724279403687, 'net.2.out_w.weight_grad': 0.011666524223983288, 'net.2.out_w.bias_grad': 0.17813724279403687}
+
+
+
+
+
+
+
+
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 10/10 [00:18<00:00,  1.87s/it]
+  0%|                                                                                                                                                    | 0/1 [00:00<?, ?it/s]
+  6%|████████▎                                                                                                                                 | 6/100 [02:01<31:55, 20.38s/it]
+  0%|                                                                                                                                                   | 0/10 [00:00<?, ?it/s]
+Epoch: 6
+LOSS: train: 4.141896   ham: 18.397337 |   test: 3.512415  ham: 14.758051
+{'net.0.in_w.weight_grad': -9.64451755862683e-05, 'net.0.in_w.bias_grad': -0.001089857891201973, 'net.0.out_w.weight_grad': -0.0008542595314793289, 'net.0.out_w.bias_grad': -0.001089857891201973, 'net.2.in_w.weight_grad': -0.006186243612319231, 'net.2.in_w.bias_grad': -0.29999998211860657, 'net.2.out_w.weight_grad': -0.006186243612319231, 'net.2.out_w.bias_grad': -0.29999998211860657}
+
+
+
+
+
+
+
+
+
+ 90%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████              | 9/10 [00:16<00:01,  1.85s/it]
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 10/10 [00:18<00:00,  1.83s/it]
+  0%|                                                                                                                                                    | 0/1 [00:00<?, ?it/s]
+Epoch: 7
+LOSS: train: 3.826911   ham: 16.319551 |   test: 3.138027  ham: 12.119147
+{'net.0.in_w.weight_grad': -8.200397132895887e-06, 'net.0.in_w.bias_grad': -0.0011918104719370604, 'net.0.out_w.weight_grad': -0.000989099615253508, 'net.0.out_w.bias_grad': -0.0011918104719370604, 'net.2.in_w.weight_grad': -0.0060639530420303345, 'net.2.in_w.bias_grad': -0.299999475479126, 'net.2.out_w.weight_grad': -0.006063954904675484, 'net.2.out_w.bias_grad': -0.299999475479126}
+  7%|█████████▋                                                                                                                                | 7/100 [02:21<31:32, 20.35s/it]
+
+
+
+
+
+
+
+
+ 90%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████              | 9/10 [00:16<00:01,  1.81s/it]
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:01<00:00,  1.61s/it]
+  8%|███████████                                                                                                                               | 8/100 [02:41<30:57, 20.19s/it]
+  0%|                                                                                                                                                   | 0/10 [00:00<?, ?it/s]
+Epoch: 8
+LOSS: train: 4.171761   ham: 18.526306 |   test: 2.949268  ham: 10.997306
+{'net.0.in_w.weight_grad': -0.0004722474259324372, 'net.0.in_w.bias_grad': 0.00014368235133588314, 'net.0.out_w.weight_grad': 0.00019700679695233703, 'net.0.out_w.bias_grad': 0.00014368235133588314, 'net.2.in_w.weight_grad': 0.009241590276360512, 'net.2.in_w.bias_grad': 0.1307355761528015, 'net.2.out_w.weight_grad': 0.00924159400165081, 'net.2.out_w.bias_grad': 0.1307355761528015}
+
+
+
+
+
+
+
+
+
+ 90%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████              | 9/10 [00:16<00:01,  1.90s/it]
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 10/10 [00:18<00:00,  1.90s/it]
+  0%|                                                                                                                                                    | 0/1 [00:00<?, ?it/s]
+Epoch: 9
+LOSS: train: 3.486390   ham: 13.847707 |   test: 4.300825  ham: 19.977633
+{'net.0.in_w.weight_grad': 0.0007336103590205312, 'net.0.in_w.bias_grad': -0.0009575907024554908, 'net.0.out_w.weight_grad': -0.0015978394076228142, 'net.0.out_w.bias_grad': -0.0009575907024554908, 'net.2.in_w.weight_grad': 0.0010463098296895623, 'net.2.in_w.bias_grad': -0.11690246313810349, 'net.2.out_w.weight_grad': 0.0010463091311976314, 'net.2.out_w.bias_grad': -0.11690246313810349}
+  9%|████████████▍                                                                                                                             | 9/100 [03:01<30:44, 20.27s/it]
+
+
+  9%|████████████▍                                                                                                                             | 9/100 [03:09<31:54, 21.04s/it]
+Traceback (most recent call last):
+  File "/home/denis/Desktop/server-graph-models/new_HGNN/main_pend.py", line 996, in <module>
+    train2dof(configs)
+  File "/home/denis/Desktop/server-graph-models/new_HGNN/main_pend.py", line 455, in train2dof
+    x_pred = Euler_for_learning(model,x0,ts)
+  File "/home/denis/Desktop/server-graph-models/new_HGNN/utils.py", line 182, in Euler_for_learning
+    K1 = evaluate_model(model,out_l[i-1].squeeze())
+  File "/home/denis/Desktop/server-graph-models/new_HGNN/utils.py", line 171, in evaluate_model
+    h_pred = model(x)
+  File "/home/denis/anaconda3/envs/dgl_hnn/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/denis/anaconda3/envs/dgl_hnn/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1582, in _call_impl
+    result = forward_call(*args, **kwargs)
+  File "/home/denis/Desktop/server-graph-models/new_HGNN/HGNN.py", line 208, in forward
+    H_feat = self.net(x.float())
+  File "/home/denis/anaconda3/envs/dgl_hnn/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/denis/anaconda3/envs/dgl_hnn/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/denis/anaconda3/envs/dgl_hnn/lib/python3.9/site-packages/torch/nn/modules/container.py", line 217, in forward
+    input = module(input)
+  File "/home/denis/anaconda3/envs/dgl_hnn/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/denis/anaconda3/envs/dgl_hnn/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/denis/Desktop/server-graph-models/new_HGNN/HGNN.py", line 40, in forward
+    self.g.update_all(self.message_func, self.reduce_func)
+  File "/home/denis/anaconda3/envs/dgl_hnn/lib/python3.9/site-packages/dgl/heterograph.py", line 5112, in update_all
+    ndata = core.message_passing(
+  File "/home/denis/anaconda3/envs/dgl_hnn/lib/python3.9/site-packages/dgl/core.py", line 415, in message_passing
+    ndata = invoke_udf_reduce(g, rfunc, msgdata, orig_nid=orig_nid)
+  File "/home/denis/anaconda3/envs/dgl_hnn/lib/python3.9/site-packages/dgl/core.py", line 157, in invoke_udf_reduce
+    bkt_rsts.append(func(nbatch))
+  File "/home/denis/Desktop/server-graph-models/new_HGNN/HGNN.py", line 28, in reduce_func
+    out1 = torch.sum(out,dim=1)
+KeyboardInterrupt

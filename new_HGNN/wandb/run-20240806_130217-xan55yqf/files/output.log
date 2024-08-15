@@ -1,0 +1,52 @@
+5
+GNN_maker_HNN(
+  (net): Sequential(
+    (0): GATLayer(
+      (fc): Linear(in_features=2, out_features=128, bias=False)
+      (attn_fc): Linear(in_features=256, out_features=1, bias=False)
+    )
+    (1): Tanh()
+    (2): GATLayer(
+      (fc): Linear(in_features=128, out_features=6, bias=False)
+      (attn_fc): Linear(in_features=12, out_features=1, bias=False)
+    )
+  )
+)
+torch.Size([128, 50, 1, 5])
+50
+torch.Size([32, 1, 4])
+GNN_maker_HNN(
+  (net): Sequential(
+    (0): GATLayer(
+      (fc): Linear(in_features=2, out_features=128, bias=False)
+      (attn_fc): Linear(in_features=256, out_features=1, bias=False)
+    )
+    (1): Tanh()
+    (2): GATLayer(
+      (fc): Linear(in_features=128, out_features=6, bias=False)
+      (attn_fc): Linear(in_features=12, out_features=1, bias=False)
+    )
+  )
+)
+TRAIN BATCHES : 133
+TEST BATCHES : 14
+TRAIN
+torch.Size([32, 32, 2])
+torch.Size([32, 32, 2])
+torch.Size([32, 32, 1])
+Graph(num_nodes=1024, num_edges=1024,
+      ndata_schemes={}
+      edata_schemes={})
+torch.Size([1024, 2])
+  0%|                                                                                                                                                  | 0/133 [00:00<?, ?it/s]
+  0%|                                                                                                                                                    | 0/5 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "/home/denis/Desktop/server-graph-models/new_HGNN/main_pend.py", line 937, in <module>
+    train1dof(configs)
+  File "/home/denis/Desktop/server-graph-models/new_HGNN/main_pend.py", line 208, in train1dof
+    x_pred = RKroll_for_learning(model,x0,ts)
+  File "/home/denis/Desktop/server-graph-models/new_HGNN/utils.py", line 159, in RKroll_for_learning
+    K1 = evaluate_model(model,out_l[i-1].squeeze())
+  File "/home/denis/Desktop/server-graph-models/new_HGNN/utils.py", line 152, in evaluate_model
+    dx_pred = torch.cat((dqdp_s[1],-dqdp_s[0]),dim=-1)
+IndexError: tuple index out of range

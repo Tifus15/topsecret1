@@ -1,0 +1,126 @@
+5
+GNN_maker_HNN(
+  (net): Sequential(
+    (0): GATLayer(
+      (fc): Linear(in_features=2, out_features=128, bias=False)
+      (attn_fc): Linear(in_features=256, out_features=1, bias=False)
+    )
+    (1): Tanh()
+    (2): GATLayer(
+      (fc): Linear(in_features=128, out_features=6, bias=False)
+      (attn_fc): Linear(in_features=12, out_features=1, bias=False)
+    )
+  )
+)
+torch.Size([128, 50, 1, 5])
+50
+torch.Size([32, 1, 4])
+GNN_maker_HNN(
+  (net): Sequential(
+    (0): GATLayer(
+      (fc): Linear(in_features=2, out_features=128, bias=False)
+      (attn_fc): Linear(in_features=256, out_features=1, bias=False)
+    )
+    (1): Tanh()
+    (2): GATLayer(
+      (fc): Linear(in_features=128, out_features=6, bias=False)
+      (attn_fc): Linear(in_features=12, out_features=1, bias=False)
+    )
+  )
+)
+TRAIN BATCHES : 133
+TEST BATCHES : 14
+TRAIN
+torch.Size([32, 32, 2])
+torch.Size([32, 32, 2])
+torch.Size([32, 32, 1])
+Graph(num_nodes=1024, num_edges=1024,
+      ndata_schemes={}
+      edata_schemes={})
+torch.Size([1024, 2])
+  0%|                                                                                                                                                    | 0/5 [00:00<?, ?it/s]
+  0%|                                                                                                                                                  | 0/133 [00:00<?, ?it/s]
+torch.Size([32, 32, 2])
+torch.Size([32, 32, 2])
+torch.Size([32, 32, 1])
+Graph(num_nodes=1024, num_edges=1024,
+      ndata_schemes={'z': Scheme(shape=(6,), dtype=torch.float32), 'temp': Scheme(shape=(6,), dtype=torch.float32)}
+      edata_schemes={'e': Scheme(shape=(1,), dtype=torch.float32)})
+
+  2%|██                                                                                                                                        | 2/133 [00:02<03:05,  1.41s/it]
+torch.Size([32, 32, 2])
+torch.Size([32, 32, 2])
+torch.Size([32, 32, 1])
+Graph(num_nodes=1024, num_edges=1024,
+      ndata_schemes={'z': Scheme(shape=(6,), dtype=torch.float32), 'temp': Scheme(shape=(6,), dtype=torch.float32)}
+      edata_schemes={'e': Scheme(shape=(1,), dtype=torch.float32)})
+
+  2%|███                                                                                                                                       | 3/133 [00:04<02:58,  1.37s/it]
+torch.Size([32, 32, 2])
+torch.Size([32, 32, 2])
+torch.Size([32, 32, 1])
+Graph(num_nodes=1024, num_edges=1024,
+      ndata_schemes={'z': Scheme(shape=(6,), dtype=torch.float32), 'temp': Scheme(shape=(6,), dtype=torch.float32)}
+      edata_schemes={'e': Scheme(shape=(1,), dtype=torch.float32)})
+torch.Size([1024, 2])
+torch.Size([32, 32, 2])
+torch.Size([32, 32, 2])
+torch.Size([32, 32, 1])
+Graph(num_nodes=1024, num_edges=1024,
+      ndata_schemes={'z': Scheme(shape=(6,), dtype=torch.float32), 'temp': Scheme(shape=(6,), dtype=torch.float32)}
+      edata_schemes={'e': Scheme(shape=(1,), dtype=torch.float32)})
+
+  4%|█████▏                                                                                                                                    | 5/133 [00:06<02:55,  1.37s/it]
+torch.Size([32, 32, 2])
+torch.Size([32, 32, 2])
+torch.Size([32, 32, 1])
+Graph(num_nodes=1024, num_edges=1024,
+      ndata_schemes={'z': Scheme(shape=(6,), dtype=torch.float32), 'temp': Scheme(shape=(6,), dtype=torch.float32)}
+      edata_schemes={'e': Scheme(shape=(1,), dtype=torch.float32)})
+
+  5%|██████▏                                                                                                                                   | 6/133 [00:08<02:59,  1.41s/it]
+torch.Size([32, 32, 2])
+torch.Size([32, 32, 2])
+torch.Size([32, 32, 1])
+Graph(num_nodes=1024, num_edges=1024,
+      ndata_schemes={'z': Scheme(shape=(6,), dtype=torch.float32), 'temp': Scheme(shape=(6,), dtype=torch.float32)}
+      edata_schemes={'e': Scheme(shape=(1,), dtype=torch.float32)})
+torch.Size([1024, 2])
+torch.Size([32, 32, 2])
+torch.Size([32, 32, 2])
+torch.Size([32, 32, 1])
+Graph(num_nodes=1024, num_edges=1024,
+      ndata_schemes={'z': Scheme(shape=(6,), dtype=torch.float32), 'temp': Scheme(shape=(6,), dtype=torch.float32)}
+      edata_schemes={'e': Scheme(shape=(1,), dtype=torch.float32)})
+  0%|                                                                                                                                                    | 0/5 [00:10<?, ?it/s]
+Traceback (most recent call last):
+  File "/home/denis/Desktop/server-graph-models/new_HGNN/main_pend.py", line 937, in <module>
+    train1dof(configs)
+  File "/home/denis/Desktop/server-graph-models/new_HGNN/main_pend.py", line 208, in train1dof
+    x_pred = RKroll_for_learning(model,x0,ts)
+  File "/home/denis/Desktop/server-graph-models/new_HGNN/utils.py", line 162, in RKroll_for_learning
+    K4 = evaluate_model(model,out_l[i-1].squeeze()+dt*K3)
+  File "/home/denis/Desktop/server-graph-models/new_HGNN/utils.py", line 148, in evaluate_model
+    h_pred = model(x)
+  File "/home/denis/anaconda3/envs/dgl_hnn/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/denis/anaconda3/envs/dgl_hnn/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1582, in _call_impl
+    result = forward_call(*args, **kwargs)
+  File "/home/denis/Desktop/server-graph-models/new_HGNN/HGNN.py", line 160, in forward
+    gs = dgl.unbatch(self.g_hnn)
+  File "/home/denis/anaconda3/envs/dgl_hnn/lib/python3.9/site-packages/dgl/batch.py", line 424, in unbatch
+    gs = [
+  File "/home/denis/anaconda3/envs/dgl_hnn/lib/python3.9/site-packages/dgl/batch.py", line 425, in <listcomp>
+    convert.heterograph(edge_dict, num_nodes_dict, idtype=g.idtype)
+  File "/home/denis/anaconda3/envs/dgl_hnn/lib/python3.9/site-packages/dgl/convert.py", line 369, in heterograph
+    g = create_from_edges(
+  File "/home/denis/anaconda3/envs/dgl_hnn/lib/python3.9/site-packages/dgl/convert.py", line 2041, in create_from_edges
+    hgidx = heterograph_index.create_unitgraph_from_coo(
+  File "/home/denis/anaconda3/envs/dgl_hnn/lib/python3.9/site-packages/dgl/heterograph_index.py", line 1292, in create_unitgraph_from_coo
+    return _CAPI_DGLHeteroCreateUnitGraphFromCOO(
+  File "dgl/_ffi/_cython/./function.pxi", line 295, in dgl._ffi._cy3.core.FunctionBase.__call__
+  File "dgl/_ffi/_cython/./function.pxi", line 236, in dgl._ffi._cy3.core.FuncCall
+  File "dgl/_ffi/_cython/./function.pxi", line 109, in dgl._ffi._cy3.core.make_arg
+  File "/home/denis/anaconda3/envs/dgl_hnn/lib/python3.9/abc.py", line 117, in __instancecheck__
+    def __instancecheck__(cls, instance):
+KeyboardInterrupt

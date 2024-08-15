@@ -1,0 +1,128 @@
+{
+    "os": "Linux-6.5.0-44-generic-x86_64-with-glibc2.35",
+    "python": "3.9.19",
+    "heartbeatAt": "2024-08-09T12:58:00.406441",
+    "startedAt": "2024-08-09T12:57:58.792890",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/home/denis/Desktop/server-graph-models/new_HGNN/main_pend.py",
+    "codePathLocal": "main_pend.py",
+    "codePath": "new_HGNN/main_pend.py",
+    "git": {
+        "remote": "https://git.ias.informatik.tu-darmstadt.de/andric/server-graph-models.git",
+        "commit": "3142703f37aec4a602d3831962d9bf1aad071aad"
+    },
+    "email": "andridenis@gmail.com",
+    "root": "/home/denis/Desktop/server-graph-models",
+    "host": "denis-ROG-Strix-G713QM-G713QM",
+    "username": "denis",
+    "executable": "/home/denis/anaconda3/envs/dgl_hnn/bin/python3",
+    "cpu_count": 8,
+    "cpu_count_logical": 16,
+    "cpu_freq": {
+        "current": 3189.8808125,
+        "min": 400.0,
+        "max": 4890.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 4516.08,
+            "min": 400.0,
+            "max": 4890.0
+        },
+        {
+            "current": 400.0,
+            "min": 400.0,
+            "max": 4890.0
+        },
+        {
+            "current": 3690.556,
+            "min": 400.0,
+            "max": 4890.0
+        },
+        {
+            "current": 3983.081,
+            "min": 400.0,
+            "max": 4890.0
+        },
+        {
+            "current": 3817.001,
+            "min": 400.0,
+            "max": 4890.0
+        },
+        {
+            "current": 3920.433,
+            "min": 400.0,
+            "max": 4890.0
+        },
+        {
+            "current": 3696.217,
+            "min": 400.0,
+            "max": 4890.0
+        },
+        {
+            "current": 4451.231,
+            "min": 400.0,
+            "max": 4890.0
+        },
+        {
+            "current": 3659.406,
+            "min": 400.0,
+            "max": 4890.0
+        },
+        {
+            "current": 3638.055,
+            "min": 400.0,
+            "max": 4890.0
+        },
+        {
+            "current": 4148.263,
+            "min": 400.0,
+            "max": 4890.0
+        },
+        {
+            "current": 3963.454,
+            "min": 400.0,
+            "max": 4890.0
+        },
+        {
+            "current": 3630.256,
+            "min": 400.0,
+            "max": 4890.0
+        },
+        {
+            "current": 400.0,
+            "min": 400.0,
+            "max": 4890.0
+        },
+        {
+            "current": 4516.074,
+            "min": 400.0,
+            "max": 4890.0
+        },
+        {
+            "current": 400.0,
+            "min": 400.0,
+            "max": 4890.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 163.2414779663086,
+            "used": 124.95973205566406
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 3060 Laptop GPU",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 3060 Laptop GPU",
+            "memory_total": 6442450944
+        }
+    ],
+    "memory": {
+        "total": 15.035839080810547
+    }
+}

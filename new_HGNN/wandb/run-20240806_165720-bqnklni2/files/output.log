@@ -1,0 +1,62 @@
+Config file content:
+{'model': 'GAT', 'sob': [True, True], 'sob_a': [0.15, 1.0], 'a': 0.01, 'opti': 'adamW', 'reg': 'none', 'loss': 'Huber', 'acts': ['tanh', None], 'epochs': 100, 'modelsize': 256, 'batchsize': 128, 'timesize': 32, 'lr': 0.001, 'split': 0.9, 'device': 'cpu', 'single': False, 'noloops': True, 'samples': 25}
+100
+GNN_maker_HNN(
+  (net): Sequential(
+    (0): GATLayer(
+      (fc): Linear(in_features=2, out_features=128, bias=False)
+      (attn_fc): Linear(in_features=256, out_features=1, bias=False)
+    )
+    (1): Tanh()
+    (2): GATLayer(
+      (fc): Linear(in_features=128, out_features=6, bias=False)
+      (attn_fc): Linear(in_features=12, out_features=1, bias=False)
+    )
+  )
+)
+torch.Size([128, 25, 1, 5])
+25
+torch.Size([32, 1, 4])
+GNN_maker_HNN(
+  (net): Sequential(
+    (0): GATLayer(
+      (fc): Linear(in_features=2, out_features=128, bias=False)
+      (attn_fc): Linear(in_features=256, out_features=1, bias=False)
+    )
+    (1): Tanh()
+    (2): GATLayer(
+      (fc): Linear(in_features=128, out_features=6, bias=False)
+      (attn_fc): Linear(in_features=12, out_features=1, bias=False)
+    )
+  )
+)
+TRAIN BATCHES : 16
+TEST BATCHES : 1
+TRAIN
+  0%|                                                                                                                                                  | 0/100 [00:00<?, ?it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 94%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▍        | 15/16 [01:11<00:04,  4.79s/it]
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 16/16 [01:16<00:00,  4.71s/it]
+  0%|                                                                                                                                                  | 0/100 [01:20<?, ?it/s]
+Traceback (most recent call last):
+  File "/home/denis/Desktop/server-graph-models/new_HGNN/main_pend.py", line 990, in <module>
+    train1dof(configs)
+  File "/home/denis/Desktop/server-graph-models/new_HGNN/main_pend.py", line 259, in train1dof
+    dict[namew+"_grad"] = torch.mean(param.grad).item()
+TypeError: 'type' object does not support item assignment
+Epoch: 1
+LOSS: train: 9.968843   ham: 9.863632 |   test: 2.175599  ham: 10.186103

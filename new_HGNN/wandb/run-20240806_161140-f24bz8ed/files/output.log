@@ -1,0 +1,69 @@
+Config file content:
+{'model': 'GAT', 'sob': [True, True], 'sob_a': [1.0, 1.0, 1.0], 'a': 0.01, 'opti': 'adamW', 'reg': 'none', 'loss': 'Huber', 'acts': ['tanh', None], 'epochs': 5, 'modelsize': 256, 'batchsize': 128, 'timesize': 32, 'lr': 0.001, 'split': 0.9, 'device': 'cpu', 'single': False, 'noloops': True, 'samples': 50}
+5
+torch.Size([128, 50, 1, 17])
+50
+torch.Size([32, 1, 16])
+loading prevoius model
+GNN_maker_HNN(
+  (net): Sequential(
+    (0): GATLayer(
+      (fc): Linear(in_features=2, out_features=128, bias=False)
+      (attn_fc): Linear(in_features=256, out_features=1, bias=False)
+    )
+    (1): Tanh()
+    (2): GATLayer(
+      (fc): Linear(in_features=128, out_features=6, bias=False)
+      (attn_fc): Linear(in_features=12, out_features=1, bias=False)
+    )
+  )
+)
+TRAIN BATCHES : 33
+TEST BATCHES : 3
+TRAIN
+  0%|                                                                                                                                                    | 0/5 [00:00<?, ?it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 97%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▊    | 32/33 [02:53<00:05,  5.43s/it]
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 33/33 [02:59<00:00,  5.40s/it]
+
+
+ 67%|█████████████████████████████████████████████████████████████████████████████████████████████▎                                              | 2/3 [00:10<00:05,  5.02s/it]
+Epoch: 1
+  0%|                                                                                                                                                    | 0/5 [03:14<?, ?it/s]
+Traceback (most recent call last):
+  File "/home/denis/Desktop/server-graph-models/new_HGNN/main_pend.py", line 994, in <module>
+    train4dof(configs)
+  File "/home/denis/Desktop/server-graph-models/new_HGNN/main_pend.py", line 975, in train4dof
+    dict[namew+"_grad"] = torch.mean(param.grad).item()
+TypeError: 'type' object does not support item assignment

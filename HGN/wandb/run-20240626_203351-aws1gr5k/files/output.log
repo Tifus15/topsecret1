@@ -1,0 +1,14 @@
+DEBUG MODE: False
+Config file content:
+{'model': 'GAT', 'sob': [True, True], 'sob_a': [1.0, 0.5, 1.0], 'a': 0.01, 'opti': 'adamW', 'reg': 'none', 'loss': 'Huber', 'acts': ['tanh', None], 'epochs': 250, 'modelsize': 256, 'batchsize': 32, 'timesize': 32, 'lr': 0.0001, 'split': 0.9, 'device': 'cpu', 'single': True}
+Traceback (most recent call last):
+  File "/work/scratch/da35hevy/server-graph-models/HGN/main.py", line 58, in <module>
+    run_experiment(experiment)
+  File "/work/scratch/da35hevy/experiment_launcher/experiment_launcher/launcher.py", line 485, in run_experiment
+    func(**args)
+  File "/work/scratch/da35hevy/experiment_launcher/experiment_launcher/decorators.py", line 35, in wrapper
+    exp_func(*args, **kwargs)
+  File "/work/scratch/da35hevy/server-graph-models/HGN/main.py", line 48, in experiment
+    out_str = f'Running experiment with seed {seed} and with device {device_util.DEVICE}'
+                                                                     ^^^^^^^^^^^
+NameError: name 'device_util' is not defined

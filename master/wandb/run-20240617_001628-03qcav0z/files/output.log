@@ -1,0 +1,13 @@
+
+DEBUG MODE: False
+Traceback (most recent call last):
+  File "/work/scratch/da35hevy/server-graph-models/master/main.py", line 58, in <module>
+    run_experiment(experiment)
+  File "/work/scratch/da35hevy/experiment_launcher/experiment_launcher/launcher.py", line 485, in run_experiment
+    func(**args)
+  File "/work/scratch/da35hevy/experiment_launcher/experiment_launcher/decorators.py", line 35, in wrapper
+    exp_func(*args, **kwargs)
+  File "/work/scratch/da35hevy/server-graph-models/master/main.py", line 39, in experiment
+    configs = yaml.load(f, yaml.Loader)
+              ^^^^
+NameError: name 'yaml' is not defined

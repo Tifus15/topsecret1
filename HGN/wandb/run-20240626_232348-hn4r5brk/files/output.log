@@ -1,0 +1,53 @@
+DEBUG MODE: False
+Config file content:
+{'model': 'GAT', 'sob': [True, True], 'sob_a': [1.0, 1.0, 1.0], 'a': 0.01, 'opti': 'adamW', 'reg': 'none', 'loss': 'Huber', 'acts': ['tanh', None], 'epochs': 50, 'modelsize': 256, 'batchsize': 128, 'timesize': 2, 'lr': 0.0001, 'split': 0.9, 'device': 'cpu', 'single': False}
+begin 1dof
+50
+torch.Size([128, 99, 1, 5])
+6300 snapshots
+torch.Size([2, 1, 5])
+6300
+HNN_maker(
+  (q_net): Sequential(
+    (0): Linear(in_features=1, out_features=256, bias=True)
+    (1): Linear(in_features=256, out_features=1, bias=True)
+  )
+  (net): Sequential(
+    (0): GATv2Conv(
+      (fc_src): Linear(in_features=2, out_features=256, bias=True)
+      (fc_dst): Linear(in_features=2, out_features=256, bias=True)
+      (feat_drop): Dropout(p=0.0, inplace=False)
+      (attn_drop): Dropout(p=0.0, inplace=False)
+      (leaky_relu): LeakyReLU(negative_slope=0.2)
+      (activation): Tanh()
+    )
+    (1): GATv2Conv(
+      (fc_src): Linear(in_features=256, out_features=32, bias=True)
+      (fc_dst): Linear(in_features=256, out_features=32, bias=True)
+      (feat_drop): Dropout(p=0.0, inplace=False)
+      (attn_drop): Dropout(p=0.0, inplace=False)
+      (leaky_relu): LeakyReLU(negative_slope=0.2)
+      (activation): Identity()
+    )
+  )
+)
+TRAIN
+  0%|          | 0/50 [00:00<?, ?it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

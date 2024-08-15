@@ -1,0 +1,12 @@
+https://docs.dgl.ai/en/2.0.x/guide/minibatch-link.html#guide-minibatch-link-classification-sampler
+https://docs.dgl.ai/en/2.0.x/guide/training-link.html
+https://www.youtube.com/watch?v=wxJ84sMJfUA&list=PLgy71-0-2-F11SuZf56RDK9hlitN2tQNi
+https://arxiv.org/abs/1802.09691
+https://arxiv.org/pdf/1703.06103
+https://arxiv.org/pdf/2006.10637
+https://github.com/dmlc/dgl/tree/0.9.x/examples/pytorch/tgn
+very interesting!
+SAGE is only for a big graphs
+https://graph4ai.github.io/graph4nlp/guide/gnn/ggnn.html
+something similar that I have worked on!
+https://github.com/Zymrael/PortHamiltonianNN

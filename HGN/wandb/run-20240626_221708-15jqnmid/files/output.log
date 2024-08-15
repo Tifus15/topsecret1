@@ -1,0 +1,1262 @@
+DEBUG MODE: False
+Config file content:
+{'model': 'GAT', 'sob': [True, True], 'sob_a': [1.0, 0.5, 1.0], 'a': 0.01, 'opti': 'adamW', 'reg': 'none', 'loss': 'Huber', 'acts': ['tanh', None], 'epochs': 3, 'modelsize': 256, 'batchsize': 128, 'timesize': 2, 'lr': 0.0001, 'split': 0.9, 'device': 'cpu', 'single': False}
+begin 1dof
+3
+torch.Size([128, 99, 1, 5])
+12474 snapshots
+torch.Size([2, 1, 5])
+12474
+HNN_maker(
+  (q_net): Sequential(
+    (0): Linear(in_features=1, out_features=256, bias=True)
+    (1): Linear(in_features=256, out_features=1, bias=True)
+  )
+  (net): Sequential(
+    (0): GATv2Conv(
+      (fc_src): Linear(in_features=2, out_features=256, bias=True)
+      (fc_dst): Linear(in_features=2, out_features=256, bias=True)
+      (feat_drop): Dropout(p=0.0, inplace=False)
+      (attn_drop): Dropout(p=0.0, inplace=False)
+      (leaky_relu): LeakyReLU(negative_slope=0.2)
+      (activation): Tanh()
+    )
+    (1): GATv2Conv(
+      (fc_src): Linear(in_features=256, out_features=32, bias=True)
+      (fc_dst): Linear(in_features=256, out_features=32, bias=True)
+      (feat_drop): Dropout(p=0.0, inplace=False)
+      (attn_drop): Dropout(p=0.0, inplace=False)
+      (leaky_relu): LeakyReLU(negative_slope=0.2)
+      (activation): Identity()
+    )
+  )
+)
+TRAIN
+  0%|          | 0/3 [00:00<?, ?it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 99%|█████████▉| 87/88 [02:11<00:01,  1.50s/it]
+100%|██████████| 88/88 [02:11<00:00,  1.31s/it]
+
+
+
+
+
+
+ 33%|███▎      | 1/3 [02:26<04:52, 146.45s/it]]
+  0%|          | 0/88 [00:00<?, ?it/s]
+Epoch: 1
+LOSS: train: 11.555279 grad: 4.248841  ham: 9.430066 |   test: 7.985860 grad: 4.272605 ham: 5.848752
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|██████████| 88/88 [02:12<00:00,  1.32s/it]
+  0%|          | 0/10 [00:00<?, ?it/s]
+
+
+
+
+
+
+
+ 90%|█████████ | 9/10 [00:13<00:01,  1.50s/it]
+Epoch: 2
+LOSS: train: 7.291672 grad: 4.330207  ham: 5.125755 |   test: 7.078957 grad: 4.282459 ham: 4.936920
+ 67%|██████▋   | 2/3 [04:53<02:27, 147.03s/it]]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|██████████| 88/88 [02:13<00:00,  1.35s/it]
+  0%|          | 0/10 [00:00<?, ?it/s]
+
+
+
+
+
+
+
+100%|██████████| 3/3 [07:21<00:00, 147.13s/it]]
+Epoch: 3
+LOSS: train: 7.059267 grad: 4.276418  ham: 4.920256 |   test: 6.919297 grad: 4.221505 ham: 4.807749
+end 1dof
+begin 2dof
+3
+torch.Size([128, 99, 1, 9])
+12474 snapshots
+torch.Size([2, 1, 9])
+12474
+loading prevoius model
+HNN_maker(
+  (q_net): Sequential(
+    (0): Linear(in_features=1, out_features=256, bias=True)
+    (1): Linear(in_features=256, out_features=1, bias=True)
+  )
+  (net): Sequential(
+    (0): GATv2Conv(
+      (fc_src): Linear(in_features=2, out_features=256, bias=True)
+      (fc_dst): Linear(in_features=2, out_features=256, bias=True)
+      (feat_drop): Dropout(p=0.0, inplace=False)
+      (attn_drop): Dropout(p=0.0, inplace=False)
+      (leaky_relu): LeakyReLU(negative_slope=0.2)
+      (activation): Tanh()
+    )
+    (1): GATv2Conv(
+      (fc_src): Linear(in_features=256, out_features=32, bias=True)
+      (fc_dst): Linear(in_features=256, out_features=32, bias=True)
+      (feat_drop): Dropout(p=0.0, inplace=False)
+      (attn_drop): Dropout(p=0.0, inplace=False)
+      (leaky_relu): LeakyReLU(negative_slope=0.2)
+      (activation): Identity()
+    )
+  )
+)
+TRAIN
+  0%|          | 0/3 [00:00<?, ?it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|██████████| 88/88 [02:41<00:00,  1.60s/it]
+  0%|          | 0/10 [00:00<?, ?it/s]
+
+
+
+
+
+
+
+
+ 33%|███▎      | 1/3 [02:59<05:58, 179.11s/it]]
+  0%|          | 0/88 [00:00<?, ?it/s]
+Epoch: 1
+LOSS: train: 17.070185 grad: 6.043200  ham: 14.045630 |   test: 11.381605 grad: 5.953614 ham: 8.400496
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|██████████| 88/88 [02:43<00:00,  1.61s/it]
+  0%|          | 0/10 [00:00<?, ?it/s]
+
+
+
+
+
+
+
+
+ 67%|██████▋   | 2/3 [06:00<03:00, 180.71s/it]]
+  0%|          | 0/88 [00:00<?, ?it/s]
+Epoch: 2
+LOSS: train: 14.597095 grad: 6.043640  ham: 11.572314 |   test: 16.704174 grad: 5.959001 ham: 13.720369
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|██████████| 88/88 [02:44<00:00,  1.62s/it]
+  0%|          | 0/10 [00:00<?, ?it/s]
+
+
+
+
+
+
+
+
+
+100%|██████████| 3/3 [09:03<00:00, 181.09s/it]]
+Epoch: 3
+LOSS: train: 16.471149 grad: 6.043268  ham: 13.446530 |   test: 13.895239 grad: 5.952260 ham: 10.914811
+end 2dof
+begin 3dof
+3
+torch.Size([128, 99, 1, 13])
+12474 snapshots
+torch.Size([2, 1, 13])
+12474
+loading prevoius model
+HNN_maker(
+  (q_net): Sequential(
+    (0): Linear(in_features=1, out_features=256, bias=True)
+    (1): Linear(in_features=256, out_features=1, bias=True)
+  )
+  (net): Sequential(
+    (0): GATv2Conv(
+      (fc_src): Linear(in_features=2, out_features=256, bias=True)
+      (fc_dst): Linear(in_features=2, out_features=256, bias=True)
+      (feat_drop): Dropout(p=0.0, inplace=False)
+      (attn_drop): Dropout(p=0.0, inplace=False)
+      (leaky_relu): LeakyReLU(negative_slope=0.2)
+      (activation): Tanh()
+    )
+    (1): GATv2Conv(
+      (fc_src): Linear(in_features=256, out_features=32, bias=True)
+      (fc_dst): Linear(in_features=256, out_features=32, bias=True)
+      (feat_drop): Dropout(p=0.0, inplace=False)
+      (attn_drop): Dropout(p=0.0, inplace=False)
+      (leaky_relu): LeakyReLU(negative_slope=0.2)
+      (activation): Identity()
+    )
+  )
+)
+TRAIN
+  0%|          | 0/3 [00:00<?, ?it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|██████████| 88/88 [03:14<00:00,  1.94s/it]
+  0%|          | 0/10 [00:00<?, ?it/s]
+
+
+
+
+
+
+
+
+ 33%|███▎      | 1/3 [03:35<07:11, 215.87s/it]]
+  0%|          | 0/88 [00:00<?, ?it/s]
+Epoch: 1
+LOSS: train: 25.821533 grad: 9.235317  ham: 21.196209 |   test: 26.543919 grad: 9.261869 ham: 21.905035
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|██████████| 88/88 [03:13<00:00,  1.87s/it]
+  0%|          | 0/10 [00:00<?, ?it/s]
+
+
+
+
+
+
+
+
+
+ 90%|█████████ | 9/10 [00:19<00:02,  2.15s/it]
+Epoch: 2
+LOSS: train: 28.091755 grad: 9.232258  ham: 23.467964 |   test: 24.237015 grad: 9.250036 ham: 19.604176
+ 67%|██████▋   | 2/3 [07:10<03:35, 215.03s/it]]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 99%|█████████▉| 87/88 [03:10<00:02,  2.21s/it]
+100%|██████████| 88/88 [03:11<00:00,  1.91s/it]
+
+
+
+
+
+
+
+
+
+
+100%|██████████| 3/3 [10:42<00:00, 214.33s/it]]
+Epoch: 3
+LOSS: train: 29.627050 grad: 9.234305  ham: 25.002239 |   test: 24.707050 grad: 9.252913 ham: 20.072651
+end 3dof
+begin 4dof
+3
+torch.Size([128, 99, 1, 17])
+12474 snapshots
+torch.Size([2, 1, 17])
+  0%|          | 0/3 [00:00<?, ?it/s]
+  0%|          | 0/88 [00:00<?, ?it/s]
+12474
+loading prevoius model
+HNN_maker(
+  (q_net): Sequential(
+    (0): Linear(in_features=1, out_features=256, bias=True)
+    (1): Linear(in_features=256, out_features=1, bias=True)
+  )
+  (net): Sequential(
+    (0): GATv2Conv(
+      (fc_src): Linear(in_features=2, out_features=256, bias=True)
+      (fc_dst): Linear(in_features=2, out_features=256, bias=True)
+      (feat_drop): Dropout(p=0.0, inplace=False)
+      (attn_drop): Dropout(p=0.0, inplace=False)
+      (leaky_relu): LeakyReLU(negative_slope=0.2)
+      (activation): Tanh()
+    )
+    (1): GATv2Conv(
+      (fc_src): Linear(in_features=256, out_features=32, bias=True)
+      (fc_dst): Linear(in_features=256, out_features=32, bias=True)
+      (feat_drop): Dropout(p=0.0, inplace=False)
+      (attn_drop): Dropout(p=0.0, inplace=False)
+      (leaky_relu): LeakyReLU(negative_slope=0.2)
+      (activation): Identity()
+    )
+  )
+)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 99%|█████████▉| 87/88 [03:09<00:02,  2.17s/it]
+100%|██████████| 88/88 [03:10<00:00,  1.89s/it]
+
+
+
+
+
+
+
+
+
+ 33%|███▎      | 1/3 [03:30<07:01, 210.99s/it]]
+  0%|          | 0/88 [00:00<?, ?it/s]
+Epoch: 1
+LOSS: train: 43.103836 grad: 3.183511  ham: 41.498348 |   test: 33.902840 grad: 3.239094 ham: 32.269077
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|██████████| 88/88 [03:12<00:00,  1.93s/it]
+  0%|          | 0/10 [00:00<?, ?it/s]
+
+
+
+
+
+
+
+
+
+ 90%|█████████ | 9/10 [00:19<00:02,  2.20s/it]
+Epoch: 2
+LOSS: train: 26.171247 grad: 3.182509  ham: 24.566246 |   test: 28.564764 grad: 3.226040 ham: 26.937458
+ 67%|██████▋   | 2/3 [07:04<03:32, 212.37s/it]]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|██████████| 88/88 [03:14<00:00,  1.96s/it]
+  0%|          | 0/10 [00:00<?, ?it/s]
+
+
+
+
+
+
+
+
+
+100%|██████████| 3/3 [10:40<00:00, 213.39s/it]]
+Epoch: 3
+LOSS: train: 28.323931 grad: 3.183015  ham: 26.718670 |   test: 34.592964 grad: 3.249372 ham: 32.953987
+end 4dof

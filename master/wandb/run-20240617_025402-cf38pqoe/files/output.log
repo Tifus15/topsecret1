@@ -1,0 +1,395 @@
+DEBUG MODE: False
+Config file content:
+{'model': 'GCN', 'sob': True, 'sob_a': 0.01, 'a': 0.01, 'opti': 'adamW', 'reg': 'none', 'loss': 'Huber', 'acts': ['tanh', None], 'epochs': 1, 'modelsize': 128, 'batchsize': 512, 'timesize': 32, 'lr': 0.0005, 'split': 0.9, 'device': 'cpu', 'single': False}
+/work/scratch/da35hevy/server-graph-models/master
+6body
+1
+torch.Size([512, 500, 6, 1])
+torch.Size([512, 500, 6, 4])
+torch.Size([512, 500, 6, 4])
+[0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 4, 5, 5, 5, 5, 5, 5]
+[0, 1, 2, 3, 4, 5, 0, 1, 2, 3, 4, 5, 0, 1, 2, 3, 4, 5, 0, 1, 2, 3, 4, 5, 0, 1, 2, 3, 4, 5, 0, 1, 2, 3, 4, 5]
+torch.Size([512, 499, 6, 9])
+torch.Size([512, 499, 6, 9])
+239520 snapshots
+torch.Size([32, 6, 9])
+converting
+
+
+
+
+
+
+
+
+
+
+
+
+100%|██████████| 239520/239520 [00:24<00:00, 9867.82it/s]
+239520
+rollout_GNN_GRU(
+  (GRU): GRU(4, 128)
+  (GNN): GNN_maker(
+    (net): Sequential(
+      (0): GNNlayer(
+        (NN): Linear(in_features=128, out_features=128, bias=True)
+      )
+      (1): Tanh()
+      (2): GNNlayer(
+        (NN): Linear(in_features=128, out_features=4, bias=True)
+      )
+    )
+  )
+)
+TRAIN
+  0%|          | 0/1 [00:00<?, ?it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|█████████▉| 421/422 [04:21<00:00,  1.64it/s]
+  0%|          | 0/47 [00:00<?, ?it/s]
+
+
+
+
+
+
+ 96%|█████████▌| 45/47 [00:12<00:00,  3.68it/s]
+Epoch: 1
+
+100%|██████████| 1/1 [04:33<00:00, 273.95s/it]]
+  0%|          | 0/239520 [00:00<?, ?it/s]
+7body
+1
+torch.Size([512, 500, 7, 1])
+torch.Size([512, 500, 7, 4])
+torch.Size([512, 500, 7, 4])
+[0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 4, 4, 5, 5, 5, 5, 5, 5, 5, 6, 6, 6, 6, 6, 6, 6]
+[0, 1, 2, 3, 4, 5, 6, 0, 1, 2, 3, 4, 5, 6, 0, 1, 2, 3, 4, 5, 6, 0, 1, 2, 3, 4, 5, 6, 0, 1, 2, 3, 4, 5, 6, 0, 1, 2, 3, 4, 5, 6, 0, 1, 2, 3, 4, 5, 6]
+torch.Size([512, 499, 7, 9])
+torch.Size([512, 499, 7, 9])
+239520 snapshots
+torch.Size([32, 7, 9])
+
+
+
+
+
+
+
+
+
+
+
+
+100%|██████████| 239520/239520 [00:24<00:00, 9964.34it/s]
+239520
+rollout_GNN_GRU(
+  (GRU): GRU(4, 128)
+  (GNN): GNN_maker(
+    (net): Sequential(
+      (0): GNNlayer(
+        (NN): Linear(in_features=128, out_features=128, bias=True)
+      )
+      (1): Tanh()
+      (2): GNNlayer(
+        (NN): Linear(in_features=128, out_features=4, bias=True)
+      )
+    )
+  )
+)
+TRAIN
+  0%|          | 0/1 [00:00<?, ?it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|█████████▉| 421/422 [05:07<00:00,  1.37it/s]
+  4%|▍         | 2/47 [00:00<00:14,  3.01it/s]
+
+
+
+
+
+
+
+100%|██████████| 1/1 [05:21<00:00, 321.90s/it]]
+Epoch: 1
+LOSS: train: 0.188522 grad: 3.595703   |   test: 0.163872 grad: 3.753141
+/work/scratch/da35hevy/server-graph-models/master
+FINALLY DONE
+/work/scratch/da35hevy/server-graph-models/master

@@ -1,0 +1,16 @@
+DEBUG MODE: False
+Config file content:
+{'model': 'GCN', 'sob': True, 'sob_a': 0.01, 'a': 0.01, 'opti': 'adamW', 'reg': 'none', 'loss': 'Huber', 'acts': ['tanh', None], 'epochs': 100, 'modelsize': 128, 'batchsize': 32, 'timesize': 32, 'lr"': '5e-4', 'split': 0.9, 'device': 'cpu', 'single': True}
+Traceback (most recent call last):
+  File "/work/scratch/da35hevy/server-graph-models/master/main.py", line 58, in <module>
+    run_experiment(experiment)
+  File "/work/scratch/da35hevy/experiment_launcher/experiment_launcher/launcher.py", line 485, in run_experiment
+    func(**args)
+  File "/work/scratch/da35hevy/experiment_launcher/experiment_launcher/decorators.py", line 35, in wrapper
+    exp_func(*args, **kwargs)
+  File "/work/scratch/da35hevy/server-graph-models/master/main.py", line 53, in experiment
+    train6body(configs)
+  File "/work/scratch/da35hevy/server-graph-models/master/main_body.py", line 38, in train6body
+    LR = configs["lr"]
+         ~~~~~~~^^^^^^
+KeyError: 'lr'

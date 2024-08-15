@@ -1,0 +1,621 @@
+DEBUG MODE: False
+Config file content:
+{'model': 'GAT', 'sob': [True, True], 'sob_a': [1.0, 0.5, 1.0], 'a': 0.01, 'opti': 'adamW', 'reg': 'none', 'loss': 'Huber', 'acts': ['tanh', None], 'epochs': 20, 'modelsize': 256, 'batchsize': 128, 'timesize': 2, 'lr': 0.0001, 'split': 0.9, 'device': 'cpu', 'single': False}
+begin 1dof
+20
+torch.Size([128, 99, 1, 5])
+12474 snapshots
+torch.Size([2, 1, 5])
+12474
+HNN_maker(
+  (q_net): Sequential(
+    (0): Linear(in_features=1, out_features=256, bias=True)
+    (1): Linear(in_features=256, out_features=1, bias=True)
+  )
+  (net): Sequential(
+    (0): GATv2Conv(
+      (fc_src): Linear(in_features=2, out_features=256, bias=True)
+      (fc_dst): Linear(in_features=2, out_features=256, bias=True)
+      (feat_drop): Dropout(p=0.0, inplace=False)
+      (attn_drop): Dropout(p=0.0, inplace=False)
+      (leaky_relu): LeakyReLU(negative_slope=0.2)
+      (activation): Tanh()
+    )
+    (1): GATv2Conv(
+      (fc_src): Linear(in_features=256, out_features=32, bias=True)
+      (fc_dst): Linear(in_features=256, out_features=32, bias=True)
+      (feat_drop): Dropout(p=0.0, inplace=False)
+      (attn_drop): Dropout(p=0.0, inplace=False)
+      (leaky_relu): LeakyReLU(negative_slope=0.2)
+      (activation): Identity()
+    )
+  )
+)
+TRAIN
+  0%|          | 0/20 [00:00<?, ?it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 99%|█████████▉| 87/88 [02:11<00:01,  1.50s/it]
+100%|██████████| 88/88 [02:11<00:00,  1.30s/it]
+
+
+
+
+
+
+  5%|▌         | 1/20 [02:26<46:22, 146.46s/it]
+  0%|          | 0/88 [00:00<?, ?it/s]
+Epoch: 1
+LOSS: train: 9.908003 grad: 4.196267  ham: 7.809076 |   test: 7.194403 grad: 4.284485 ham: 5.051354
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|██████████| 88/88 [02:14<00:00,  1.32s/it]
+  0%|          | 0/10 [00:00<?, ?it/s]
+
+
+
+
+
+
+
+ 90%|█████████ | 9/10 [00:13<00:01,  1.50s/it]
+Epoch: 2
+LOSS: train: 7.054332 grad: 4.279564  ham: 4.913746 |   test: 6.980591 grad: 4.237832 ham: 4.860878
+ 10%|█         | 2/20 [04:55<44:24, 148.05s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|██████████| 88/88 [02:12<00:00,  1.30s/it]
+  0%|          | 0/10 [00:00<?, ?it/s]
+
+
+
+
+
+
+ 15%|█▌        | 3/20 [07:23<41:53, 147.86s/it]
+  0%|          | 0/88 [00:00<?, ?it/s]
+Epoch: 3
+LOSS: train: 6.894836 grad: 4.208409  ham: 4.789843 |   test: 6.833992 grad: 4.156943 ham: 4.754739
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|██████████| 88/88 [02:13<00:00,  1.31s/it]
+  0%|          | 0/10 [00:00<?, ?it/s]
+
+
+
+
+
+
+ 20%|██        | 4/20 [09:51<39:25, 147.84s/it]
+  0%|          | 0/88 [00:00<?, ?it/s]
+Epoch: 4
+LOSS: train: 6.745135 grad: 4.128292  ham: 4.680214 |   test: 6.701498 grad: 4.074365 ham: 4.663547
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|██████████| 88/88 [02:13<00:00,  1.32s/it]
+  0%|          | 0/10 [00:00<?, ?it/s]
+
+
+
+
+
+
+ 25%|██▌       | 5/20 [12:19<36:58, 147.90s/it]
+  0%|          | 0/88 [00:00<?, ?it/s]
+Epoch: 5
+LOSS: train: 6.584328 grad: 4.041445  ham: 4.562843 |   test: 6.565881 grad: 3.983463 ham: 4.573398
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|██████████| 88/88 [02:13<00:00,  1.34s/it]
+  0%|          | 0/10 [00:00<?, ?it/s]
+
+
+
+
+
+
+ 30%|███       | 6/20 [14:46<34:29, 147.82s/it]
+  0%|          | 0/88 [00:00<?, ?it/s]
+Epoch: 6
+LOSS: train: 6.435041 grad: 3.949519  ham: 4.459535 |   test: 6.425821 grad: 3.885119 ham: 4.482522
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 99%|█████████▉| 87/88 [02:12<00:01,  1.51s/it]
+100%|██████████| 88/88 [02:13<00:00,  1.31s/it]
+
+
+
+
+
+
+ 35%|███▌      | 7/20 [17:14<32:01, 147.79s/it]
+  0%|          | 0/88 [00:00<?, ?it/s]
+Epoch: 7
+LOSS: train: 6.288583 grad: 3.852984  ham: 4.361355 |   test: 6.312320 grad: 3.786792 ham: 4.418198
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

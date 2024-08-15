@@ -1,0 +1,17 @@
+Config file content:
+{'model': 'GAT', 'sob': [True, True], 'sob_a': [1.0, 1.0, 1.0], 'a': 0.01, 'opti': 'adamW', 'reg': 'none', 'loss': 'Huber', 'acts': ['tanh', None], 'epochs': 5, 'modelsize': 256, 'batchsize': 128, 'timesize': 32, 'lr': 0.001, 'split': 0.9, 'device': 'cpu', 'single': False, 'noloops': True, 'samples': 50}
+5
+torch.Size([128, 50, 1, 13])
+50
+torch.Size([32, 1, 12])
+loading prevoius model
+Traceback (most recent call last):
+  File "/home/denis/Desktop/server-graph-models/new_HGNN/main_pend.py", line 971, in <module>
+    train3dof(configs)
+  File "/home/denis/Desktop/server-graph-models/new_HGNN/main_pend.py", line 592, in train3dof
+    model = torch.load("whole_model_dof2.pt")
+  File "/home/denis/anaconda3/envs/dgl_hnn/lib/python3.9/site-packages/torch/serialization.py", line 1025, in load
+    return _load(opened_zipfile,
+  File "/home/denis/anaconda3/envs/dgl_hnn/lib/python3.9/site-packages/torch/serialization.py", line 1442, in _load
+    data_file = io.BytesIO(zip_file.get_record(pickle_file))
+RuntimeError: PytorchStreamReader failed locating file data.pkl: file not found

@@ -1,0 +1,155 @@
+DEBUG MODE: False
+Config file content:
+{'model': 'GAT', 'sob': [True, True], 'sob_a': [1.0, 1.0, 1.0], 'a': 0.01, 'opti': 'adamW', 'reg': 'none', 'loss': 'Huber', 'acts': ['tanh', None], 'epochs': 2, 'modelsize': 256, 'batchsize': 128, 'timesize': 2, 'lr': 0.001, 'split': 0.9, 'device': 'cpu', 'single': False}
+begin 1dof
+2
+torch.Size([128, 99, 1, 5])
+6300 snapshots
+torch.Size([2, 1, 5])
+6300
+HNN_maker(
+  (net): Sequential(
+    (0): GATv2Conv(
+      (fc_src): Linear(in_features=2, out_features=256, bias=True)
+      (fc_dst): Linear(in_features=2, out_features=256, bias=True)
+      (feat_drop): Dropout(p=0.0, inplace=False)
+      (attn_drop): Dropout(p=0.0, inplace=False)
+      (leaky_relu): LeakyReLU(negative_slope=0.2)
+      (activation): Tanh()
+    )
+    (1): GATv2Conv(
+      (fc_src): Linear(in_features=256, out_features=32, bias=True)
+      (fc_dst): Linear(in_features=256, out_features=32, bias=True)
+      (feat_drop): Dropout(p=0.0, inplace=False)
+      (attn_drop): Dropout(p=0.0, inplace=False)
+      (leaky_relu): LeakyReLU(negative_slope=0.2)
+      (activation): Identity()
+    )
+  )
+)
+TRAIN
+  0%|          | 0/2 [00:00<?, ?it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 96%|█████████▌| 43/45 [03:05<00:08,  4.35s/it]
+100%|██████████| 45/45 [03:10<00:00,  3.27s/it]
+
+
+
+
+ 80%|████████  | 4/5 [00:17<00:04,  4.31s/it]
+Epoch: 1
+LOSS: train: 12.272802 grad: 4.181232  ham: 8.090021 |   test: 10.005008 grad: 4.179688 ham: 5.824537
+ 50%|█████     | 1/2 [03:31<03:31, 211.72s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 96%|█████████▌| 43/45 [03:07<00:08,  4.35s/it]
+100%|██████████| 45/45 [03:12<00:00,  3.27s/it]
+
+
+
+
+ 80%|████████  | 4/5 [00:17<00:04,  4.38s/it]
+Epoch: 2
+LOSS: train: 9.789450 grad: 4.298880  ham: 5.488996 |   test: 9.991774 grad: 4.172587 ham: 5.818390
+end 1dof
+begin 2dof
+2
+100%|██████████| 2/2 [07:06<00:00, 213.05s/it]
+Traceback (most recent call last):
+  File "/work/scratch/da35hevy/server-graph-models/HGN/main.py", line 58, in <module>
+    run_experiment(experiment)
+  File "/work/scratch/da35hevy/experiment_launcher/experiment_launcher/launcher.py", line 485, in run_experiment
+    func(**args)
+  File "/work/scratch/da35hevy/experiment_launcher/experiment_launcher/decorators.py", line 35, in wrapper
+    exp_func(*args, **kwargs)
+  File "/work/scratch/da35hevy/server-graph-models/HGN/main.py", line 53, in experiment
+    full(configs)
+  File "/work/scratch/da35hevy/server-graph-models/HGN/main_pend.py", line 16, in full
+    train2dof(configs)
+  File "/work/scratch/da35hevy/server-graph-models/HGN/main_pend.py", line 308, in train2dof
+    snapshots = make_snapshots(datadata[:,0:50,:,:],TIME_SIZE) # just 128 to keep everything in 2^i
+                               ^^^^^^^^
+NameError: name 'datadata' is not defined

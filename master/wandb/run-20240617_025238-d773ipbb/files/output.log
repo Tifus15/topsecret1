@@ -1,0 +1,40 @@
+DEBUG MODE: False
+Config file content:
+{'model': 'GCN', 'sob': True, 'sob_a': 0.01, 'a': 0.01, 'opti': 'adamW', 'reg': 'none', 'loss': 'Huber', 'acts': ['tanh', None], 'epochs': 1, 'modelsize': 128, 'batchsize': 512, 'timesize': 32, 'lr': 0.0005, 'split': 0.9, 'device': 'cpu', 'single': False}
+/work/scratch/da35hevy/server-graph-models/master
+6body
+1
+torch.Size([512, 1000, 6, 1])
+torch.Size([512, 1000, 6, 4])
+torch.Size([512, 1000, 6, 4])
+[0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 4, 5, 5, 5, 5, 5, 5]
+[0, 1, 2, 3, 4, 5, 0, 1, 2, 3, 4, 5, 0, 1, 2, 3, 4, 5, 0, 1, 2, 3, 4, 5, 0, 1, 2, 3, 4, 5, 0, 1, 2, 3, 4, 5]
+torch.Size([512, 999, 6, 9])
+torch.Size([512, 999, 6, 9])
+479520 snapshots
+torch.Size([32, 6, 9])
+converting
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
