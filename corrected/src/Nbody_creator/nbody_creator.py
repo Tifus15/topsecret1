@@ -54,5 +54,5 @@ def simulation_start(times=25, bodies = 7,sim=True):
 
 if __name__ == "__main__":
     #start if from the folder corrected
-    simulation_start(25,4,sim=False)
+    simulation_start(25,4,sim=True)
     simulation_start(25,5,sim=False)

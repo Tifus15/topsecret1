@@ -110,7 +110,7 @@ def datasets_creator(samples,T,points):
     print("DOF4 finished")
 
 if __name__ == "__main__":
-    test = datasets_creator(25,1.27,128)
+    test = datasets_creator(300,1.27,128) #dt =0.01
     #traj1 = create_1dof_pendelum_dataset(25,2.5,251)
     #print(traj1.shape)
     #print(traj1[:,:,0,-1])

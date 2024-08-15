@@ -72,9 +72,9 @@ def getEnergy( pos, vel, mass, G ):
 	return KE, PE;
 
 def make_one(N = 15,
-		 t = np.linspace(0,3.0,301),
+		 t = np.linspace(0,1.27,128),
 		 G= 1.0,
-		 eps = 1.0,
+		 eps = 0.001,
 		 r = 1.0):
 	dt = t[1]-t[0]
 	mass1 = np.ones((N,1))

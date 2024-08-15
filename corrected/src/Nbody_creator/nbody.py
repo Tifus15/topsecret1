@@ -86,6 +86,8 @@ def mass_r(M,a,r):
     return M*(1+(a**2)/(r**2))**(-3/2)
 
 def simulate(
+	p,
+	v,
 	# Simulation parameters
 	N         = 50,    # Number of particles
 	t         = 0,      # current time of the simulation
@@ -107,8 +109,8 @@ def simulate(
 	#np.random.seed(17)            # set the random number generator seed
 	
 	mass = np.ones((N,1))  # total mass of particles is 20
-	pos  = np.random.randn(N,3) * r   # randomly selected positions and velocities on the sphere with radius 1.0
-	vel  = np.random.randn(N,3)
+	pos  = p   # randomly selected positions and velocities on the sphere with radius 1.0
+	vel  = v
 	#mass = mass_r(0.5,p_const,np.linalg.norm(pos,axis=-1)).reshape(N,1)
 	#print(mass)
 	
@@ -198,7 +200,7 @@ def simulate(
 		#print(KE+PE)
 		save_pos[i+1,:,:]=pos
 		save_vel[i+1,:,:]=vel
-		zzsave_acc[i+1,:,:]=acc
+		save_acc[i+1,:,:]=acc
 		
 		# save energies, positions for plotting trail
 		pos_save[:,:,i+1] = pos
@@ -253,7 +255,7 @@ def simulate(
 	#saving data DA
 	now = datetime.now()
 	date = now.strftime("%m%d%Y%H%M%S")
-	name = 'nbody_'+str(N)+"_"+date+'.npy'
+	name = 'nbody_'+date+"_"+str(N)+'.npy'
 	with open(name, 'wb') as f:
 		np.save(f, save_pos)
 		np.save(f, save_vel)
