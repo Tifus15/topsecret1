@@ -1,0 +1,227 @@
+
+  0%|▏                                                                                                                          | 1/500 [00:01<08:29,  1.02s/it]
+Epoch: 1
+LOSS: train: 0.014325    |   test: 0.000797
+Epoch: 2
+
+  1%|▉                                                                                                                          | 4/500 [00:03<07:19,  1.13it/s]
+Epoch: 3
+LOSS: train: 0.000206    |   test: 0.000168
+Epoch: 4
+LOSS: train: 0.000125    |   test: 0.000108
+Epoch: 5
+
+  1%|█▍                                                                                                                         | 6/500 [00:05<07:01,  1.17it/s]
+Epoch: 6
+LOSS: train: 0.000066    |   test: 0.000062
+Epoch: 7
+LOSS: train: 0.000053    |   test: 0.000052
+Epoch: 8
+
+  2%|█▉                                                                                                                         | 8/500 [00:06<06:59,  1.17it/s]
+Epoch: 9
+LOSS: train: 0.000038    |   test: 0.000036
+Epoch: 10
+
+  2%|██▋                                                                                                                       | 11/500 [00:09<07:07,  1.14it/s]
+Epoch: 11
+LOSS: train: 0.000029    |   test: 0.000030
+Epoch: 12
+
+  3%|███▏                                                                                                                      | 13/500 [00:11<07:12,  1.13it/s]
+Epoch: 13
+LOSS: train: 0.000024    |   test: 0.000024
+Epoch: 14
+LOSS: train: 0.000022    |   test: 0.000024
+Epoch: 15
+
+  3%|███▋                                                                                                                      | 15/500 [00:13<06:53,  1.17it/s]
+Epoch: 16
+LOSS: train: 0.000020    |   test: 0.000020
+Epoch: 17
+
+  4%|████▍                                                                                                                     | 18/500 [00:15<06:52,  1.17it/s]
+Epoch: 18
+LOSS: train: 0.000019    |   test: 0.000021
+Epoch: 19
+
+  4%|████▉                                                                                                                     | 20/500 [00:17<06:47,  1.18it/s]
+Epoch: 20
+LOSS: train: 0.000018    |   test: 0.000018
+Epoch: 21
+LOSS: train: 0.000017    |   test: 0.000017
+Epoch: 22
+
+  4%|█████▎                                                                                                                    | 22/500 [00:18<06:43,  1.18it/s]
+Epoch: 23
+LOSS: train: 0.000018    |   test: 0.000022
+Epoch: 24
+
+  5%|██████                                                                                                                    | 25/500 [00:21<06:43,  1.18it/s]
+Epoch: 25
+LOSS: train: 0.000019    |   test: 0.000021
+Epoch: 26
+
+  5%|██████▌                                                                                                                   | 27/500 [00:23<06:49,  1.15it/s]
+Epoch: 27
+LOSS: train: 0.000017    |   test: 0.000016
+Epoch: 28
+LOSS: train: 0.000017    |   test: 0.000016
+Epoch: 29
+
+  6%|███████                                                                                                                   | 29/500 [00:24<06:45,  1.16it/s]
+Epoch: 30
+LOSS: train: 0.000015    |   test: 0.000015
+Epoch: 31
+
+  6%|███████▊                                                                                                                  | 32/500 [00:27<06:48,  1.15it/s]
+Epoch: 32
+LOSS: train: 0.000016    |   test: 0.000013
+Epoch: 33
+
+  7%|████████▎                                                                                                                 | 34/500 [00:29<06:39,  1.17it/s]
+Epoch: 34
+LOSS: train: 0.000015    |   test: 0.000017
+Epoch: 35
+LOSS: train: 0.000016    |   test: 0.000015
+Epoch: 36
+
+  7%|████████▊                                                                                                                 | 36/500 [00:30<06:27,  1.20it/s]
+Epoch: 37
+LOSS: train: 0.000014    |   test: 0.000014
+Epoch: 38
+
+  8%|█████████▌                                                                                                                | 39/500 [00:33<06:28,  1.19it/s]
+Epoch: 39
+LOSS: train: 0.000014    |   test: 0.000011
+Epoch: 40
+
+  8%|██████████                                                                                                                | 41/500 [00:35<06:26,  1.19it/s]
+Epoch: 41
+LOSS: train: 0.000013    |   test: 0.000014
+Epoch: 42
+LOSS: train: 0.000013    |   test: 0.000010
+Epoch: 43
+
+  9%|██████████▋                                                                                                               | 44/500 [00:37<06:26,  1.18it/s]
+Epoch: 44
+LOSS: train: 0.000012    |   test: 0.000010
+Epoch: 45
+
+  9%|███████████▏                                                                                                              | 46/500 [00:39<06:26,  1.17it/s]
+Epoch: 46
+LOSS: train: 0.000014    |   test: 0.000015
+Epoch: 47
+
+ 10%|███████████▋                                                                                                              | 48/500 [00:41<06:25,  1.17it/s]
+Epoch: 48
+LOSS: train: 0.000010    |   test: 0.000012
+Epoch: 49
+LOSS: train: 0.000016    |   test: 0.000025
+Epoch: 50
+
+ 10%|████████████▍                                                                                                             | 51/500 [00:43<06:15,  1.20it/s]
+Epoch: 51
+LOSS: train: 0.000011    |   test: 0.000011
+Epoch: 52
+
+ 11%|████████████▉                                                                                                             | 53/500 [00:45<06:15,  1.19it/s]
+Epoch: 53
+LOSS: train: 0.000012    |   test: 0.000011
+Epoch: 54
+LOSS: train: 0.000011    |   test: 0.000014
+Epoch: 55
+
+ 11%|█████████████▋                                                                                                            | 56/500 [00:47<06:06,  1.21it/s]
+Epoch: 56
+LOSS: train: 0.000012    |   test: 0.000013
+Epoch: 57
+
+ 12%|██████████████▏                                                                                                           | 58/500 [00:49<06:05,  1.21it/s]
+Epoch: 58
+LOSS: train: 0.000011    |   test: 0.000016
+Epoch: 59
+LOSS: train: 0.000013    |   test: 0.000011
+Epoch: 60
+
+ 12%|██████████████▋                                                                                                           | 60/500 [00:51<06:07,  1.20it/s]
+Epoch: 61
+LOSS: train: 0.000012    |   test: 0.000012
+Epoch: 62
+
+ 13%|███████████████▎                                                                                                          | 63/500 [00:53<06:14,  1.17it/s]
+Epoch: 63
+LOSS: train: 0.000011    |   test: 0.000012
+Epoch: 64
+
+ 13%|███████████████▊                                                                                                          | 65/500 [00:55<06:16,  1.16it/s]
+Epoch: 65
+LOSS: train: 0.000012    |   test: 0.000011
+Epoch: 66
+LOSS: train: 0.000009    |   test: 0.000010
+Epoch: 67
+
+ 13%|████████████████▎                                                                                                         | 67/500 [00:57<06:12,  1.16it/s]
+Epoch: 68
+LOSS: train: 0.000009    |   test: 0.000009
+Epoch: 69
+
+ 14%|█████████████████                                                                                                         | 70/500 [00:59<06:08,  1.17it/s]
+Epoch: 70
+LOSS: train: 0.000012    |   test: 0.000014
+Epoch: 71
+
+ 14%|█████████████████▌                                                                                                        | 72/500 [01:01<06:08,  1.16it/s]
+Epoch: 72
+LOSS: train: 0.000010    |   test: 0.000011
+Epoch: 73
+LOSS: train: 0.000010    |   test: 0.000010
+Epoch: 74
+
+ 15%|██████████████████                                                                                                        | 74/500 [01:03<05:56,  1.20it/s]
+Epoch: 75
+LOSS: train: 0.000010    |   test: 0.000010
+Epoch: 76
+
+ 15%|██████████████████▊                                                                                                       | 77/500 [01:05<05:47,  1.22it/s]
+Epoch: 77
+LOSS: train: 0.000009    |   test: 0.000011
+Epoch: 78
+LOSS: train: 0.000009    |   test: 0.000009
+Epoch: 79
+
+ 16%|███████████████████▎                                                                                                      | 79/500 [01:07<05:43,  1.22it/s]
+Epoch: 80
+LOSS: train: 0.000009    |   test: 0.000007
+Epoch: 81
+
+ 16%|████████████████████                                                                                                      | 82/500 [01:09<05:44,  1.21it/s]
+Epoch: 82
+LOSS: train: 0.000010    |   test: 0.000012
+Epoch: 83
+
+ 17%|████████████████████▍                                                                                                     | 84/500 [01:11<05:40,  1.22it/s]
+Epoch: 84
+LOSS: train: 0.000008    |   test: 0.000010
+Epoch: 85
+LOSS: train: 0.000009    |   test: 0.000012
+Epoch: 86
+ 17%|████████████████████▉                                                                                                     | 86/500 [01:13<05:52,  1.17it/s]
+Traceback (most recent call last):
+  File "/home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/mlp_trajectory/main_MLP_trajectory.py", line 106, in <module>
+    y = model(ts,y0)
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1212, in _call_impl
+    result = forward_call(*input, **kwargs)
+  File "/home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/mlp_trajectory/mlp.py", line 77, in forward
+    self.trajectory[i+1,:,:,:] = self.net(ynow.float())
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/torch/nn/modules/container.py", line 204, in forward
+    input = module(input)
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/torch/nn/modules/linear.py", line 114, in forward
+    return F.linear(input, self.weight, self.bias)
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/torch/fx/traceback.py", line 51, in format_stack
+    @compatibility(is_backward_compatible=False)
+KeyboardInterrupt

@@ -1,0 +1,41 @@
+
+  0%|                                                                                                                                   | 0/100 [00:07<?, ?it/s]
+Traceback (most recent call last):
+  File "/home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/GRU_RNN/GRU_ODE_main.py", line 178, in <module>
+    wandb.log(metrics)
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/wandb/sdk/wandb_run.py", line 420, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/wandb/sdk/wandb_run.py", line 371, in wrapper_fn
+    return func(self, *args, **kwargs)
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/wandb/sdk/wandb_run.py", line 361, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/wandb/sdk/wandb_run.py", line 1820, in log
+    self._log(data=data, step=step, commit=commit)
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/wandb/sdk/wandb_run.py", line 1595, in _log
+    self._partial_history_callback(data, step, commit)
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/wandb/sdk/wandb_run.py", line 1467, in _partial_history_callback
+    self._backend.interface.publish_partial_history(
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/wandb/sdk/interface/interface.py", line 551, in publish_partial_history
+    data = history_dict_to_json(run, data, step=user_step, ignore_copy_err=True)
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/wandb/sdk/data_types/utils.py", line 52, in history_dict_to_json
+    payload[key] = val_to_json(
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/wandb/sdk/data_types/utils.py", line 82, in val_to_json
+    if util.is_pandas_data_frame(val):
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/wandb/util.py", line 449, in is_pandas_data_frame
+    import pandas as pd
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/pandas/__init__.py", line 48, in <module>
+    from pandas.core.api import (
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/pandas/core/api.py", line 27, in <module>
+    from pandas.core.arrays import Categorical
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/pandas/core/arrays/__init__.py", line 9, in <module>
+    from pandas.core.arrays.datetimes import DatetimeArray
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/pandas/core/arrays/datetimes.py", line 79, in <module>
+    from pandas.core.arrays import datetimelike as dtl
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/pandas/core/arrays/datetimelike.py", line 132, in <module>
+    from pandas.core.arrays.integer import IntegerArray
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 657, in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 561, in module_from_spec
+  File "<frozen importlib._bootstrap>", line 36, in _new_module
+KeyboardInterrupt

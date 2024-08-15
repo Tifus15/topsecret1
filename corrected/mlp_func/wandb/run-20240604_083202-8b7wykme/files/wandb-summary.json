@@ -1,0 +1,1 @@
+{"train_loss": 0.045480791479349136, "train_grad": 0, "test_loss": 0.044565506279468536, "test_grad": 0, "train_loss_grad": 0.0006502752075903118, "test_loss_grad": 0.000545629533007741, "_timestamp": 1717482777.8114655, "_runtime": 55.21900248527527, "_step": 18, "_wandb": {"runtime": 56}}

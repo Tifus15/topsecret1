@@ -1,0 +1,11 @@
+type: twobody
+dim: 8
+m1: 1
+m2: 2
+G: 1
+T: 0 # if 0 T is one period
+r1_range:
+  - 1
+  - 4
+samples: 51
+points: 128

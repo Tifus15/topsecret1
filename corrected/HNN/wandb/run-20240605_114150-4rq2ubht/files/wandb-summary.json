@@ -1,0 +1,1 @@
+{"train_loss": NaN, "train_grad": NaN, "train_H": NaN, "test_loss": NaN, "test_grad": NaN, "test_h": 0, "test_H": NaN, "_timestamp": 1717580525.2270665, "_runtime": 15.08234453201294, "_step": 332, "_wandb": {"runtime": 14}}

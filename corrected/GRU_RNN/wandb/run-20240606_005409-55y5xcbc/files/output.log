@@ -1,0 +1,20 @@
+
+  0%|                                                                                                                                   | 0/300 [00:00<?, ?it/s]
+Epoch: 1
+
+  0%|▍                                                                                                                          | 1/300 [00:07<39:16,  7.88s/it]
+Epoch: 2
+
+  1%|▊                                                                                                                        | 2/300 [00:26<1:05:19, 13.15s/it]
+Traceback (most recent call last):
+  File "/home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/GRU_RNN/GRU_ODE_main.py", line 151, in <module>
+    predyt = model(y0t.reshape(1,batch.shape[1],-1),ts).unsqueeze(2)
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/GRU_RNN/gruode_model.py", line 75, in forward
+    x_h, h = self.gru_block(x_new,h)
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/torch/nn/modules/rnn.py", line 955, in forward
+    result = _VF.gru(input, hx, self._flat_weights, self.bias, self.num_layers,
+KeyboardInterrupt

@@ -1,0 +1,206 @@
+
+ 17%|████████████████████▋                                                                                                     | 17/100 [00:01<00:07, 11.83it/s]
+Epoch: 1
+LOSS: train: 8.459006    |   test: 7.462060
+Epoch: 2
+LOSS: train: 7.772534    |   test: 7.237069
+Epoch: 3
+LOSS: train: 7.514555    |   test: 7.183542
+Epoch: 4
+LOSS: train: 7.300566    |   test: 7.310000
+Epoch: 5
+LOSS: train: 7.200391    |   test: 7.446785
+Epoch: 6
+LOSS: train: 7.003633    |   test: 7.233203
+Epoch: 7
+LOSS: train: 6.792868    |   test: 6.954313
+Epoch: 8
+LOSS: train: 5.725438    |   test: 5.600484
+Epoch: 9
+LOSS: train: 4.800972    |   test: 5.235950
+Epoch: 10
+LOSS: train: 4.341121    |   test: 4.229750
+Epoch: 11
+LOSS: train: 5.246627    |   test: 4.217031
+Epoch: 12
+LOSS: train: 3.912772    |   test: 3.927238
+Epoch: 13
+LOSS: train: 3.691974    |   test: 3.729423
+Epoch: 14
+LOSS: train: 3.584879    |   test: 3.607450
+Epoch: 15
+LOSS: train: 3.557515    |   test: 3.523111
+Epoch: 16
+LOSS: train: 3.476286    |   test: 3.520934
+Epoch: 17
+LOSS: train: 3.366019    |   test: 3.382998
+Epoch: 18
+LOSS: train: 3.408596    |   test: 3.307351
+Epoch: 19
+
+ 41%|██████████████████████████████████████████████████                                                                        | 41/100 [00:03<00:05, 11.46it/s]
+Epoch: 20
+LOSS: train: 3.219031    |   test: 3.201668
+Epoch: 21
+LOSS: train: 2.993126    |   test: 2.904773
+Epoch: 22
+LOSS: train: 2.830489    |   test: 2.600929
+Epoch: 23
+LOSS: train: 2.518129    |   test: 2.275386
+Epoch: 24
+LOSS: train: 1.938559    |   test: 1.498667
+Epoch: 25
+LOSS: train: 1.507889    |   test: 1.909837
+Epoch: 26
+LOSS: train: 1.289811    |   test: 1.125983
+Epoch: 27
+LOSS: train: 1.194053    |   test: 0.914134
+Epoch: 28
+LOSS: train: 0.874567    |   test: 0.807966
+Epoch: 29
+LOSS: train: 0.772106    |   test: 0.651386
+Epoch: 30
+LOSS: train: 0.684283    |   test: 0.544871
+Epoch: 31
+LOSS: train: 0.482165    |   test: 0.476409
+Epoch: 32
+LOSS: train: 0.486183    |   test: 0.526462
+Epoch: 33
+LOSS: train: 0.352204    |   test: 0.223096
+Epoch: 34
+LOSS: train: 0.170326    |   test: 0.083304
+Epoch: 35
+LOSS: train: 0.072238    |   test: 0.050438
+Epoch: 36
+LOSS: train: 0.037871    |   test: 0.035339
+Epoch: 37
+LOSS: train: 0.033529    |   test: 0.017169
+Epoch: 38
+LOSS: train: 0.018893    |   test: 0.009352
+Epoch: 39
+LOSS: train: 0.009466    |   test: 0.007925
+Epoch: 40
+LOSS: train: 0.006829    |   test: 0.006839
+Epoch: 41
+LOSS: train: 0.007764    |   test: 0.006343
+Epoch: 42
+
+ 65%|███████████████████████████████████████████████████████████████████████████████▎                                          | 65/100 [00:05<00:02, 12.42it/s]
+Epoch: 43
+LOSS: train: 0.007974    |   test: 0.005491
+Epoch: 44
+LOSS: train: 0.005505    |   test: 0.005790
+Epoch: 45
+LOSS: train: 0.006314    |   test: 0.005085
+Epoch: 46
+LOSS: train: 0.005970    |   test: 0.005773
+Epoch: 47
+LOSS: train: 0.009781    |   test: 0.014202
+Epoch: 48
+LOSS: train: 0.013012    |   test: 0.007340
+Epoch: 49
+LOSS: train: 0.008464    |   test: 0.011610
+Epoch: 50
+LOSS: train: 0.009739    |   test: 0.012684
+Epoch: 51
+LOSS: train: 0.006289    |   test: 0.005539
+Epoch: 52
+LOSS: train: 0.005721    |   test: 0.004472
+Epoch: 53
+LOSS: train: 0.007006    |   test: 0.012168
+Epoch: 54
+LOSS: train: 0.010321    |   test: 0.020240
+Epoch: 55
+LOSS: train: 0.013522    |   test: 0.012998
+Epoch: 56
+LOSS: train: 0.016194    |   test: 0.040130
+Epoch: 57
+LOSS: train: 0.023992    |   test: 0.042372
+Epoch: 58
+LOSS: train: 0.037536    |   test: 0.034146
+Epoch: 59
+LOSS: train: 0.019530    |   test: 0.018307
+Epoch: 60
+LOSS: train: 0.019218    |   test: 0.018595
+Epoch: 61
+LOSS: train: 0.009570    |   test: 0.006014
+Epoch: 62
+LOSS: train: 0.008024    |   test: 0.010247
+Epoch: 63
+LOSS: train: 0.011342    |   test: 0.017058
+Epoch: 64
+LOSS: train: 0.018746    |   test: 0.020660
+Epoch: 65
+LOSS: train: 0.020113    |   test: 0.010607
+Epoch: 66
+LOSS: train: 0.010912    |   test: 0.005479
+Epoch: 67
+
+ 89%|████████████████████████████████████████████████████████████████████████████████████████████████████████████▌             | 89/100 [00:07<00:00, 12.35it/s]
+Epoch: 68
+LOSS: train: 0.010817    |   test: 0.004214
+Epoch: 69
+LOSS: train: 0.004047    |   test: 0.004132
+Epoch: 70
+LOSS: train: 0.004652    |   test: 0.002863
+Epoch: 71
+LOSS: train: 0.009167    |   test: 0.007515
+Epoch: 72
+LOSS: train: 0.006648    |   test: 0.007454
+Epoch: 73
+LOSS: train: 0.006554    |   test: 0.005630
+Epoch: 74
+LOSS: train: 0.004338    |   test: 0.005153
+Epoch: 75
+LOSS: train: 0.005038    |   test: 0.002992
+Epoch: 76
+LOSS: train: 0.004433    |   test: 0.013725
+Epoch: 77
+LOSS: train: 0.004934    |   test: 0.003277
+Epoch: 78
+LOSS: train: 0.005614    |   test: 0.004146
+Epoch: 79
+LOSS: train: 0.006175    |   test: 0.004366
+Epoch: 80
+LOSS: train: 0.004685    |   test: 0.010284
+Epoch: 81
+LOSS: train: 0.005296    |   test: 0.004580
+Epoch: 82
+LOSS: train: 0.003485    |   test: 0.003007
+Epoch: 83
+LOSS: train: 0.003333    |   test: 0.003853
+Epoch: 84
+LOSS: train: 0.003195    |   test: 0.004037
+Epoch: 85
+LOSS: train: 0.004864    |   test: 0.003927
+Epoch: 86
+LOSS: train: 0.008747    |   test: 0.005335
+Epoch: 87
+LOSS: train: 0.005735    |   test: 0.003042
+Epoch: 88
+LOSS: train: 0.002972    |   test: 0.002386
+Epoch: 89
+LOSS: train: 0.002392    |   test: 0.001690
+Epoch: 90
+LOSS: train: 0.001989    |   test: 0.002621
+Epoch: 91
+LOSS: train: 0.003606    |   test: 0.005069
+Epoch: 92
+
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [00:08<00:00, 11.74it/s]
+Epoch: 93
+LOSS: train: 0.002897    |   test: 0.003499
+Epoch: 94
+LOSS: train: 0.002718    |   test: 0.003070
+Epoch: 95
+LOSS: train: 0.002519    |   test: 0.002940
+Epoch: 96
+LOSS: train: 0.002256    |   test: 0.004720
+Epoch: 97
+LOSS: train: 0.002361    |   test: 0.003986
+Epoch: 98
+LOSS: train: 0.004474    |   test: 0.011437
+Epoch: 99
+LOSS: train: 0.009410    |   test: 0.011931
+Epoch: 100
+LOSS: train: 0.010268    |   test: 0.004614

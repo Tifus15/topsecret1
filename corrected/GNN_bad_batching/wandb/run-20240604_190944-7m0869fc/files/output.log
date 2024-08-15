@@ -1,0 +1,13 @@
+  0%|                                                                                                                                                   | 0/50 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "/home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/GNN_bad_batching/GNN_main.py", line 120, in <module>
+    y = model(ts,x0)
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1212, in _call_impl
+    result = forward_call(*input, **kwargs)
+  File "/home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/GNN_bad_batching/GNN_model.py", line 169, in forward
+    self.trajectory[:,:,i+1,:] = self.net(ynow.float())
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/GNN_bad_batching/GNN_model.py", line 110, in forward
+    h = self.layer3(h+feat)
+RuntimeError: The size of tensor a (256) must match the size of tensor b (2) at non-singleton dimension 2

@@ -1,0 +1,42 @@
+  0%|                                                                                                                                                   | 0/50 [00:00<?, ?it/s]/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/torch/autograd/__init__.py:197: UserWarning: Error detected in GSpMMBackward. Traceback of forward call that caused the error:
+  File "/home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/GNN_bad_batching/GNN_main.py", line 120, in <module>
+    y = model(ts,x0)
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1212, in _call_impl
+    result = forward_call(*input, **kwargs)
+  File "/home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/GNN_bad_batching/GNN_model.py", line 169, in forward
+    self.trajectory[:,:,i+1,:] = self.net(ynow.float())
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/GNN_bad_batching/GNN_model.py", line 106, in forward
+    h = self.layer2(h1)
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/GNN_bad_batching/GNN_model.py", line 84, in forward
+    self.g.update_all(fn.copy_u("h", "m"), fn.sum("m", "h"))
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/dgl/heterograph.py", line 5110, in update_all
+    ndata = core.message_passing(
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/dgl/core.py", line 388, in message_passing
+    ndata = invoke_gspmm(g, mfunc, rfunc)
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/dgl/core.py", line 358, in invoke_gspmm
+    z = op(graph, x)
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/dgl/ops/spmm.py", line 215, in func
+    return gspmm(g, "copy_lhs", reduce_op, x, None)
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/dgl/ops/spmm.py", line 79, in gspmm
+    ret = gspmm_internal(
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/dgl/backend/pytorch/sparse.py", line 1032, in gspmm
+    return GSpMM.apply(*args)
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/torch/fx/traceback.py", line 57, in format_stack
+    return traceback.format_stack()
+ (Triggered internally at ../torch/csrc/autograd/python_anomaly_mode.cpp:114.)
+  Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+  0%|                                                                                                                                                   | 0/50 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "/home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/GNN_bad_batching/GNN_main.py", line 131, in <module>
+    loss.backward()
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/torch/_tensor.py", line 488, in backward
+    torch.autograd.backward(
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/torch/autograd/__init__.py", line 197, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/torch/autograd/function.py", line 257, in apply
+    def apply(self, *args):
+KeyboardInterrupt

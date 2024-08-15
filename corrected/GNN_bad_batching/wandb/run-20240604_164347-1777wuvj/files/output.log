@@ -1,0 +1,59 @@
+
+
+  2%|██▊                                                                                                                                        | 1/50 [00:11<09:00, 11.04s/it]
+Epoch: 1
+LOSS: train: 8.765178    |   test: 15.455049
+Epoch: 2
+
+  4%|█████▌                                                                                                                                     | 2/50 [00:22<08:54, 11.15s/it]
+Epoch: 3
+
+
+  8%|███████████                                                                                                                                | 4/50 [00:44<08:39, 11.29s/it]
+Epoch: 4
+LOSS: train: 18.716732    |   test: 18.692379
+Epoch: 5
+
+ 10%|█████████████▉                                                                                                                             | 5/50 [00:56<08:37, 11.50s/it]
+Epoch: 6
+
+
+ 14%|███████████████████▍                                                                                                                       | 7/50 [01:19<08:11, 11.44s/it]
+Epoch: 7
+ 14%|███████████████████▍                                                                                                                       | 7/50 [01:31<09:19, 13.01s/it]
+Traceback (most recent call last):
+  File "/home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/GNN/GNN_main.py", line 146, in <module>
+    yt = model(ts,xt0)
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1212, in _call_impl
+    result = forward_call(*input, **kwargs)
+  File "/home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/GNN/GNN_model.py", line 159, in forward
+    self.trajectory[:,:,i+1,:] = self.net(ynow.float())
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/torch/nn/modules/container.py", line 204, in forward
+    input = module(input)
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/GNN/GNN_model.py", line 84, in forward
+    self.g.update_all(fn.copy_u("h", "m"), fn.sum("m", "h"))
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/dgl/heterograph.py", line 5110, in update_all
+    ndata = core.message_passing(
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/dgl/core.py", line 388, in message_passing
+    ndata = invoke_gspmm(g, mfunc, rfunc)
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/dgl/core.py", line 358, in invoke_gspmm
+    z = op(graph, x)
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/dgl/ops/spmm.py", line 215, in func
+    return gspmm(g, "copy_lhs", reduce_op, x, None)
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/dgl/ops/spmm.py", line 79, in gspmm
+    ret = gspmm_internal(
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/dgl/backend/pytorch/sparse.py", line 1032, in gspmm
+    return GSpMM.apply(*args)
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/torch/fx/traceback.py", line 57, in format_stack
+    return traceback.format_stack()
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/traceback.py", line 197, in format_stack
+    return format_list(extract_stack(f, limit=limit))
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/traceback.py", line 39, in format_list
+    return StackSummary.from_list(extracted_list).format()
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/traceback.py", line 415, in format
+    last_file = frame.filename
+KeyboardInterrupt

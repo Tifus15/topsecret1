@@ -1,0 +1,1450 @@
+2024-06-06 00:56:02,399 INFO    StreamThr :1319931 [internal.py:wandb_internal():86] W&B internal server running at pid: 1319931, started at: 2024-06-06 00:56:02.398823
+2024-06-06 00:56:02,400 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status
+2024-06-06 00:56:02,403 INFO    WriterThread:1319931 [datastore.py:open_for_write():85] open: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/run-zo8bdqjf.wandb
+2024-06-06 00:56:02,403 DEBUG   SenderThread:1319931 [sender.py:send():380] send: header
+2024-06-06 00:56:02,415 DEBUG   SenderThread:1319931 [sender.py:send():380] send: run
+2024-06-06 00:56:02,801 INFO    SenderThread:1319931 [dir_watcher.py:__init__():211] watching files in: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files
+2024-06-06 00:56:02,801 INFO    SenderThread:1319931 [sender.py:_start_run_threads():1124] run started: zo8bdqjf with start time 1717628162.398661
+2024-06-06 00:56:02,866 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: check_version
+2024-06-06 00:56:02,867 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: check_version
+2024-06-06 00:56:02,921 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: run_start
+2024-06-06 00:56:02,937 DEBUG   HandlerThread:1319931 [system_info.py:__init__():32] System info init
+2024-06-06 00:56:02,937 DEBUG   HandlerThread:1319931 [system_info.py:__init__():47] System info init done
+2024-06-06 00:56:02,937 INFO    HandlerThread:1319931 [system_monitor.py:start():194] Starting system monitor
+2024-06-06 00:56:02,938 INFO    SystemMonitor:1319931 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-06-06 00:56:02,939 INFO    HandlerThread:1319931 [system_monitor.py:probe():214] Collecting system info
+2024-06-06 00:56:02,939 INFO    SystemMonitor:1319931 [interfaces.py:start():190] Started cpu monitoring
+2024-06-06 00:56:02,940 INFO    SystemMonitor:1319931 [interfaces.py:start():190] Started disk monitoring
+2024-06-06 00:56:02,941 INFO    SystemMonitor:1319931 [interfaces.py:start():190] Started gpu monitoring
+2024-06-06 00:56:02,941 INFO    SystemMonitor:1319931 [interfaces.py:start():190] Started memory monitoring
+2024-06-06 00:56:02,942 INFO    SystemMonitor:1319931 [interfaces.py:start():190] Started network monitoring
+2024-06-06 00:56:02,949 DEBUG   HandlerThread:1319931 [system_info.py:probe():196] Probing system
+2024-06-06 00:56:02,953 DEBUG   HandlerThread:1319931 [system_info.py:_probe_git():181] Probing git
+2024-06-06 00:56:02,964 DEBUG   HandlerThread:1319931 [system_info.py:_probe_git():189] Probing git done
+2024-06-06 00:56:02,964 DEBUG   HandlerThread:1319931 [system_info.py:probe():244] Probing system done
+2024-06-06 00:56:02,964 DEBUG   HandlerThread:1319931 [system_monitor.py:probe():223] {'os': 'Linux-6.5.0-35-generic-x86_64-with-glibc2.17', 'python': '3.8.13', 'heartbeatAt': '2024-06-05T22:56:02.949133', 'startedAt': '2024-06-05T22:56:02.395638', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '/home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/HNN_main.py', 'codePathLocal': 'HNN_main.py', 'codePath': 'recap/corrected/HNN/HNN_main.py', 'git': {'remote': 'https://git.ias.informatik.tu-darmstadt.de/andric/masterthesis15_03-13_09-2024.git', 'commit': '65985e12fefd0786ad70532f1a71a0d363890e82'}, 'email': 'denis.andric@stud.tu-darmstadt.de', 'root': '/home/denis/Desktop/master/masterthesis15_03-13_09-2024', 'host': 'denis-ROG-Strix-G713QM-G713QM', 'username': 'denis', 'executable': '/home/denis/anaconda3/envs/hnn/bin/python', 'cpu_count': 8, 'cpu_count_logical': 16, 'cpu_freq': {'current': 2683.7538124999996, 'min': 400.0, 'max': 4890.0}, 'cpu_freq_per_core': [{'current': 4510.917, 'min': 400.0, 'max': 4890.0}, {'current': 400.0, 'min': 400.0, 'max': 4890.0}, {'current': 3636.912, 'min': 400.0, 'max': 4890.0}, {'current': 400.0, 'min': 400.0, 'max': 4890.0}, {'current': 4034.237, 'min': 400.0, 'max': 4890.0}, {'current': 400.0, 'min': 400.0, 'max': 4890.0}, {'current': 4432.454, 'min': 400.0, 'max': 4890.0}, {'current': 400.0, 'min': 400.0, 'max': 4890.0}, {'current': 4114.783, 'min': 400.0, 'max': 4890.0}, {'current': 400.0, 'min': 400.0, 'max': 4890.0}, {'current': 4480.056, 'min': 400.0, 'max': 4890.0}, {'current': 4098.805, 'min': 400.0, 'max': 4890.0}, {'current': 4412.653, 'min': 400.0, 'max': 4890.0}, {'current': 400.0, 'min': 400.0, 'max': 4890.0}, {'current': 4508.437, 'min': 400.0, 'max': 4890.0}, {'current': 3978.63, 'min': 400.0, 'max': 4890.0}], 'disk': {'/': {'total': 163.2414779663086, 'used': 147.65964889526367}}, 'gpu': 'NVIDIA GeForce RTX 3060 Laptop GPU', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 3060 Laptop GPU', 'memory_total': 6442450944}], 'memory': {'total': 15.035820007324219}}
+2024-06-06 00:56:02,964 INFO    HandlerThread:1319931 [system_monitor.py:probe():224] Finished collecting system info
+2024-06-06 00:56:02,964 INFO    HandlerThread:1319931 [system_monitor.py:probe():227] Publishing system info
+2024-06-06 00:56:02,965 DEBUG   HandlerThread:1319931 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2024-06-06 00:56:02,965 DEBUG   HandlerThread:1319931 [system_info.py:_save_pip():68] Saving pip packages done
+2024-06-06 00:56:02,965 DEBUG   HandlerThread:1319931 [system_info.py:_save_conda():75] Saving list of conda packages installed into the current environment
+2024-06-06 00:56:03,803 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_created():271] file/dir created: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/requirements.txt
+2024-06-06 00:56:03,803 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_created():271] file/dir created: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/conda-environment.yaml
+2024-06-06 00:56:04,214 DEBUG   HandlerThread:1319931 [system_info.py:_save_conda():87] Saving conda packages done
+2024-06-06 00:56:04,214 INFO    HandlerThread:1319931 [system_monitor.py:probe():229] Finished publishing system info
+2024-06-06 00:56:04,218 DEBUG   SenderThread:1319931 [sender.py:send():380] send: files
+2024-06-06 00:56:04,218 INFO    SenderThread:1319931 [sender.py:_save_file():1380] saving file wandb-metadata.json with policy now
+2024-06-06 00:56:04,221 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-06 00:56:04,222 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: stop_status
+2024-06-06 00:56:04,223 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-06 00:56:04,506 DEBUG   SenderThread:1319931 [sender.py:send():380] send: telemetry
+2024-06-06 00:56:04,506 DEBUG   SenderThread:1319931 [sender.py:send():380] send: telemetry
+2024-06-06 00:56:04,802 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/conda-environment.yaml
+2024-06-06 00:56:04,802 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_created():271] file/dir created: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/wandb-metadata.json
+2024-06-06 00:56:04,802 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_created():271] file/dir created: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/output.log
+2024-06-06 00:56:04,814 INFO    wandb-upload_0:1319931 [upload_job.py:push():131] Uploaded file /tmp/tmpc8rvlpi7wandb/iqyps8km-wandb-metadata.json
+2024-06-06 00:56:06,803 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/output.log
+2024-06-06 00:56:07,508 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 00:56:12,508 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 00:56:17,509 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 00:56:19,063 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 00:56:19,064 DEBUG   SenderThread:1319931 [sender.py:send():380] send: history
+2024-06-06 00:56:19,064 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: summary_record
+2024-06-06 00:56:19,066 INFO    SenderThread:1319931 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-06 00:56:19,222 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-06 00:56:19,222 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-06 00:56:19,222 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: stop_status
+2024-06-06 00:56:19,806 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_created():271] file/dir created: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/wandb-summary.json
+2024-06-06 00:56:20,806 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/output.log
+2024-06-06 00:56:23,444 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 00:56:28,444 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 00:56:33,448 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 00:56:33,810 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/config.yaml
+2024-06-06 00:56:33,978 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 00:56:33,978 DEBUG   SenderThread:1319931 [sender.py:send():380] send: history
+2024-06-06 00:56:33,978 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: summary_record
+2024-06-06 00:56:33,980 INFO    SenderThread:1319931 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-06 00:56:34,222 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-06 00:56:34,222 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-06 00:56:34,222 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: stop_status
+2024-06-06 00:56:34,810 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/wandb-summary.json
+2024-06-06 00:56:34,810 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/output.log
+2024-06-06 00:56:39,390 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 00:56:44,390 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 00:56:48,888 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 00:56:48,889 DEBUG   SenderThread:1319931 [sender.py:send():380] send: history
+2024-06-06 00:56:48,889 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: summary_record
+2024-06-06 00:56:48,890 INFO    SenderThread:1319931 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-06 00:56:49,222 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-06 00:56:49,222 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-06 00:56:49,222 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: stop_status
+2024-06-06 00:56:49,419 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 00:56:49,814 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/wandb-summary.json
+2024-06-06 00:56:50,814 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/output.log
+2024-06-06 00:56:54,419 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 00:56:59,420 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 00:57:02,942 DEBUG   SystemMonitor:1319931 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-06-06 00:57:02,943 DEBUG   SenderThread:1319931 [sender.py:send():380] send: stats
+2024-06-06 00:57:03,852 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 00:57:03,852 DEBUG   SenderThread:1319931 [sender.py:send():380] send: history
+2024-06-06 00:57:03,852 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: summary_record
+2024-06-06 00:57:03,853 INFO    SenderThread:1319931 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-06 00:57:04,222 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-06 00:57:04,222 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: stop_status
+2024-06-06 00:57:04,222 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-06 00:57:04,439 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 00:57:04,818 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/wandb-summary.json
+2024-06-06 00:57:04,818 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/output.log
+2024-06-06 00:57:09,440 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 00:57:14,441 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 00:57:18,720 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 00:57:18,721 DEBUG   SenderThread:1319931 [sender.py:send():380] send: history
+2024-06-06 00:57:18,721 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: summary_record
+2024-06-06 00:57:18,721 INFO    SenderThread:1319931 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-06 00:57:18,821 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/wandb-summary.json
+2024-06-06 00:57:19,222 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-06 00:57:19,222 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-06 00:57:19,222 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: stop_status
+2024-06-06 00:57:19,568 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 00:57:20,822 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/output.log
+2024-06-06 00:57:24,569 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 00:57:29,571 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 00:57:32,943 DEBUG   SenderThread:1319931 [sender.py:send():380] send: stats
+2024-06-06 00:57:33,612 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 00:57:33,612 DEBUG   SenderThread:1319931 [sender.py:send():380] send: history
+2024-06-06 00:57:33,613 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: summary_record
+2024-06-06 00:57:33,613 INFO    SenderThread:1319931 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-06 00:57:33,825 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/wandb-summary.json
+2024-06-06 00:57:34,222 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-06 00:57:34,222 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-06 00:57:34,223 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: stop_status
+2024-06-06 00:57:34,826 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/output.log
+2024-06-06 00:57:35,400 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 00:57:40,401 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 00:57:45,402 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 00:57:48,476 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 00:57:48,477 DEBUG   SenderThread:1319931 [sender.py:send():380] send: history
+2024-06-06 00:57:48,477 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: summary_record
+2024-06-06 00:57:48,477 INFO    SenderThread:1319931 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-06 00:57:48,829 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/wandb-summary.json
+2024-06-06 00:57:49,222 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-06 00:57:49,223 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-06 00:57:49,223 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: stop_status
+2024-06-06 00:57:50,830 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/output.log
+2024-06-06 00:57:51,398 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 00:57:56,398 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 00:58:01,399 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 00:58:02,944 DEBUG   SenderThread:1319931 [sender.py:send():380] send: stats
+2024-06-06 00:58:03,333 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 00:58:03,333 DEBUG   SenderThread:1319931 [sender.py:send():380] send: history
+2024-06-06 00:58:03,333 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: summary_record
+2024-06-06 00:58:03,334 INFO    SenderThread:1319931 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-06 00:58:03,833 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/wandb-summary.json
+2024-06-06 00:58:04,222 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-06 00:58:04,223 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-06 00:58:04,223 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: stop_status
+2024-06-06 00:58:04,833 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/output.log
+2024-06-06 00:58:06,423 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 00:58:11,424 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 00:58:16,424 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 00:58:18,268 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 00:58:18,269 DEBUG   SenderThread:1319931 [sender.py:send():380] send: history
+2024-06-06 00:58:18,269 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: summary_record
+2024-06-06 00:58:18,269 INFO    SenderThread:1319931 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-06 00:58:18,837 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/wandb-summary.json
+2024-06-06 00:58:19,222 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-06 00:58:19,223 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: stop_status
+2024-06-06 00:58:19,224 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-06 00:58:20,838 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/output.log
+2024-06-06 00:58:22,411 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 00:58:27,412 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 00:58:32,413 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 00:58:32,944 DEBUG   SenderThread:1319931 [sender.py:send():380] send: stats
+2024-06-06 00:58:33,163 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 00:58:33,164 DEBUG   SenderThread:1319931 [sender.py:send():380] send: history
+2024-06-06 00:58:33,164 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: summary_record
+2024-06-06 00:58:33,165 INFO    SenderThread:1319931 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-06 00:58:33,841 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/wandb-summary.json
+2024-06-06 00:58:34,222 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-06 00:58:34,223 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-06 00:58:34,223 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: stop_status
+2024-06-06 00:58:34,842 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/output.log
+2024-06-06 00:58:37,447 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 00:58:42,448 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 00:58:47,450 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 00:58:48,040 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 00:58:48,040 DEBUG   SenderThread:1319931 [sender.py:send():380] send: history
+2024-06-06 00:58:48,040 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: summary_record
+2024-06-06 00:58:48,041 INFO    SenderThread:1319931 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-06 00:58:48,845 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/wandb-summary.json
+2024-06-06 00:58:48,846 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/output.log
+2024-06-06 00:58:49,223 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-06 00:58:49,223 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-06 00:58:49,223 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: stop_status
+2024-06-06 00:58:53,441 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 00:58:58,442 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 00:59:02,945 DEBUG   SenderThread:1319931 [sender.py:send():380] send: stats
+2024-06-06 00:59:03,015 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 00:59:03,015 DEBUG   SenderThread:1319931 [sender.py:send():380] send: history
+2024-06-06 00:59:03,016 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: summary_record
+2024-06-06 00:59:03,016 INFO    SenderThread:1319931 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-06 00:59:03,850 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/wandb-summary.json
+2024-06-06 00:59:04,059 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 00:59:04,223 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-06 00:59:04,223 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: stop_status
+2024-06-06 00:59:04,224 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-06 00:59:04,850 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/output.log
+2024-06-06 00:59:05,233 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 00:59:05,274 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 00:59:05,274 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 00:59:05,275 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 00:59:09,528 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 00:59:14,529 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 00:59:17,981 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 00:59:17,982 DEBUG   SenderThread:1319931 [sender.py:send():380] send: history
+2024-06-06 00:59:17,983 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: summary_record
+2024-06-06 00:59:17,983 INFO    SenderThread:1319931 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-06 00:59:18,854 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/wandb-summary.json
+2024-06-06 00:59:18,854 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/output.log
+2024-06-06 00:59:19,223 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-06 00:59:19,223 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: stop_status
+2024-06-06 00:59:19,225 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-06 00:59:20,437 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 00:59:25,438 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 00:59:30,439 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 00:59:32,919 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 00:59:32,920 DEBUG   SenderThread:1319931 [sender.py:send():380] send: history
+2024-06-06 00:59:32,920 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: summary_record
+2024-06-06 00:59:32,920 INFO    SenderThread:1319931 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-06 00:59:32,945 DEBUG   SenderThread:1319931 [sender.py:send():380] send: stats
+2024-06-06 00:59:33,858 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/wandb-summary.json
+2024-06-06 00:59:34,223 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-06 00:59:34,223 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-06 00:59:34,224 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: stop_status
+2024-06-06 00:59:34,859 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/output.log
+2024-06-06 00:59:36,384 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 00:59:41,385 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 00:59:46,386 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 00:59:47,930 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 00:59:47,930 DEBUG   SenderThread:1319931 [sender.py:send():380] send: history
+2024-06-06 00:59:47,930 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: summary_record
+2024-06-06 00:59:47,931 INFO    SenderThread:1319931 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-06 00:59:48,862 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/wandb-summary.json
+2024-06-06 00:59:48,862 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/output.log
+2024-06-06 00:59:49,223 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-06 00:59:49,223 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-06 00:59:49,224 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: stop_status
+2024-06-06 00:59:51,581 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 00:59:56,582 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:00:01,582 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:00:02,946 DEBUG   SenderThread:1319931 [sender.py:send():380] send: stats
+2024-06-06 01:00:02,951 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 01:00:02,952 DEBUG   SenderThread:1319931 [sender.py:send():380] send: history
+2024-06-06 01:00:02,952 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: summary_record
+2024-06-06 01:00:02,953 INFO    SenderThread:1319931 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-06 01:00:03,866 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/wandb-summary.json
+2024-06-06 01:00:04,223 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-06 01:00:04,224 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-06 01:00:04,224 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: stop_status
+2024-06-06 01:00:04,867 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/output.log
+2024-06-06 01:00:07,531 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:00:12,533 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:00:17,533 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:00:17,915 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 01:00:17,916 DEBUG   SenderThread:1319931 [sender.py:send():380] send: history
+2024-06-06 01:00:17,916 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: summary_record
+2024-06-06 01:00:17,917 INFO    SenderThread:1319931 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-06 01:00:18,870 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/wandb-summary.json
+2024-06-06 01:00:18,870 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/output.log
+2024-06-06 01:00:19,223 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-06 01:00:19,224 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: stop_status
+2024-06-06 01:00:19,225 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-06 01:00:22,584 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:00:27,585 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:00:32,586 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:00:32,838 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 01:00:32,839 DEBUG   SenderThread:1319931 [sender.py:send():380] send: history
+2024-06-06 01:00:32,839 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: summary_record
+2024-06-06 01:00:32,840 INFO    SenderThread:1319931 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-06 01:00:32,875 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/wandb-summary.json
+2024-06-06 01:00:32,947 DEBUG   SenderThread:1319931 [sender.py:send():380] send: stats
+2024-06-06 01:00:34,224 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-06 01:00:34,224 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-06 01:00:34,224 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: stop_status
+2024-06-06 01:00:34,875 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/output.log
+2024-06-06 01:00:38,535 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:00:43,536 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:00:47,842 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 01:00:47,843 DEBUG   SenderThread:1319931 [sender.py:send():380] send: history
+2024-06-06 01:00:47,843 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: summary_record
+2024-06-06 01:00:47,843 INFO    SenderThread:1319931 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-06 01:00:47,879 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/wandb-summary.json
+2024-06-06 01:00:48,879 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/output.log
+2024-06-06 01:00:48,883 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:00:49,224 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-06 01:00:49,224 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: stop_status
+2024-06-06 01:00:49,225 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-06 01:00:54,587 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:00:59,588 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:01:02,809 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 01:01:02,827 DEBUG   SenderThread:1319931 [sender.py:send():380] send: history
+2024-06-06 01:01:02,827 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: summary_record
+2024-06-06 01:01:02,828 INFO    SenderThread:1319931 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-06 01:01:02,883 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/wandb-summary.json
+2024-06-06 01:01:02,947 DEBUG   SenderThread:1319931 [sender.py:send():380] send: stats
+2024-06-06 01:01:04,224 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-06 01:01:04,224 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-06 01:01:04,224 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: stop_status
+2024-06-06 01:01:04,884 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/output.log
+2024-06-06 01:01:05,452 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:01:10,453 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:01:15,454 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:01:17,668 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 01:01:17,669 DEBUG   SenderThread:1319931 [sender.py:send():380] send: history
+2024-06-06 01:01:17,669 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: summary_record
+2024-06-06 01:01:17,669 INFO    SenderThread:1319931 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-06 01:01:17,887 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/wandb-summary.json
+2024-06-06 01:01:18,887 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/output.log
+2024-06-06 01:01:19,224 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-06 01:01:19,224 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-06 01:01:19,224 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: stop_status
+2024-06-06 01:01:20,487 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:01:25,488 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:01:30,488 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:01:32,461 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 01:01:32,461 DEBUG   SenderThread:1319931 [sender.py:send():380] send: history
+2024-06-06 01:01:32,462 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: summary_record
+2024-06-06 01:01:32,463 INFO    SenderThread:1319931 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-06 01:01:32,891 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/wandb-summary.json
+2024-06-06 01:01:32,948 DEBUG   SenderThread:1319931 [sender.py:send():380] send: stats
+2024-06-06 01:01:34,224 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-06 01:01:34,224 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: stop_status
+2024-06-06 01:01:34,226 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-06 01:01:34,892 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/output.log
+2024-06-06 01:01:36,385 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:01:41,385 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:01:46,386 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:01:47,254 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 01:01:47,255 DEBUG   SenderThread:1319931 [sender.py:send():380] send: history
+2024-06-06 01:01:47,255 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: summary_record
+2024-06-06 01:01:47,255 INFO    SenderThread:1319931 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-06 01:01:47,895 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/wandb-summary.json
+2024-06-06 01:01:48,896 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/output.log
+2024-06-06 01:01:49,224 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-06 01:01:49,224 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-06 01:01:49,225 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: stop_status
+2024-06-06 01:01:51,405 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:01:56,407 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:02:01,407 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:02:02,040 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 01:02:02,041 DEBUG   SenderThread:1319931 [sender.py:send():380] send: history
+2024-06-06 01:02:02,041 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: summary_record
+2024-06-06 01:02:02,041 INFO    SenderThread:1319931 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-06 01:02:02,899 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/wandb-summary.json
+2024-06-06 01:02:02,900 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/output.log
+2024-06-06 01:02:02,948 DEBUG   SenderThread:1319931 [sender.py:send():380] send: stats
+2024-06-06 01:02:04,224 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-06 01:02:04,224 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-06 01:02:04,225 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: stop_status
+2024-06-06 01:02:06,477 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:02:06,500 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 01:02:06,542 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 01:02:06,542 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 01:02:06,543 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 01:02:11,478 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:02:16,479 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:02:16,999 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 01:02:17,001 DEBUG   SenderThread:1319931 [sender.py:send():380] send: history
+2024-06-06 01:02:17,002 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: summary_record
+2024-06-06 01:02:17,002 INFO    SenderThread:1319931 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-06 01:02:17,904 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/wandb-summary.json
+2024-06-06 01:02:19,224 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-06 01:02:19,225 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: stop_status
+2024-06-06 01:02:19,226 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-06 01:02:19,904 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/output.log
+2024-06-06 01:02:22,437 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:02:27,438 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:02:31,975 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 01:02:31,976 DEBUG   SenderThread:1319931 [sender.py:send():380] send: history
+2024-06-06 01:02:31,976 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: summary_record
+2024-06-06 01:02:31,977 INFO    SenderThread:1319931 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-06 01:02:32,908 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/wandb-summary.json
+2024-06-06 01:02:32,949 DEBUG   SenderThread:1319931 [sender.py:send():380] send: stats
+2024-06-06 01:02:32,950 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:02:33,908 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/output.log
+2024-06-06 01:02:34,224 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-06 01:02:34,225 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: stop_status
+2024-06-06 01:02:34,226 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-06 01:02:38,398 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:02:43,399 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:02:46,917 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 01:02:46,917 DEBUG   SenderThread:1319931 [sender.py:send():380] send: history
+2024-06-06 01:02:46,917 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: summary_record
+2024-06-06 01:02:46,918 INFO    SenderThread:1319931 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-06 01:02:47,912 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/wandb-summary.json
+2024-06-06 01:02:48,959 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:02:49,225 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-06 01:02:49,225 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-06 01:02:49,225 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: stop_status
+2024-06-06 01:02:49,912 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/output.log
+2024-06-06 01:02:54,496 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:02:59,497 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:03:01,872 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 01:03:01,873 DEBUG   SenderThread:1319931 [sender.py:send():380] send: history
+2024-06-06 01:03:01,873 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: summary_record
+2024-06-06 01:03:01,874 INFO    SenderThread:1319931 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-06 01:03:01,916 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/wandb-summary.json
+2024-06-06 01:03:02,950 DEBUG   SenderThread:1319931 [sender.py:send():380] send: stats
+2024-06-06 01:03:03,916 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/output.log
+2024-06-06 01:03:04,225 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-06 01:03:04,225 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-06 01:03:04,225 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: stop_status
+2024-06-06 01:03:05,438 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:03:10,439 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:03:15,439 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:03:16,866 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 01:03:16,867 DEBUG   SenderThread:1319931 [sender.py:send():380] send: history
+2024-06-06 01:03:16,867 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: summary_record
+2024-06-06 01:03:16,868 INFO    SenderThread:1319931 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-06 01:03:16,920 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/wandb-summary.json
+2024-06-06 01:03:19,225 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-06 01:03:19,225 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-06 01:03:19,225 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: stop_status
+2024-06-06 01:03:19,920 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/output.log
+2024-06-06 01:03:20,445 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:03:25,446 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:03:30,446 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:03:31,839 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 01:03:31,839 DEBUG   SenderThread:1319931 [sender.py:send():380] send: history
+2024-06-06 01:03:31,839 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: summary_record
+2024-06-06 01:03:31,840 INFO    SenderThread:1319931 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-06 01:03:31,924 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/wandb-summary.json
+2024-06-06 01:03:32,951 DEBUG   SenderThread:1319931 [sender.py:send():380] send: stats
+2024-06-06 01:03:33,924 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/output.log
+2024-06-06 01:03:34,225 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-06 01:03:34,225 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-06 01:03:34,226 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: stop_status
+2024-06-06 01:03:36,444 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:03:41,445 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:03:46,446 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:03:46,782 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 01:03:46,782 DEBUG   SenderThread:1319931 [sender.py:send():380] send: history
+2024-06-06 01:03:46,783 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: summary_record
+2024-06-06 01:03:46,783 INFO    SenderThread:1319931 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-06 01:03:46,928 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/wandb-summary.json
+2024-06-06 01:03:49,225 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-06 01:03:49,226 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-06 01:03:49,226 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: stop_status
+2024-06-06 01:03:49,929 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/output.log
+2024-06-06 01:03:52,432 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:03:57,433 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:04:01,692 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 01:04:01,692 DEBUG   SenderThread:1319931 [sender.py:send():380] send: history
+2024-06-06 01:04:01,693 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: summary_record
+2024-06-06 01:04:01,693 INFO    SenderThread:1319931 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-06 01:04:01,932 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/wandb-summary.json
+2024-06-06 01:04:02,735 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:04:02,951 DEBUG   SenderThread:1319931 [sender.py:send():380] send: stats
+2024-06-06 01:04:03,932 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/output.log
+2024-06-06 01:04:04,225 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-06 01:04:04,226 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: stop_status
+2024-06-06 01:04:04,227 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-06 01:04:08,394 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:04:13,394 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:04:16,588 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 01:04:16,589 DEBUG   SenderThread:1319931 [sender.py:send():380] send: history
+2024-06-06 01:04:16,589 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: summary_record
+2024-06-06 01:04:16,589 INFO    SenderThread:1319931 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-06 01:04:16,936 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/wandb-summary.json
+2024-06-06 01:04:18,631 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:04:19,225 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-06 01:04:19,225 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-06 01:04:19,226 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: stop_status
+2024-06-06 01:04:19,937 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/output.log
+2024-06-06 01:04:24,431 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:04:29,432 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:04:31,462 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 01:04:31,463 DEBUG   SenderThread:1319931 [sender.py:send():380] send: history
+2024-06-06 01:04:31,463 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: summary_record
+2024-06-06 01:04:31,463 INFO    SenderThread:1319931 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-06 01:04:31,940 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/wandb-summary.json
+2024-06-06 01:04:32,952 DEBUG   SenderThread:1319931 [sender.py:send():380] send: stats
+2024-06-06 01:04:33,941 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/output.log
+2024-06-06 01:04:34,225 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-06 01:04:34,226 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-06 01:04:34,226 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: stop_status
+2024-06-06 01:04:35,383 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:04:40,384 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:04:45,384 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:04:46,343 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 01:04:46,344 DEBUG   SenderThread:1319931 [sender.py:send():380] send: history
+2024-06-06 01:04:46,344 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: summary_record
+2024-06-06 01:04:46,345 INFO    SenderThread:1319931 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-06 01:04:46,944 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/wandb-summary.json
+2024-06-06 01:04:47,945 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/output.log
+2024-06-06 01:04:49,225 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-06 01:04:49,226 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: stop_status
+2024-06-06 01:04:49,227 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-06 01:04:50,508 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:04:55,508 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:05:00,509 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:05:01,255 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 01:05:01,256 DEBUG   SenderThread:1319931 [sender.py:send():380] send: history
+2024-06-06 01:05:01,256 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: summary_record
+2024-06-06 01:05:01,256 INFO    SenderThread:1319931 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-06 01:05:01,948 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/wandb-summary.json
+2024-06-06 01:05:02,952 DEBUG   SenderThread:1319931 [sender.py:send():380] send: stats
+2024-06-06 01:05:03,949 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/output.log
+2024-06-06 01:05:04,226 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-06 01:05:04,226 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: stop_status
+2024-06-06 01:05:04,227 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-06 01:05:05,560 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:05:10,561 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:05:15,562 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:05:16,126 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 01:05:16,127 DEBUG   SenderThread:1319931 [sender.py:send():380] send: history
+2024-06-06 01:05:16,127 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: summary_record
+2024-06-06 01:05:16,127 INFO    SenderThread:1319931 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-06 01:05:16,343 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 01:05:16,371 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 01:05:16,371 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 01:05:16,371 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 01:05:16,953 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/wandb-summary.json
+2024-06-06 01:05:17,953 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/output.log
+2024-06-06 01:05:19,226 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-06 01:05:19,226 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-06 01:05:19,226 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: stop_status
+2024-06-06 01:05:21,430 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:05:26,431 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:05:31,016 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 01:05:31,026 DEBUG   SenderThread:1319931 [sender.py:send():380] send: history
+2024-06-06 01:05:31,027 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: summary_record
+2024-06-06 01:05:31,027 INFO    SenderThread:1319931 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-06 01:05:31,957 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/wandb-summary.json
+2024-06-06 01:05:32,059 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:05:32,953 DEBUG   SenderThread:1319931 [sender.py:send():380] send: stats
+2024-06-06 01:05:33,957 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/output.log
+2024-06-06 01:05:34,226 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-06 01:05:34,226 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-06 01:05:34,226 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: stop_status
+2024-06-06 01:05:37,474 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:05:42,474 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:05:45,861 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 01:05:45,861 DEBUG   SenderThread:1319931 [sender.py:send():380] send: history
+2024-06-06 01:05:45,861 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: summary_record
+2024-06-06 01:05:45,862 INFO    SenderThread:1319931 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-06 01:05:45,961 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/wandb-summary.json
+2024-06-06 01:05:47,903 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:05:47,961 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/output.log
+2024-06-06 01:05:49,226 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-06 01:05:49,226 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: stop_status
+2024-06-06 01:05:49,228 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-06 01:05:53,456 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:05:58,457 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:06:00,700 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 01:06:00,701 DEBUG   SenderThread:1319931 [sender.py:send():380] send: history
+2024-06-06 01:06:00,701 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: summary_record
+2024-06-06 01:06:00,701 INFO    SenderThread:1319931 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-06 01:06:00,965 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/wandb-summary.json
+2024-06-06 01:06:02,953 DEBUG   SenderThread:1319931 [sender.py:send():380] send: stats
+2024-06-06 01:06:03,954 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:06:03,966 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/output.log
+2024-06-06 01:06:04,226 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-06 01:06:04,226 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-06 01:06:04,227 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: stop_status
+2024-06-06 01:06:09,567 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:06:14,568 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:06:15,548 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 01:06:15,549 DEBUG   SenderThread:1319931 [sender.py:send():380] send: history
+2024-06-06 01:06:15,549 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: summary_record
+2024-06-06 01:06:15,549 INFO    SenderThread:1319931 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-06 01:06:15,969 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/wandb-summary.json
+2024-06-06 01:06:17,969 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/output.log
+2024-06-06 01:06:19,226 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-06 01:06:19,227 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-06 01:06:19,227 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: stop_status
+2024-06-06 01:06:20,447 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:06:25,447 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:06:30,399 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 01:06:30,400 DEBUG   SenderThread:1319931 [sender.py:send():380] send: history
+2024-06-06 01:06:30,400 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: summary_record
+2024-06-06 01:06:30,400 INFO    SenderThread:1319931 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-06 01:06:30,973 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/wandb-summary.json
+2024-06-06 01:06:31,443 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:06:31,973 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/output.log
+2024-06-06 01:06:32,954 DEBUG   SenderThread:1319931 [sender.py:send():380] send: stats
+2024-06-06 01:06:34,226 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-06 01:06:34,227 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: stop_status
+2024-06-06 01:06:34,228 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-06 01:06:37,403 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:06:42,404 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:06:45,247 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 01:06:45,248 DEBUG   SenderThread:1319931 [sender.py:send():380] send: history
+2024-06-06 01:06:45,248 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: summary_record
+2024-06-06 01:06:45,248 INFO    SenderThread:1319931 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-06 01:06:45,977 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/wandb-summary.json
+2024-06-06 01:06:47,978 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/output.log
+2024-06-06 01:06:48,291 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:06:49,226 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-06 01:06:49,227 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: stop_status
+2024-06-06 01:06:49,228 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-06 01:06:53,422 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:06:58,422 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:07:00,077 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 01:07:00,078 DEBUG   SenderThread:1319931 [sender.py:send():380] send: history
+2024-06-06 01:07:00,078 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: summary_record
+2024-06-06 01:07:00,079 INFO    SenderThread:1319931 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-06 01:07:00,981 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/wandb-summary.json
+2024-06-06 01:07:01,982 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/output.log
+2024-06-06 01:07:02,955 DEBUG   SenderThread:1319931 [sender.py:send():380] send: stats
+2024-06-06 01:07:03,955 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:07:04,226 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-06 01:07:04,227 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-06 01:07:04,227 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: stop_status
+2024-06-06 01:07:09,573 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:07:14,574 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:07:15,032 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 01:07:15,033 DEBUG   SenderThread:1319931 [sender.py:send():380] send: history
+2024-06-06 01:07:15,033 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: summary_record
+2024-06-06 01:07:15,033 INFO    SenderThread:1319931 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-06 01:07:15,986 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/wandb-summary.json
+2024-06-06 01:07:17,986 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/output.log
+2024-06-06 01:07:19,227 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-06 01:07:19,227 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: stop_status
+2024-06-06 01:07:19,228 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-06 01:07:20,523 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:07:25,524 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:07:30,091 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 01:07:30,092 DEBUG   SenderThread:1319931 [sender.py:send():380] send: history
+2024-06-06 01:07:30,092 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: summary_record
+2024-06-06 01:07:30,092 INFO    SenderThread:1319931 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-06 01:07:30,990 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/wandb-summary.json
+2024-06-06 01:07:31,135 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:07:31,990 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/output.log
+2024-06-06 01:07:32,955 DEBUG   SenderThread:1319931 [sender.py:send():380] send: stats
+2024-06-06 01:07:34,227 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-06 01:07:34,227 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-06 01:07:34,227 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: stop_status
+2024-06-06 01:07:36,483 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:07:41,484 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:07:45,101 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 01:07:45,102 DEBUG   SenderThread:1319931 [sender.py:send():380] send: history
+2024-06-06 01:07:45,102 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: summary_record
+2024-06-06 01:07:45,102 INFO    SenderThread:1319931 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-06 01:07:45,994 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/wandb-summary.json
+2024-06-06 01:07:47,143 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:07:47,995 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/output.log
+2024-06-06 01:07:49,227 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-06 01:07:49,228 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-06 01:07:49,228 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: stop_status
+2024-06-06 01:07:52,527 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:07:57,527 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:08:00,089 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 01:08:00,090 DEBUG   SenderThread:1319931 [sender.py:send():380] send: history
+2024-06-06 01:08:00,090 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: summary_record
+2024-06-06 01:08:00,091 INFO    SenderThread:1319931 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-06 01:08:00,999 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/wandb-summary.json
+2024-06-06 01:08:01,999 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/output.log
+2024-06-06 01:08:02,956 DEBUG   SenderThread:1319931 [sender.py:send():380] send: stats
+2024-06-06 01:08:02,956 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:08:04,227 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-06 01:08:04,227 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: stop_status
+2024-06-06 01:08:04,229 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-06 01:08:08,435 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:08:13,435 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:08:15,133 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 01:08:15,133 DEBUG   SenderThread:1319931 [sender.py:send():380] send: history
+2024-06-06 01:08:15,133 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: summary_record
+2024-06-06 01:08:15,134 INFO    SenderThread:1319931 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-06 01:08:16,003 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/wandb-summary.json
+2024-06-06 01:08:17,595 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 01:08:17,622 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 01:08:17,623 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 01:08:17,623 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 01:08:18,004 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/output.log
+2024-06-06 01:08:19,175 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:08:19,227 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-06 01:08:19,227 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-06 01:08:19,228 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: stop_status
+2024-06-06 01:08:24,438 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:08:29,439 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:08:30,170 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 01:08:30,171 DEBUG   SenderThread:1319931 [sender.py:send():380] send: history
+2024-06-06 01:08:30,172 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: summary_record
+2024-06-06 01:08:30,173 INFO    SenderThread:1319931 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-06 01:08:31,007 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/wandb-summary.json
+2024-06-06 01:08:32,007 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/output.log
+2024-06-06 01:08:32,956 DEBUG   SenderThread:1319931 [sender.py:send():380] send: stats
+2024-06-06 01:08:34,227 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-06 01:08:34,228 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: stop_status
+2024-06-06 01:08:34,229 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-06 01:08:34,508 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:08:39,509 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:08:44,509 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:08:45,181 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 01:08:45,181 DEBUG   SenderThread:1319931 [sender.py:send():380] send: history
+2024-06-06 01:08:45,181 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: summary_record
+2024-06-06 01:08:45,182 INFO    SenderThread:1319931 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-06 01:08:46,011 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/wandb-summary.json
+2024-06-06 01:08:48,012 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/output.log
+2024-06-06 01:08:49,227 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-06 01:08:49,228 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-06 01:08:49,228 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: stop_status
+2024-06-06 01:08:49,533 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:08:54,534 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:08:59,534 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:09:00,185 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 01:09:00,186 DEBUG   SenderThread:1319931 [sender.py:send():380] send: history
+2024-06-06 01:09:00,186 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: summary_record
+2024-06-06 01:09:00,193 INFO    SenderThread:1319931 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-06 01:09:01,015 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/wandb-summary.json
+2024-06-06 01:09:02,016 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/output.log
+2024-06-06 01:09:02,957 DEBUG   SenderThread:1319931 [sender.py:send():380] send: stats
+2024-06-06 01:09:04,227 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-06 01:09:04,228 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-06 01:09:04,228 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: stop_status
+2024-06-06 01:09:05,450 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:09:10,451 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:09:15,287 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 01:09:15,288 DEBUG   SenderThread:1319931 [sender.py:send():380] send: history
+2024-06-06 01:09:15,288 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: summary_record
+2024-06-06 01:09:15,288 INFO    SenderThread:1319931 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-06 01:09:16,020 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/wandb-summary.json
+2024-06-06 01:09:16,331 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:09:18,020 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/output.log
+2024-06-06 01:09:19,228 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-06 01:09:19,228 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-06 01:09:19,228 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: stop_status
+2024-06-06 01:09:21,455 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:09:26,456 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:09:30,288 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 01:09:30,288 DEBUG   SenderThread:1319931 [sender.py:send():380] send: history
+2024-06-06 01:09:30,289 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: summary_record
+2024-06-06 01:09:30,289 INFO    SenderThread:1319931 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-06 01:09:31,024 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/wandb-summary.json
+2024-06-06 01:09:32,024 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/output.log
+2024-06-06 01:09:32,331 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:09:32,957 DEBUG   SenderThread:1319931 [sender.py:send():380] send: stats
+2024-06-06 01:09:34,228 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-06 01:09:34,228 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: stop_status
+2024-06-06 01:09:34,229 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-06 01:09:37,481 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:09:42,482 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:09:45,295 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 01:09:45,296 DEBUG   SenderThread:1319931 [sender.py:send():380] send: history
+2024-06-06 01:09:45,296 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: summary_record
+2024-06-06 01:09:45,296 INFO    SenderThread:1319931 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-06 01:09:46,028 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/wandb-summary.json
+2024-06-06 01:09:48,029 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/output.log
+2024-06-06 01:09:48,339 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:09:49,228 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-06 01:09:49,228 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-06 01:09:49,228 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: stop_status
+2024-06-06 01:09:53,436 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:09:58,436 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:10:00,301 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 01:10:00,302 DEBUG   SenderThread:1319931 [sender.py:send():380] send: history
+2024-06-06 01:10:00,302 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: summary_record
+2024-06-06 01:10:00,309 INFO    SenderThread:1319931 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-06 01:10:01,032 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/wandb-summary.json
+2024-06-06 01:10:02,032 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/output.log
+2024-06-06 01:10:02,958 DEBUG   SenderThread:1319931 [sender.py:send():380] send: stats
+2024-06-06 01:10:03,958 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:10:04,228 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-06 01:10:04,228 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: stop_status
+2024-06-06 01:10:04,230 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-06 01:10:09,593 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:10:14,594 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:10:15,306 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 01:10:15,307 DEBUG   SenderThread:1319931 [sender.py:send():380] send: history
+2024-06-06 01:10:15,307 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: summary_record
+2024-06-06 01:10:15,308 INFO    SenderThread:1319931 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-06 01:10:16,036 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/wandb-summary.json
+2024-06-06 01:10:18,037 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/output.log
+2024-06-06 01:10:19,228 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-06 01:10:19,228 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: stop_status
+2024-06-06 01:10:19,230 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-06 01:10:20,543 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:10:25,543 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:10:30,307 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 01:10:30,308 DEBUG   SenderThread:1319931 [sender.py:send():380] send: history
+2024-06-06 01:10:30,308 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: summary_record
+2024-06-06 01:10:30,308 INFO    SenderThread:1319931 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-06 01:10:31,041 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/wandb-summary.json
+2024-06-06 01:10:31,351 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:10:32,041 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/output.log
+2024-06-06 01:10:32,958 DEBUG   SenderThread:1319931 [sender.py:send():380] send: stats
+2024-06-06 01:10:34,228 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-06 01:10:34,228 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: stop_status
+2024-06-06 01:10:34,230 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-06 01:10:36,411 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:10:41,412 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:10:45,320 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 01:10:45,320 DEBUG   SenderThread:1319931 [sender.py:send():380] send: history
+2024-06-06 01:10:45,321 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: summary_record
+2024-06-06 01:10:45,321 INFO    SenderThread:1319931 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-06 01:10:46,045 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/wandb-summary.json
+2024-06-06 01:10:47,363 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:10:48,045 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/output.log
+2024-06-06 01:10:49,228 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-06 01:10:49,229 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-06 01:10:49,229 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: stop_status
+2024-06-06 01:10:52,407 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:10:57,407 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:11:00,305 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 01:11:00,306 DEBUG   SenderThread:1319931 [sender.py:send():380] send: history
+2024-06-06 01:11:00,313 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: summary_record
+2024-06-06 01:11:00,314 INFO    SenderThread:1319931 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-06 01:11:01,049 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/wandb-summary.json
+2024-06-06 01:11:02,049 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/output.log
+2024-06-06 01:11:02,959 DEBUG   SenderThread:1319931 [sender.py:send():380] send: stats
+2024-06-06 01:11:02,960 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:11:04,228 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-06 01:11:04,229 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-06 01:11:04,229 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: stop_status
+2024-06-06 01:11:08,406 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:11:13,407 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:11:15,293 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 01:11:15,294 DEBUG   SenderThread:1319931 [sender.py:send():380] send: history
+2024-06-06 01:11:15,294 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: summary_record
+2024-06-06 01:11:15,295 INFO    SenderThread:1319931 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-06 01:11:16,053 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/wandb-summary.json
+2024-06-06 01:11:18,054 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/output.log
+2024-06-06 01:11:19,228 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-06 01:11:19,229 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-06 01:11:19,229 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: stop_status
+2024-06-06 01:11:19,431 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:11:19,989 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 01:11:20,030 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 01:11:20,030 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 01:11:20,031 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 01:11:24,432 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:11:29,432 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:11:30,302 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 01:11:30,304 DEBUG   SenderThread:1319931 [sender.py:send():380] send: history
+2024-06-06 01:11:30,304 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: summary_record
+2024-06-06 01:11:30,305 INFO    SenderThread:1319931 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-06 01:11:31,057 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/wandb-summary.json
+2024-06-06 01:11:32,057 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/output.log
+2024-06-06 01:11:32,959 DEBUG   SenderThread:1319931 [sender.py:send():380] send: stats
+2024-06-06 01:11:34,228 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-06 01:11:34,229 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-06 01:11:34,229 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: stop_status
+2024-06-06 01:11:35,406 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:11:40,408 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:11:45,335 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 01:11:45,336 DEBUG   SenderThread:1319931 [sender.py:send():380] send: history
+2024-06-06 01:11:45,336 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: summary_record
+2024-06-06 01:11:45,337 INFO    SenderThread:1319931 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-06 01:11:46,061 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/wandb-summary.json
+2024-06-06 01:11:46,379 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:11:48,062 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/output.log
+2024-06-06 01:11:49,229 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-06 01:11:49,229 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: stop_status
+2024-06-06 01:11:49,230 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-06 01:11:51,470 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:11:56,471 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:12:00,371 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 01:12:00,372 DEBUG   SenderThread:1319931 [sender.py:send():380] send: history
+2024-06-06 01:12:00,379 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: summary_record
+2024-06-06 01:12:00,380 INFO    SenderThread:1319931 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-06 01:12:01,065 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/wandb-summary.json
+2024-06-06 01:12:02,065 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/output.log
+2024-06-06 01:12:02,415 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:12:02,960 DEBUG   SenderThread:1319931 [sender.py:send():380] send: stats
+2024-06-06 01:12:04,229 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-06 01:12:04,229 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: stop_status
+2024-06-06 01:12:04,230 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-06 01:12:07,447 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:12:12,448 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:12:15,391 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 01:12:15,392 DEBUG   SenderThread:1319931 [sender.py:send():380] send: history
+2024-06-06 01:12:15,392 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: summary_record
+2024-06-06 01:12:15,392 INFO    SenderThread:1319931 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-06 01:12:16,069 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/wandb-summary.json
+2024-06-06 01:12:18,070 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/output.log
+2024-06-06 01:12:18,435 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:12:19,229 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-06 01:12:19,229 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: stop_status
+2024-06-06 01:12:19,230 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-06 01:12:24,407 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:12:29,408 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:12:30,384 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 01:12:30,385 DEBUG   SenderThread:1319931 [sender.py:send():380] send: history
+2024-06-06 01:12:30,385 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: summary_record
+2024-06-06 01:12:30,386 INFO    SenderThread:1319931 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-06 01:12:31,073 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/wandb-summary.json
+2024-06-06 01:12:32,074 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/output.log
+2024-06-06 01:12:32,973 DEBUG   SenderThread:1319931 [sender.py:send():380] send: stats
+2024-06-06 01:12:34,229 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-06 01:12:34,229 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-06 01:12:34,230 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: stop_status
+2024-06-06 01:12:34,443 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:12:39,444 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:12:44,444 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:12:45,391 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 01:12:45,392 DEBUG   SenderThread:1319931 [sender.py:send():380] send: history
+2024-06-06 01:12:45,392 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: summary_record
+2024-06-06 01:12:45,392 INFO    SenderThread:1319931 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-06 01:12:46,077 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/wandb-summary.json
+2024-06-06 01:12:48,078 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/output.log
+2024-06-06 01:12:49,229 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-06 01:12:49,229 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-06 01:12:49,230 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: stop_status
+2024-06-06 01:12:50,410 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:12:55,411 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:13:00,314 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 01:13:00,315 DEBUG   SenderThread:1319931 [sender.py:send():380] send: history
+2024-06-06 01:13:00,322 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: summary_record
+2024-06-06 01:13:00,323 INFO    SenderThread:1319931 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-06 01:13:01,082 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/wandb-summary.json
+2024-06-06 01:13:01,359 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:13:02,082 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/output.log
+2024-06-06 01:13:02,961 DEBUG   SenderThread:1319931 [sender.py:send():380] send: stats
+2024-06-06 01:13:04,229 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-06 01:13:04,230 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-06 01:13:04,230 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: stop_status
+2024-06-06 01:13:06,613 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:13:11,613 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:13:15,327 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 01:13:15,328 DEBUG   SenderThread:1319931 [sender.py:send():380] send: history
+2024-06-06 01:13:15,328 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: summary_record
+2024-06-06 01:13:15,329 INFO    SenderThread:1319931 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-06 01:13:16,086 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/wandb-summary.json
+2024-06-06 01:13:17,371 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:13:18,086 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/output.log
+2024-06-06 01:13:19,229 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-06 01:13:19,230 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-06 01:13:19,230 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: stop_status
+2024-06-06 01:13:22,563 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:13:27,564 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:13:30,321 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 01:13:30,322 DEBUG   SenderThread:1319931 [sender.py:send():380] send: history
+2024-06-06 01:13:30,322 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: summary_record
+2024-06-06 01:13:30,323 INFO    SenderThread:1319931 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-06 01:13:31,090 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/wandb-summary.json
+2024-06-06 01:13:32,091 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/output.log
+2024-06-06 01:13:32,962 DEBUG   SenderThread:1319931 [sender.py:send():380] send: stats
+2024-06-06 01:13:32,962 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:13:34,229 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-06 01:13:34,230 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: stop_status
+2024-06-06 01:13:34,231 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-06 01:13:38,455 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:13:43,456 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:13:45,288 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 01:13:45,289 DEBUG   SenderThread:1319931 [sender.py:send():380] send: history
+2024-06-06 01:13:45,289 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: summary_record
+2024-06-06 01:13:45,290 INFO    SenderThread:1319931 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-06 01:13:46,094 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/wandb-summary.json
+2024-06-06 01:13:48,095 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/output.log
+2024-06-06 01:13:49,229 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-06 01:13:49,230 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-06 01:13:49,230 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: stop_status
+2024-06-06 01:13:49,395 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:13:54,396 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:13:59,396 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:14:00,298 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 01:14:00,298 DEBUG   SenderThread:1319931 [sender.py:send():380] send: history
+2024-06-06 01:14:00,306 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: summary_record
+2024-06-06 01:14:00,306 INFO    SenderThread:1319931 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-06 01:14:01,099 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/wandb-summary.json
+2024-06-06 01:14:02,099 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/output.log
+2024-06-06 01:14:02,962 DEBUG   SenderThread:1319931 [sender.py:send():380] send: stats
+2024-06-06 01:14:04,230 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-06 01:14:04,230 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-06 01:14:04,230 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: stop_status
+2024-06-06 01:14:04,431 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:14:09,432 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:14:14,432 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:14:15,322 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 01:14:15,323 DEBUG   SenderThread:1319931 [sender.py:send():380] send: history
+2024-06-06 01:14:15,323 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: summary_record
+2024-06-06 01:14:15,324 INFO    SenderThread:1319931 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-06 01:14:16,103 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/wandb-summary.json
+2024-06-06 01:14:18,103 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/output.log
+2024-06-06 01:14:19,230 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-06 01:14:19,230 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-06 01:14:19,230 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: stop_status
+2024-06-06 01:14:19,571 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:14:24,572 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:14:29,572 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:14:30,286 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 01:14:30,286 DEBUG   SenderThread:1319931 [sender.py:send():380] send: history
+2024-06-06 01:14:30,287 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: summary_record
+2024-06-06 01:14:30,287 INFO    SenderThread:1319931 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-06 01:14:30,738 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 01:14:30,765 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 01:14:30,766 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 01:14:30,766 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 01:14:31,107 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/wandb-summary.json
+2024-06-06 01:14:32,107 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/output.log
+2024-06-06 01:14:32,963 DEBUG   SenderThread:1319931 [sender.py:send():380] send: stats
+2024-06-06 01:14:34,230 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-06 01:14:34,230 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-06 01:14:34,230 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: stop_status
+2024-06-06 01:14:35,415 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:14:40,416 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:14:45,304 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 01:14:45,312 DEBUG   SenderThread:1319931 [sender.py:send():380] send: history
+2024-06-06 01:14:45,312 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: summary_record
+2024-06-06 01:14:45,313 INFO    SenderThread:1319931 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-06 01:14:46,111 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/wandb-summary.json
+2024-06-06 01:14:46,347 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:14:48,111 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/output.log
+2024-06-06 01:14:49,230 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-06 01:14:49,230 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-06 01:14:49,230 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: stop_status
+2024-06-06 01:14:51,573 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:14:56,574 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:15:00,355 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 01:15:00,356 DEBUG   SenderThread:1319931 [sender.py:send():380] send: history
+2024-06-06 01:15:00,363 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: summary_record
+2024-06-06 01:15:00,364 INFO    SenderThread:1319931 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-06 01:15:01,115 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/wandb-summary.json
+2024-06-06 01:15:02,115 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/output.log
+2024-06-06 01:15:02,399 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:15:02,963 DEBUG   SenderThread:1319931 [sender.py:send():380] send: stats
+2024-06-06 01:15:04,230 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-06 01:15:04,230 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-06 01:15:04,231 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: stop_status
+2024-06-06 01:15:07,441 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:15:12,442 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:15:15,340 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 01:15:15,341 DEBUG   SenderThread:1319931 [sender.py:send():380] send: history
+2024-06-06 01:15:15,341 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: summary_record
+2024-06-06 01:15:15,341 INFO    SenderThread:1319931 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-06 01:15:16,119 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/wandb-summary.json
+2024-06-06 01:15:18,119 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/output.log
+2024-06-06 01:15:18,383 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:15:19,231 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-06 01:15:19,231 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-06 01:15:19,231 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: stop_status
+2024-06-06 01:15:23,438 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:15:28,439 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:15:30,375 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 01:15:30,375 DEBUG   SenderThread:1319931 [sender.py:send():380] send: history
+2024-06-06 01:15:30,375 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: summary_record
+2024-06-06 01:15:30,376 INFO    SenderThread:1319931 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-06 01:15:31,123 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/wandb-summary.json
+2024-06-06 01:15:32,123 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/output.log
+2024-06-06 01:15:32,964 DEBUG   SenderThread:1319931 [sender.py:send():380] send: stats
+2024-06-06 01:15:33,964 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:15:34,230 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-06 01:15:34,230 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-06 01:15:34,231 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: stop_status
+2024-06-06 01:15:39,528 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:15:44,529 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:15:45,372 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 01:15:45,373 DEBUG   SenderThread:1319931 [sender.py:send():380] send: history
+2024-06-06 01:15:45,373 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: summary_record
+2024-06-06 01:15:45,374 INFO    SenderThread:1319931 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-06 01:15:46,127 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/wandb-summary.json
+2024-06-06 01:15:48,128 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/output.log
+2024-06-06 01:15:49,230 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-06 01:15:49,231 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-06 01:15:49,231 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: stop_status
+2024-06-06 01:15:50,390 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:15:55,391 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:16:00,377 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 01:16:00,378 DEBUG   SenderThread:1319931 [sender.py:send():380] send: history
+2024-06-06 01:16:00,378 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: summary_record
+2024-06-06 01:16:00,378 INFO    SenderThread:1319931 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-06 01:16:00,419 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:16:01,131 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/wandb-summary.json
+2024-06-06 01:16:02,131 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/output.log
+2024-06-06 01:16:02,964 DEBUG   SenderThread:1319931 [sender.py:send():380] send: stats
+2024-06-06 01:16:04,230 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-06 01:16:04,231 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: stop_status
+2024-06-06 01:16:04,232 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-06 01:16:05,459 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:16:10,460 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:16:15,364 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 01:16:15,365 DEBUG   SenderThread:1319931 [sender.py:send():380] send: history
+2024-06-06 01:16:15,365 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: summary_record
+2024-06-06 01:16:15,365 INFO    SenderThread:1319931 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-06 01:16:16,135 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/wandb-summary.json
+2024-06-06 01:16:16,407 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:16:18,135 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/output.log
+2024-06-06 01:16:19,230 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-06 01:16:19,231 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: stop_status
+2024-06-06 01:16:19,232 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-06 01:16:21,423 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:16:26,424 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:16:30,417 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 01:16:30,418 DEBUG   SenderThread:1319931 [sender.py:send():380] send: history
+2024-06-06 01:16:30,418 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: summary_record
+2024-06-06 01:16:30,418 INFO    SenderThread:1319931 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-06 01:16:31,139 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/wandb-summary.json
+2024-06-06 01:16:31,459 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:16:32,139 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/output.log
+2024-06-06 01:16:32,965 DEBUG   SenderThread:1319931 [sender.py:send():380] send: stats
+2024-06-06 01:16:34,231 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-06 01:16:34,231 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-06 01:16:34,231 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: stop_status
+2024-06-06 01:16:36,535 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:16:41,535 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:16:45,433 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 01:16:45,433 DEBUG   SenderThread:1319931 [sender.py:send():380] send: history
+2024-06-06 01:16:45,434 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: summary_record
+2024-06-06 01:16:45,434 INFO    SenderThread:1319931 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-06 01:16:46,142 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/wandb-summary.json
+2024-06-06 01:16:47,476 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:16:48,143 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/output.log
+2024-06-06 01:16:49,231 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-06 01:16:49,231 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-06 01:16:49,231 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: stop_status
+2024-06-06 01:16:53,389 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:16:58,390 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:17:00,359 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 01:17:00,360 DEBUG   SenderThread:1319931 [sender.py:send():380] send: history
+2024-06-06 01:17:00,368 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: summary_record
+2024-06-06 01:17:00,368 INFO    SenderThread:1319931 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-06 01:17:01,146 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/wandb-summary.json
+2024-06-06 01:17:02,147 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/output.log
+2024-06-06 01:17:02,966 DEBUG   SenderThread:1319931 [sender.py:send():380] send: stats
+2024-06-06 01:17:03,966 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:17:04,231 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-06 01:17:04,231 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-06 01:17:04,232 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: stop_status
+2024-06-06 01:17:09,456 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:17:14,456 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:17:15,344 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 01:17:15,345 DEBUG   SenderThread:1319931 [sender.py:send():380] send: history
+2024-06-06 01:17:15,345 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: summary_record
+2024-06-06 01:17:15,346 INFO    SenderThread:1319931 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-06 01:17:16,150 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/wandb-summary.json
+2024-06-06 01:17:16,150 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/output.log
+2024-06-06 01:17:19,231 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-06 01:17:19,231 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: stop_status
+2024-06-06 01:17:19,233 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-06 01:17:19,488 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:17:24,489 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:17:29,490 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:17:30,308 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 01:17:30,309 DEBUG   SenderThread:1319931 [sender.py:send():380] send: history
+2024-06-06 01:17:30,309 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: summary_record
+2024-06-06 01:17:30,310 INFO    SenderThread:1319931 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-06 01:17:31,154 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/wandb-summary.json
+2024-06-06 01:17:32,154 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/output.log
+2024-06-06 01:17:32,966 DEBUG   SenderThread:1319931 [sender.py:send():380] send: stats
+2024-06-06 01:17:32,975 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 01:17:33,002 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 01:17:33,002 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 01:17:33,003 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 01:17:34,231 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-06 01:17:34,231 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-06 01:17:34,232 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: stop_status
+2024-06-06 01:17:35,439 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:17:40,440 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:17:45,011 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 01:17:45,012 DEBUG   SenderThread:1319931 [sender.py:send():380] send: history
+2024-06-06 01:17:45,013 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: summary_record
+2024-06-06 01:17:45,013 INFO    SenderThread:1319931 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-06 01:17:45,157 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/wandb-summary.json
+2024-06-06 01:17:46,055 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:17:46,158 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/output.log
+2024-06-06 01:17:49,231 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-06 01:17:49,232 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-06 01:17:49,232 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: stop_status
+2024-06-06 01:17:51,413 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:17:56,414 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:17:59,770 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 01:17:59,770 DEBUG   SenderThread:1319931 [sender.py:send():380] send: history
+2024-06-06 01:17:59,770 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: summary_record
+2024-06-06 01:17:59,771 INFO    SenderThread:1319931 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-06 01:18:00,161 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/wandb-summary.json
+2024-06-06 01:18:01,811 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:18:02,162 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/output.log
+2024-06-06 01:18:02,967 DEBUG   SenderThread:1319931 [sender.py:send():380] send: stats
+2024-06-06 01:18:04,231 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-06 01:18:04,232 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-06 01:18:04,232 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: stop_status
+2024-06-06 01:18:07,545 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:18:12,546 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:18:14,556 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 01:18:14,556 DEBUG   SenderThread:1319931 [sender.py:send():380] send: history
+2024-06-06 01:18:14,556 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: summary_record
+2024-06-06 01:18:14,557 INFO    SenderThread:1319931 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-06 01:18:15,165 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/wandb-summary.json
+2024-06-06 01:18:16,166 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/output.log
+2024-06-06 01:18:17,599 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:18:19,231 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-06 01:18:19,232 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-06 01:18:19,232 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: stop_status
+2024-06-06 01:18:23,496 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:18:28,496 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:18:29,301 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 01:18:29,302 DEBUG   SenderThread:1319931 [sender.py:send():380] send: history
+2024-06-06 01:18:29,302 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: summary_record
+2024-06-06 01:18:29,302 INFO    SenderThread:1319931 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-06 01:18:30,169 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/wandb-summary.json
+2024-06-06 01:18:30,169 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/output.log
+2024-06-06 01:18:32,967 DEBUG   SenderThread:1319931 [sender.py:send():380] send: stats
+2024-06-06 01:18:33,968 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:18:34,232 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-06 01:18:34,232 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-06 01:18:34,232 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: stop_status
+2024-06-06 01:18:39,549 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:18:44,062 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 01:18:44,063 DEBUG   SenderThread:1319931 [sender.py:send():380] send: history
+2024-06-06 01:18:44,063 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: summary_record
+2024-06-06 01:18:44,063 INFO    SenderThread:1319931 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-06 01:18:44,173 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/wandb-summary.json
+2024-06-06 01:18:45,103 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:18:46,173 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/output.log
+2024-06-06 01:18:49,232 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-06 01:18:49,232 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: stop_status
+2024-06-06 01:18:49,233 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-06 01:18:50,601 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:18:55,602 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:18:59,024 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 01:18:59,024 DEBUG   SenderThread:1319931 [sender.py:send():380] send: history
+2024-06-06 01:18:59,025 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: summary_record
+2024-06-06 01:18:59,025 INFO    SenderThread:1319931 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-06 01:18:59,177 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/wandb-summary.json
+2024-06-06 01:19:00,177 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/output.log
+2024-06-06 01:19:01,067 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:19:02,968 DEBUG   SenderThread:1319931 [sender.py:send():380] send: stats
+2024-06-06 01:19:04,232 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-06 01:19:04,232 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-06 01:19:04,232 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: stop_status
+2024-06-06 01:19:06,552 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:19:11,553 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:19:14,069 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 01:19:14,069 DEBUG   SenderThread:1319931 [sender.py:send():380] send: history
+2024-06-06 01:19:14,077 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: summary_record
+2024-06-06 01:19:14,077 INFO    SenderThread:1319931 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-06 01:19:14,181 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/wandb-summary.json
+2024-06-06 01:19:16,181 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/output.log
+2024-06-06 01:19:17,111 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:19:19,232 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-06 01:19:19,232 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: stop_status
+2024-06-06 01:19:19,232 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-06 01:19:22,503 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:19:27,503 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:19:29,067 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 01:19:29,068 DEBUG   SenderThread:1319931 [sender.py:send():380] send: history
+2024-06-06 01:19:29,068 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: summary_record
+2024-06-06 01:19:29,068 INFO    SenderThread:1319931 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-06 01:19:29,185 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/wandb-summary.json
+2024-06-06 01:19:30,185 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/output.log
+2024-06-06 01:19:32,968 DEBUG   SenderThread:1319931 [sender.py:send():380] send: stats
+2024-06-06 01:19:32,977 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:19:34,232 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-06 01:19:34,232 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: stop_status
+2024-06-06 01:19:34,234 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-06 01:19:38,459 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:19:43,460 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:19:44,093 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 01:19:44,094 DEBUG   SenderThread:1319931 [sender.py:send():380] send: history
+2024-06-06 01:19:44,094 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: summary_record
+2024-06-06 01:19:44,095 INFO    SenderThread:1319931 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-06 01:19:44,189 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/wandb-summary.json
+2024-06-06 01:19:46,189 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/output.log
+2024-06-06 01:19:49,135 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:19:49,232 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-06 01:19:49,232 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: stop_status
+2024-06-06 01:19:49,234 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-06 01:19:54,376 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:19:59,126 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 01:19:59,127 DEBUG   SenderThread:1319931 [sender.py:send():380] send: history
+2024-06-06 01:19:59,127 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: summary_record
+2024-06-06 01:19:59,127 INFO    SenderThread:1319931 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-06 01:19:59,193 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/wandb-summary.json
+2024-06-06 01:20:00,167 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:20:00,193 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/output.log
+2024-06-06 01:20:02,969 DEBUG   SenderThread:1319931 [sender.py:send():380] send: stats
+2024-06-06 01:20:04,232 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-06 01:20:04,233 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: stop_status
+2024-06-06 01:20:04,234 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-06 01:20:05,433 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:20:10,434 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:20:14,119 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 01:20:14,120 DEBUG   SenderThread:1319931 [sender.py:send():380] send: history
+2024-06-06 01:20:14,120 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: summary_record
+2024-06-06 01:20:14,127 INFO    SenderThread:1319931 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-06 01:20:14,197 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/wandb-summary.json
+2024-06-06 01:20:16,163 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:20:16,198 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/output.log
+2024-06-06 01:20:19,232 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-06 01:20:19,233 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: stop_status
+2024-06-06 01:20:19,233 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-06 01:20:21,446 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:20:26,448 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:20:29,139 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 01:20:29,139 DEBUG   SenderThread:1319931 [sender.py:send():380] send: history
+2024-06-06 01:20:29,139 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: summary_record
+2024-06-06 01:20:29,140 INFO    SenderThread:1319931 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-06 01:20:29,201 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/wandb-summary.json
+2024-06-06 01:20:30,202 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/output.log
+2024-06-06 01:20:32,183 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:20:32,969 DEBUG   SenderThread:1319931 [sender.py:send():380] send: stats
+2024-06-06 01:20:34,111 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 01:20:34,138 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 01:20:34,138 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 01:20:34,138 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 01:20:34,232 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-06 01:20:34,233 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: stop_status
+2024-06-06 01:20:34,234 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-06 01:20:37,437 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:20:42,438 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:20:44,181 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 01:20:44,191 DEBUG   SenderThread:1319931 [sender.py:send():380] send: history
+2024-06-06 01:20:44,192 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: summary_record
+2024-06-06 01:20:44,194 INFO    SenderThread:1319931 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-06 01:20:44,205 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/wandb-summary.json
+2024-06-06 01:20:46,206 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/output.log
+2024-06-06 01:20:48,223 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:20:49,232 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-06 01:20:49,233 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: stop_status
+2024-06-06 01:20:49,233 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-06 01:20:53,436 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:20:58,437 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:20:59,174 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-06 01:20:59,175 DEBUG   SenderThread:1319931 [sender.py:send():380] send: history
+2024-06-06 01:20:59,175 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: summary_record
+2024-06-06 01:20:59,176 INFO    SenderThread:1319931 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-06 01:20:59,210 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/wandb-summary.json
+2024-06-06 01:20:59,220 DEBUG   SenderThread:1319931 [sender.py:send():380] send: telemetry
+2024-06-06 01:20:59,220 DEBUG   SenderThread:1319931 [sender.py:send():380] send: exit
+2024-06-06 01:20:59,220 INFO    SenderThread:1319931 [sender.py:send_exit():585] handling exit code: 0
+2024-06-06 01:20:59,220 INFO    SenderThread:1319931 [sender.py:send_exit():587] handling runtime: 1496
+2024-06-06 01:20:59,221 INFO    SenderThread:1319931 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-06 01:20:59,221 INFO    SenderThread:1319931 [sender.py:send_exit():593] send defer
+2024-06-06 01:20:59,221 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: defer
+2024-06-06 01:20:59,221 INFO    HandlerThread:1319931 [handler.py:handle_request_defer():172] handle defer: 0
+2024-06-06 01:20:59,221 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: defer
+2024-06-06 01:20:59,221 INFO    SenderThread:1319931 [sender.py:send_request_defer():609] handle sender defer: 0
+2024-06-06 01:20:59,221 INFO    SenderThread:1319931 [sender.py:transition_state():613] send defer: 1
+2024-06-06 01:20:59,221 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: defer
+2024-06-06 01:20:59,222 INFO    HandlerThread:1319931 [handler.py:handle_request_defer():172] handle defer: 1
+2024-06-06 01:20:59,222 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: defer
+2024-06-06 01:20:59,222 INFO    SenderThread:1319931 [sender.py:send_request_defer():609] handle sender defer: 1
+2024-06-06 01:20:59,222 INFO    SenderThread:1319931 [sender.py:transition_state():613] send defer: 2
+2024-06-06 01:20:59,222 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: defer
+2024-06-06 01:20:59,222 INFO    HandlerThread:1319931 [handler.py:handle_request_defer():172] handle defer: 2
+2024-06-06 01:20:59,222 INFO    HandlerThread:1319931 [system_monitor.py:finish():203] Stopping system monitor
+2024-06-06 01:20:59,223 DEBUG   SystemMonitor:1319931 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-06-06 01:20:59,223 INFO    HandlerThread:1319931 [interfaces.py:finish():202] Joined cpu monitor
+2024-06-06 01:20:59,223 DEBUG   SystemMonitor:1319931 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-06-06 01:20:59,223 INFO    HandlerThread:1319931 [interfaces.py:finish():202] Joined disk monitor
+2024-06-06 01:20:59,266 INFO    HandlerThread:1319931 [interfaces.py:finish():202] Joined gpu monitor
+2024-06-06 01:20:59,266 INFO    HandlerThread:1319931 [interfaces.py:finish():202] Joined memory monitor
+2024-06-06 01:20:59,267 INFO    HandlerThread:1319931 [interfaces.py:finish():202] Joined network monitor
+2024-06-06 01:20:59,267 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: defer
+2024-06-06 01:20:59,267 INFO    SenderThread:1319931 [sender.py:send_request_defer():609] handle sender defer: 2
+2024-06-06 01:20:59,267 INFO    SenderThread:1319931 [sender.py:transition_state():613] send defer: 3
+2024-06-06 01:20:59,267 DEBUG   SenderThread:1319931 [sender.py:send():380] send: stats
+2024-06-06 01:20:59,267 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: defer
+2024-06-06 01:20:59,267 INFO    HandlerThread:1319931 [handler.py:handle_request_defer():172] handle defer: 3
+2024-06-06 01:20:59,268 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: defer
+2024-06-06 01:20:59,268 INFO    SenderThread:1319931 [sender.py:send_request_defer():609] handle sender defer: 3
+2024-06-06 01:20:59,268 INFO    SenderThread:1319931 [sender.py:transition_state():613] send defer: 4
+2024-06-06 01:20:59,268 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: defer
+2024-06-06 01:20:59,268 INFO    HandlerThread:1319931 [handler.py:handle_request_defer():172] handle defer: 4
+2024-06-06 01:20:59,268 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: defer
+2024-06-06 01:20:59,268 INFO    SenderThread:1319931 [sender.py:send_request_defer():609] handle sender defer: 4
+2024-06-06 01:20:59,268 INFO    SenderThread:1319931 [sender.py:transition_state():613] send defer: 5
+2024-06-06 01:20:59,268 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: defer
+2024-06-06 01:20:59,268 INFO    HandlerThread:1319931 [handler.py:handle_request_defer():172] handle defer: 5
+2024-06-06 01:20:59,269 DEBUG   SenderThread:1319931 [sender.py:send():380] send: summary
+2024-06-06 01:20:59,269 INFO    SenderThread:1319931 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-06 01:20:59,269 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: defer
+2024-06-06 01:20:59,269 INFO    SenderThread:1319931 [sender.py:send_request_defer():609] handle sender defer: 5
+2024-06-06 01:20:59,269 INFO    SenderThread:1319931 [sender.py:transition_state():613] send defer: 6
+2024-06-06 01:20:59,269 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: defer
+2024-06-06 01:20:59,270 INFO    HandlerThread:1319931 [handler.py:handle_request_defer():172] handle defer: 6
+2024-06-06 01:20:59,270 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: defer
+2024-06-06 01:20:59,270 INFO    SenderThread:1319931 [sender.py:send_request_defer():609] handle sender defer: 6
+2024-06-06 01:20:59,272 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: status_report
+2024-06-06 01:20:59,652 INFO    SenderThread:1319931 [sender.py:transition_state():613] send defer: 7
+2024-06-06 01:20:59,652 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: defer
+2024-06-06 01:20:59,652 INFO    HandlerThread:1319931 [handler.py:handle_request_defer():172] handle defer: 7
+2024-06-06 01:20:59,652 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: defer
+2024-06-06 01:20:59,652 INFO    SenderThread:1319931 [sender.py:send_request_defer():609] handle sender defer: 7
+2024-06-06 01:21:00,176 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: poll_exit
+2024-06-06 01:21:00,211 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/config.yaml
+2024-06-06 01:21:00,211 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/wandb-summary.json
+2024-06-06 01:21:00,211 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/output.log
+2024-06-06 01:21:02,128 INFO    SenderThread:1319931 [sender.py:transition_state():613] send defer: 8
+2024-06-06 01:21:02,129 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: poll_exit
+2024-06-06 01:21:02,129 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: defer
+2024-06-06 01:21:02,129 INFO    HandlerThread:1319931 [handler.py:handle_request_defer():172] handle defer: 8
+2024-06-06 01:21:02,130 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: defer
+2024-06-06 01:21:02,130 INFO    SenderThread:1319931 [sender.py:send_request_defer():609] handle sender defer: 8
+2024-06-06 01:21:02,130 INFO    SenderThread:1319931 [job_builder.py:build():298] Attempting to build job artifact
+2024-06-06 01:21:02,131 INFO    SenderThread:1319931 [job_builder.py:_get_source_type():428] is repo sourced job
+2024-06-06 01:21:02,149 INFO    SenderThread:1319931 [job_builder.py:build():404] adding wandb-job metadata file
+2024-06-06 01:21:02,165 INFO    SenderThread:1319931 [sender.py:transition_state():613] send defer: 9
+2024-06-06 01:21:02,165 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: defer
+2024-06-06 01:21:02,165 INFO    HandlerThread:1319931 [handler.py:handle_request_defer():172] handle defer: 9
+2024-06-06 01:21:02,165 DEBUG   SenderThread:1319931 [sender.py:send():380] send: artifact
+2024-06-06 01:21:02,178 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: poll_exit
+2024-06-06 01:21:02,212 INFO    Thread-12 :1319931 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/output.log
+2024-06-06 01:21:02,950 INFO    SenderThread:1319931 [sender.py:send_artifact():1458] sent artifact job-https___git.ias.informatik.tu-darmstadt.de_andric_masterthesis15_03-13_09-2024.git_recap_corrected_HNN_HNN_main.py - {'id': 'QXJ0aWZhY3Q6ODYxNzUzMjk2', 'state': 'COMMITTED', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE4MjQ0MTM5Mg==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6ODYxNzUzMjk2', 'versionIndex': 4}}}
+2024-06-06 01:21:02,950 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: defer
+2024-06-06 01:21:02,950 INFO    SenderThread:1319931 [sender.py:send_request_defer():609] handle sender defer: 9
+2024-06-06 01:21:02,950 INFO    SenderThread:1319931 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-06-06 01:21:03,213 INFO    SenderThread:1319931 [dir_watcher.py:finish():388] scan: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files
+2024-06-06 01:21:03,213 INFO    SenderThread:1319931 [dir_watcher.py:finish():402] scan save: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/config.yaml config.yaml
+2024-06-06 01:21:03,213 INFO    SenderThread:1319931 [dir_watcher.py:finish():402] scan save: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/conda-environment.yaml conda-environment.yaml
+2024-06-06 01:21:03,215 INFO    SenderThread:1319931 [dir_watcher.py:finish():402] scan save: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/requirements.txt requirements.txt
+2024-06-06 01:21:03,216 INFO    SenderThread:1319931 [dir_watcher.py:finish():402] scan save: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/wandb-metadata.json wandb-metadata.json
+2024-06-06 01:21:03,216 INFO    SenderThread:1319931 [dir_watcher.py:finish():402] scan save: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/wandb-summary.json wandb-summary.json
+2024-06-06 01:21:03,216 INFO    SenderThread:1319931 [dir_watcher.py:finish():402] scan save: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/output.log output.log
+2024-06-06 01:21:03,217 INFO    SenderThread:1319931 [sender.py:transition_state():613] send defer: 10
+2024-06-06 01:21:03,218 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: poll_exit
+2024-06-06 01:21:03,218 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: defer
+2024-06-06 01:21:03,218 INFO    HandlerThread:1319931 [handler.py:handle_request_defer():172] handle defer: 10
+2024-06-06 01:21:03,220 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: defer
+2024-06-06 01:21:03,220 INFO    SenderThread:1319931 [sender.py:send_request_defer():609] handle sender defer: 10
+2024-06-06 01:21:03,220 INFO    SenderThread:1319931 [file_pusher.py:finish():175] shutting down file pusher
+2024-06-06 01:21:03,637 INFO    wandb-upload_0:1319931 [upload_job.py:push():131] Uploaded file /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/config.yaml
+2024-06-06 01:21:03,696 INFO    wandb-upload_2:1319931 [upload_job.py:push():131] Uploaded file /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/requirements.txt
+2024-06-06 01:21:03,701 INFO    wandb-upload_3:1319931 [upload_job.py:push():131] Uploaded file /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/wandb-summary.json
+2024-06-06 01:21:03,754 INFO    wandb-upload_4:1319931 [upload_job.py:push():131] Uploaded file /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/output.log
+2024-06-06 01:21:04,180 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: poll_exit
+2024-06-06 01:21:04,180 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: poll_exit
+2024-06-06 01:21:04,815 INFO    wandb-upload_1:1319931 [upload_job.py:push():131] Uploaded file /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/files/conda-environment.yaml
+2024-06-06 01:21:05,016 INFO    Thread-11 :1319931 [sender.py:transition_state():613] send defer: 11
+2024-06-06 01:21:05,017 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: defer
+2024-06-06 01:21:05,017 INFO    HandlerThread:1319931 [handler.py:handle_request_defer():172] handle defer: 11
+2024-06-06 01:21:05,017 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: defer
+2024-06-06 01:21:05,017 INFO    SenderThread:1319931 [sender.py:send_request_defer():609] handle sender defer: 11
+2024-06-06 01:21:05,017 INFO    SenderThread:1319931 [file_pusher.py:join():181] waiting for file pusher
+2024-06-06 01:21:05,017 INFO    SenderThread:1319931 [sender.py:transition_state():613] send defer: 12
+2024-06-06 01:21:05,017 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: defer
+2024-06-06 01:21:05,017 INFO    HandlerThread:1319931 [handler.py:handle_request_defer():172] handle defer: 12
+2024-06-06 01:21:05,018 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: defer
+2024-06-06 01:21:05,018 INFO    SenderThread:1319931 [sender.py:send_request_defer():609] handle sender defer: 12
+2024-06-06 01:21:05,018 INFO    SenderThread:1319931 [file_stream.py:finish():595] file stream finish called
+2024-06-06 01:21:05,180 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: poll_exit
+2024-06-06 01:21:05,909 INFO    SenderThread:1319931 [file_stream.py:finish():599] file stream finish is done
+2024-06-06 01:21:05,909 INFO    SenderThread:1319931 [sender.py:transition_state():613] send defer: 13
+2024-06-06 01:21:05,910 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: poll_exit
+2024-06-06 01:21:05,910 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: defer
+2024-06-06 01:21:05,910 INFO    HandlerThread:1319931 [handler.py:handle_request_defer():172] handle defer: 13
+2024-06-06 01:21:05,910 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: defer
+2024-06-06 01:21:05,910 INFO    SenderThread:1319931 [sender.py:send_request_defer():609] handle sender defer: 13
+2024-06-06 01:21:05,910 INFO    SenderThread:1319931 [sender.py:transition_state():613] send defer: 14
+2024-06-06 01:21:05,910 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: defer
+2024-06-06 01:21:05,910 INFO    HandlerThread:1319931 [handler.py:handle_request_defer():172] handle defer: 14
+2024-06-06 01:21:05,911 DEBUG   SenderThread:1319931 [sender.py:send():380] send: final
+2024-06-06 01:21:05,911 DEBUG   SenderThread:1319931 [sender.py:send():380] send: footer
+2024-06-06 01:21:05,911 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: defer
+2024-06-06 01:21:05,911 INFO    SenderThread:1319931 [sender.py:send_request_defer():609] handle sender defer: 14
+2024-06-06 01:21:05,911 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: poll_exit
+2024-06-06 01:21:05,912 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: poll_exit
+2024-06-06 01:21:05,912 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-06 01:21:05,912 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: server_info
+2024-06-06 01:21:05,913 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: server_info
+2024-06-06 01:21:05,955 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: get_summary
+2024-06-06 01:21:05,956 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: sampled_history
+2024-06-06 01:21:05,956 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: job_info
+2024-06-06 01:21:06,064 DEBUG   SenderThread:1319931 [sender.py:send_request():407] send_request: job_info
+2024-06-06 01:21:06,065 DEBUG   HandlerThread:1319931 [handler.py:handle_request():146] handle_request: shutdown
+2024-06-06 01:21:06,065 INFO    HandlerThread:1319931 [handler.py:finish():866] shutting down handler
+2024-06-06 01:21:06,957 INFO    WriterThread:1319931 [datastore.py:close():294] close: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240606_005602-zo8bdqjf/run-zo8bdqjf.wandb
+2024-06-06 01:21:07,064 INFO    SenderThread:1319931 [sender.py:finish():1536] shutting down sender
+2024-06-06 01:21:07,065 INFO    SenderThread:1319931 [file_pusher.py:finish():175] shutting down file pusher
+2024-06-06 01:21:07,065 INFO    SenderThread:1319931 [file_pusher.py:join():181] waiting for file pusher

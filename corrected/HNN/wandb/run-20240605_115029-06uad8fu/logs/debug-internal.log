@@ -1,0 +1,19 @@
+2024-06-05 11:50:29,865 INFO    StreamThr :52847 [internal.py:wandb_internal():86] W&B internal server running at pid: 52847, started at: 2024-06-05 11:50:29.865361
+2024-06-05 11:50:29,866 DEBUG   HandlerThread:52847 [handler.py:handle_request():146] handle_request: status
+2024-06-05 11:50:29,869 INFO    WriterThread:52847 [datastore.py:open_for_write():85] open: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240605_115029-06uad8fu/run-06uad8fu.wandb
+2024-06-05 11:50:29,870 DEBUG   SenderThread:52847 [sender.py:send():380] send: header
+2024-06-05 11:50:29,881 DEBUG   SenderThread:52847 [sender.py:send():380] send: run
+2024-06-05 11:50:30,140 DEBUG   HandlerThread:52847 [handler.py:handle_request():146] handle_request: shutdown
+2024-06-05 11:50:30,140 INFO    HandlerThread:52847 [handler.py:finish():866] shutting down handler
+2024-06-05 11:50:30,235 INFO    SenderThread:52847 [dir_watcher.py:__init__():211] watching files in: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240605_115029-06uad8fu/files
+2024-06-05 11:50:30,235 INFO    SenderThread:52847 [sender.py:_start_run_threads():1124] run started: 06uad8fu with start time 1717581029.865159
+2024-06-05 11:50:30,235 INFO    SenderThread:52847 [sender.py:finish():1536] shutting down sender
+2024-06-05 11:50:30,235 INFO    SenderThread:52847 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-06-05 11:50:30,881 INFO    WriterThread:52847 [datastore.py:close():294] close: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240605_115029-06uad8fu/run-06uad8fu.wandb
+2024-06-05 11:50:31,236 INFO    SenderThread:52847 [dir_watcher.py:finish():388] scan: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240605_115029-06uad8fu/files
+2024-06-05 11:50:31,236 INFO    SenderThread:52847 [dir_watcher.py:finish():402] scan save: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240605_115029-06uad8fu/files/config.yaml config.yaml
+2024-06-05 11:50:31,236 INFO    SenderThread:52847 [file_pusher.py:finish():175] shutting down file pusher
+2024-06-05 11:50:31,236 INFO    SenderThread:52847 [file_pusher.py:join():181] waiting for file pusher
+2024-06-05 11:50:31,842 INFO    wandb-upload_0:52847 [upload_job.py:push():131] Uploaded file /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/wandb/run-20240605_115029-06uad8fu/files/config.yaml
+2024-06-05 11:50:32,238 INFO    SenderThread:52847 [file_stream.py:finish():595] file stream finish called
+2024-06-05 11:50:32,440 INFO    SenderThread:52847 [file_stream.py:finish():599] file stream finish is done

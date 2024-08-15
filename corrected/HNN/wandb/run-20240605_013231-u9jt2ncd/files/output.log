@@ -1,0 +1,26 @@
+
+  0%|▎                                                                                                                                         | 1/500 [00:01<13:19,  1.60s/it]
+Epoch: 1
+LOSS: train: 0.187084 grad:0.004493   |   test: 0.172118 grad: 0.003868
+Epoch: 2
+
+  0%|▌                                                                                                                                         | 2/500 [00:03<12:22,  1.49s/it]
+Epoch: 3
+
+  1%|▊                                                                                                                                         | 3/500 [00:06<16:45,  2.02s/it]
+Traceback (most recent call last):
+  File "/home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/mlp_func/main_mlp_vec.py", line 139, in <module>
+    yt = odeint(model,y0t,ts,method="rk4")
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/torchdiffeq/_impl/adjoint.py", line 198, in odeint_adjoint
+    ans = OdeintAdjointMethod.apply(shapes, func, y0, t, rtol, atol, method, options, event_fn, adjoint_rtol, adjoint_atol,
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/torchdiffeq/_impl/adjoint.py", line 25, in forward
+    ans = odeint(func, y0, t, rtol=rtol, atol=atol, method=method, options=options, event_fn=event_fn)
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/torchdiffeq/_impl/odeint.py", line 77, in odeint
+    solution = solver.integrate(t)
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/torchdiffeq/_impl/solvers.py", line 105, in integrate
+    dy, f0 = self._step_func(self.func, t0, dt, t1, y0)
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/torchdiffeq/_impl/fixed_grid.py", line 29, in _step_func
+    return rk4_alt_step_func(func, t0, dt, t1, y0, f0=f0, perturb=self.perturb), f0
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/torchdiffeq/_impl/rk_common.py", line 112, in rk4_alt_step_func
+    k3 = func(t0 + dt * _two_thirds, y0 + dt * (k2 - k1 * _one_third))
+KeyboardInterrupt

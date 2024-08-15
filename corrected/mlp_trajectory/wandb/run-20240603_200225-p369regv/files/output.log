@@ -1,0 +1,1032 @@
+
+  3%|███▏                                                                                                                      | 13/500 [00:01<00:56,  8.61it/s]
+Epoch: 1
+LOSS: train: 38.134491    |   test: 37.906475
+Epoch: 2
+LOSS: train: 37.377331    |   test: 37.467888
+Epoch: 3
+LOSS: train: 37.002789    |   test: 37.159058
+Epoch: 4
+LOSS: train: 36.697029    |   test: 36.930882
+Epoch: 5
+LOSS: train: 36.435379    |   test: 36.699203
+Epoch: 6
+LOSS: train: 36.228870    |   test: 36.459000
+Epoch: 7
+LOSS: train: 35.969219    |   test: 36.234207
+Epoch: 8
+LOSS: train: 35.770737    |   test: 36.024609
+Epoch: 9
+LOSS: train: 35.597168    |   test: 35.830082
+Epoch: 10
+LOSS: train: 35.424217    |   test: 35.611080
+Epoch: 11
+LOSS: train: 35.175686    |   test: 35.403084
+Epoch: 12
+LOSS: train: 34.955040    |   test: 35.193806
+Epoch: 13
+
+  6%|███████▎                                                                                                                  | 30/500 [00:03<00:54,  8.61it/s]
+Epoch: 14
+LOSS: train: 34.560795    |   test: 34.831482
+Epoch: 15
+LOSS: train: 34.393284    |   test: 34.637810
+Epoch: 16
+LOSS: train: 34.189190    |   test: 34.436691
+Epoch: 17
+LOSS: train: 33.992027    |   test: 34.246452
+Epoch: 18
+LOSS: train: 33.809418    |   test: 34.059814
+Epoch: 19
+LOSS: train: 33.589272    |   test: 33.847332
+Epoch: 20
+LOSS: train: 33.423233    |   test: 33.667919
+Epoch: 21
+LOSS: train: 33.209419    |   test: 33.481464
+Epoch: 22
+LOSS: train: 33.079445    |   test: 33.301613
+Epoch: 23
+LOSS: train: 32.961086    |   test: 33.143394
+Epoch: 24
+LOSS: train: 32.723560    |   test: 32.930885
+Epoch: 25
+LOSS: train: 32.507118    |   test: 32.736198
+Epoch: 26
+LOSS: train: 32.335289    |   test: 32.556782
+Epoch: 27
+LOSS: train: 32.093445    |   test: 32.373062
+Epoch: 28
+LOSS: train: 31.917000    |   test: 32.225548
+Epoch: 29
+LOSS: train: 31.796295    |   test: 32.062901
+Epoch: 30
+LOSS: train: 31.690960    |   test: 31.909586
+Epoch: 31
+
+  9%|███████████▍                                                                                                              | 47/500 [00:05<00:54,  8.35it/s]
+Epoch: 32
+LOSS: train: 31.275341    |   test: 31.497311
+Epoch: 33
+LOSS: train: 31.103834    |   test: 31.365530
+Epoch: 34
+LOSS: train: 30.941675    |   test: 31.205044
+Epoch: 35
+LOSS: train: 30.799000    |   test: 31.015179
+Epoch: 36
+LOSS: train: 30.630877    |   test: 30.863230
+Epoch: 37
+LOSS: train: 30.457397    |   test: 30.682119
+Epoch: 38
+LOSS: train: 30.287086    |   test: 30.524128
+Epoch: 39
+LOSS: train: 30.178888    |   test: 30.400797
+Epoch: 40
+LOSS: train: 30.006977    |   test: 30.235727
+Epoch: 41
+LOSS: train: 29.814558    |   test: 30.056284
+Epoch: 42
+LOSS: train: 29.678020    |   test: 29.903681
+Epoch: 43
+LOSS: train: 29.511738    |   test: 29.738306
+Epoch: 44
+LOSS: train: 29.315075    |   test: 29.586237
+Epoch: 45
+LOSS: train: 29.203148    |   test: 29.481882
+Epoch: 46
+LOSS: train: 29.078053    |   test: 29.335384
+Epoch: 47
+LOSS: train: 28.916754    |   test: 29.144379
+Epoch: 48
+
+ 13%|███████████████▌                                                                                                          | 64/500 [00:07<00:52,  8.28it/s]
+Epoch: 49
+LOSS: train: 28.594942    |   test: 28.860584
+Epoch: 50
+LOSS: train: 28.456823    |   test: 28.720541
+Epoch: 51
+LOSS: train: 28.282265    |   test: 28.567764
+Epoch: 52
+LOSS: train: 28.173449    |   test: 28.430243
+Epoch: 53
+LOSS: train: 28.090046    |   test: 28.314724
+Epoch: 54
+LOSS: train: 27.914770    |   test: 28.135599
+Epoch: 55
+LOSS: train: 27.749994    |   test: 28.015335
+Epoch: 56
+LOSS: train: 27.595648    |   test: 27.871872
+Epoch: 57
+LOSS: train: 27.444120    |   test: 27.744699
+Epoch: 58
+LOSS: train: 27.296898    |   test: 27.617451
+Epoch: 59
+LOSS: train: 27.233574    |   test: 27.478546
+Epoch: 60
+LOSS: train: 27.097406    |   test: 27.362122
+Epoch: 61
+LOSS: train: 26.953962    |   test: 27.217663
+Epoch: 62
+LOSS: train: 26.841291    |   test: 27.093494
+Epoch: 63
+LOSS: train: 26.690491    |   test: 26.965933
+Epoch: 64
+
+ 16%|███████████████████▌                                                                                                      | 80/500 [00:09<00:50,  8.38it/s]
+Epoch: 65
+LOSS: train: 26.485207    |   test: 26.737141
+Epoch: 66
+LOSS: train: 26.292347    |   test: 26.586203
+Epoch: 67
+LOSS: train: 26.160023    |   test: 26.463694
+Epoch: 68
+LOSS: train: 26.091536    |   test: 26.377527
+Epoch: 69
+LOSS: train: 25.986296    |   test: 26.261892
+Epoch: 70
+LOSS: train: 25.869408    |   test: 26.105703
+Epoch: 71
+LOSS: train: 25.698595    |   test: 25.975317
+Epoch: 72
+LOSS: train: 25.611792    |   test: 25.889517
+Epoch: 73
+LOSS: train: 25.489460    |   test: 25.768711
+Epoch: 74
+LOSS: train: 25.378935    |   test: 25.680405
+Epoch: 75
+LOSS: train: 25.229790    |   test: 25.565699
+Epoch: 76
+LOSS: train: 25.197945    |   test: 25.463459
+Epoch: 77
+LOSS: train: 25.049109    |   test: 25.356558
+Epoch: 78
+LOSS: train: 24.935732    |   test: 25.241047
+Epoch: 79
+LOSS: train: 24.796144    |   test: 25.110353
+Epoch: 80
+LOSS: train: 24.739496    |   test: 25.027491
+Epoch: 81
+
+ 19%|███████████████████████▋                                                                                                  | 97/500 [00:11<00:47,  8.41it/s]
+Epoch: 82
+LOSS: train: 24.493341    |   test: 24.807547
+Epoch: 83
+LOSS: train: 24.389118    |   test: 24.717016
+Epoch: 84
+LOSS: train: 24.355907    |   test: 24.628389
+Epoch: 85
+LOSS: train: 24.224073    |   test: 24.501022
+Epoch: 86
+LOSS: train: 24.121338    |   test: 24.378319
+Epoch: 87
+LOSS: train: 23.999958    |   test: 24.294037
+Epoch: 88
+LOSS: train: 23.897509    |   test: 24.194065
+Epoch: 89
+LOSS: train: 23.809446    |   test: 24.102953
+Epoch: 90
+LOSS: train: 23.719450    |   test: 24.015783
+Epoch: 91
+LOSS: train: 23.692310    |   test: 23.905737
+Epoch: 92
+LOSS: train: 23.523872    |   test: 23.803570
+Epoch: 93
+LOSS: train: 23.416767    |   test: 23.700724
+Epoch: 94
+LOSS: train: 23.335491    |   test: 23.619694
+Epoch: 95
+LOSS: train: 23.216768    |   test: 23.530832
+Epoch: 96
+LOSS: train: 23.219292    |   test: 23.464554
+Epoch: 97
+
+ 23%|███████████████████████████▌                                                                                             | 114/500 [00:13<00:46,  8.39it/s]
+Epoch: 98
+LOSS: train: 22.935595    |   test: 23.275440
+Epoch: 99
+LOSS: train: 22.921762    |   test: 23.181503
+Epoch: 100
+LOSS: train: 22.833786    |   test: 23.106535
+Epoch: 101
+LOSS: train: 22.747293    |   test: 23.030682
+Epoch: 102
+LOSS: train: 22.578810    |   test: 22.946026
+Epoch: 103
+LOSS: train: 22.533218    |   test: 22.852148
+Epoch: 104
+LOSS: train: 22.476559    |   test: 22.756170
+Epoch: 105
+LOSS: train: 22.373938    |   test: 22.680735
+Epoch: 106
+LOSS: train: 22.322237    |   test: 22.610119
+Epoch: 107
+LOSS: train: 22.229895    |   test: 22.550190
+Epoch: 108
+LOSS: train: 22.137663    |   test: 22.458401
+Epoch: 109
+LOSS: train: 22.085428    |   test: 22.380838
+Epoch: 110
+LOSS: train: 21.991861    |   test: 22.289289
+Epoch: 111
+LOSS: train: 21.954121    |   test: 22.244030
+Epoch: 112
+LOSS: train: 21.858618    |   test: 22.154091
+Epoch: 113
+LOSS: train: 21.777721    |   test: 22.069180
+Epoch: 114
+
+ 26%|███████████████████████████████▋                                                                                         | 131/500 [00:15<00:43,  8.48it/s]
+Epoch: 115
+LOSS: train: 21.657104    |   test: 21.929712
+Epoch: 116
+LOSS: train: 21.573940    |   test: 21.859690
+Epoch: 117
+LOSS: train: 21.433138    |   test: 21.767056
+Epoch: 118
+LOSS: train: 21.389458    |   test: 21.706848
+Epoch: 119
+LOSS: train: 21.335474    |   test: 21.643162
+Epoch: 120
+LOSS: train: 21.265776    |   test: 21.578815
+Epoch: 121
+LOSS: train: 21.249109    |   test: 21.530891
+Epoch: 122
+LOSS: train: 21.129232    |   test: 21.457605
+Epoch: 123
+LOSS: train: 21.059418    |   test: 21.365826
+Epoch: 124
+LOSS: train: 21.022961    |   test: 21.299988
+Epoch: 125
+LOSS: train: 20.930037    |   test: 21.224354
+Epoch: 126
+LOSS: train: 20.873451    |   test: 21.170843
+Epoch: 127
+LOSS: train: 20.869638    |   test: 21.097670
+Epoch: 128
+LOSS: train: 20.774101    |   test: 21.034075
+Epoch: 129
+LOSS: train: 20.683104    |   test: 21.001261
+Epoch: 130
+LOSS: train: 20.612114    |   test: 20.907471
+Epoch: 131
+LOSS: train: 20.561110    |   test: 20.865780
+Epoch: 132
+
+ 30%|███████████████████████████████████▊                                                                                     | 148/500 [00:17<00:40,  8.71it/s]
+Epoch: 133
+LOSS: train: 20.465424    |   test: 20.763689
+Epoch: 134
+LOSS: train: 20.425224    |   test: 20.694084
+Epoch: 135
+LOSS: train: 20.419985    |   test: 20.647999
+Epoch: 136
+LOSS: train: 20.224606    |   test: 20.563223
+Epoch: 137
+LOSS: train: 20.216475    |   test: 20.516533
+Epoch: 138
+LOSS: train: 20.218163    |   test: 20.457891
+Epoch: 139
+LOSS: train: 20.091337    |   test: 20.391773
+Epoch: 140
+LOSS: train: 20.012638    |   test: 20.339848
+Epoch: 141
+LOSS: train: 19.970062    |   test: 20.307644
+Epoch: 142
+LOSS: train: 19.949076    |   test: 20.264790
+Epoch: 143
+LOSS: train: 19.930719    |   test: 20.199131
+Epoch: 144
+LOSS: train: 19.834375    |   test: 20.130259
+Epoch: 145
+LOSS: train: 19.762957    |   test: 20.078491
+Epoch: 146
+LOSS: train: 19.721214    |   test: 20.042358
+Epoch: 147
+LOSS: train: 19.679207    |   test: 20.008369
+Epoch: 148
+LOSS: train: 19.647751    |   test: 19.948174
+Epoch: 149
+
+ 33%|████████████████████████████████████████▏                                                                                | 166/500 [00:19<00:38,  8.59it/s]
+Epoch: 150
+LOSS: train: 19.497454    |   test: 19.823803
+Epoch: 151
+LOSS: train: 19.464455    |   test: 19.780079
+Epoch: 152
+LOSS: train: 19.378569    |   test: 19.734344
+Epoch: 153
+LOSS: train: 19.369986    |   test: 19.674376
+Epoch: 154
+LOSS: train: 19.302063    |   test: 19.638523
+Epoch: 155
+LOSS: train: 19.268057    |   test: 19.602974
+Epoch: 156
+LOSS: train: 19.215366    |   test: 19.541718
+Epoch: 157
+LOSS: train: 19.185711    |   test: 19.501312
+Epoch: 158
+LOSS: train: 19.137697    |   test: 19.451471
+Epoch: 159
+LOSS: train: 19.093210    |   test: 19.396360
+Epoch: 160
+LOSS: train: 19.036570    |   test: 19.360117
+Epoch: 161
+LOSS: train: 19.006884    |   test: 19.324680
+Epoch: 162
+LOSS: train: 18.919292    |   test: 19.274837
+Epoch: 163
+LOSS: train: 18.871986    |   test: 19.219309
+Epoch: 164
+LOSS: train: 18.849743    |   test: 19.190002
+Epoch: 165
+LOSS: train: 18.804586    |   test: 19.148062
+Epoch: 166
+
+ 37%|████████████████████████████████████████████▎                                                                            | 183/500 [00:21<00:36,  8.58it/s]
+Epoch: 167
+LOSS: train: 18.766035    |   test: 19.067213
+Epoch: 168
+LOSS: train: 18.662451    |   test: 19.017195
+Epoch: 169
+LOSS: train: 18.699322    |   test: 18.981911
+Epoch: 170
+LOSS: train: 18.577736    |   test: 18.936567
+Epoch: 171
+LOSS: train: 18.560438    |   test: 18.903309
+Epoch: 172
+LOSS: train: 18.496758    |   test: 18.849056
+Epoch: 173
+LOSS: train: 18.479658    |   test: 18.816332
+Epoch: 174
+LOSS: train: 18.442940    |   test: 18.779238
+Epoch: 175
+LOSS: train: 18.439192    |   test: 18.747435
+Epoch: 176
+LOSS: train: 18.387905    |   test: 18.690903
+Epoch: 177
+LOSS: train: 18.369875    |   test: 18.658367
+Epoch: 178
+LOSS: train: 18.273605    |   test: 18.608942
+Epoch: 179
+LOSS: train: 18.263355    |   test: 18.581118
+Epoch: 180
+LOSS: train: 18.258345    |   test: 18.544228
+Epoch: 181
+LOSS: train: 18.185156    |   test: 18.491028
+Epoch: 182
+LOSS: train: 18.140860    |   test: 18.454010
+Epoch: 183
+
+ 40%|████████████████████████████████████████████████▏                                                                        | 199/500 [00:23<00:37,  8.12it/s]
+Epoch: 184
+LOSS: train: 18.119652    |   test: 18.389315
+Epoch: 185
+LOSS: train: 18.005552    |   test: 18.345367
+Epoch: 186
+LOSS: train: 18.006981    |   test: 18.305859
+Epoch: 187
+LOSS: train: 17.968939    |   test: 18.285395
+Epoch: 188
+LOSS: train: 17.906006    |   test: 18.246691
+Epoch: 189
+LOSS: train: 17.871962    |   test: 18.216774
+Epoch: 190
+LOSS: train: 17.880342    |   test: 18.193590
+Epoch: 191
+LOSS: train: 17.843336    |   test: 18.163662
+Epoch: 192
+LOSS: train: 17.777315    |   test: 18.118343
+Epoch: 193
+LOSS: train: 17.731348    |   test: 18.073462
+Epoch: 194
+LOSS: train: 17.741022    |   test: 18.054176
+Epoch: 195
+LOSS: train: 17.672880    |   test: 18.032969
+Epoch: 196
+LOSS: train: 17.677834    |   test: 18.006863
+Epoch: 197
+LOSS: train: 17.625311    |   test: 17.952032
+Epoch: 198
+LOSS: train: 17.597075    |   test: 17.927614
+Epoch: 199
+
+ 43%|████████████████████████████████████████████████████                                                                     | 215/500 [00:25<00:33,  8.39it/s]
+Epoch: 200
+LOSS: train: 17.502262    |   test: 17.865402
+Epoch: 201
+LOSS: train: 17.506115    |   test: 17.820564
+Epoch: 202
+LOSS: train: 17.435997    |   test: 17.805210
+Epoch: 203
+LOSS: train: 17.462622    |   test: 17.768240
+Epoch: 204
+LOSS: train: 17.402794    |   test: 17.737753
+Epoch: 205
+LOSS: train: 17.422264    |   test: 17.721214
+Epoch: 206
+LOSS: train: 17.415428    |   test: 17.693901
+Epoch: 207
+LOSS: train: 17.312637    |   test: 17.638077
+Epoch: 208
+LOSS: train: 17.319050    |   test: 17.597107
+Epoch: 209
+LOSS: train: 17.247238    |   test: 17.588816
+Epoch: 210
+LOSS: train: 17.236038    |   test: 17.552979
+Epoch: 211
+LOSS: train: 17.185198    |   test: 17.527925
+Epoch: 212
+LOSS: train: 17.121340    |   test: 17.504253
+Epoch: 213
+LOSS: train: 17.257416    |   test: 17.515915
+Epoch: 214
+LOSS: train: 17.157795    |   test: 17.437578
+Epoch: 215
+LOSS: train: 17.066736    |   test: 17.414967
+Epoch: 216
+
+ 46%|████████████████████████████████████████████████████████▏                                                                | 232/500 [00:27<00:35,  7.62it/s]
+Epoch: 217
+LOSS: train: 17.093229    |   test: 17.356937
+Epoch: 218
+LOSS: train: 17.056313    |   test: 17.339298
+Epoch: 219
+LOSS: train: 16.984234    |   test: 17.310648
+Epoch: 220
+LOSS: train: 16.944431    |   test: 17.281792
+Epoch: 221
+LOSS: train: 16.950293    |   test: 17.252550
+Epoch: 222
+LOSS: train: 16.890715    |   test: 17.227583
+Epoch: 223
+LOSS: train: 16.933060    |   test: 17.201527
+Epoch: 224
+LOSS: train: 16.815067    |   test: 17.177896
+Epoch: 225
+LOSS: train: 16.839201    |   test: 17.162565
+Epoch: 226
+LOSS: train: 16.759125    |   test: 17.133560
+Epoch: 227
+LOSS: train: 16.714556    |   test: 17.110573
+Epoch: 228
+LOSS: train: 16.757307    |   test: 17.101969
+Epoch: 229
+LOSS: train: 16.735435    |   test: 17.072716
+Epoch: 230
+LOSS: train: 16.676996    |   test: 17.046675
+Epoch: 231
+LOSS: train: 16.697889    |   test: 17.026514
+Epoch: 232
+
+ 50%|████████████████████████████████████████████████████████████▎                                                            | 249/500 [00:29<00:29,  8.43it/s]
+Epoch: 233
+LOSS: train: 16.649899    |   test: 16.974440
+Epoch: 234
+LOSS: train: 16.632612    |   test: 16.941708
+Epoch: 235
+LOSS: train: 16.545807    |   test: 16.912136
+Epoch: 236
+LOSS: train: 16.583557    |   test: 16.908688
+Epoch: 237
+LOSS: train: 16.559597    |   test: 16.870358
+Epoch: 238
+LOSS: train: 16.537594    |   test: 16.844593
+Epoch: 239
+LOSS: train: 16.487095    |   test: 16.808224
+Epoch: 240
+LOSS: train: 16.478258    |   test: 16.801357
+Epoch: 241
+LOSS: train: 16.513275    |   test: 16.788975
+Epoch: 242
+LOSS: train: 16.460201    |   test: 16.744574
+Epoch: 243
+LOSS: train: 16.421415    |   test: 16.720676
+Epoch: 244
+LOSS: train: 16.379538    |   test: 16.716137
+Epoch: 245
+LOSS: train: 16.368139    |   test: 16.687819
+Epoch: 246
+LOSS: train: 16.298719    |   test: 16.659512
+Epoch: 247
+LOSS: train: 16.291685    |   test: 16.649998
+Epoch: 248
+LOSS: train: 16.262154    |   test: 16.622032
+Epoch: 249
+
+ 53%|████████████████████████████████████████████████████████████████▎                                                        | 266/500 [00:31<00:28,  8.29it/s]
+Epoch: 250
+LOSS: train: 16.281860    |   test: 16.585175
+Epoch: 251
+LOSS: train: 16.224041    |   test: 16.560207
+Epoch: 252
+LOSS: train: 16.209154    |   test: 16.532135
+Epoch: 253
+LOSS: train: 16.153852    |   test: 16.519375
+Epoch: 254
+LOSS: train: 16.122084    |   test: 16.495235
+Epoch: 255
+LOSS: train: 16.171820    |   test: 16.487965
+Epoch: 256
+LOSS: train: 16.129101    |   test: 16.436617
+Epoch: 257
+LOSS: train: 16.105911    |   test: 16.436504
+Epoch: 258
+LOSS: train: 16.053150    |   test: 16.408581
+Epoch: 259
+LOSS: train: 16.106604    |   test: 16.383076
+Epoch: 260
+LOSS: train: 16.043093    |   test: 16.363873
+Epoch: 261
+LOSS: train: 16.041319    |   test: 16.336874
+Epoch: 262
+LOSS: train: 15.985058    |   test: 16.318649
+Epoch: 263
+LOSS: train: 15.971280    |   test: 16.312645
+Epoch: 264
+LOSS: train: 16.014387    |   test: 16.298500
+Epoch: 265
+LOSS: train: 15.890926    |   test: 16.256882
+Epoch: 266
+
+ 57%|████████████████████████████████████████████████████████████████████▍                                                    | 283/500 [00:33<00:25,  8.57it/s]
+Epoch: 267
+LOSS: train: 15.901498    |   test: 16.220066
+Epoch: 268
+LOSS: train: 15.857039    |   test: 16.203846
+Epoch: 269
+LOSS: train: 15.917069    |   test: 16.205078
+Epoch: 270
+LOSS: train: 15.813263    |   test: 16.171581
+Epoch: 271
+LOSS: train: 15.829125    |   test: 16.150183
+Epoch: 272
+LOSS: train: 15.789002    |   test: 16.137522
+Epoch: 273
+LOSS: train: 15.748914    |   test: 16.120989
+Epoch: 274
+LOSS: train: 15.765006    |   test: 16.081673
+Epoch: 275
+LOSS: train: 15.772281    |   test: 16.062725
+Epoch: 276
+LOSS: train: 15.773830    |   test: 16.075167
+Epoch: 277
+LOSS: train: 15.696066    |   test: 16.022587
+Epoch: 278
+LOSS: train: 15.658911    |   test: 16.024471
+Epoch: 279
+LOSS: train: 15.658005    |   test: 15.999136
+Epoch: 280
+LOSS: train: 15.683852    |   test: 15.975359
+Epoch: 281
+LOSS: train: 15.583375    |   test: 15.950870
+Epoch: 282
+LOSS: train: 15.587768    |   test: 15.946455
+Epoch: 283
+LOSS: train: 15.602810    |   test: 15.933569
+Epoch: 284
+
+ 60%|████████████████████████████████████████████████████████████████████████▌                                                | 300/500 [00:35<00:23,  8.43it/s]
+Epoch: 285
+LOSS: train: 15.536936    |   test: 15.883168
+Epoch: 286
+LOSS: train: 15.510764    |   test: 15.856096
+Epoch: 287
+LOSS: train: 15.509309    |   test: 15.850118
+Epoch: 288
+LOSS: train: 15.466645    |   test: 15.824875
+Epoch: 289
+LOSS: train: 15.506161    |   test: 15.817047
+Epoch: 290
+LOSS: train: 15.464480    |   test: 15.800308
+Epoch: 291
+LOSS: train: 15.495020    |   test: 15.765905
+Epoch: 292
+LOSS: train: 15.456681    |   test: 15.764727
+Epoch: 293
+LOSS: train: 15.388831    |   test: 15.736076
+Epoch: 294
+LOSS: train: 15.375565    |   test: 15.731646
+Epoch: 295
+LOSS: train: 15.440079    |   test: 15.712265
+Epoch: 296
+LOSS: train: 15.328812    |   test: 15.682238
+Epoch: 297
+LOSS: train: 15.396780    |   test: 15.661700
+Epoch: 298
+LOSS: train: 15.343903    |   test: 15.680502
+Epoch: 299
+LOSS: train: 15.309423    |   test: 15.632538
+Epoch: 300
+LOSS: train: 15.258929    |   test: 15.612460
+Epoch: 301
+
+ 63%|████████████████████████████████████████████████████████████████████████████▋                                            | 317/500 [00:37<00:21,  8.43it/s]
+Epoch: 302
+LOSS: train: 15.235314    |   test: 15.585587
+Epoch: 303
+LOSS: train: 15.268167    |   test: 15.567545
+Epoch: 304
+LOSS: train: 15.203155    |   test: 15.546562
+Epoch: 305
+LOSS: train: 15.230643    |   test: 15.544683
+Epoch: 306
+LOSS: train: 15.179597    |   test: 15.508461
+Epoch: 307
+LOSS: train: 15.138335    |   test: 15.508891
+Epoch: 308
+LOSS: train: 15.122837    |   test: 15.482541
+Epoch: 309
+LOSS: train: 15.158191    |   test: 15.464755
+Epoch: 310
+LOSS: train: 15.147355    |   test: 15.472383
+Epoch: 311
+LOSS: train: 15.139469    |   test: 15.454088
+Epoch: 312
+LOSS: train: 15.086274    |   test: 15.413317
+Epoch: 313
+LOSS: train: 15.089413    |   test: 15.425560
+Epoch: 314
+LOSS: train: 15.048794    |   test: 15.379843
+Epoch: 315
+LOSS: train: 15.030462    |   test: 15.383794
+Epoch: 316
+LOSS: train: 15.011013    |   test: 15.362798
+Epoch: 317
+
+ 67%|████████████████████████████████████████████████████████████████████████████████▊                                        | 334/500 [00:39<00:19,  8.49it/s]
+Epoch: 318
+LOSS: train: 14.992385    |   test: 15.336653
+Epoch: 319
+LOSS: train: 14.982739    |   test: 15.304790
+Epoch: 320
+LOSS: train: 14.986632    |   test: 15.315142
+Epoch: 321
+LOSS: train: 14.977328    |   test: 15.285077
+Epoch: 322
+LOSS: train: 15.003959    |   test: 15.275431
+Epoch: 323
+LOSS: train: 14.908784    |   test: 15.244802
+Epoch: 324
+LOSS: train: 14.852997    |   test: 15.219580
+Epoch: 325
+LOSS: train: 14.937135    |   test: 15.223534
+Epoch: 326
+LOSS: train: 14.888244    |   test: 15.201749
+Epoch: 327
+LOSS: train: 14.833256    |   test: 15.188484
+Epoch: 328
+LOSS: train: 14.838181    |   test: 15.180534
+Epoch: 329
+LOSS: train: 14.838798    |   test: 15.156177
+Epoch: 330
+LOSS: train: 14.786490    |   test: 15.136457
+Epoch: 331
+LOSS: train: 14.838983    |   test: 15.144419
+Epoch: 332
+LOSS: train: 14.767224    |   test: 15.105632
+Epoch: 333
+LOSS: train: 14.807575    |   test: 15.101214
+Epoch: 334
+
+ 70%|████████████████████████████████████████████████████████████████████████████████████▉                                    | 351/500 [00:41<00:17,  8.67it/s]
+Epoch: 335
+LOSS: train: 14.720294    |   test: 15.070956
+Epoch: 336
+LOSS: train: 14.756364    |   test: 15.066670
+Epoch: 337
+LOSS: train: 14.710415    |   test: 15.049171
+Epoch: 338
+LOSS: train: 14.639755    |   test: 15.036374
+Epoch: 339
+LOSS: train: 14.728348    |   test: 15.029262
+Epoch: 340
+LOSS: train: 14.672581    |   test: 15.002774
+Epoch: 341
+LOSS: train: 14.678931    |   test: 14.989532
+Epoch: 342
+LOSS: train: 14.653814    |   test: 14.975055
+Epoch: 343
+LOSS: train: 14.675283    |   test: 14.965158
+Epoch: 344
+LOSS: train: 14.642933    |   test: 14.954234
+Epoch: 345
+LOSS: train: 14.623610    |   test: 14.927991
+Epoch: 346
+LOSS: train: 14.540421    |   test: 14.908338
+Epoch: 347
+LOSS: train: 14.565845    |   test: 14.893878
+Epoch: 348
+LOSS: train: 14.548542    |   test: 14.889470
+Epoch: 349
+LOSS: train: 14.586684    |   test: 14.867868
+Epoch: 350
+LOSS: train: 14.552277    |   test: 14.877666
+Epoch: 351
+LOSS: train: 14.548265    |   test: 14.858856
+Epoch: 352
+
+ 74%|█████████████████████████████████████████████████████████████████████████████████████████▎                               | 369/500 [00:43<00:15,  8.70it/s]
+Epoch: 353
+LOSS: train: 14.521307    |   test: 14.800440
+Epoch: 354
+LOSS: train: 14.477551    |   test: 14.797228
+Epoch: 355
+LOSS: train: 14.472123    |   test: 14.793294
+Epoch: 356
+LOSS: train: 14.425889    |   test: 14.778491
+Epoch: 357
+LOSS: train: 14.437155    |   test: 14.759642
+Epoch: 358
+LOSS: train: 14.431165    |   test: 14.769114
+Epoch: 359
+LOSS: train: 14.431945    |   test: 14.744589
+Epoch: 360
+LOSS: train: 14.415308    |   test: 14.718623
+Epoch: 361
+LOSS: train: 14.362464    |   test: 14.719446
+Epoch: 362
+LOSS: train: 14.369888    |   test: 14.699827
+Epoch: 363
+LOSS: train: 14.347104    |   test: 14.690733
+Epoch: 364
+LOSS: train: 14.351226    |   test: 14.675458
+Epoch: 365
+LOSS: train: 14.323441    |   test: 14.671181
+Epoch: 366
+LOSS: train: 14.328732    |   test: 14.652754
+Epoch: 367
+LOSS: train: 14.309921    |   test: 14.633191
+Epoch: 368
+LOSS: train: 14.328601    |   test: 14.637627
+Epoch: 369
+
+ 77%|█████████████████████████████████████████████████████████████████████████████████████████████▏                           | 385/500 [00:45<00:15,  7.55it/s]
+Epoch: 370
+LOSS: train: 14.241827    |   test: 14.599887
+Epoch: 371
+LOSS: train: 14.267158    |   test: 14.588236
+Epoch: 372
+LOSS: train: 14.250354    |   test: 14.583632
+Epoch: 373
+LOSS: train: 14.278815    |   test: 14.577141
+Epoch: 374
+LOSS: train: 14.226838    |   test: 14.562266
+Epoch: 375
+LOSS: train: 14.251863    |   test: 14.561167
+Epoch: 376
+LOSS: train: 14.197055    |   test: 14.523203
+Epoch: 377
+LOSS: train: 14.154943    |   test: 14.511917
+Epoch: 378
+LOSS: train: 14.188199    |   test: 14.487750
+Epoch: 379
+LOSS: train: 14.148431    |   test: 14.497732
+Epoch: 380
+LOSS: train: 14.163156    |   test: 14.495972
+Epoch: 381
+LOSS: train: 14.139095    |   test: 14.471527
+Epoch: 382
+LOSS: train: 14.136840    |   test: 14.450270
+Epoch: 383
+LOSS: train: 14.114142    |   test: 14.454335
+Epoch: 384
+LOSS: train: 14.143143    |   test: 14.429822
+Epoch: 385
+
+ 80%|█████████████████████████████████████████████████████████████████████████████████████████████████                        | 401/500 [00:47<00:13,  7.60it/s]
+Epoch: 386
+LOSS: train: 14.054473    |   test: 14.399542
+Epoch: 387
+LOSS: train: 14.080230    |   test: 14.402718
+Epoch: 388
+LOSS: train: 14.072109    |   test: 14.386225
+Epoch: 389
+LOSS: train: 14.052643    |   test: 14.370546
+Epoch: 390
+LOSS: train: 13.987812    |   test: 14.357455
+Epoch: 391
+LOSS: train: 14.014524    |   test: 14.360110
+Epoch: 392
+LOSS: train: 14.024030    |   test: 14.345167
+Epoch: 393
+LOSS: train: 13.969961    |   test: 14.327703
+Epoch: 394
+LOSS: train: 14.035188    |   test: 14.310564
+Epoch: 395
+LOSS: train: 13.925724    |   test: 14.306196
+Epoch: 396
+LOSS: train: 13.917871    |   test: 14.296129
+Epoch: 397
+LOSS: train: 13.974070    |   test: 14.309736
+Epoch: 398
+LOSS: train: 13.987148    |   test: 14.274968
+Epoch: 399
+LOSS: train: 13.924258    |   test: 14.288531
+Epoch: 400
+LOSS: train: 13.931620    |   test: 14.255946
+Epoch: 401
+
+ 83%|████████████████████████████████████████████████████████████████████████████████████████████████████▉                    | 417/500 [00:49<00:10,  8.22it/s]
+Epoch: 402
+LOSS: train: 13.871030    |   test: 14.225792
+Epoch: 403
+LOSS: train: 13.870379    |   test: 14.238569
+Epoch: 404
+LOSS: train: 13.810192    |   test: 14.210594
+Epoch: 405
+LOSS: train: 13.879507    |   test: 14.208349
+Epoch: 406
+LOSS: train: 13.856058    |   test: 14.192244
+Epoch: 407
+LOSS: train: 13.852912    |   test: 14.183627
+Epoch: 408
+LOSS: train: 13.860193    |   test: 14.179533
+Epoch: 409
+LOSS: train: 13.828416    |   test: 14.153585
+Epoch: 410
+LOSS: train: 13.846355    |   test: 14.159854
+Epoch: 411
+LOSS: train: 13.894291    |   test: 14.132385
+Epoch: 412
+LOSS: train: 13.806527    |   test: 14.129112
+Epoch: 413
+LOSS: train: 13.759018    |   test: 14.108360
+Epoch: 414
+LOSS: train: 13.774273    |   test: 14.095251
+Epoch: 415
+LOSS: train: 13.781034    |   test: 14.099159
+Epoch: 416
+LOSS: train: 13.761791    |   test: 14.071115
+Epoch: 417
+
+ 87%|████████████████████████████████████████████████████████████████████████████████████████████████████████▊                | 433/500 [00:51<00:08,  7.83it/s]
+Epoch: 418
+LOSS: train: 13.772308    |   test: 14.060982
+Epoch: 419
+LOSS: train: 13.704953    |   test: 14.060481
+Epoch: 420
+LOSS: train: 13.765360    |   test: 14.057312
+Epoch: 421
+LOSS: train: 13.706461    |   test: 14.046251
+Epoch: 422
+LOSS: train: 13.666430    |   test: 14.014383
+Epoch: 423
+LOSS: train: 13.675159    |   test: 14.002243
+Epoch: 424
+LOSS: train: 13.646119    |   test: 14.005727
+Epoch: 425
+LOSS: train: 13.691445    |   test: 13.991832
+Epoch: 426
+LOSS: train: 13.677761    |   test: 13.979892
+Epoch: 427
+LOSS: train: 13.631415    |   test: 13.973575
+Epoch: 428
+LOSS: train: 13.625669    |   test: 13.967127
+Epoch: 429
+LOSS: train: 13.648483    |   test: 13.962125
+Epoch: 430
+LOSS: train: 13.669582    |   test: 13.932567
+Epoch: 431
+LOSS: train: 13.579559    |   test: 13.942797
+Epoch: 432
+LOSS: train: 13.598489    |   test: 13.920218
+Epoch: 433
+
+ 90%|████████████████████████████████████████████████████████████████████████████████████████████████████████████▍            | 448/500 [00:53<00:06,  7.62it/s]
+Epoch: 434
+LOSS: train: 13.541717    |   test: 13.902292
+Epoch: 435
+LOSS: train: 13.508756    |   test: 13.918729
+Epoch: 436
+LOSS: train: 13.552829    |   test: 13.899182
+Epoch: 437
+LOSS: train: 13.536282    |   test: 13.886029
+Epoch: 438
+LOSS: train: 13.513747    |   test: 13.873118
+Epoch: 439
+LOSS: train: 13.527719    |   test: 13.892458
+Epoch: 440
+LOSS: train: 13.459026    |   test: 13.860255
+Epoch: 441
+LOSS: train: 13.544903    |   test: 13.855463
+Epoch: 442
+LOSS: train: 13.526013    |   test: 13.841583
+Epoch: 443
+LOSS: train: 13.482716    |   test: 13.828509
+Epoch: 444
+LOSS: train: 13.474304    |   test: 13.809039
+Epoch: 445
+LOSS: train: 13.449353    |   test: 13.809572
+Epoch: 446
+LOSS: train: 13.419349    |   test: 13.796867
+Epoch: 447
+LOSS: train: 13.526719    |   test: 13.788443
+Epoch: 448
+
+ 93%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████▎        | 464/500 [00:55<00:04,  7.84it/s]
+Epoch: 449
+LOSS: train: 13.462803    |   test: 13.768834
+Epoch: 450
+LOSS: train: 13.442979    |   test: 13.761045
+Epoch: 451
+LOSS: train: 13.382052    |   test: 13.746533
+Epoch: 452
+LOSS: train: 13.410310    |   test: 13.742678
+Epoch: 453
+LOSS: train: 13.408548    |   test: 13.722941
+Epoch: 454
+LOSS: train: 13.416938    |   test: 13.731486
+Epoch: 455
+LOSS: train: 13.401864    |   test: 13.720261
+Epoch: 456
+LOSS: train: 13.361062    |   test: 13.699992
+Epoch: 457
+LOSS: train: 13.345323    |   test: 13.691945
+Epoch: 458
+LOSS: train: 13.336731    |   test: 13.680891
+Epoch: 459
+LOSS: train: 13.340888    |   test: 13.677681
+Epoch: 460
+LOSS: train: 13.391821    |   test: 13.683458
+Epoch: 461
+LOSS: train: 13.347152    |   test: 13.649124
+Epoch: 462
+LOSS: train: 13.341812    |   test: 13.655939
+Epoch: 463
+LOSS: train: 13.296725    |   test: 13.643652
+Epoch: 464
+
+ 96%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▏    | 480/500 [00:57<00:02,  7.99it/s]
+Epoch: 465
+LOSS: train: 13.265683    |   test: 13.641713
+Epoch: 466
+LOSS: train: 13.276251    |   test: 13.612267
+Epoch: 467
+LOSS: train: 13.265579    |   test: 13.635936
+Epoch: 468
+LOSS: train: 13.270688    |   test: 13.630322
+Epoch: 469
+LOSS: train: 13.241834    |   test: 13.605739
+Epoch: 470
+LOSS: train: 13.286965    |   test: 13.593264
+Epoch: 471
+LOSS: train: 13.233762    |   test: 13.581815
+Epoch: 472
+LOSS: train: 13.301978    |   test: 13.582794
+Epoch: 473
+LOSS: train: 13.194204    |   test: 13.565416
+Epoch: 474
+LOSS: train: 13.244843    |   test: 13.555147
+Epoch: 475
+LOSS: train: 13.232440    |   test: 13.541842
+Epoch: 476
+LOSS: train: 13.224093    |   test: 13.532976
+Epoch: 477
+LOSS: train: 13.191946    |   test: 13.531294
+Epoch: 478
+LOSS: train: 13.196807    |   test: 13.520909
+Epoch: 479
+LOSS: train: 13.168371    |   test: 13.514780
+Epoch: 480
+
+ 99%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████ | 496/500 [00:59<00:00,  8.04it/s]
+Epoch: 481
+LOSS: train: 13.161612    |   test: 13.499209
+Epoch: 482
+LOSS: train: 13.151117    |   test: 13.493982
+Epoch: 483
+LOSS: train: 13.123022    |   test: 13.483030
+Epoch: 484
+LOSS: train: 13.203107    |   test: 13.506426
+Epoch: 485
+LOSS: train: 13.155211    |   test: 13.478650
+Epoch: 486
+LOSS: train: 13.132810    |   test: 13.454773
+Epoch: 487
+LOSS: train: 13.131864    |   test: 13.458264
+Epoch: 488
+LOSS: train: 13.153543    |   test: 13.446226
+Epoch: 489
+LOSS: train: 13.110660    |   test: 13.429886
+Epoch: 490
+LOSS: train: 13.155501    |   test: 13.433835
+Epoch: 491
+LOSS: train: 13.094632    |   test: 13.407254
+Epoch: 492
+LOSS: train: 13.069623    |   test: 13.401372
+Epoch: 493
+LOSS: train: 13.033555    |   test: 13.399841
+Epoch: 494
+LOSS: train: 13.081130    |   test: 13.383326
+Epoch: 495
+LOSS: train: 13.056568    |   test: 13.398674
+Epoch: 496
+
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 500/500 [01:00<00:00,  8.29it/s]
+Epoch: 497
+LOSS: train: 13.036893    |   test: 13.369037
+Epoch: 498
+LOSS: train: 12.969531    |   test: 13.375409
+Epoch: 499
+LOSS: train: 13.116995    |   test: 13.402084
+Epoch: 500
+LOSS: train: 13.024844    |   test: 13.356776

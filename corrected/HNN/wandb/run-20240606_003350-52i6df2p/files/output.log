@@ -1,0 +1,70 @@
+torch.Size([6, 500])
+Epoch: 1
+LOSS: train: 1.624312 grad:0.743417 h:0.474143   |   test: 1.934926 grad: 0.724250 h:0.827359
+  0%|                    | 1/500 [00:01<10:54,  1.31s/it]
+Epoch: 2
+
+  0%|                    | 2/500 [00:02<10:22,  1.25s/it]
+Epoch: 3
+LOSS: train: 1.074816 grad:0.677295 h:0.047822   |   test: 0.999512 grad: 0.656827 h:0.003151
+Epoch: 4
+
+  1%|▏                   | 4/500 [00:04<10:03,  1.22s/it]
+Epoch: 5
+LOSS: train: 1.009719 grad:0.659709 h:0.016146   |   test: 1.023031 grad: 0.639714 h:0.055960
+Epoch: 6
+
+  1%|▏                   | 6/500 [00:07<10:24,  1.26s/it]
+Epoch: 7
+
+  2%|▎                   | 8/500 [00:09<10:02,  1.22s/it]
+Epoch: 8
+LOSS: train: 1.000448 grad:0.656546 h:0.013412   |   test: 0.998088 grad: 0.652189 h:0.011423
+Epoch: 9
+
+  2%|▎                   | 9/500 [00:11<09:55,  1.21s/it]
+Epoch: 10
+LOSS: train: 0.997051 grad:0.656842 h:0.009536   |   test: 0.967328 grad: 0.631813 h:0.016875
+Epoch: 11
+
+  2%|▍                  | 11/500 [00:13<10:11,  1.25s/it]
+Epoch: 12
+
+  2%|▍                  | 12/500 [00:15<10:26,  1.28s/it]
+Epoch: 13
+LOSS: train: 0.988399 grad:0.652719 h:0.009670   |   test: 0.963010 grad: 0.628558 h:0.019798
+Epoch: 14
+
+  3%|▌                  | 14/500 [00:17<10:09,  1.25s/it]
+Epoch: 15
+
+  3%|▌                  | 16/500 [00:19<09:59,  1.24s/it]
+Epoch: 16
+LOSS: train: 0.975059 grad:0.647319 h:0.007791   |   test: 0.982264 grad: 0.629764 h:0.036461
+Epoch: 17
+
+  3%|▋                  | 17/500 [00:21<10:05,  1.25s/it]
+Epoch: 18
+  4%|▋                  | 18/500 [00:22<10:14,  1.27s/it]
+Traceback (most recent call last):
+  File "/home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/HNN_main.py", line 116, in <module>
+    y = odeint(model,y0,ts,method="rk4")
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/torchdiffeq/_impl/odeint.py", line 77, in odeint
+    solution = solver.integrate(t)
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/torchdiffeq/_impl/solvers.py", line 105, in integrate
+    dy, f0 = self._step_func(self.func, t0, dt, t1, y0)
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/torchdiffeq/_impl/fixed_grid.py", line 29, in _step_func
+    return rk4_alt_step_func(func, t0, dt, t1, y0, f0=f0, perturb=self.perturb), f0
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/torchdiffeq/_impl/rk_common.py", line 113, in rk4_alt_step_func
+    k4 = func(t1, y0 + dt * (k1 - k2 + k3), perturb=Perturb.PREV if perturb else Perturb.NONE)
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/torchdiffeq/_impl/misc.py", line 189, in forward
+    return self.base_func(t, y)
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/hnn_model.py", line 82, in forward
+    dh = torch.autograd.grad(H,x,retain_graph=True,create_graph=True)[0] # exploit autograd.grad
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/torch/autograd/__init__.py", line 300, in grad
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt

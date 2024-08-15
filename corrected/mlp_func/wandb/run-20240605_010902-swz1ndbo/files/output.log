@@ -1,0 +1,422 @@
+
+  0%|                | 0/500 [00:00<?, ?it/s]
+Epoch: 1
+
+  0%|        | 1/500 [00:02<17:56,  2.16s/it]
+Epoch: 2
+LOSS: train: 0.028680 grad:0.002051   |   test: 0.020761 grad: 0.001961
+Epoch: 3
+
+  0%|        | 2/500 [00:03<16:02,  1.93s/it]
+Epoch: 4
+
+  1%|        | 4/500 [00:07<15:37,  1.89s/it]
+Epoch: 5
+
+  1%|        | 5/500 [00:09<15:25,  1.87s/it]
+Epoch: 6
+
+  1%|        | 6/500 [00:11<15:28,  1.88s/it]
+Epoch: 7
+
+  1%|        | 7/500 [00:13<15:13,  1.85s/it]
+Epoch: 8
+LOSS: train: 0.005641 grad:0.001848   |   test: 0.005927 grad: 0.002046
+Epoch: 9
+
+  2%|▏       | 9/500 [00:16<15:16,  1.87s/it]
+Epoch: 10
+
+  2%|▏      | 10/500 [00:18<15:06,  1.85s/it]
+Epoch: 11
+
+  2%|▏      | 11/500 [00:20<14:53,  1.83s/it]
+Epoch: 12
+
+  2%|▏      | 12/500 [00:22<15:00,  1.85s/it]
+Epoch: 13
+
+  3%|▏      | 13/500 [00:24<14:52,  1.83s/it]
+Epoch: 14
+LOSS: train: 0.004327 grad:0.001888   |   test: 0.004628 grad: 0.002095
+Epoch: 15
+
+  3%|▏      | 14/500 [00:26<14:54,  1.84s/it]
+Epoch: 16
+
+
+  3%|▏      | 16/500 [00:30<15:31,  1.92s/it]
+Epoch: 17
+
+  3%|▏      | 17/500 [00:32<16:51,  2.09s/it]
+Epoch: 18
+
+  4%|▎      | 18/500 [00:34<17:07,  2.13s/it]
+Epoch: 19
+
+  4%|▎      | 19/500 [00:37<17:35,  2.19s/it]
+Epoch: 20
+
+  4%|▎      | 20/500 [00:39<17:03,  2.13s/it]
+Epoch: 21
+
+  4%|▎      | 21/500 [00:41<16:57,  2.12s/it]
+Epoch: 22
+
+  4%|▎      | 22/500 [00:43<16:48,  2.11s/it]
+Epoch: 23
+
+  5%|▎      | 23/500 [00:45<15:54,  2.00s/it]
+Epoch: 24
+
+  5%|▎      | 24/500 [00:46<15:30,  1.96s/it]
+Epoch: 25
+
+  5%|▎      | 25/500 [00:48<15:03,  1.90s/it]
+Epoch: 26
+
+  5%|▎      | 26/500 [00:50<14:29,  1.84s/it]
+Epoch: 27
+LOSS: train: 0.003096 grad:0.001995   |   test: 0.003560 grad: 0.002241
+Epoch: 28
+
+  6%|▍      | 28/500 [00:53<13:43,  1.74s/it]
+Epoch: 29
+
+  6%|▍      | 29/500 [00:55<13:29,  1.72s/it]
+Epoch: 30
+
+  6%|▍      | 30/500 [00:57<13:49,  1.76s/it]
+Epoch: 31
+
+  6%|▍      | 31/500 [00:58<13:49,  1.77s/it]
+Epoch: 32
+
+  6%|▍      | 32/500 [01:00<14:05,  1.81s/it]
+Epoch: 33
+
+  7%|▍      | 33/500 [01:02<14:15,  1.83s/it]
+Epoch: 34
+
+  7%|▍      | 34/500 [01:04<14:08,  1.82s/it]
+Epoch: 35
+
+  7%|▍      | 35/500 [01:06<14:18,  1.85s/it]
+Epoch: 36
+
+  7%|▌      | 36/500 [01:08<14:12,  1.84s/it]
+Epoch: 37
+
+  7%|▌      | 37/500 [01:10<14:00,  1.82s/it]
+Epoch: 38
+LOSS: train: 0.002638 grad:0.002072   |   test: 0.002873 grad: 0.002293
+Epoch: 39
+
+  8%|▌      | 39/500 [01:13<14:02,  1.83s/it]
+Epoch: 40
+
+  8%|▌      | 40/500 [01:15<13:54,  1.82s/it]
+Epoch: 41
+
+  8%|▌      | 41/500 [01:17<13:55,  1.82s/it]
+Epoch: 42
+
+  8%|▌      | 42/500 [01:19<13:52,  1.82s/it]
+Epoch: 43
+
+  9%|▌      | 43/500 [01:20<13:55,  1.83s/it]
+Epoch: 44
+
+  9%|▌      | 44/500 [01:22<14:00,  1.84s/it]
+Epoch: 45
+
+  9%|▋      | 45/500 [01:24<13:51,  1.83s/it]
+Epoch: 46
+
+  9%|▋      | 46/500 [01:26<13:53,  1.84s/it]
+Epoch: 47
+
+  9%|▋      | 47/500 [01:28<13:49,  1.83s/it]
+Epoch: 48
+
+ 10%|▋      | 48/500 [01:30<13:52,  1.84s/it]
+Epoch: 49
+
+ 10%|▋      | 49/500 [01:32<13:50,  1.84s/it]
+Epoch: 50
+LOSS: train: 0.002593 grad:0.002127   |   test: 0.002814 grad: 0.002330
+Epoch: 51
+
+ 10%|▋      | 51/500 [01:35<13:38,  1.82s/it]
+Epoch: 52
+
+ 10%|▋      | 52/500 [01:37<13:52,  1.86s/it]
+Epoch: 53
+
+ 11%|▋      | 53/500 [01:39<13:43,  1.84s/it]
+Epoch: 54
+
+ 11%|▊      | 54/500 [01:41<13:32,  1.82s/it]
+Epoch: 55
+
+ 11%|▊      | 55/500 [01:43<13:32,  1.83s/it]
+Epoch: 56
+
+ 11%|▊      | 56/500 [01:44<13:31,  1.83s/it]
+Epoch: 57
+
+ 11%|▊      | 57/500 [01:46<13:36,  1.84s/it]
+Epoch: 58
+
+ 12%|▊      | 58/500 [01:48<13:48,  1.88s/it]
+Epoch: 59
+
+ 12%|▊      | 59/500 [01:50<13:35,  1.85s/it]
+Epoch: 60
+
+ 12%|▊      | 60/500 [01:52<13:34,  1.85s/it]
+Epoch: 61
+
+ 12%|▊      | 61/500 [01:54<13:26,  1.84s/it]
+Epoch: 62
+LOSS: train: 0.002360 grad:0.002132   |   test: 0.002619 grad: 0.002328
+Epoch: 63
+
+ 13%|▉      | 63/500 [01:57<13:26,  1.85s/it]
+Epoch: 64
+
+ 13%|▉      | 64/500 [01:59<13:28,  1.86s/it]
+Epoch: 65
+
+ 13%|▉      | 65/500 [02:01<13:28,  1.86s/it]
+Epoch: 66
+
+ 13%|▉      | 66/500 [02:03<13:22,  1.85s/it]
+Epoch: 67
+
+ 13%|▉      | 67/500 [02:05<13:17,  1.84s/it]
+Epoch: 68
+
+ 14%|▉      | 68/500 [02:07<13:21,  1.86s/it]
+Epoch: 69
+
+ 14%|▉      | 69/500 [02:08<13:16,  1.85s/it]
+Epoch: 70
+
+ 14%|▉      | 70/500 [02:10<13:04,  1.82s/it]
+Epoch: 71
+
+ 14%|▉      | 71/500 [02:12<12:55,  1.81s/it]
+Epoch: 72
+
+ 14%|█      | 72/500 [02:14<12:59,  1.82s/it]
+Epoch: 73
+
+ 15%|█      | 73/500 [02:16<12:54,  1.81s/it]
+Epoch: 74
+LOSS: train: 0.003298 grad:0.002152   |   test: 0.003421 grad: 0.002323
+Epoch: 75
+
+ 15%|█      | 75/500 [02:19<12:51,  1.82s/it]
+Epoch: 76
+
+ 15%|█      | 76/500 [02:21<12:57,  1.83s/it]
+Epoch: 77
+
+ 15%|█      | 77/500 [02:23<12:52,  1.83s/it]
+Epoch: 78
+
+ 16%|█      | 78/500 [02:25<12:51,  1.83s/it]
+Epoch: 79
+
+ 16%|█      | 79/500 [02:27<12:51,  1.83s/it]
+Epoch: 80
+
+ 16%|█      | 80/500 [02:28<12:48,  1.83s/it]
+Epoch: 81
+
+ 16%|█▏     | 81/500 [02:30<12:46,  1.83s/it]
+Epoch: 82
+
+ 16%|█▏     | 82/500 [02:32<12:49,  1.84s/it]
+Epoch: 83
+
+ 17%|█▏     | 83/500 [02:34<12:45,  1.84s/it]
+Epoch: 84
+
+ 17%|█▏     | 84/500 [02:36<12:41,  1.83s/it]
+Epoch: 85
+LOSS: train: 0.002349 grad:0.002159   |   test: 0.002549 grad: 0.002366
+Epoch: 86
+
+ 17%|█▏     | 86/500 [02:39<12:30,  1.81s/it]
+Epoch: 87
+
+ 17%|█▏     | 87/500 [02:41<12:32,  1.82s/it]
+Epoch: 88
+
+ 18%|█▏     | 88/500 [02:43<12:29,  1.82s/it]
+Epoch: 89
+
+ 18%|█▏     | 89/500 [02:45<12:35,  1.84s/it]
+Epoch: 90
+
+ 18%|█▎     | 90/500 [02:47<12:32,  1.83s/it]
+Epoch: 91
+
+ 18%|█▎     | 91/500 [02:49<12:26,  1.82s/it]
+Epoch: 92
+
+ 18%|█▎     | 92/500 [02:50<12:20,  1.82s/it]
+Epoch: 93
+
+ 19%|█▎     | 93/500 [02:52<12:19,  1.82s/it]
+Epoch: 94
+
+ 19%|█▎     | 94/500 [02:54<12:14,  1.81s/it]
+Epoch: 95
+
+ 19%|█▎     | 95/500 [02:56<12:17,  1.82s/it]
+Epoch: 96
+
+ 19%|█▎     | 96/500 [02:58<12:10,  1.81s/it]
+Epoch: 97
+LOSS: train: 0.002700 grad:0.002157   |   test: 0.002778 grad: 0.002369
+Epoch: 98
+
+ 20%|█▎     | 98/500 [03:01<12:20,  1.84s/it]
+Epoch: 99
+
+ 20%|█▍     | 99/500 [03:03<12:15,  1.83s/it]
+Epoch: 100
+
+ 20%|█▏    | 100/500 [03:05<12:06,  1.82s/it]
+Epoch: 101
+
+ 20%|█▏    | 101/500 [03:07<12:17,  1.85s/it]
+Epoch: 102
+
+ 20%|█▏    | 102/500 [03:09<12:17,  1.85s/it]
+Epoch: 103
+
+ 21%|█▏    | 103/500 [03:10<12:05,  1.83s/it]
+Epoch: 104
+
+ 21%|█▏    | 104/500 [03:12<12:10,  1.84s/it]
+Epoch: 105
+
+ 21%|█▎    | 105/500 [03:14<12:02,  1.83s/it]
+Epoch: 106
+
+ 21%|█▎    | 106/500 [03:16<11:54,  1.81s/it]
+Epoch: 107
+
+ 21%|█▎    | 107/500 [03:18<11:51,  1.81s/it]
+Epoch: 108
+LOSS: train: 0.002391 grad:0.002158   |   test: 0.002552 grad: 0.002375
+Epoch: 109
+
+ 22%|█▎    | 109/500 [03:21<11:55,  1.83s/it]
+Epoch: 110
+
+ 22%|█▎    | 110/500 [03:23<11:52,  1.83s/it]
+Epoch: 111
+
+ 22%|█▎    | 111/500 [03:25<11:51,  1.83s/it]
+Epoch: 112
+
+ 22%|█▎    | 112/500 [03:27<11:55,  1.84s/it]
+Epoch: 113
+
+ 23%|█▎    | 113/500 [03:29<11:48,  1.83s/it]
+Epoch: 114
+
+ 23%|█▎    | 114/500 [03:31<11:45,  1.83s/it]
+Epoch: 115
+
+ 23%|█▍    | 115/500 [03:32<11:45,  1.83s/it]
+Epoch: 116
+
+ 23%|█▍    | 116/500 [03:34<11:34,  1.81s/it]
+Epoch: 117
+
+ 23%|█▍    | 117/500 [03:36<11:42,  1.83s/it]
+Epoch: 118
+
+ 24%|█▍    | 118/500 [03:38<11:36,  1.82s/it]
+Epoch: 119
+
+ 24%|█▍    | 119/500 [03:40<11:35,  1.82s/it]
+Epoch: 120
+
+ 24%|█▍    | 120/500 [03:42<11:57,  1.89s/it]
+Epoch: 121
+LOSS: train: 0.002334 grad:0.002166   |   test: 0.002517 grad: 0.002376
+Epoch: 122
+
+ 24%|█▍    | 122/500 [03:45<11:34,  1.84s/it]
+Epoch: 123
+
+ 25%|█▍    | 123/500 [03:47<11:30,  1.83s/it]
+Epoch: 124
+
+ 25%|█▍    | 124/500 [03:49<11:29,  1.83s/it]
+Epoch: 125
+
+ 25%|█▌    | 125/500 [03:51<11:42,  1.87s/it]
+Epoch: 126
+
+ 25%|█▌    | 126/500 [03:53<11:40,  1.87s/it]
+Epoch: 127
+
+ 25%|█▌    | 127/500 [03:55<11:29,  1.85s/it]
+Epoch: 128
+ 26%|█▌    | 128/500 [03:57<11:31,  1.86s/it]
+Traceback (most recent call last):
+  File "/home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/mlp_func/main_mlp_vec.py", line 127, in <module>
+    loss.backward()
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/torch/_tensor.py", line 488, in backward
+    torch.autograd.backward(
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/torch/autograd/__init__.py", line 197, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/torch/autograd/function.py", line 267, in apply
+    return user_fn(self, *args)
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/torchdiffeq/_impl/adjoint.py", line 126, in backward
+    aug_state = odeint(
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/torchdiffeq/_impl/odeint.py", line 77, in odeint
+    solution = solver.integrate(t)
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/torchdiffeq/_impl/solvers.py", line 105, in integrate
+    dy, f0 = self._step_func(self.func, t0, dt, t1, y0)
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/torchdiffeq/_impl/fixed_grid.py", line 29, in _step_func
+    return rk4_alt_step_func(func, t0, dt, t1, y0, f0=f0, perturb=self.perturb), f0
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/torchdiffeq/_impl/rk_common.py", line 113, in rk4_alt_step_func
+    k4 = func(t1, y0 + dt * (k1 - k2 + k3), perturb=Perturb.PREV if perturb else Perturb.NONE)
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/torchdiffeq/_impl/misc.py", line 189, in forward
+    return self.base_func(t, y)
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/torchdiffeq/_impl/misc.py", line 159, in forward
+    return self.mul * self.base_func(-t, y)
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/torchdiffeq/_impl/misc.py", line 138, in forward
+    f = self.base_func(t, _flat_to_shape(y, (), self.shapes))
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/torchdiffeq/_impl/adjoint.py", line 88, in augmented_dynamics
+    func_eval = func(t if t_requires_grad else t_, y)
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/torchdiffeq/_impl/misc.py", line 189, in forward
+    return self.base_func(t, y)
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/mlp_func/mlp.py", line 42, in forward
+    return self.net(y.float())
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/torch/nn/modules/container.py", line 204, in forward
+    input = module(input)
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1189, in _call_impl
+    forward_call = (self._slow_forward if torch._C._get_tracing_state() else self.forward)
+KeyboardInterrupt

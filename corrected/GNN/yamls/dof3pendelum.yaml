@@ -1,0 +1,28 @@
+type: dof3pend
+nodes: 3
+dim: 6
+
+samples: 100
+steps: 251
+data: traj_3dof.pt
+T: 2.5
+src:
+  #- 0
+  - 0
+  - 0
+  - 1
+  #- 1
+  - 1
+  - 2
+  - 2
+  #- 2
+dst:
+  #- 0
+  - 1
+  - 2
+  - 0
+  #- 1
+  - 2
+  - 0
+  - 1
+  #- 2

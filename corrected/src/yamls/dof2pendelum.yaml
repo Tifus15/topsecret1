@@ -1,0 +1,17 @@
+type: dof2pend
+dim: 4
+ps: 2
+T: 2.5
+samples: 21
+steps: 251
+data: traj_2dof.pt
+src:
+#- 0
+- 0
+- 1
+#- 1
+dst:
+#- 0
+- 1
+- 0
+#- 1

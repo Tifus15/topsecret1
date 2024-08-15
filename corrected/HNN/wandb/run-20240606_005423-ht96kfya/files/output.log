@@ -1,0 +1,28 @@
+
+torch.Size([6, 1000])
+  0%|                                                                                                                                  | 0/1000 [00:00<?, ?it/s]
+Epoch: 1
+
+  0%|                                                                                                                        | 1/1000 [00:26<7:27:19, 26.87s/it]
+Traceback (most recent call last):
+  File "/home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/HNN_main.py", line 156, in <module>
+    yt = odeint(model,y0t,ts,method="rk4")
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/torchdiffeq/_impl/odeint.py", line 77, in odeint
+    solution = solver.integrate(t)
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/torchdiffeq/_impl/solvers.py", line 105, in integrate
+    dy, f0 = self._step_func(self.func, t0, dt, t1, y0)
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/torchdiffeq/_impl/fixed_grid.py", line 29, in _step_func
+    return rk4_alt_step_func(func, t0, dt, t1, y0, f0=f0, perturb=self.perturb), f0
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/torchdiffeq/_impl/rk_common.py", line 112, in rk4_alt_step_func
+    k3 = func(t0 + dt * _two_thirds, y0 + dt * (k2 - k1 * _one_third))
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/torchdiffeq/_impl/misc.py", line 189, in forward
+    return self.base_func(t, y)
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/hnn_model.py", line 84, in forward
+    J = self.create_J()
+  File "/home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/hnn_model.py", line 69, in create_J
+    M = torch.eye(self.c_in)
+KeyboardInterrupt

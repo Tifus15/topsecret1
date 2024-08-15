@@ -1,0 +1,128 @@
+{
+    "os": "Linux-6.5.0-35-generic-x86_64-with-glibc2.17",
+    "python": "3.8.13",
+    "heartbeatAt": "2024-06-03T20:07:44.246532",
+    "startedAt": "2024-06-03T20:07:43.700046",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/mlp_trajectory/main_MLP_trajectory.py",
+    "codePathLocal": "main_MLP_trajectory.py",
+    "codePath": "recap/corrected/mlp_trajectory/main_MLP_trajectory.py",
+    "git": {
+        "remote": "https://git.ias.informatik.tu-darmstadt.de/andric/masterthesis15_03-13_09-2024.git",
+        "commit": "63f72638c17b54f376859cf4b87eb1ead3eaad9a"
+    },
+    "email": "denis.andric@stud.tu-darmstadt.de",
+    "root": "/home/denis/Desktop/master/masterthesis15_03-13_09-2024",
+    "host": "denis-ROG-Strix-G713QM-G713QM",
+    "username": "denis",
+    "executable": "/home/denis/anaconda3/envs/hnn/bin/python",
+    "cpu_count": 8,
+    "cpu_count_logical": 16,
+    "cpu_freq": {
+        "current": 3266.4315,
+        "min": 400.0,
+        "max": 4890.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 4483.978,
+            "min": 400.0,
+            "max": 4890.0
+        },
+        {
+            "current": 4214.489,
+            "min": 400.0,
+            "max": 4890.0
+        },
+        {
+            "current": 4498.535,
+            "min": 400.0,
+            "max": 4890.0
+        },
+        {
+            "current": 400.0,
+            "min": 400.0,
+            "max": 4890.0
+        },
+        {
+            "current": 4484.388,
+            "min": 400.0,
+            "max": 4890.0
+        },
+        {
+            "current": 3954.923,
+            "min": 400.0,
+            "max": 4890.0
+        },
+        {
+            "current": 4456.617,
+            "min": 400.0,
+            "max": 4890.0
+        },
+        {
+            "current": 4484.559,
+            "min": 400.0,
+            "max": 4890.0
+        },
+        {
+            "current": 4498.511,
+            "min": 400.0,
+            "max": 4890.0
+        },
+        {
+            "current": 4494.272,
+            "min": 400.0,
+            "max": 4890.0
+        },
+        {
+            "current": 4482.72,
+            "min": 400.0,
+            "max": 4890.0
+        },
+        {
+            "current": 400.0,
+            "min": 400.0,
+            "max": 4890.0
+        },
+        {
+            "current": 4051.577,
+            "min": 400.0,
+            "max": 4890.0
+        },
+        {
+            "current": 3753.075,
+            "min": 400.0,
+            "max": 4890.0
+        },
+        {
+            "current": 4485.706,
+            "min": 400.0,
+            "max": 4890.0
+        },
+        {
+            "current": 400.0,
+            "min": 400.0,
+            "max": 4890.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 163.2414779663086,
+            "used": 148.04973983764648
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 3060 Laptop GPU",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 3060 Laptop GPU",
+            "memory_total": 6442450944
+        }
+    ],
+    "memory": {
+        "total": 15.03582763671875
+    }
+}

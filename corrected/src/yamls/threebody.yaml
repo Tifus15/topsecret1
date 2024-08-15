@@ -1,0 +1,30 @@
+type: threebody
+dim: 12
+ps: 4
+sample: fig8
+samples: 21
+points: 128
+phi_span:
+  - 0
+  - 1.54
+
+src:
+#  - 0 
+  - 0
+  - 0
+  - 1
+#  - 1
+  - 1
+  - 2
+  - 2
+#  - 2
+dst:
+#  - 0
+  - 1
+  - 2
+  - 0
+#  - 1
+  - 2
+  - 0
+  - 1
+#  - 2

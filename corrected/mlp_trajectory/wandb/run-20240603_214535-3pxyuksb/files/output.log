@@ -1,0 +1,50 @@
+
+  0%|      | 10/2500 [00:01<06:06,  6.79it/s]
+Epoch: 1
+LOSS: train: 60.787071    |   test: 60.226696
+Epoch: 2
+LOSS: train: 59.782425    |   test: 59.254158
+Epoch: 3
+LOSS: train: 58.852890    |   test: 58.352642
+Epoch: 4
+LOSS: train: 57.971756    |   test: 57.488789
+Epoch: 5
+LOSS: train: 57.146267    |   test: 56.652924
+Epoch: 6
+LOSS: train: 56.320999    |   test: 55.848034
+Epoch: 7
+LOSS: train: 55.552799    |   test: 55.035980
+Epoch: 8
+LOSS: train: 54.762024    |   test: 54.275768
+Epoch: 9
+LOSS: train: 53.996872    |   test: 53.554039
+Epoch: 10
+LOSS: train: 53.265831    |   test: 52.835133
+Epoch: 11
+  1%|      | 19/2500 [00:03<06:52,  6.01it/s]
+Traceback (most recent call last):
+  File "/home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/mlp_trajectory/main_MLP_trajectory.py", line 112, in <module>
+    loss.backward()
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/torch/_tensor.py", line 488, in backward
+    torch.autograd.backward(
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/torch/autograd/__init__.py", line 197, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/wandb/wandb_torch.py", line 266, in <lambda>
+    handle = var.register_hook(lambda grad: _callback(grad, log_track))
+KeyboardInterrupt
+Epoch: 12
+LOSS: train: 51.901768    |   test: 51.474236
+Epoch: 13
+LOSS: train: 51.225452    |   test: 50.860996
+Epoch: 14
+LOSS: train: 50.629532    |   test: 50.237457
+Epoch: 15
+LOSS: train: 50.018543    |   test: 49.649498
+Epoch: 16
+LOSS: train: 49.423031    |   test: 49.015171
+Epoch: 17
+LOSS: train: 48.754944    |   test: 48.314247
+Epoch: 18
+LOSS: train: 48.073669    |   test: 47.534245
+Epoch: 19
+LOSS: train: 46.358372    |   test: 45.449959

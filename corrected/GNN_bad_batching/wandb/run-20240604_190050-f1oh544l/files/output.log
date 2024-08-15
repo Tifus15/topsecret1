@@ -1,0 +1,102 @@
+
+
+  2%|██▊                                                                                                                                        | 1/50 [00:18<15:22, 18.83s/it]
+Epoch: 1
+LOSS: train: 12.299628    |   test: 2.908620
+Epoch: 2
+
+
+  6%|████████▎                                                                                                                                  | 3/50 [00:57<14:56, 19.07s/it]
+Epoch: 3
+LOSS: train: 2.850092    |   test: 2.842513
+Epoch: 4
+
+
+ 10%|█████████████▉                                                                                                                             | 5/50 [01:35<14:22, 19.18s/it]
+Epoch: 5
+
+ 12%|████████████████▋                                                                                                                          | 6/50 [01:54<14:03, 19.18s/it]
+Epoch: 6
+LOSS: train: 2.756516    |   test: 2.758606
+Epoch: 7
+
+
+ 16%|██████████████████████▏                                                                                                                    | 8/50 [02:33<13:27, 19.23s/it]
+Epoch: 8
+
+ 18%|█████████████████████████                                                                                                                  | 9/50 [02:52<13:09, 19.25s/it]
+Epoch: 9
+
+ 20%|███████████████████████████▌                                                                                                              | 10/50 [03:11<12:49, 19.24s/it]
+Epoch: 10
+
+ 22%|██████████████████████████████▎                                                                                                           | 11/50 [03:31<12:30, 19.24s/it]
+Epoch: 11
+LOSS: train: 2.694273    |   test: 2.717081
+Epoch: 12
+
+
+ 26%|███████████████████████████████████▉                                                                                                      | 13/50 [04:09<11:53, 19.27s/it]
+Epoch: 13
+
+ 28%|██████████████████████████████████████▋                                                                                                   | 14/50 [04:28<11:34, 19.28s/it]
+Epoch: 14
+
+ 30%|█████████████████████████████████████████▍                                                                                                | 15/50 [04:49<11:28, 19.67s/it]
+Epoch: 15
+LOSS: train: 2.686314    |   test: 2.707126
+Epoch: 16
+
+
+ 34%|██████████████████████████████████████████████▉                                                                                           | 17/50 [05:29<10:55, 19.88s/it]
+Epoch: 17
+
+ 36%|█████████████████████████████████████████████████▋                                                                                        | 18/50 [05:49<10:31, 19.72s/it]
+Epoch: 18
+
+ 38%|████████████████████████████████████████████████████▍                                                                                     | 19/50 [06:08<10:10, 19.68s/it]
+Epoch: 19
+
+ 40%|███████████████████████████████████████████████████████▏                                                                                  | 20/50 [06:29<09:56, 19.89s/it]
+Epoch: 20
+LOSS: train: 2.667537    |   test: 2.690963
+Epoch: 21
+
+
+ 44%|████████████████████████████████████████████████████████████▋                                                                             | 22/50 [07:10<09:29, 20.32s/it]
+Epoch: 22
+
+ 46%|███████████████████████████████████████████████████████████████▍                                                                          | 23/50 [07:31<09:11, 20.41s/it]
+Epoch: 23
+
+ 48%|██████████████████████████████████████████████████████████████████▏                                                                       | 24/50 [07:51<08:47, 20.28s/it]
+Epoch: 24
+
+ 50%|█████████████████████████████████████████████████████████████████████                                                                     | 25/50 [08:12<08:30, 20.43s/it]
+Epoch: 25
+LOSS: train: 2.650869    |   test: 2.673272
+Epoch: 26
+
+ 52%|███████████████████████████████████████████████████████████████████████▊                                                                  | 26/50 [08:37<07:57, 19.90s/it]
+Traceback (most recent call last):
+  File "/home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/GNN_bad_batching/GNN_main.py", line 120, in <module>
+    y = model(ts,x0)
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1212, in _call_impl
+    result = forward_call(*input, **kwargs)
+  File "/home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/GNN_bad_batching/GNN_model.py", line 161, in forward
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/GNN_bad_batching/GNN_model.py", line 100, in forward
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/GNN_bad_batching/GNN_model.py", line 51, in forward
+    self.g.update_all(self.message_func, self.reduce_func)
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/dgl/heterograph.py", line 5110, in update_all
+    ndata = core.message_passing(
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/dgl/core.py", line 405, in message_passing
+    ndata = invoke_udf_reduce(g, rfunc, msgdata, orig_nid=orig_nid)
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/dgl/core.py", line 157, in invoke_udf_reduce
+    bkt_rsts.append(func(nbatch))
+  File "/home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/GNN_bad_batching/GNN_model.py", line 41, in reduce_func
+    h = torch.sum(alpha * nodes.mailbox['z'], dim=1)
+KeyboardInterrupt

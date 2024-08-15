@@ -1,0 +1,109 @@
+
+
+  1%|█▏                                                                                                                         | 1/100 [00:02<04:17,  2.60s/it]
+Epoch: 1
+
+  2%|██▍                                                                                                                        | 2/100 [00:05<04:36,  2.83s/it]
+Epoch: 2
+
+  3%|███▋                                                                                                                       | 3/100 [00:09<05:02,  3.12s/it]
+Epoch: 3
+
+  4%|████▉                                                                                                                      | 4/100 [00:12<05:13,  3.27s/it]
+Epoch: 4
+
+  5%|██████▏                                                                                                                    | 5/100 [00:15<05:14,  3.31s/it]
+Epoch: 5
+
+  6%|███████▍                                                                                                                   | 6/100 [00:18<04:51,  3.10s/it]
+Epoch: 6
+
+  7%|████████▌                                                                                                                  | 7/100 [00:21<04:37,  2.98s/it]
+Epoch: 7
+LOSS: train: 0.049760 grad:0.000582   |   test: 0.049002 grad: 0.000689
+Epoch: 8
+
+
+  9%|███████████                                                                                                                | 9/100 [00:26<04:16,  2.81s/it]
+Epoch: 9
+
+ 10%|████████████▏                                                                                                             | 10/100 [00:29<04:10,  2.78s/it]
+Epoch: 10
+LOSS: train: 0.048013 grad:0.000491   |   test: 0.047372 grad: 0.000614
+Epoch: 11
+
+
+ 12%|██████████████▋                                                                                                           | 12/100 [00:34<03:59,  2.73s/it]
+Epoch: 12
+
+ 13%|███████████████▊                                                                                                          | 13/100 [00:37<03:55,  2.71s/it]
+Epoch: 13
+
+ 14%|█████████████████                                                                                                         | 14/100 [00:40<03:52,  2.70s/it]
+Epoch: 14
+
+ 15%|██████████████████▎                                                                                                       | 15/100 [00:42<03:48,  2.69s/it]
+Epoch: 15
+
+ 16%|███████████████████▌                                                                                                      | 16/100 [00:45<03:43,  2.66s/it]
+Epoch: 16
+LOSS: train: 0.044084 grad:0.000616   |   test: 0.045420 grad: 0.000580
+Epoch: 17
+
+
+ 18%|█████████████████████▉                                                                                                    | 18/100 [00:50<03:39,  2.68s/it]
+Epoch: 18
+
+ 19%|███████████████████████▏                                                                                                  | 19/100 [00:53<03:37,  2.68s/it]
+Epoch: 19
+ 19%|███████████████████████▏                                                                                                  | 19/100 [00:55<03:55,  2.91s/it]
+Traceback (most recent call last):
+  File "/home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/mlp_func/main_mlp_vec.py", line 127, in <module>
+    loss.backward()
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/torch/_tensor.py", line 488, in backward
+    torch.autograd.backward(
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/torch/autograd/__init__.py", line 197, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/torch/autograd/function.py", line 267, in apply
+    return user_fn(self, *args)
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/torchdiffeq/_impl/adjoint.py", line 126, in backward
+    aug_state = odeint(
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/torchdiffeq/_impl/odeint.py", line 77, in odeint
+    solution = solver.integrate(t)
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/torchdiffeq/_impl/solvers.py", line 105, in integrate
+    dy, f0 = self._step_func(self.func, t0, dt, t1, y0)
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/torchdiffeq/_impl/fixed_grid.py", line 29, in _step_func
+    return rk4_alt_step_func(func, t0, dt, t1, y0, f0=f0, perturb=self.perturb), f0
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/torchdiffeq/_impl/rk_common.py", line 112, in rk4_alt_step_func
+    k3 = func(t0 + dt * _two_thirds, y0 + dt * (k2 - k1 * _one_third))
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/torchdiffeq/_impl/misc.py", line 189, in forward
+    return self.base_func(t, y)
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/torchdiffeq/_impl/misc.py", line 159, in forward
+    return self.mul * self.base_func(-t, y)
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/torchdiffeq/_impl/misc.py", line 138, in forward
+    f = self.base_func(t, _flat_to_shape(y, (), self.shapes))
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/torchdiffeq/_impl/adjoint.py", line 88, in augmented_dynamics
+    func_eval = func(t if t_requires_grad else t_, y)
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/torchdiffeq/_impl/misc.py", line 189, in forward
+    return self.base_func(t, y)
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/mlp_func/mlp.py", line 42, in forward
+    return self.net(y.float())
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/torch/nn/modules/container.py", line 204, in forward
+    input = module(input)
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/torch/nn/modules/linear.py", line 114, in forward
+    return F.linear(input, self.weight, self.bias)
+KeyboardInterrupt

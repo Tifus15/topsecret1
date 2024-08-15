@@ -1,0 +1,249 @@
+2024-06-03 21:43:50,985 INFO    StreamThr :4137904 [internal.py:wandb_internal():86] W&B internal server running at pid: 4137904, started at: 2024-06-03 21:43:50.984498
+2024-06-03 21:43:50,986 DEBUG   HandlerThread:4137904 [handler.py:handle_request():146] handle_request: status
+2024-06-03 21:43:50,988 INFO    WriterThread:4137904 [datastore.py:open_for_write():85] open: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/mlp_func/wandb/run-20240603_214350-sceqcfax/run-sceqcfax.wandb
+2024-06-03 21:43:50,989 DEBUG   SenderThread:4137904 [sender.py:send():380] send: header
+2024-06-03 21:43:50,999 DEBUG   SenderThread:4137904 [sender.py:send():380] send: run
+2024-06-03 21:43:51,382 INFO    SenderThread:4137904 [dir_watcher.py:__init__():211] watching files in: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/mlp_func/wandb/run-20240603_214350-sceqcfax/files
+2024-06-03 21:43:51,382 INFO    SenderThread:4137904 [sender.py:_start_run_threads():1124] run started: sceqcfax with start time 1717443830.984216
+2024-06-03 21:43:51,387 DEBUG   HandlerThread:4137904 [handler.py:handle_request():146] handle_request: check_version
+2024-06-03 21:43:51,387 DEBUG   SenderThread:4137904 [sender.py:send_request():407] send_request: check_version
+2024-06-03 21:43:51,447 DEBUG   HandlerThread:4137904 [handler.py:handle_request():146] handle_request: run_start
+2024-06-03 21:43:51,463 DEBUG   HandlerThread:4137904 [system_info.py:__init__():32] System info init
+2024-06-03 21:43:51,463 DEBUG   HandlerThread:4137904 [system_info.py:__init__():47] System info init done
+2024-06-03 21:43:51,463 INFO    HandlerThread:4137904 [system_monitor.py:start():194] Starting system monitor
+2024-06-03 21:43:51,464 INFO    SystemMonitor:4137904 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-06-03 21:43:51,464 INFO    HandlerThread:4137904 [system_monitor.py:probe():214] Collecting system info
+2024-06-03 21:43:51,465 INFO    SystemMonitor:4137904 [interfaces.py:start():190] Started cpu monitoring
+2024-06-03 21:43:51,465 INFO    SystemMonitor:4137904 [interfaces.py:start():190] Started disk monitoring
+2024-06-03 21:43:51,466 INFO    SystemMonitor:4137904 [interfaces.py:start():190] Started gpu monitoring
+2024-06-03 21:43:51,467 INFO    SystemMonitor:4137904 [interfaces.py:start():190] Started memory monitoring
+2024-06-03 21:43:51,467 INFO    SystemMonitor:4137904 [interfaces.py:start():190] Started network monitoring
+2024-06-03 21:43:51,474 DEBUG   HandlerThread:4137904 [system_info.py:probe():196] Probing system
+2024-06-03 21:43:51,479 DEBUG   HandlerThread:4137904 [system_info.py:_probe_git():181] Probing git
+2024-06-03 21:43:51,489 DEBUG   HandlerThread:4137904 [system_info.py:_probe_git():189] Probing git done
+2024-06-03 21:43:51,490 DEBUG   HandlerThread:4137904 [system_info.py:probe():244] Probing system done
+2024-06-03 21:43:51,490 DEBUG   HandlerThread:4137904 [system_monitor.py:probe():223] {'os': 'Linux-6.5.0-35-generic-x86_64-with-glibc2.17', 'python': '3.8.13', 'heartbeatAt': '2024-06-03T19:43:51.474411', 'startedAt': '2024-06-03T19:43:50.980945', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '/home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/mlp_func/main_mlp_vec.py', 'codePathLocal': 'main_mlp_vec.py', 'codePath': 'recap/corrected/mlp_func/main_mlp_vec.py', 'git': {'remote': 'https://git.ias.informatik.tu-darmstadt.de/andric/masterthesis15_03-13_09-2024.git', 'commit': '63f72638c17b54f376859cf4b87eb1ead3eaad9a'}, 'email': 'denis.andric@stud.tu-darmstadt.de', 'root': '/home/denis/Desktop/master/masterthesis15_03-13_09-2024', 'host': 'denis-ROG-Strix-G713QM-G713QM', 'username': 'denis', 'executable': '/home/denis/anaconda3/envs/hnn/bin/python', 'cpu_count': 8, 'cpu_count_logical': 16, 'cpu_freq': {'current': 3004.1054375, 'min': 400.0, 'max': 4890.0}, 'cpu_freq_per_core': [{'current': 3614.387, 'min': 400.0, 'max': 4890.0}, {'current': 400.0, 'min': 400.0, 'max': 4890.0}, {'current': 4417.145, 'min': 400.0, 'max': 4890.0}, {'current': 4508.376, 'min': 400.0, 'max': 4890.0}, {'current': 4477.721, 'min': 400.0, 'max': 4890.0}, {'current': 400.0, 'min': 400.0, 'max': 4890.0}, {'current': 4515.693, 'min': 400.0, 'max': 4890.0}, {'current': 3769.171, 'min': 400.0, 'max': 4890.0}, {'current': 4071.766, 'min': 400.0, 'max': 4890.0}, {'current': 4481.182, 'min': 400.0, 'max': 4890.0}, {'current': 3638.489, 'min': 400.0, 'max': 4890.0}, {'current': 3649.889, 'min': 400.0, 'max': 4890.0}, {'current': 3663.503, 'min': 400.0, 'max': 4890.0}, {'current': 400.0, 'min': 400.0, 'max': 4890.0}, {'current': 3682.035, 'min': 400.0, 'max': 4890.0}, {'current': 400.0, 'min': 400.0, 'max': 4890.0}], 'disk': {'/': {'total': 163.2414779663086, 'used': 147.9898567199707}}, 'gpu': 'NVIDIA GeForce RTX 3060 Laptop GPU', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 3060 Laptop GPU', 'memory_total': 6442450944}], 'memory': {'total': 15.03582763671875}}
+2024-06-03 21:43:51,490 INFO    HandlerThread:4137904 [system_monitor.py:probe():224] Finished collecting system info
+2024-06-03 21:43:51,490 INFO    HandlerThread:4137904 [system_monitor.py:probe():227] Publishing system info
+2024-06-03 21:43:51,490 DEBUG   HandlerThread:4137904 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2024-06-03 21:43:51,490 DEBUG   HandlerThread:4137904 [system_info.py:_save_pip():68] Saving pip packages done
+2024-06-03 21:43:51,490 DEBUG   HandlerThread:4137904 [system_info.py:_save_conda():75] Saving list of conda packages installed into the current environment
+2024-06-03 21:43:52,383 INFO    Thread-12 :4137904 [dir_watcher.py:_on_file_created():271] file/dir created: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/mlp_func/wandb/run-20240603_214350-sceqcfax/files/requirements.txt
+2024-06-03 21:43:52,383 INFO    Thread-12 :4137904 [dir_watcher.py:_on_file_created():271] file/dir created: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/mlp_func/wandb/run-20240603_214350-sceqcfax/files/conda-environment.yaml
+2024-06-03 21:43:52,784 DEBUG   HandlerThread:4137904 [system_info.py:_save_conda():87] Saving conda packages done
+2024-06-03 21:43:52,785 INFO    HandlerThread:4137904 [system_monitor.py:probe():229] Finished publishing system info
+2024-06-03 21:43:52,788 DEBUG   SenderThread:4137904 [sender.py:send():380] send: files
+2024-06-03 21:43:52,788 INFO    SenderThread:4137904 [sender.py:_save_file():1380] saving file wandb-metadata.json with policy now
+2024-06-03 21:43:52,792 DEBUG   HandlerThread:4137904 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-03 21:43:52,792 DEBUG   SenderThread:4137904 [sender.py:send_request():407] send_request: stop_status
+2024-06-03 21:43:52,794 DEBUG   HandlerThread:4137904 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-03 21:43:53,064 DEBUG   SenderThread:4137904 [sender.py:send():380] send: telemetry
+2024-06-03 21:43:53,064 DEBUG   SenderThread:4137904 [sender.py:send():380] send: telemetry
+2024-06-03 21:43:53,335 INFO    wandb-upload_0:4137904 [upload_job.py:push():131] Uploaded file /tmp/tmpv474xku4wandb/db257pdi-wandb-metadata.json
+2024-06-03 21:43:53,382 INFO    Thread-12 :4137904 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/mlp_func/wandb/run-20240603_214350-sceqcfax/files/conda-environment.yaml
+2024-06-03 21:43:53,382 INFO    Thread-12 :4137904 [dir_watcher.py:_on_file_created():271] file/dir created: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/mlp_func/wandb/run-20240603_214350-sceqcfax/files/output.log
+2024-06-03 21:43:53,382 INFO    Thread-12 :4137904 [dir_watcher.py:_on_file_created():271] file/dir created: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/mlp_func/wandb/run-20240603_214350-sceqcfax/files/wandb-metadata.json
+2024-06-03 21:43:54,487 DEBUG   HandlerThread:4137904 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-03 21:43:54,488 DEBUG   SenderThread:4137904 [sender.py:send():380] send: history
+2024-06-03 21:43:54,488 DEBUG   SenderThread:4137904 [sender.py:send_request():407] send_request: summary_record
+2024-06-03 21:43:54,490 INFO    SenderThread:4137904 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-03 21:43:55,383 INFO    Thread-12 :4137904 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/mlp_func/wandb/run-20240603_214350-sceqcfax/files/output.log
+2024-06-03 21:43:55,384 INFO    Thread-12 :4137904 [dir_watcher.py:_on_file_created():271] file/dir created: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/mlp_func/wandb/run-20240603_214350-sceqcfax/files/wandb-summary.json
+2024-06-03 21:43:55,993 DEBUG   HandlerThread:4137904 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-03 21:43:55,994 DEBUG   SenderThread:4137904 [sender.py:send():380] send: history
+2024-06-03 21:43:55,994 DEBUG   SenderThread:4137904 [sender.py:send_request():407] send_request: summary_record
+2024-06-03 21:43:55,994 DEBUG   HandlerThread:4137904 [handler.py:handle_request():146] handle_request: status_report
+2024-06-03 21:43:55,994 INFO    SenderThread:4137904 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-03 21:43:56,384 INFO    Thread-12 :4137904 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/mlp_func/wandb/run-20240603_214350-sceqcfax/files/wandb-summary.json
+2024-06-03 21:43:57,384 INFO    Thread-12 :4137904 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/mlp_func/wandb/run-20240603_214350-sceqcfax/files/output.log
+2024-06-03 21:43:57,511 DEBUG   HandlerThread:4137904 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-03 21:43:57,512 DEBUG   SenderThread:4137904 [sender.py:send():380] send: history
+2024-06-03 21:43:57,512 DEBUG   SenderThread:4137904 [sender.py:send_request():407] send_request: summary_record
+2024-06-03 21:43:57,513 INFO    SenderThread:4137904 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-03 21:43:58,384 INFO    Thread-12 :4137904 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/mlp_func/wandb/run-20240603_214350-sceqcfax/files/wandb-summary.json
+2024-06-03 21:43:59,066 DEBUG   HandlerThread:4137904 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-03 21:43:59,067 DEBUG   SenderThread:4137904 [sender.py:send():380] send: history
+2024-06-03 21:43:59,068 DEBUG   SenderThread:4137904 [sender.py:send_request():407] send_request: summary_record
+2024-06-03 21:43:59,068 INFO    SenderThread:4137904 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-03 21:43:59,385 INFO    Thread-12 :4137904 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/mlp_func/wandb/run-20240603_214350-sceqcfax/files/wandb-summary.json
+2024-06-03 21:43:59,385 INFO    Thread-12 :4137904 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/mlp_func/wandb/run-20240603_214350-sceqcfax/files/output.log
+2024-06-03 21:44:00,536 DEBUG   HandlerThread:4137904 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-03 21:44:00,537 DEBUG   SenderThread:4137904 [sender.py:send():380] send: history
+2024-06-03 21:44:00,537 DEBUG   SenderThread:4137904 [sender.py:send_request():407] send_request: summary_record
+2024-06-03 21:44:00,539 INFO    SenderThread:4137904 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-03 21:44:01,385 INFO    Thread-12 :4137904 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/mlp_func/wandb/run-20240603_214350-sceqcfax/files/wandb-summary.json
+2024-06-03 21:44:01,385 INFO    Thread-12 :4137904 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/mlp_func/wandb/run-20240603_214350-sceqcfax/files/output.log
+2024-06-03 21:44:01,539 DEBUG   HandlerThread:4137904 [handler.py:handle_request():146] handle_request: status_report
+2024-06-03 21:44:02,031 DEBUG   HandlerThread:4137904 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-03 21:44:02,032 DEBUG   SenderThread:4137904 [sender.py:send():380] send: history
+2024-06-03 21:44:02,032 DEBUG   SenderThread:4137904 [sender.py:send_request():407] send_request: summary_record
+2024-06-03 21:44:02,032 INFO    SenderThread:4137904 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-03 21:44:02,385 INFO    Thread-12 :4137904 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/mlp_func/wandb/run-20240603_214350-sceqcfax/files/wandb-summary.json
+2024-06-03 21:44:03,386 INFO    Thread-12 :4137904 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/mlp_func/wandb/run-20240603_214350-sceqcfax/files/output.log
+2024-06-03 21:44:03,557 DEBUG   HandlerThread:4137904 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-03 21:44:03,558 DEBUG   SenderThread:4137904 [sender.py:send():380] send: history
+2024-06-03 21:44:03,558 DEBUG   SenderThread:4137904 [sender.py:send_request():407] send_request: summary_record
+2024-06-03 21:44:03,559 INFO    SenderThread:4137904 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-03 21:44:04,386 INFO    Thread-12 :4137904 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/mlp_func/wandb/run-20240603_214350-sceqcfax/files/wandb-summary.json
+2024-06-03 21:44:05,083 DEBUG   HandlerThread:4137904 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-03 21:44:05,084 DEBUG   SenderThread:4137904 [sender.py:send():380] send: history
+2024-06-03 21:44:05,084 DEBUG   SenderThread:4137904 [sender.py:send_request():407] send_request: summary_record
+2024-06-03 21:44:05,084 INFO    SenderThread:4137904 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-03 21:44:05,386 INFO    Thread-12 :4137904 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/mlp_func/wandb/run-20240603_214350-sceqcfax/files/wandb-summary.json
+2024-06-03 21:44:05,387 INFO    Thread-12 :4137904 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/mlp_func/wandb/run-20240603_214350-sceqcfax/files/output.log
+2024-06-03 21:44:06,604 DEBUG   HandlerThread:4137904 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-03 21:44:06,605 DEBUG   SenderThread:4137904 [sender.py:send():380] send: history
+2024-06-03 21:44:06,605 DEBUG   SenderThread:4137904 [sender.py:send_request():407] send_request: summary_record
+2024-06-03 21:44:06,605 DEBUG   HandlerThread:4137904 [handler.py:handle_request():146] handle_request: status_report
+2024-06-03 21:44:06,605 INFO    SenderThread:4137904 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-03 21:44:07,387 INFO    Thread-12 :4137904 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/mlp_func/wandb/run-20240603_214350-sceqcfax/files/wandb-summary.json
+2024-06-03 21:44:07,387 INFO    Thread-12 :4137904 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/mlp_func/wandb/run-20240603_214350-sceqcfax/files/output.log
+2024-06-03 21:44:07,792 DEBUG   HandlerThread:4137904 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-03 21:44:07,793 DEBUG   HandlerThread:4137904 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-03 21:44:07,793 DEBUG   SenderThread:4137904 [sender.py:send_request():407] send_request: stop_status
+2024-06-03 21:44:08,101 DEBUG   HandlerThread:4137904 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-03 21:44:08,101 DEBUG   SenderThread:4137904 [sender.py:send():380] send: history
+2024-06-03 21:44:08,101 DEBUG   SenderThread:4137904 [sender.py:send_request():407] send_request: summary_record
+2024-06-03 21:44:08,102 INFO    SenderThread:4137904 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-03 21:44:08,143 DEBUG   SenderThread:4137904 [sender.py:send():380] send: telemetry
+2024-06-03 21:44:08,144 DEBUG   SenderThread:4137904 [sender.py:send():380] send: exit
+2024-06-03 21:44:08,144 INFO    SenderThread:4137904 [sender.py:send_exit():585] handling exit code: 0
+2024-06-03 21:44:08,144 INFO    SenderThread:4137904 [sender.py:send_exit():587] handling runtime: 16
+2024-06-03 21:44:08,144 INFO    SenderThread:4137904 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-03 21:44:08,144 INFO    SenderThread:4137904 [sender.py:send_exit():593] send defer
+2024-06-03 21:44:08,144 DEBUG   HandlerThread:4137904 [handler.py:handle_request():146] handle_request: defer
+2024-06-03 21:44:08,144 INFO    HandlerThread:4137904 [handler.py:handle_request_defer():172] handle defer: 0
+2024-06-03 21:44:08,144 DEBUG   SenderThread:4137904 [sender.py:send_request():407] send_request: defer
+2024-06-03 21:44:08,144 INFO    SenderThread:4137904 [sender.py:send_request_defer():609] handle sender defer: 0
+2024-06-03 21:44:08,144 INFO    SenderThread:4137904 [sender.py:transition_state():613] send defer: 1
+2024-06-03 21:44:08,144 DEBUG   HandlerThread:4137904 [handler.py:handle_request():146] handle_request: defer
+2024-06-03 21:44:08,145 INFO    HandlerThread:4137904 [handler.py:handle_request_defer():172] handle defer: 1
+2024-06-03 21:44:08,145 DEBUG   SenderThread:4137904 [sender.py:send_request():407] send_request: defer
+2024-06-03 21:44:08,145 INFO    SenderThread:4137904 [sender.py:send_request_defer():609] handle sender defer: 1
+2024-06-03 21:44:08,145 INFO    SenderThread:4137904 [sender.py:transition_state():613] send defer: 2
+2024-06-03 21:44:08,145 DEBUG   HandlerThread:4137904 [handler.py:handle_request():146] handle_request: defer
+2024-06-03 21:44:08,145 INFO    HandlerThread:4137904 [handler.py:handle_request_defer():172] handle defer: 2
+2024-06-03 21:44:08,145 INFO    HandlerThread:4137904 [system_monitor.py:finish():203] Stopping system monitor
+2024-06-03 21:44:08,145 INFO    HandlerThread:4137904 [interfaces.py:finish():202] Joined cpu monitor
+2024-06-03 21:44:08,145 INFO    HandlerThread:4137904 [interfaces.py:finish():202] Joined disk monitor
+2024-06-03 21:44:08,145 DEBUG   SystemMonitor:4137904 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-06-03 21:44:08,145 DEBUG   SystemMonitor:4137904 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-06-03 21:44:08,145 DEBUG   SystemMonitor:4137904 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-06-03 21:44:08,200 INFO    HandlerThread:4137904 [interfaces.py:finish():202] Joined gpu monitor
+2024-06-03 21:44:08,200 INFO    HandlerThread:4137904 [interfaces.py:finish():202] Joined memory monitor
+2024-06-03 21:44:08,200 INFO    HandlerThread:4137904 [interfaces.py:finish():202] Joined network monitor
+2024-06-03 21:44:08,200 DEBUG   SenderThread:4137904 [sender.py:send_request():407] send_request: defer
+2024-06-03 21:44:08,201 INFO    SenderThread:4137904 [sender.py:send_request_defer():609] handle sender defer: 2
+2024-06-03 21:44:08,201 INFO    SenderThread:4137904 [sender.py:transition_state():613] send defer: 3
+2024-06-03 21:44:08,201 DEBUG   SenderThread:4137904 [sender.py:send():380] send: stats
+2024-06-03 21:44:08,201 DEBUG   HandlerThread:4137904 [handler.py:handle_request():146] handle_request: defer
+2024-06-03 21:44:08,201 INFO    HandlerThread:4137904 [handler.py:handle_request_defer():172] handle defer: 3
+2024-06-03 21:44:08,201 DEBUG   SenderThread:4137904 [sender.py:send_request():407] send_request: defer
+2024-06-03 21:44:08,201 INFO    SenderThread:4137904 [sender.py:send_request_defer():609] handle sender defer: 3
+2024-06-03 21:44:08,201 INFO    SenderThread:4137904 [sender.py:transition_state():613] send defer: 4
+2024-06-03 21:44:08,201 DEBUG   HandlerThread:4137904 [handler.py:handle_request():146] handle_request: defer
+2024-06-03 21:44:08,201 INFO    HandlerThread:4137904 [handler.py:handle_request_defer():172] handle defer: 4
+2024-06-03 21:44:08,201 DEBUG   SenderThread:4137904 [sender.py:send_request():407] send_request: defer
+2024-06-03 21:44:08,202 INFO    SenderThread:4137904 [sender.py:send_request_defer():609] handle sender defer: 4
+2024-06-03 21:44:08,202 INFO    SenderThread:4137904 [sender.py:transition_state():613] send defer: 5
+2024-06-03 21:44:08,202 DEBUG   HandlerThread:4137904 [handler.py:handle_request():146] handle_request: defer
+2024-06-03 21:44:08,202 INFO    HandlerThread:4137904 [handler.py:handle_request_defer():172] handle defer: 5
+2024-06-03 21:44:08,202 DEBUG   SenderThread:4137904 [sender.py:send():380] send: summary
+2024-06-03 21:44:08,202 INFO    SenderThread:4137904 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-03 21:44:08,202 DEBUG   SenderThread:4137904 [sender.py:send_request():407] send_request: defer
+2024-06-03 21:44:08,202 INFO    SenderThread:4137904 [sender.py:send_request_defer():609] handle sender defer: 5
+2024-06-03 21:44:08,202 INFO    SenderThread:4137904 [sender.py:transition_state():613] send defer: 6
+2024-06-03 21:44:08,202 DEBUG   HandlerThread:4137904 [handler.py:handle_request():146] handle_request: defer
+2024-06-03 21:44:08,203 INFO    HandlerThread:4137904 [handler.py:handle_request_defer():172] handle defer: 6
+2024-06-03 21:44:08,203 DEBUG   SenderThread:4137904 [sender.py:send_request():407] send_request: defer
+2024-06-03 21:44:08,203 INFO    SenderThread:4137904 [sender.py:send_request_defer():609] handle sender defer: 6
+2024-06-03 21:44:08,205 DEBUG   HandlerThread:4137904 [handler.py:handle_request():146] handle_request: status_report
+2024-06-03 21:44:08,387 INFO    Thread-12 :4137904 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/mlp_func/wandb/run-20240603_214350-sceqcfax/files/wandb-summary.json
+2024-06-03 21:44:08,570 INFO    SenderThread:4137904 [sender.py:transition_state():613] send defer: 7
+2024-06-03 21:44:08,571 DEBUG   HandlerThread:4137904 [handler.py:handle_request():146] handle_request: defer
+2024-06-03 21:44:08,571 INFO    HandlerThread:4137904 [handler.py:handle_request_defer():172] handle defer: 7
+2024-06-03 21:44:08,571 DEBUG   SenderThread:4137904 [sender.py:send_request():407] send_request: defer
+2024-06-03 21:44:08,571 INFO    SenderThread:4137904 [sender.py:send_request_defer():609] handle sender defer: 7
+2024-06-03 21:44:09,103 DEBUG   HandlerThread:4137904 [handler.py:handle_request():146] handle_request: poll_exit
+2024-06-03 21:44:09,388 INFO    Thread-12 :4137904 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/mlp_func/wandb/run-20240603_214350-sceqcfax/files/output.log
+2024-06-03 21:44:09,388 INFO    Thread-12 :4137904 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/mlp_func/wandb/run-20240603_214350-sceqcfax/files/config.yaml
+2024-06-03 21:44:10,554 INFO    SenderThread:4137904 [sender.py:transition_state():613] send defer: 8
+2024-06-03 21:44:10,555 DEBUG   SenderThread:4137904 [sender.py:send_request():407] send_request: poll_exit
+2024-06-03 21:44:10,555 DEBUG   HandlerThread:4137904 [handler.py:handle_request():146] handle_request: defer
+2024-06-03 21:44:10,555 INFO    HandlerThread:4137904 [handler.py:handle_request_defer():172] handle defer: 8
+2024-06-03 21:44:10,556 DEBUG   SenderThread:4137904 [sender.py:send_request():407] send_request: defer
+2024-06-03 21:44:10,556 INFO    SenderThread:4137904 [sender.py:send_request_defer():609] handle sender defer: 8
+2024-06-03 21:44:10,556 INFO    SenderThread:4137904 [job_builder.py:build():298] Attempting to build job artifact
+2024-06-03 21:44:10,556 INFO    SenderThread:4137904 [job_builder.py:_get_source_type():428] is repo sourced job
+2024-06-03 21:44:10,575 INFO    SenderThread:4137904 [job_builder.py:build():404] adding wandb-job metadata file
+2024-06-03 21:44:10,591 INFO    SenderThread:4137904 [sender.py:transition_state():613] send defer: 9
+2024-06-03 21:44:10,591 DEBUG   HandlerThread:4137904 [handler.py:handle_request():146] handle_request: defer
+2024-06-03 21:44:10,591 INFO    HandlerThread:4137904 [handler.py:handle_request_defer():172] handle defer: 9
+2024-06-03 21:44:10,592 DEBUG   SenderThread:4137904 [sender.py:send():380] send: artifact
+2024-06-03 21:44:11,104 DEBUG   HandlerThread:4137904 [handler.py:handle_request():146] handle_request: poll_exit
+2024-06-03 21:44:11,363 INFO    SenderThread:4137904 [sender.py:send_artifact():1458] sent artifact job-https___git.ias.informatik.tu-darmstadt.de_andric_masterthesis15_03-13_09-2024.git_recap_corrected_mlp_func_main_mlp_vec.py - {'id': 'QXJ0aWZhY3Q6ODU5MTI3NTM2', 'state': 'COMMITTED', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE4MTg5ODAxNg==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6ODU5MTI3NTM2', 'versionIndex': 0}}}
+2024-06-03 21:44:11,363 DEBUG   SenderThread:4137904 [sender.py:send_request():407] send_request: defer
+2024-06-03 21:44:11,363 INFO    SenderThread:4137904 [sender.py:send_request_defer():609] handle sender defer: 9
+2024-06-03 21:44:11,363 INFO    SenderThread:4137904 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-06-03 21:44:11,389 INFO    SenderThread:4137904 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/mlp_func/wandb/run-20240603_214350-sceqcfax/files/output.log
+2024-06-03 21:44:11,389 INFO    SenderThread:4137904 [dir_watcher.py:finish():388] scan: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/mlp_func/wandb/run-20240603_214350-sceqcfax/files
+2024-06-03 21:44:11,390 INFO    SenderThread:4137904 [dir_watcher.py:finish():402] scan save: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/mlp_func/wandb/run-20240603_214350-sceqcfax/files/config.yaml config.yaml
+2024-06-03 21:44:11,390 INFO    SenderThread:4137904 [dir_watcher.py:finish():402] scan save: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/mlp_func/wandb/run-20240603_214350-sceqcfax/files/conda-environment.yaml conda-environment.yaml
+2024-06-03 21:44:11,390 INFO    SenderThread:4137904 [dir_watcher.py:finish():402] scan save: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/mlp_func/wandb/run-20240603_214350-sceqcfax/files/requirements.txt requirements.txt
+2024-06-03 21:44:11,393 INFO    SenderThread:4137904 [dir_watcher.py:finish():402] scan save: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/mlp_func/wandb/run-20240603_214350-sceqcfax/files/wandb-metadata.json wandb-metadata.json
+2024-06-03 21:44:11,394 INFO    SenderThread:4137904 [dir_watcher.py:finish():402] scan save: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/mlp_func/wandb/run-20240603_214350-sceqcfax/files/wandb-summary.json wandb-summary.json
+2024-06-03 21:44:11,395 INFO    SenderThread:4137904 [dir_watcher.py:finish():402] scan save: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/mlp_func/wandb/run-20240603_214350-sceqcfax/files/output.log output.log
+2024-06-03 21:44:11,395 INFO    SenderThread:4137904 [sender.py:transition_state():613] send defer: 10
+2024-06-03 21:44:11,395 DEBUG   SenderThread:4137904 [sender.py:send_request():407] send_request: poll_exit
+2024-06-03 21:44:11,396 DEBUG   HandlerThread:4137904 [handler.py:handle_request():146] handle_request: defer
+2024-06-03 21:44:11,396 INFO    HandlerThread:4137904 [handler.py:handle_request_defer():172] handle defer: 10
+2024-06-03 21:44:11,399 DEBUG   SenderThread:4137904 [sender.py:send_request():407] send_request: defer
+2024-06-03 21:44:11,399 INFO    SenderThread:4137904 [sender.py:send_request_defer():609] handle sender defer: 10
+2024-06-03 21:44:11,399 INFO    SenderThread:4137904 [file_pusher.py:finish():175] shutting down file pusher
+2024-06-03 21:44:11,791 INFO    wandb-upload_0:4137904 [upload_job.py:push():131] Uploaded file /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/mlp_func/wandb/run-20240603_214350-sceqcfax/files/config.yaml
+2024-06-03 21:44:11,794 INFO    wandb-upload_1:4137904 [upload_job.py:push():131] Uploaded file /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/mlp_func/wandb/run-20240603_214350-sceqcfax/files/conda-environment.yaml
+2024-06-03 21:44:11,815 INFO    wandb-upload_4:4137904 [upload_job.py:push():131] Uploaded file /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/mlp_func/wandb/run-20240603_214350-sceqcfax/files/output.log
+2024-06-03 21:44:11,816 INFO    wandb-upload_2:4137904 [upload_job.py:push():131] Uploaded file /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/mlp_func/wandb/run-20240603_214350-sceqcfax/files/requirements.txt
+2024-06-03 21:44:11,827 INFO    wandb-upload_3:4137904 [upload_job.py:push():131] Uploaded file /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/mlp_func/wandb/run-20240603_214350-sceqcfax/files/wandb-summary.json
+2024-06-03 21:44:12,028 INFO    Thread-11 :4137904 [sender.py:transition_state():613] send defer: 11
+2024-06-03 21:44:12,028 DEBUG   HandlerThread:4137904 [handler.py:handle_request():146] handle_request: defer
+2024-06-03 21:44:12,028 INFO    HandlerThread:4137904 [handler.py:handle_request_defer():172] handle defer: 11
+2024-06-03 21:44:12,028 DEBUG   SenderThread:4137904 [sender.py:send_request():407] send_request: defer
+2024-06-03 21:44:12,028 INFO    SenderThread:4137904 [sender.py:send_request_defer():609] handle sender defer: 11
+2024-06-03 21:44:12,028 INFO    SenderThread:4137904 [file_pusher.py:join():181] waiting for file pusher
+2024-06-03 21:44:12,028 INFO    SenderThread:4137904 [sender.py:transition_state():613] send defer: 12
+2024-06-03 21:44:12,029 DEBUG   HandlerThread:4137904 [handler.py:handle_request():146] handle_request: defer
+2024-06-03 21:44:12,029 INFO    HandlerThread:4137904 [handler.py:handle_request_defer():172] handle defer: 12
+2024-06-03 21:44:12,029 DEBUG   SenderThread:4137904 [sender.py:send_request():407] send_request: defer
+2024-06-03 21:44:12,029 INFO    SenderThread:4137904 [sender.py:send_request_defer():609] handle sender defer: 12
+2024-06-03 21:44:12,029 INFO    SenderThread:4137904 [file_stream.py:finish():595] file stream finish called
+2024-06-03 21:44:12,105 DEBUG   HandlerThread:4137904 [handler.py:handle_request():146] handle_request: poll_exit
+2024-06-03 21:44:12,197 INFO    SenderThread:4137904 [file_stream.py:finish():599] file stream finish is done
+2024-06-03 21:44:12,198 INFO    SenderThread:4137904 [sender.py:transition_state():613] send defer: 13
+2024-06-03 21:44:12,198 DEBUG   SenderThread:4137904 [sender.py:send_request():407] send_request: poll_exit
+2024-06-03 21:44:12,198 DEBUG   HandlerThread:4137904 [handler.py:handle_request():146] handle_request: defer
+2024-06-03 21:44:12,198 INFO    HandlerThread:4137904 [handler.py:handle_request_defer():172] handle defer: 13
+2024-06-03 21:44:12,198 DEBUG   SenderThread:4137904 [sender.py:send_request():407] send_request: defer
+2024-06-03 21:44:12,198 INFO    SenderThread:4137904 [sender.py:send_request_defer():609] handle sender defer: 13
+2024-06-03 21:44:12,198 INFO    SenderThread:4137904 [sender.py:transition_state():613] send defer: 14
+2024-06-03 21:44:12,199 DEBUG   SenderThread:4137904 [sender.py:send():380] send: final
+2024-06-03 21:44:12,199 DEBUG   SenderThread:4137904 [sender.py:send():380] send: footer
+2024-06-03 21:44:12,199 DEBUG   HandlerThread:4137904 [handler.py:handle_request():146] handle_request: defer
+2024-06-03 21:44:12,199 INFO    HandlerThread:4137904 [handler.py:handle_request_defer():172] handle defer: 14
+2024-06-03 21:44:12,199 DEBUG   SenderThread:4137904 [sender.py:send_request():407] send_request: defer
+2024-06-03 21:44:12,199 INFO    SenderThread:4137904 [sender.py:send_request_defer():609] handle sender defer: 14
+2024-06-03 21:44:12,199 DEBUG   HandlerThread:4137904 [handler.py:handle_request():146] handle_request: poll_exit
+2024-06-03 21:44:12,200 DEBUG   SenderThread:4137904 [sender.py:send_request():407] send_request: poll_exit
+2024-06-03 21:44:12,200 DEBUG   HandlerThread:4137904 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-03 21:44:12,200 DEBUG   HandlerThread:4137904 [handler.py:handle_request():146] handle_request: server_info
+2024-06-03 21:44:12,200 DEBUG   SenderThread:4137904 [sender.py:send_request():407] send_request: server_info
+2024-06-03 21:44:12,243 DEBUG   HandlerThread:4137904 [handler.py:handle_request():146] handle_request: get_summary
+2024-06-03 21:44:12,244 DEBUG   HandlerThread:4137904 [handler.py:handle_request():146] handle_request: sampled_history
+2024-06-03 21:44:12,244 DEBUG   HandlerThread:4137904 [handler.py:handle_request():146] handle_request: job_info
+2024-06-03 21:44:12,344 DEBUG   SenderThread:4137904 [sender.py:send_request():407] send_request: job_info
+2024-06-03 21:44:12,345 DEBUG   HandlerThread:4137904 [handler.py:handle_request():146] handle_request: shutdown
+2024-06-03 21:44:12,345 INFO    HandlerThread:4137904 [handler.py:finish():866] shutting down handler
+2024-06-03 21:44:13,245 INFO    WriterThread:4137904 [datastore.py:close():294] close: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/mlp_func/wandb/run-20240603_214350-sceqcfax/run-sceqcfax.wandb
+2024-06-03 21:44:13,344 INFO    SenderThread:4137904 [sender.py:finish():1536] shutting down sender
+2024-06-03 21:44:13,344 INFO    SenderThread:4137904 [file_pusher.py:finish():175] shutting down file pusher
+2024-06-03 21:44:13,344 INFO    SenderThread:4137904 [file_pusher.py:join():181] waiting for file pusher

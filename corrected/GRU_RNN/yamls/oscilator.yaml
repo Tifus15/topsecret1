@@ -1,0 +1,9 @@
+type: oscilator
+dim: 2
+k: 0.5
+m: 2
+H_span:
+  - 1
+  - 10
+samples: 21
+points: 256

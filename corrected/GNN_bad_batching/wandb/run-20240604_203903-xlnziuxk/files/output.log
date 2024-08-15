@@ -1,0 +1,9 @@
+
+
+  1%|▉                                                                                                                                         | 1/150 [00:09<22:32,  9.08s/it]
+Epoch: 1
+  1%|▉                                                                                                                                         | 1/150 [00:11<29:12, 11.76s/it]
+Traceback (most recent call last):
+  File "/home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/GNN_bad_batching/GNN_main.py", line 124, in <module>
+    loss = lossfn(y,x)
+KeyboardInterrupt

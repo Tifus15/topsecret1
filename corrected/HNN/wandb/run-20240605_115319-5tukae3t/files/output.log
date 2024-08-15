@@ -1,0 +1,90 @@
+  8%|█████████▎                                                                                                                | 38/500 [00:01<00:21, 21.47it/s]
+Traceback (most recent call last):
+  File "/home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/HNN_main.py", line 126, in <module>
+    dy = rollout_mlp_vec(model,y)
+  File "/home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/hnn_model.py", line 91, in rollout_mlp_vec
+    temp = model(0,x[i,:,:,:]).unsqueeze(0)
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/HNN/hnn_model.py", line 80, in forward
+    H = H.split(1,dim=0)
+  File "/home/denis/anaconda3/envs/hnn/lib/python3.8/site-packages/torch/_tensor.py", line 787, in split
+    return torch._VF.split(self, split_size, dim)  # type: ignore[attr-defined]
+KeyboardInterrupt
+torch.Size([6, 500])
+Epoch: 1
+LOSS: train: nan grad:nan h:nan   |   test: nan grad: nan h:nan
+Epoch: 2
+LOSS: train: nan grad:nan h:nan   |   test: nan grad: nan h:nan
+Epoch: 3
+LOSS: train: nan grad:nan h:nan   |   test: nan grad: nan h:nan
+Epoch: 4
+LOSS: train: nan grad:nan h:nan   |   test: nan grad: nan h:nan
+Epoch: 5
+LOSS: train: nan grad:nan h:nan   |   test: nan grad: nan h:nan
+Epoch: 6
+LOSS: train: nan grad:nan h:nan   |   test: nan grad: nan h:nan
+Epoch: 7
+LOSS: train: nan grad:nan h:nan   |   test: nan grad: nan h:nan
+Epoch: 8
+LOSS: train: nan grad:nan h:nan   |   test: nan grad: nan h:nan
+Epoch: 9
+LOSS: train: nan grad:nan h:nan   |   test: nan grad: nan h:nan
+Epoch: 10
+LOSS: train: nan grad:nan h:nan   |   test: nan grad: nan h:nan
+Epoch: 11
+LOSS: train: nan grad:nan h:nan   |   test: nan grad: nan h:nan
+Epoch: 12
+LOSS: train: nan grad:nan h:nan   |   test: nan grad: nan h:nan
+Epoch: 13
+LOSS: train: nan grad:nan h:nan   |   test: nan grad: nan h:nan
+Epoch: 14
+LOSS: train: nan grad:nan h:nan   |   test: nan grad: nan h:nan
+Epoch: 15
+LOSS: train: nan grad:nan h:nan   |   test: nan grad: nan h:nan
+Epoch: 16
+LOSS: train: nan grad:nan h:nan   |   test: nan grad: nan h:nan
+Epoch: 17
+LOSS: train: nan grad:nan h:nan   |   test: nan grad: nan h:nan
+Epoch: 18
+LOSS: train: nan grad:nan h:nan   |   test: nan grad: nan h:nan
+Epoch: 19
+LOSS: train: nan grad:nan h:nan   |   test: nan grad: nan h:nan
+Epoch: 20
+LOSS: train: nan grad:nan h:nan   |   test: nan grad: nan h:nan
+Epoch: 21
+LOSS: train: nan grad:nan h:nan   |   test: nan grad: nan h:nan
+Epoch: 22
+LOSS: train: nan grad:nan h:nan   |   test: nan grad: nan h:nan
+Epoch: 23
+LOSS: train: nan grad:nan h:nan   |   test: nan grad: nan h:nan
+Epoch: 24
+LOSS: train: nan grad:nan h:nan   |   test: nan grad: nan h:nan
+Epoch: 25
+LOSS: train: nan grad:nan h:nan   |   test: nan grad: nan h:nan
+Epoch: 26
+LOSS: train: nan grad:nan h:nan   |   test: nan grad: nan h:nan
+Epoch: 27
+LOSS: train: nan grad:nan h:nan   |   test: nan grad: nan h:nan
+Epoch: 28
+LOSS: train: nan grad:nan h:nan   |   test: nan grad: nan h:nan
+Epoch: 29
+LOSS: train: nan grad:nan h:nan   |   test: nan grad: nan h:nan
+Epoch: 30
+LOSS: train: nan grad:nan h:nan   |   test: nan grad: nan h:nan
+Epoch: 31
+LOSS: train: nan grad:nan h:nan   |   test: nan grad: nan h:nan
+Epoch: 32
+LOSS: train: nan grad:nan h:nan   |   test: nan grad: nan h:nan
+Epoch: 33
+LOSS: train: nan grad:nan h:nan   |   test: nan grad: nan h:nan
+Epoch: 34
+LOSS: train: nan grad:nan h:nan   |   test: nan grad: nan h:nan
+Epoch: 35
+LOSS: train: nan grad:nan h:nan   |   test: nan grad: nan h:nan
+Epoch: 36
+LOSS: train: nan grad:nan h:nan   |   test: nan grad: nan h:nan
+Epoch: 37
+LOSS: train: nan grad:nan h:nan   |   test: nan grad: nan h:nan
+Epoch: 38
+LOSS: train: nan grad:nan h:nan   |   test: nan grad: nan h:nan

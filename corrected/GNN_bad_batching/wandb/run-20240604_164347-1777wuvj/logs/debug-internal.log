@@ -1,0 +1,275 @@
+2024-06-04 16:43:47,746 INFO    StreamThr :2077900 [internal.py:wandb_internal():86] W&B internal server running at pid: 2077900, started at: 2024-06-04 16:43:47.746091
+2024-06-04 16:43:47,747 DEBUG   HandlerThread:2077900 [handler.py:handle_request():146] handle_request: status
+2024-06-04 16:43:47,748 INFO    WriterThread:2077900 [datastore.py:open_for_write():85] open: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/GNN/wandb/run-20240604_164347-1777wuvj/run-1777wuvj.wandb
+2024-06-04 16:43:47,751 DEBUG   SenderThread:2077900 [sender.py:send():380] send: header
+2024-06-04 16:43:47,765 DEBUG   SenderThread:2077900 [sender.py:send():380] send: run
+2024-06-04 16:43:48,134 INFO    SenderThread:2077900 [dir_watcher.py:__init__():211] watching files in: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/GNN/wandb/run-20240604_164347-1777wuvj/files
+2024-06-04 16:43:48,134 INFO    SenderThread:2077900 [sender.py:_start_run_threads():1124] run started: 1777wuvj with start time 1717512227.745988
+2024-06-04 16:43:48,140 DEBUG   HandlerThread:2077900 [handler.py:handle_request():146] handle_request: check_version
+2024-06-04 16:43:48,140 DEBUG   SenderThread:2077900 [sender.py:send_request():407] send_request: check_version
+2024-06-04 16:43:48,197 DEBUG   HandlerThread:2077900 [handler.py:handle_request():146] handle_request: run_start
+2024-06-04 16:43:48,214 DEBUG   HandlerThread:2077900 [system_info.py:__init__():32] System info init
+2024-06-04 16:43:48,214 DEBUG   HandlerThread:2077900 [system_info.py:__init__():47] System info init done
+2024-06-04 16:43:48,214 INFO    HandlerThread:2077900 [system_monitor.py:start():194] Starting system monitor
+2024-06-04 16:43:48,214 INFO    SystemMonitor:2077900 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-06-04 16:43:48,215 INFO    HandlerThread:2077900 [system_monitor.py:probe():214] Collecting system info
+2024-06-04 16:43:48,215 INFO    SystemMonitor:2077900 [interfaces.py:start():190] Started cpu monitoring
+2024-06-04 16:43:48,215 INFO    SystemMonitor:2077900 [interfaces.py:start():190] Started disk monitoring
+2024-06-04 16:43:48,216 INFO    SystemMonitor:2077900 [interfaces.py:start():190] Started gpu monitoring
+2024-06-04 16:43:48,217 INFO    SystemMonitor:2077900 [interfaces.py:start():190] Started memory monitoring
+2024-06-04 16:43:48,218 INFO    SystemMonitor:2077900 [interfaces.py:start():190] Started network monitoring
+2024-06-04 16:43:48,225 DEBUG   HandlerThread:2077900 [system_info.py:probe():196] Probing system
+2024-06-04 16:43:48,231 DEBUG   HandlerThread:2077900 [system_info.py:_probe_git():181] Probing git
+2024-06-04 16:43:48,242 DEBUG   HandlerThread:2077900 [system_info.py:_probe_git():189] Probing git done
+2024-06-04 16:43:48,242 DEBUG   HandlerThread:2077900 [system_info.py:probe():244] Probing system done
+2024-06-04 16:43:48,242 DEBUG   HandlerThread:2077900 [system_monitor.py:probe():223] {'os': 'Linux-6.5.0-35-generic-x86_64-with-glibc2.17', 'python': '3.8.13', 'heartbeatAt': '2024-06-04T14:43:48.225561', 'startedAt': '2024-06-04T14:43:47.742613', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '/home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/GNN/GNN_main.py', 'codePathLocal': 'GNN_main.py', 'codePath': 'recap/corrected/GNN/GNN_main.py', 'git': {'remote': 'https://git.ias.informatik.tu-darmstadt.de/andric/masterthesis15_03-13_09-2024.git', 'commit': '63f72638c17b54f376859cf4b87eb1ead3eaad9a'}, 'email': 'denis.andric@stud.tu-darmstadt.de', 'root': '/home/denis/Desktop/master/masterthesis15_03-13_09-2024', 'host': 'denis-ROG-Strix-G713QM-G713QM', 'username': 'denis', 'executable': '/home/denis/anaconda3/envs/hnn/bin/python', 'cpu_count': 8, 'cpu_count_logical': 16, 'cpu_freq': {'current': 4316.602375, 'min': 400.0, 'max': 4890.0}, 'cpu_freq_per_core': [{'current': 4316.656, 'min': 400.0, 'max': 4890.0}, {'current': 4316.357, 'min': 400.0, 'max': 4890.0}, {'current': 4316.398, 'min': 400.0, 'max': 4890.0}, {'current': 4316.639, 'min': 400.0, 'max': 4890.0}, {'current': 4316.788, 'min': 400.0, 'max': 4890.0}, {'current': 4316.758, 'min': 400.0, 'max': 4890.0}, {'current': 4316.53, 'min': 400.0, 'max': 4890.0}, {'current': 4316.465, 'min': 400.0, 'max': 4890.0}, {'current': 4316.78, 'min': 400.0, 'max': 4890.0}, {'current': 4316.23, 'min': 400.0, 'max': 4890.0}, {'current': 4317.003, 'min': 400.0, 'max': 4890.0}, {'current': 4316.665, 'min': 400.0, 'max': 4890.0}, {'current': 4316.794, 'min': 400.0, 'max': 4890.0}, {'current': 4314.3, 'min': 400.0, 'max': 4890.0}, {'current': 4316.683, 'min': 400.0, 'max': 4890.0}, {'current': 4316.748, 'min': 400.0, 'max': 4890.0}], 'disk': {'/': {'total': 163.2414779663086, 'used': 148.09470748901367}}, 'gpu': 'NVIDIA GeForce RTX 3060 Laptop GPU', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 3060 Laptop GPU', 'memory_total': 6442450944}], 'memory': {'total': 15.03582763671875}}
+2024-06-04 16:43:48,242 INFO    HandlerThread:2077900 [system_monitor.py:probe():224] Finished collecting system info
+2024-06-04 16:43:48,242 INFO    HandlerThread:2077900 [system_monitor.py:probe():227] Publishing system info
+2024-06-04 16:43:48,242 DEBUG   HandlerThread:2077900 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2024-06-04 16:43:48,243 DEBUG   HandlerThread:2077900 [system_info.py:_save_pip():68] Saving pip packages done
+2024-06-04 16:43:48,243 DEBUG   HandlerThread:2077900 [system_info.py:_save_conda():75] Saving list of conda packages installed into the current environment
+2024-06-04 16:43:49,135 INFO    Thread-12 :2077900 [dir_watcher.py:_on_file_created():271] file/dir created: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/GNN/wandb/run-20240604_164347-1777wuvj/files/requirements.txt
+2024-06-04 16:43:49,136 INFO    Thread-12 :2077900 [dir_watcher.py:_on_file_created():271] file/dir created: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/GNN/wandb/run-20240604_164347-1777wuvj/files/conda-environment.yaml
+2024-06-04 16:43:49,733 DEBUG   HandlerThread:2077900 [system_info.py:_save_conda():87] Saving conda packages done
+2024-06-04 16:43:49,733 INFO    HandlerThread:2077900 [system_monitor.py:probe():229] Finished publishing system info
+2024-06-04 16:43:49,737 DEBUG   SenderThread:2077900 [sender.py:send():380] send: files
+2024-06-04 16:43:49,737 INFO    SenderThread:2077900 [sender.py:_save_file():1380] saving file wandb-metadata.json with policy now
+2024-06-04 16:43:49,741 DEBUG   HandlerThread:2077900 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-04 16:43:49,741 DEBUG   SenderThread:2077900 [sender.py:send_request():407] send_request: stop_status
+2024-06-04 16:43:49,742 DEBUG   HandlerThread:2077900 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-04 16:43:49,980 DEBUG   SenderThread:2077900 [sender.py:send():380] send: telemetry
+2024-06-04 16:43:49,981 DEBUG   SenderThread:2077900 [sender.py:send():380] send: telemetry
+2024-06-04 16:43:50,134 INFO    Thread-12 :2077900 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/GNN/wandb/run-20240604_164347-1777wuvj/files/conda-environment.yaml
+2024-06-04 16:43:50,135 INFO    Thread-12 :2077900 [dir_watcher.py:_on_file_created():271] file/dir created: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/GNN/wandb/run-20240604_164347-1777wuvj/files/wandb-metadata.json
+2024-06-04 16:43:50,135 INFO    Thread-12 :2077900 [dir_watcher.py:_on_file_created():271] file/dir created: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/GNN/wandb/run-20240604_164347-1777wuvj/files/output.log
+2024-06-04 16:43:50,352 INFO    wandb-upload_0:2077900 [upload_job.py:push():131] Uploaded file /tmp/tmpejcbkegjwandb/3y2lwj1t-wandb-metadata.json
+2024-06-04 16:43:52,135 INFO    Thread-12 :2077900 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/GNN/wandb/run-20240604_164347-1777wuvj/files/output.log
+2024-06-04 16:43:52,990 DEBUG   HandlerThread:2077900 [handler.py:handle_request():146] handle_request: status_report
+2024-06-04 16:43:57,991 DEBUG   HandlerThread:2077900 [handler.py:handle_request():146] handle_request: status_report
+2024-06-04 16:44:00,781 DEBUG   HandlerThread:2077900 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-04 16:44:00,782 DEBUG   SenderThread:2077900 [sender.py:send():380] send: history
+2024-06-04 16:44:00,782 DEBUG   SenderThread:2077900 [sender.py:send_request():407] send_request: summary_record
+2024-06-04 16:44:00,782 INFO    SenderThread:2077900 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-04 16:44:01,138 INFO    Thread-12 :2077900 [dir_watcher.py:_on_file_created():271] file/dir created: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/GNN/wandb/run-20240604_164347-1777wuvj/files/wandb-summary.json
+2024-06-04 16:44:02,138 INFO    Thread-12 :2077900 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/GNN/wandb/run-20240604_164347-1777wuvj/files/output.log
+2024-06-04 16:44:03,138 INFO    Thread-12 :2077900 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/GNN/wandb/run-20240604_164347-1777wuvj/files/output.log
+2024-06-04 16:44:03,785 DEBUG   HandlerThread:2077900 [handler.py:handle_request():146] handle_request: status_report
+2024-06-04 16:44:04,741 DEBUG   HandlerThread:2077900 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-04 16:44:04,741 DEBUG   SenderThread:2077900 [sender.py:send_request():407] send_request: stop_status
+2024-06-04 16:44:04,743 DEBUG   HandlerThread:2077900 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-04 16:44:08,945 DEBUG   HandlerThread:2077900 [handler.py:handle_request():146] handle_request: status_report
+2024-06-04 16:44:12,001 DEBUG   HandlerThread:2077900 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-04 16:44:12,001 DEBUG   SenderThread:2077900 [sender.py:send():380] send: history
+2024-06-04 16:44:12,001 DEBUG   SenderThread:2077900 [sender.py:send_request():407] send_request: summary_record
+2024-06-04 16:44:12,003 INFO    SenderThread:2077900 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-04 16:44:12,141 INFO    Thread-12 :2077900 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/GNN/wandb/run-20240604_164347-1777wuvj/files/wandb-summary.json
+2024-06-04 16:44:13,141 INFO    Thread-12 :2077900 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/GNN/wandb/run-20240604_164347-1777wuvj/files/output.log
+2024-06-04 16:44:14,004 DEBUG   HandlerThread:2077900 [handler.py:handle_request():146] handle_request: status_report
+2024-06-04 16:44:14,141 INFO    Thread-12 :2077900 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/GNN/wandb/run-20240604_164347-1777wuvj/files/output.log
+2024-06-04 16:44:19,007 DEBUG   HandlerThread:2077900 [handler.py:handle_request():146] handle_request: status_report
+2024-06-04 16:44:19,741 DEBUG   HandlerThread:2077900 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-04 16:44:19,741 DEBUG   HandlerThread:2077900 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-04 16:44:19,741 DEBUG   SenderThread:2077900 [sender.py:send_request():407] send_request: stop_status
+2024-06-04 16:44:20,143 INFO    Thread-12 :2077900 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/GNN/wandb/run-20240604_164347-1777wuvj/files/config.yaml
+2024-06-04 16:44:22,560 DEBUG   HandlerThread:2077900 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-04 16:44:22,560 DEBUG   SenderThread:2077900 [sender.py:send():380] send: history
+2024-06-04 16:44:22,560 DEBUG   SenderThread:2077900 [sender.py:send_request():407] send_request: summary_record
+2024-06-04 16:44:22,562 INFO    SenderThread:2077900 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-04 16:44:23,143 INFO    Thread-12 :2077900 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/GNN/wandb/run-20240604_164347-1777wuvj/files/wandb-summary.json
+2024-06-04 16:44:23,144 INFO    Thread-12 :2077900 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/GNN/wandb/run-20240604_164347-1777wuvj/files/output.log
+2024-06-04 16:44:24,144 INFO    Thread-12 :2077900 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/GNN/wandb/run-20240604_164347-1777wuvj/files/output.log
+2024-06-04 16:44:24,602 DEBUG   HandlerThread:2077900 [handler.py:handle_request():146] handle_request: status_report
+2024-06-04 16:44:29,604 DEBUG   HandlerThread:2077900 [handler.py:handle_request():146] handle_request: status_report
+2024-06-04 16:44:34,488 DEBUG   HandlerThread:2077900 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-04 16:44:34,489 DEBUG   SenderThread:2077900 [sender.py:send():380] send: history
+2024-06-04 16:44:34,489 DEBUG   SenderThread:2077900 [sender.py:send_request():407] send_request: summary_record
+2024-06-04 16:44:34,490 INFO    SenderThread:2077900 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-04 16:44:34,742 DEBUG   HandlerThread:2077900 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-04 16:44:34,742 DEBUG   HandlerThread:2077900 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-04 16:44:34,743 DEBUG   SenderThread:2077900 [sender.py:send_request():407] send_request: stop_status
+2024-06-04 16:44:34,904 DEBUG   HandlerThread:2077900 [handler.py:handle_request():146] handle_request: status_report
+2024-06-04 16:44:35,147 INFO    Thread-12 :2077900 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/GNN/wandb/run-20240604_164347-1777wuvj/files/wandb-summary.json
+2024-06-04 16:44:36,147 INFO    Thread-12 :2077900 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/GNN/wandb/run-20240604_164347-1777wuvj/files/output.log
+2024-06-04 16:44:37,147 INFO    Thread-12 :2077900 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/GNN/wandb/run-20240604_164347-1777wuvj/files/output.log
+2024-06-04 16:44:39,906 DEBUG   HandlerThread:2077900 [handler.py:handle_request():146] handle_request: status_report
+2024-06-04 16:44:44,906 DEBUG   HandlerThread:2077900 [handler.py:handle_request():146] handle_request: status_report
+2024-06-04 16:44:46,360 DEBUG   HandlerThread:2077900 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-04 16:44:46,360 DEBUG   SenderThread:2077900 [sender.py:send():380] send: history
+2024-06-04 16:44:46,360 DEBUG   SenderThread:2077900 [sender.py:send_request():407] send_request: summary_record
+2024-06-04 16:44:46,361 INFO    SenderThread:2077900 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-04 16:44:47,150 INFO    Thread-12 :2077900 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/GNN/wandb/run-20240604_164347-1777wuvj/files/wandb-summary.json
+2024-06-04 16:44:47,150 INFO    Thread-12 :2077900 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/GNN/wandb/run-20240604_164347-1777wuvj/files/output.log
+2024-06-04 16:44:48,151 INFO    Thread-12 :2077900 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/GNN/wandb/run-20240604_164347-1777wuvj/files/output.log
+2024-06-04 16:44:48,218 DEBUG   SystemMonitor:2077900 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-06-04 16:44:48,219 DEBUG   SenderThread:2077900 [sender.py:send():380] send: stats
+2024-06-04 16:44:49,742 DEBUG   HandlerThread:2077900 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-04 16:44:49,742 DEBUG   SenderThread:2077900 [sender.py:send_request():407] send_request: stop_status
+2024-06-04 16:44:49,750 DEBUG   HandlerThread:2077900 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-04 16:44:49,943 DEBUG   HandlerThread:2077900 [handler.py:handle_request():146] handle_request: status_report
+2024-06-04 16:44:54,944 DEBUG   HandlerThread:2077900 [handler.py:handle_request():146] handle_request: status_report
+2024-06-04 16:44:57,935 DEBUG   HandlerThread:2077900 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-04 16:44:57,936 DEBUG   SenderThread:2077900 [sender.py:send():380] send: history
+2024-06-04 16:44:57,943 DEBUG   SenderThread:2077900 [sender.py:send_request():407] send_request: summary_record
+2024-06-04 16:44:57,943 INFO    SenderThread:2077900 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-04 16:44:58,153 INFO    Thread-12 :2077900 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/GNN/wandb/run-20240604_164347-1777wuvj/files/wandb-summary.json
+2024-06-04 16:44:59,154 INFO    Thread-12 :2077900 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/GNN/wandb/run-20240604_164347-1777wuvj/files/output.log
+2024-06-04 16:44:59,978 DEBUG   HandlerThread:2077900 [handler.py:handle_request():146] handle_request: status_report
+2024-06-04 16:45:00,154 INFO    Thread-12 :2077900 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/GNN/wandb/run-20240604_164347-1777wuvj/files/output.log
+2024-06-04 16:45:04,742 DEBUG   HandlerThread:2077900 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-04 16:45:04,742 DEBUG   SenderThread:2077900 [sender.py:send_request():407] send_request: stop_status
+2024-06-04 16:45:04,746 DEBUG   HandlerThread:2077900 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-04 16:45:05,042 DEBUG   HandlerThread:2077900 [handler.py:handle_request():146] handle_request: status_report
+2024-06-04 16:45:09,186 DEBUG   HandlerThread:2077900 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-04 16:45:09,186 DEBUG   SenderThread:2077900 [sender.py:send():380] send: history
+2024-06-04 16:45:09,187 DEBUG   SenderThread:2077900 [sender.py:send_request():407] send_request: summary_record
+2024-06-04 16:45:09,187 INFO    SenderThread:2077900 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-04 16:45:10,157 INFO    Thread-12 :2077900 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/GNN/wandb/run-20240604_164347-1777wuvj/files/wandb-summary.json
+2024-06-04 16:45:10,157 INFO    Thread-12 :2077900 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/GNN/wandb/run-20240604_164347-1777wuvj/files/output.log
+2024-06-04 16:45:10,226 DEBUG   HandlerThread:2077900 [handler.py:handle_request():146] handle_request: status_report
+2024-06-04 16:45:11,157 INFO    Thread-12 :2077900 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/GNN/wandb/run-20240604_164347-1777wuvj/files/output.log
+2024-06-04 16:45:15,227 DEBUG   HandlerThread:2077900 [handler.py:handle_request():146] handle_request: status_report
+2024-06-04 16:45:18,219 DEBUG   SenderThread:2077900 [sender.py:send():380] send: stats
+2024-06-04 16:45:19,742 DEBUG   HandlerThread:2077900 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-04 16:45:19,743 DEBUG   SenderThread:2077900 [sender.py:send_request():407] send_request: stop_status
+2024-06-04 16:45:19,746 DEBUG   HandlerThread:2077900 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-04 16:45:20,784 DEBUG   HandlerThread:2077900 [handler.py:handle_request():146] handle_request: status_report
+2024-06-04 16:45:20,833 DEBUG   SenderThread:2077900 [sender.py:send():380] send: exit
+2024-06-04 16:45:20,833 INFO    SenderThread:2077900 [sender.py:send_exit():585] handling exit code: 255
+2024-06-04 16:45:20,833 INFO    SenderThread:2077900 [sender.py:send_exit():587] handling runtime: 92
+2024-06-04 16:45:20,834 INFO    SenderThread:2077900 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-04 16:45:20,835 INFO    SenderThread:2077900 [sender.py:send_exit():593] send defer
+2024-06-04 16:45:20,835 DEBUG   HandlerThread:2077900 [handler.py:handle_request():146] handle_request: defer
+2024-06-04 16:45:20,835 INFO    HandlerThread:2077900 [handler.py:handle_request_defer():172] handle defer: 0
+2024-06-04 16:45:20,835 DEBUG   SenderThread:2077900 [sender.py:send_request():407] send_request: defer
+2024-06-04 16:45:20,835 INFO    SenderThread:2077900 [sender.py:send_request_defer():609] handle sender defer: 0
+2024-06-04 16:45:20,835 INFO    SenderThread:2077900 [sender.py:transition_state():613] send defer: 1
+2024-06-04 16:45:20,835 DEBUG   HandlerThread:2077900 [handler.py:handle_request():146] handle_request: defer
+2024-06-04 16:45:20,835 INFO    HandlerThread:2077900 [handler.py:handle_request_defer():172] handle defer: 1
+2024-06-04 16:45:20,835 DEBUG   SenderThread:2077900 [sender.py:send_request():407] send_request: defer
+2024-06-04 16:45:20,835 INFO    SenderThread:2077900 [sender.py:send_request_defer():609] handle sender defer: 1
+2024-06-04 16:45:20,835 INFO    SenderThread:2077900 [sender.py:transition_state():613] send defer: 2
+2024-06-04 16:45:20,835 DEBUG   HandlerThread:2077900 [handler.py:handle_request():146] handle_request: defer
+2024-06-04 16:45:20,835 INFO    HandlerThread:2077900 [handler.py:handle_request_defer():172] handle defer: 2
+2024-06-04 16:45:20,836 INFO    HandlerThread:2077900 [system_monitor.py:finish():203] Stopping system monitor
+2024-06-04 16:45:20,836 DEBUG   SystemMonitor:2077900 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-06-04 16:45:20,836 DEBUG   SystemMonitor:2077900 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-06-04 16:45:20,836 INFO    HandlerThread:2077900 [interfaces.py:finish():202] Joined cpu monitor
+2024-06-04 16:45:20,837 INFO    HandlerThread:2077900 [interfaces.py:finish():202] Joined disk monitor
+2024-06-04 16:45:20,895 INFO    HandlerThread:2077900 [interfaces.py:finish():202] Joined gpu monitor
+2024-06-04 16:45:20,895 INFO    HandlerThread:2077900 [interfaces.py:finish():202] Joined memory monitor
+2024-06-04 16:45:20,895 INFO    HandlerThread:2077900 [interfaces.py:finish():202] Joined network monitor
+2024-06-04 16:45:20,895 DEBUG   SenderThread:2077900 [sender.py:send_request():407] send_request: defer
+2024-06-04 16:45:20,895 INFO    SenderThread:2077900 [sender.py:send_request_defer():609] handle sender defer: 2
+2024-06-04 16:45:20,895 INFO    SenderThread:2077900 [sender.py:transition_state():613] send defer: 3
+2024-06-04 16:45:20,895 DEBUG   SenderThread:2077900 [sender.py:send():380] send: stats
+2024-06-04 16:45:20,896 DEBUG   HandlerThread:2077900 [handler.py:handle_request():146] handle_request: defer
+2024-06-04 16:45:20,896 INFO    HandlerThread:2077900 [handler.py:handle_request_defer():172] handle defer: 3
+2024-06-04 16:45:20,896 DEBUG   SenderThread:2077900 [sender.py:send_request():407] send_request: defer
+2024-06-04 16:45:20,896 INFO    SenderThread:2077900 [sender.py:send_request_defer():609] handle sender defer: 3
+2024-06-04 16:45:20,896 INFO    SenderThread:2077900 [sender.py:transition_state():613] send defer: 4
+2024-06-04 16:45:20,896 DEBUG   HandlerThread:2077900 [handler.py:handle_request():146] handle_request: defer
+2024-06-04 16:45:20,896 INFO    HandlerThread:2077900 [handler.py:handle_request_defer():172] handle defer: 4
+2024-06-04 16:45:20,896 DEBUG   SenderThread:2077900 [sender.py:send_request():407] send_request: defer
+2024-06-04 16:45:20,896 INFO    SenderThread:2077900 [sender.py:send_request_defer():609] handle sender defer: 4
+2024-06-04 16:45:20,896 INFO    SenderThread:2077900 [sender.py:transition_state():613] send defer: 5
+2024-06-04 16:45:20,896 DEBUG   HandlerThread:2077900 [handler.py:handle_request():146] handle_request: defer
+2024-06-04 16:45:20,896 INFO    HandlerThread:2077900 [handler.py:handle_request_defer():172] handle defer: 5
+2024-06-04 16:45:20,897 DEBUG   SenderThread:2077900 [sender.py:send():380] send: summary
+2024-06-04 16:45:20,897 INFO    SenderThread:2077900 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-04 16:45:20,897 DEBUG   SenderThread:2077900 [sender.py:send_request():407] send_request: defer
+2024-06-04 16:45:20,897 INFO    SenderThread:2077900 [sender.py:send_request_defer():609] handle sender defer: 5
+2024-06-04 16:45:20,897 INFO    SenderThread:2077900 [sender.py:transition_state():613] send defer: 6
+2024-06-04 16:45:20,897 DEBUG   HandlerThread:2077900 [handler.py:handle_request():146] handle_request: defer
+2024-06-04 16:45:20,897 INFO    HandlerThread:2077900 [handler.py:handle_request_defer():172] handle defer: 6
+2024-06-04 16:45:20,897 DEBUG   SenderThread:2077900 [sender.py:send_request():407] send_request: defer
+2024-06-04 16:45:20,897 INFO    SenderThread:2077900 [sender.py:send_request_defer():609] handle sender defer: 6
+2024-06-04 16:45:20,897 INFO    SenderThread:2077900 [sender.py:transition_state():613] send defer: 7
+2024-06-04 16:45:20,898 DEBUG   HandlerThread:2077900 [handler.py:handle_request():146] handle_request: status_report
+2024-06-04 16:45:20,898 DEBUG   HandlerThread:2077900 [handler.py:handle_request():146] handle_request: defer
+2024-06-04 16:45:20,898 INFO    HandlerThread:2077900 [handler.py:handle_request_defer():172] handle defer: 7
+2024-06-04 16:45:20,898 DEBUG   SenderThread:2077900 [sender.py:send_request():407] send_request: defer
+2024-06-04 16:45:20,898 INFO    SenderThread:2077900 [sender.py:send_request_defer():609] handle sender defer: 7
+2024-06-04 16:45:21,159 INFO    Thread-12 :2077900 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/GNN/wandb/run-20240604_164347-1777wuvj/files/wandb-summary.json
+2024-06-04 16:45:21,831 DEBUG   HandlerThread:2077900 [handler.py:handle_request():146] handle_request: poll_exit
+2024-06-04 16:45:22,160 INFO    Thread-12 :2077900 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/GNN/wandb/run-20240604_164347-1777wuvj/files/output.log
+2024-06-04 16:45:22,868 INFO    SenderThread:2077900 [sender.py:transition_state():613] send defer: 8
+2024-06-04 16:45:22,868 DEBUG   SenderThread:2077900 [sender.py:send_request():407] send_request: poll_exit
+2024-06-04 16:45:22,869 DEBUG   HandlerThread:2077900 [handler.py:handle_request():146] handle_request: defer
+2024-06-04 16:45:22,869 INFO    HandlerThread:2077900 [handler.py:handle_request_defer():172] handle defer: 8
+2024-06-04 16:45:22,869 DEBUG   SenderThread:2077900 [sender.py:send_request():407] send_request: defer
+2024-06-04 16:45:22,869 INFO    SenderThread:2077900 [sender.py:send_request_defer():609] handle sender defer: 8
+2024-06-04 16:45:22,869 INFO    SenderThread:2077900 [job_builder.py:build():298] Attempting to build job artifact
+2024-06-04 16:45:22,869 INFO    SenderThread:2077900 [job_builder.py:_get_source_type():428] is repo sourced job
+2024-06-04 16:45:22,893 INFO    SenderThread:2077900 [job_builder.py:build():404] adding wandb-job metadata file
+2024-06-04 16:45:22,906 INFO    SenderThread:2077900 [sender.py:transition_state():613] send defer: 9
+2024-06-04 16:45:22,906 DEBUG   HandlerThread:2077900 [handler.py:handle_request():146] handle_request: defer
+2024-06-04 16:45:22,906 INFO    HandlerThread:2077900 [handler.py:handle_request_defer():172] handle defer: 9
+2024-06-04 16:45:22,907 DEBUG   SenderThread:2077900 [sender.py:send():380] send: artifact
+2024-06-04 16:45:23,160 INFO    Thread-12 :2077900 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/GNN/wandb/run-20240604_164347-1777wuvj/files/output.log
+2024-06-04 16:45:24,170 INFO    wandb-upload_1:2077900 [upload_job.py:push():89] Uploaded file /home/denis/.local/share/wandb/artifacts/staging/tmp4imkkfo_
+2024-06-04 16:45:24,198 INFO    wandb-upload_0:2077900 [upload_job.py:push():89] Uploaded file /home/denis/.local/share/wandb/artifacts/staging/tmpnm7wspi1
+2024-06-04 16:45:25,158 INFO    SenderThread:2077900 [sender.py:send_artifact():1458] sent artifact job-https___git.ias.informatik.tu-darmstadt.de_andric_masterthesis15_03-13_09-2024.git_recap_corrected_GNN_GNN_main.py - {'id': 'QXJ0aWZhY3Q6ODYwMDEyNDgx', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE4MjE1MjcwOQ==', 'latestArtifact': None}}
+2024-06-04 16:45:25,158 DEBUG   SenderThread:2077900 [sender.py:send_request():407] send_request: defer
+2024-06-04 16:45:25,158 INFO    SenderThread:2077900 [sender.py:send_request_defer():609] handle sender defer: 9
+2024-06-04 16:45:25,158 INFO    SenderThread:2077900 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-06-04 16:45:25,161 INFO    SenderThread:2077900 [dir_watcher.py:finish():388] scan: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/GNN/wandb/run-20240604_164347-1777wuvj/files
+2024-06-04 16:45:25,161 INFO    SenderThread:2077900 [dir_watcher.py:finish():402] scan save: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/GNN/wandb/run-20240604_164347-1777wuvj/files/config.yaml config.yaml
+2024-06-04 16:45:25,161 INFO    SenderThread:2077900 [dir_watcher.py:finish():402] scan save: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/GNN/wandb/run-20240604_164347-1777wuvj/files/conda-environment.yaml conda-environment.yaml
+2024-06-04 16:45:25,163 INFO    SenderThread:2077900 [dir_watcher.py:finish():402] scan save: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/GNN/wandb/run-20240604_164347-1777wuvj/files/requirements.txt requirements.txt
+2024-06-04 16:45:25,165 INFO    SenderThread:2077900 [dir_watcher.py:finish():402] scan save: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/GNN/wandb/run-20240604_164347-1777wuvj/files/wandb-metadata.json wandb-metadata.json
+2024-06-04 16:45:25,165 INFO    SenderThread:2077900 [dir_watcher.py:finish():402] scan save: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/GNN/wandb/run-20240604_164347-1777wuvj/files/wandb-summary.json wandb-summary.json
+2024-06-04 16:45:25,166 INFO    SenderThread:2077900 [dir_watcher.py:finish():402] scan save: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/GNN/wandb/run-20240604_164347-1777wuvj/files/output.log output.log
+2024-06-04 16:45:25,166 INFO    SenderThread:2077900 [sender.py:transition_state():613] send defer: 10
+2024-06-04 16:45:25,168 DEBUG   HandlerThread:2077900 [handler.py:handle_request():146] handle_request: defer
+2024-06-04 16:45:25,168 INFO    HandlerThread:2077900 [handler.py:handle_request_defer():172] handle defer: 10
+2024-06-04 16:45:25,170 DEBUG   SenderThread:2077900 [sender.py:send_request():407] send_request: defer
+2024-06-04 16:45:25,170 INFO    SenderThread:2077900 [sender.py:send_request_defer():609] handle sender defer: 10
+2024-06-04 16:45:25,170 INFO    SenderThread:2077900 [file_pusher.py:finish():175] shutting down file pusher
+2024-06-04 16:45:25,535 INFO    wandb-upload_1:2077900 [upload_job.py:push():131] Uploaded file /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/GNN/wandb/run-20240604_164347-1777wuvj/files/config.yaml
+2024-06-04 16:45:25,587 INFO    wandb-upload_0:2077900 [upload_job.py:push():131] Uploaded file /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/GNN/wandb/run-20240604_164347-1777wuvj/files/conda-environment.yaml
+2024-06-04 16:45:25,596 INFO    wandb-upload_2:2077900 [upload_job.py:push():131] Uploaded file /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/GNN/wandb/run-20240604_164347-1777wuvj/files/requirements.txt
+2024-06-04 16:45:25,598 INFO    wandb-upload_3:2077900 [upload_job.py:push():131] Uploaded file /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/GNN/wandb/run-20240604_164347-1777wuvj/files/wandb-summary.json
+2024-06-04 16:45:25,605 INFO    wandb-upload_4:2077900 [upload_job.py:push():131] Uploaded file /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/GNN/wandb/run-20240604_164347-1777wuvj/files/output.log
+2024-06-04 16:45:25,805 INFO    Thread-11 :2077900 [sender.py:transition_state():613] send defer: 11
+2024-06-04 16:45:25,806 DEBUG   HandlerThread:2077900 [handler.py:handle_request():146] handle_request: defer
+2024-06-04 16:45:25,806 INFO    HandlerThread:2077900 [handler.py:handle_request_defer():172] handle defer: 11
+2024-06-04 16:45:25,806 DEBUG   SenderThread:2077900 [sender.py:send_request():407] send_request: defer
+2024-06-04 16:45:25,806 INFO    SenderThread:2077900 [sender.py:send_request_defer():609] handle sender defer: 11
+2024-06-04 16:45:25,806 INFO    SenderThread:2077900 [file_pusher.py:join():181] waiting for file pusher
+2024-06-04 16:45:25,806 INFO    SenderThread:2077900 [sender.py:transition_state():613] send defer: 12
+2024-06-04 16:45:25,806 DEBUG   HandlerThread:2077900 [handler.py:handle_request():146] handle_request: defer
+2024-06-04 16:45:25,806 INFO    HandlerThread:2077900 [handler.py:handle_request_defer():172] handle defer: 12
+2024-06-04 16:45:25,806 DEBUG   SenderThread:2077900 [sender.py:send_request():407] send_request: defer
+2024-06-04 16:45:25,806 INFO    SenderThread:2077900 [sender.py:send_request_defer():609] handle sender defer: 12
+2024-06-04 16:45:25,806 INFO    SenderThread:2077900 [file_stream.py:finish():595] file stream finish called
+2024-06-04 16:45:26,504 INFO    SenderThread:2077900 [file_stream.py:finish():599] file stream finish is done
+2024-06-04 16:45:26,504 INFO    SenderThread:2077900 [sender.py:transition_state():613] send defer: 13
+2024-06-04 16:45:26,504 DEBUG   HandlerThread:2077900 [handler.py:handle_request():146] handle_request: defer
+2024-06-04 16:45:26,504 INFO    HandlerThread:2077900 [handler.py:handle_request_defer():172] handle defer: 13
+2024-06-04 16:45:26,504 DEBUG   SenderThread:2077900 [sender.py:send_request():407] send_request: defer
+2024-06-04 16:45:26,504 INFO    SenderThread:2077900 [sender.py:send_request_defer():609] handle sender defer: 13
+2024-06-04 16:45:26,504 INFO    SenderThread:2077900 [sender.py:transition_state():613] send defer: 14
+2024-06-04 16:45:26,505 DEBUG   HandlerThread:2077900 [handler.py:handle_request():146] handle_request: defer
+2024-06-04 16:45:26,505 INFO    HandlerThread:2077900 [handler.py:handle_request_defer():172] handle defer: 14
+2024-06-04 16:45:26,505 DEBUG   SenderThread:2077900 [sender.py:send():380] send: final
+2024-06-04 16:45:26,505 DEBUG   SenderThread:2077900 [sender.py:send():380] send: footer
+2024-06-04 16:45:26,505 DEBUG   SenderThread:2077900 [sender.py:send_request():407] send_request: defer
+2024-06-04 16:45:26,505 INFO    SenderThread:2077900 [sender.py:send_request_defer():609] handle sender defer: 14
+2024-06-04 16:45:26,506 DEBUG   HandlerThread:2077900 [handler.py:handle_request():146] handle_request: poll_exit
+2024-06-04 16:45:26,506 DEBUG   HandlerThread:2077900 [handler.py:handle_request():146] handle_request: server_info
+2024-06-04 16:45:26,506 DEBUG   SenderThread:2077900 [sender.py:send_request():407] send_request: poll_exit
+2024-06-04 16:45:26,506 DEBUG   HandlerThread:2077900 [handler.py:handle_request():146] handle_request: get_summary
+2024-06-04 16:45:26,506 DEBUG   SenderThread:2077900 [sender.py:send_request():407] send_request: server_info
+2024-06-04 16:45:26,506 DEBUG   HandlerThread:2077900 [handler.py:handle_request():146] handle_request: sampled_history
+2024-06-04 16:45:26,508 DEBUG   HandlerThread:2077900 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-04 16:45:26,509 DEBUG   HandlerThread:2077900 [handler.py:handle_request():146] handle_request: job_info
+2024-06-04 16:45:26,657 DEBUG   SenderThread:2077900 [sender.py:send_request():407] send_request: job_info
+2024-06-04 16:45:26,657 INFO    MainThread:2077900 [wandb_run.py:_footer_history_summary_info():3760] rendering history
+2024-06-04 16:45:26,657 INFO    MainThread:2077900 [wandb_run.py:_footer_history_summary_info():3792] rendering summary
+2024-06-04 16:45:26,657 INFO    MainThread:2077900 [wandb_run.py:_footer_sync_info():3719] logging synced files
+2024-06-04 16:45:26,658 DEBUG   HandlerThread:2077900 [handler.py:handle_request():146] handle_request: shutdown
+2024-06-04 16:45:26,658 INFO    HandlerThread:2077900 [handler.py:finish():866] shutting down handler
+2024-06-04 16:45:27,509 INFO    WriterThread:2077900 [datastore.py:close():294] close: /home/denis/Desktop/master/masterthesis15_03-13_09-2024/recap/corrected/GNN/wandb/run-20240604_164347-1777wuvj/run-1777wuvj.wandb
+2024-06-04 16:45:27,657 INFO    SenderThread:2077900 [sender.py:finish():1536] shutting down sender
+2024-06-04 16:45:27,657 INFO    SenderThread:2077900 [file_pusher.py:finish():175] shutting down file pusher
+2024-06-04 16:45:27,657 INFO    SenderThread:2077900 [file_pusher.py:join():181] waiting for file pusher

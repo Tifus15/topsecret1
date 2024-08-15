@@ -1,0 +1,1012 @@
+torch.Size([6, 500])
+Epoch: 1
+LOSS: train: 0.247298 grad:2.381128 h:1.030943   |   test: 0.099058 grad: 2.640319 h:0.858321
+Epoch: 2
+LOSS: train: 0.261013 grad:2.308869 h:0.936564   |   test: 0.096701 grad: 2.598837 h:0.745609
+Epoch: 3
+LOSS: train: 0.260755 grad:2.294109 h:0.767786   |   test: 0.094878 grad: 2.565248 h:0.558762
+Epoch: 4
+LOSS: train: 0.253727 grad:2.308312 h:0.497047   |   test: 0.093795 grad: 2.544784 h:0.339858
+Epoch: 5
+LOSS: train: 0.255697 grad:2.295217 h:0.279155   |   test: 0.093684 grad: 2.550665 h:0.165371
+Epoch: 6
+LOSS: train: 0.258567 grad:2.317237 h:0.131063   |   test: 0.094195 grad: 2.563423 h:0.049224
+Epoch: 7
+LOSS: train: 0.255217 grad:2.280163 h:0.044962   |   test: 0.094982 grad: 2.579069 h:0.004703
+Epoch: 8
+LOSS: train: 0.243273 grad:2.317300 h:0.013891   |   test: 0.095004 grad: 2.591366 h:0.018349
+Epoch: 9
+LOSS: train: 0.251863 grad:2.281294 h:0.015858   |   test: 0.093538 grad: 2.564787 h:0.033712
+Epoch: 10
+LOSS: train: 0.253724 grad:2.266531 h:0.027958   |   test: 0.092429 grad: 2.538161 h:0.061251
+Epoch: 11
+LOSS: train: 0.245783 grad:2.253887 h:0.055913   |   test: 0.092230 grad: 2.530770 h:0.114862
+Epoch: 12
+LOSS: train: 0.252048 grad:2.223944 h:0.108165   |   test: 0.092174 grad: 2.529714 h:0.201276
+Epoch: 13
+LOSS: train: 0.237621 grad:2.238260 h:0.186670   |   test: 0.092359 grad: 2.521130 h:0.288243
+Epoch: 14
+LOSS: train: 0.251419 grad:2.233468 h:0.262113   |   test: 0.092676 grad: 2.520442 h:0.388104
+Epoch: 15
+LOSS: train: 0.249964 grad:2.224085 h:0.353274   |   test: 0.092589 grad: 2.513347 h:0.497752
+Epoch: 16
+LOSS: train: 0.251122 grad:2.258659 h:0.446485   |   test: 0.091455 grad: 2.492028 h:0.543105
+Epoch: 17
+LOSS: train: 0.237371 grad:2.227830 h:0.515871   |   test: 0.090566 grad: 2.473429 h:0.588259
+Epoch: 18
+LOSS: train: 0.251093 grad:2.238398 h:0.552897   |   test: 0.089519 grad: 2.458660 h:0.600319
+Epoch: 19
+LOSS: train: 0.253245 grad:2.206960 h:0.588265   |   test: 0.088878 grad: 2.454235 h:0.653305
+Epoch: 20
+LOSS: train: 0.247029 grad:2.177729 h:0.647678   |   test: 0.089064 grad: 2.460734 h:0.747493
+Epoch: 21
+LOSS: train: 0.246987 grad:2.175583 h:0.708792   |   test: 0.089995 grad: 2.485766 h:0.875119
+Epoch: 22
+LOSS: train: 0.226502 grad:2.211012 h:0.803188   |   test: 0.090883 grad: 2.496720 h:1.004719
+Epoch: 23
+LOSS: train: 0.235948 grad:2.201533 h:0.836013   |   test: 0.090216 grad: 2.482055 h:0.993552
+Epoch: 24
+LOSS: train: 0.241652 grad:2.163040 h:0.833701   |   test: 0.089640 grad: 2.467326 h:0.963787
+Epoch: 25
+LOSS: train: 0.239090 grad:2.164685 h:0.836959   |   test: 0.089426 grad: 2.460941 h:0.980501
+Epoch: 26
+LOSS: train: 0.236096 grad:2.179478 h:0.853429   |   test: 0.088728 grad: 2.453524 h:1.005338
+Epoch: 27
+LOSS: train: 0.238083 grad:2.122444 h:0.865554   |   test: 0.088112 grad: 2.436240 h:0.995646
+Epoch: 28
+LOSS: train: 0.251726 grad:2.135398 h:0.902990   |   test: 0.088125 grad: 2.435009 h:1.061897
+Epoch: 29
+LOSS: train: 0.229494 grad:2.166403 h:0.970943   |   test: 0.088295 grad: 2.434514 h:1.146279
+Epoch: 30
+LOSS: train: 0.245476 grad:2.144550 h:0.996597   |   test: 0.088484 grad: 2.435789 h:1.191549
+Epoch: 31
+LOSS: train: 0.237583 grad:2.173282 h:1.024234   |   test: 0.088158 grad: 2.426744 h:1.220114
+Epoch: 32
+LOSS: train: 0.251503 grad:2.136502 h:1.066401   |   test: 0.088444 grad: 2.439929 h:1.282404
+Epoch: 33
+LOSS: train: 0.237455 grad:2.127068 h:1.060261   |   test: 0.087669 grad: 2.422525 h:1.259288
+Epoch: 34
+LOSS: train: 0.245999 grad:2.118784 h:1.102007   |   test: 0.087067 grad: 2.404997 h:1.251786
+Epoch: 35
+LOSS: train: 0.223688 grad:2.127807 h:1.147717   |   test: 0.087692 grad: 2.418458 h:1.331331
+Epoch: 36
+LOSS: train: 0.224895 grad:2.085039 h:1.150325   |   test: 0.087659 grad: 2.417148 h:1.364295
+Epoch: 37
+LOSS: train: 0.246364 grad:2.095402 h:1.104771   |   test: 0.086329 grad: 2.391667 h:1.281407
+Epoch: 38
+LOSS: train: 0.228859 grad:2.082784 h:1.089840   |   test: 0.085977 grad: 2.388155 h:1.345148
+  7%|█████████                                                                                                                 | 37/500 [00:01<00:18, 24.42it/s]
+Epoch: 39
+LOSS: train: 0.230183 grad:2.070100 h:1.130962   |   test: 0.085164 grad: 2.377348 h:1.376922
+Epoch: 40
+LOSS: train: 0.235346 grad:2.081397 h:1.144744   |   test: 0.084604 grad: 2.369730 h:1.418753
+Epoch: 41
+LOSS: train: 0.235755 grad:2.025406 h:1.177309   |   test: 0.084310 grad: 2.363908 h:1.480338
+Epoch: 42
+LOSS: train: 0.231647 grad:2.059717 h:1.219183   |   test: 0.083896 grad: 2.350630 h:1.510041
+Epoch: 43
+LOSS: train: 0.234601 grad:2.042209 h:1.248083   |   test: 0.083555 grad: 2.334296 h:1.518185
+Epoch: 44
+LOSS: train: 0.245505 grad:2.023624 h:1.285184   |   test: 0.084142 grad: 2.334408 h:1.604689
+Epoch: 45
+LOSS: train: 0.230176 grad:2.038510 h:1.384306   |   test: 0.084164 grad: 2.330656 h:1.710974
+Epoch: 46
+LOSS: train: 0.221481 grad:2.016472 h:1.447032   |   test: 0.083522 grad: 2.325256 h:1.729534
+Epoch: 47
+LOSS: train: 0.237204 grad:1.995015 h:1.427675   |   test: 0.081663 grad: 2.294612 h:1.647496
+Epoch: 48
+LOSS: train: 0.229352 grad:1.977433 h:1.365379   |   test: 0.080595 grad: 2.270382 h:1.586171
+Epoch: 49
+LOSS: train: 0.221218 grad:1.975411 h:1.335640   |   test: 0.079958 grad: 2.247242 h:1.546212
+Epoch: 50
+LOSS: train: 0.218938 grad:1.953716 h:1.354881   |   test: 0.079584 grad: 2.236816 h:1.586676
+Epoch: 51
+LOSS: train: 0.235164 grad:1.961856 h:1.337659   |   test: 0.078880 grad: 2.229927 h:1.628288
+Epoch: 52
+LOSS: train: 0.221524 grad:1.932813 h:1.360961   |   test: 0.079053 grad: 2.233142 h:1.746153
+Epoch: 53
+LOSS: train: 0.226209 grad:1.932248 h:1.416444   |   test: 0.078687 grad: 2.227981 h:1.827654
+Epoch: 54
+LOSS: train: 0.210153 grad:1.930391 h:1.496232   |   test: 0.078646 grad: 2.210651 h:1.909496
+Epoch: 55
+LOSS: train: 0.219855 grad:1.910806 h:1.569465   |   test: 0.078422 grad: 2.190127 h:1.887359
+Epoch: 56
+LOSS: train: 0.219657 grad:1.879697 h:1.592246   |   test: 0.077571 grad: 2.161099 h:1.848277
+Epoch: 57
+LOSS: train: 0.222780 grad:1.887914 h:1.599843   |   test: 0.076783 grad: 2.147210 h:1.882686
+Epoch: 58
+LOSS: train: 0.220739 grad:1.870307 h:1.583214   |   test: 0.076029 grad: 2.132136 h:1.892628
+Epoch: 59
+LOSS: train: 0.212800 grad:1.866085 h:1.593967   |   test: 0.075275 grad: 2.108359 h:1.877940
+Epoch: 60
+LOSS: train: 0.219225 grad:1.858862 h:1.599475   |   test: 0.074212 grad: 2.086415 h:1.799644
+Epoch: 61
+LOSS: train: 0.224620 grad:1.837915 h:1.501569   |   test: 0.073447 grad: 2.070920 h:1.706753
+Epoch: 62
+LOSS: train: 0.215549 grad:1.787929 h:1.460687   |   test: 0.073147 grad: 2.071345 h:1.763752
+Epoch: 63
+LOSS: train: 0.209654 grad:1.787417 h:1.472419   |   test: 0.073086 grad: 2.064200 h:1.855048
+Epoch: 64
+LOSS: train: 0.231423 grad:1.770416 h:1.399331   |   test: 0.071970 grad: 2.031862 h:1.755178
+Epoch: 65
+LOSS: train: 0.209869 grad:1.736079 h:1.400220   |   test: 0.071306 grad: 2.007561 h:1.771477
+Epoch: 66
+LOSS: train: 0.217222 grad:1.732156 h:1.471812   |   test: 0.071098 grad: 2.002710 h:1.836031
+Epoch: 67
+LOSS: train: 0.199215 grad:1.726249 h:1.577776   |   test: 0.070837 grad: 1.995076 h:1.981491
+Epoch: 68
+LOSS: train: 0.206579 grad:1.715076 h:1.535176   |   test: 0.069571 grad: 1.973160 h:1.930596
+Epoch: 69
+LOSS: train: 0.191135 grad:1.707861 h:1.561443   |   test: 0.069325 grad: 1.966489 h:1.951715
+Epoch: 70
+LOSS: train: 0.194954 grad:1.692828 h:1.450346   |   test: 0.068584 grad: 1.942449 h:1.789855
+Epoch: 71
+LOSS: train: 0.203481 grad:1.660718 h:1.356061   |   test: 0.068043 grad: 1.907855 h:1.647981
+Epoch: 72
+LOSS: train: 0.195530 grad:1.634183 h:1.341804   |   test: 0.068112 grad: 1.871626 h:1.596325
+Epoch: 73
+LOSS: train: 0.198883 grad:1.652944 h:1.329820   |   test: 0.067405 grad: 1.848995 h:1.570640
+Epoch: 74
+LOSS: train: 0.191617 grad:1.624492 h:1.282404   |   test: 0.066877 grad: 1.829880 h:1.517024
+Epoch: 75
+LOSS: train: 0.198371 grad:1.603287 h:1.276353   |   test: 0.066591 grad: 1.830942 h:1.617667
+Epoch: 76
+LOSS: train: 0.190910 grad:1.603926 h:1.311312   |   test: 0.066490 grad: 1.820345 h:1.647049
+Epoch: 77
+LOSS: train: 0.197187 grad:1.593519 h:1.346784   |   test: 0.065780 grad: 1.799466 h:1.565634
+Epoch: 78
+LOSS: train: 0.202186 grad:1.562639 h:1.283601   |   test: 0.064863 grad: 1.784181 h:1.503845
+Epoch: 79
+LOSS: train: 0.193034 grad:1.543621 h:1.195050   |   test: 0.063892 grad: 1.747903 h:1.414892
+Epoch: 80
+LOSS: train: 0.181135 grad:1.553120 h:1.167409   |   test: 0.064319 grad: 1.742048 h:1.525571
+Epoch: 81
+LOSS: train: 0.193115 grad:1.536337 h:1.242558   |   test: 0.064805 grad: 1.718940 h:1.456431
+Epoch: 82
+LOSS: train: 0.183401 grad:1.513544 h:1.207074   |   test: 0.065040 grad: 1.707442 h:1.440095
+Epoch: 83
+LOSS: train: 0.188495 grad:1.485818 h:1.165177   |   test: 0.064741 grad: 1.685005 h:1.341954
+Epoch: 84
+LOSS: train: 0.184204 grad:1.486313 h:1.107210   |   test: 0.064096 grad: 1.674565 h:1.320881
+Epoch: 85
+LOSS: train: 0.182796 grad:1.456874 h:1.034395   |   test: 0.062998 grad: 1.649761 h:1.229509
+Epoch: 86
+LOSS: train: 0.179169 grad:1.469326 h:1.007339   |   test: 0.062093 grad: 1.615336 h:1.198874
+Epoch: 87
+LOSS: train: 0.178845 grad:1.413476 h:0.994740   |   test: 0.062048 grad: 1.579135 h:1.099068
+Epoch: 88
+
+ 18%|█████████████████████▍                                                                                                    | 88/500 [00:03<00:16, 25.17it/s]
+Epoch: 89
+LOSS: train: 0.195419 grad:1.385201 h:0.937471   |   test: 0.061516 grad: 1.530118 h:1.036862
+Epoch: 90
+LOSS: train: 0.168834 grad:1.372139 h:0.993288   |   test: 0.062586 grad: 1.522132 h:1.127111
+Epoch: 91
+LOSS: train: 0.181800 grad:1.387230 h:1.098511   |   test: 0.063387 grad: 1.512906 h:1.159097
+Epoch: 92
+LOSS: train: 0.176999 grad:1.368234 h:1.071622   |   test: 0.063677 grad: 1.512470 h:1.158607
+Epoch: 93
+LOSS: train: 0.169499 grad:1.342831 h:1.047005   |   test: 0.062600 grad: 1.492544 h:1.087936
+Epoch: 94
+LOSS: train: 0.168675 grad:1.342408 h:0.939479   |   test: 0.061026 grad: 1.471536 h:0.962565
+Epoch: 95
+LOSS: train: 0.180576 grad:1.320203 h:0.827177   |   test: 0.060006 grad: 1.433191 h:0.832523
+Epoch: 96
+LOSS: train: 0.179485 grad:1.293667 h:0.743663   |   test: 0.060071 grad: 1.427099 h:0.840510
+Epoch: 97
+LOSS: train: 0.180328 grad:1.283429 h:0.786913   |   test: 0.060955 grad: 1.412993 h:0.851438
+Epoch: 98
+LOSS: train: 0.170319 grad:1.284299 h:0.821270   |   test: 0.061927 grad: 1.387430 h:0.852716
+Epoch: 99
+LOSS: train: 0.174290 grad:1.274797 h:0.863785   |   test: 0.061416 grad: 1.365955 h:0.808363
+Epoch: 100
+LOSS: train: 0.169893 grad:1.260959 h:0.817452   |   test: 0.060080 grad: 1.359980 h:0.889409
+Epoch: 101
+LOSS: train: 0.161928 grad:1.242721 h:0.875102   |   test: 0.059718 grad: 1.351669 h:0.994674
+Epoch: 102
+LOSS: train: 0.164118 grad:1.228639 h:0.765244   |   test: 0.058892 grad: 1.320315 h:0.848183
+Epoch: 103
+LOSS: train: 0.172508 grad:1.209448 h:0.691594   |   test: 0.058785 grad: 1.299463 h:0.753070
+Epoch: 104
+LOSS: train: 0.165227 grad:1.194294 h:0.699104   |   test: 0.059551 grad: 1.292347 h:0.800000
+Epoch: 105
+LOSS: train: 0.174361 grad:1.202176 h:0.738677   |   test: 0.059684 grad: 1.281495 h:0.772578
+Epoch: 106
+LOSS: train: 0.155450 grad:1.158821 h:0.727549   |   test: 0.059369 grad: 1.251238 h:0.662664
+Epoch: 107
+LOSS: train: 0.172033 grad:1.167709 h:0.707706   |   test: 0.059585 grad: 1.221536 h:0.589492
+Epoch: 108
+LOSS: train: 0.169083 grad:1.147763 h:0.693288   |   test: 0.060002 grad: 1.206500 h:0.598686
+Epoch: 109
+LOSS: train: 0.167685 grad:1.152573 h:0.681559   |   test: 0.060286 grad: 1.198207 h:0.661988
+Epoch: 110
+LOSS: train: 0.161826 grad:1.126715 h:0.731887   |   test: 0.059535 grad: 1.203208 h:0.801657
+Epoch: 111
+LOSS: train: 0.172748 grad:1.136346 h:0.719630   |   test: 0.059150 grad: 1.183016 h:0.707195
+Epoch: 112
+LOSS: train: 0.156846 grad:1.119234 h:0.700824   |   test: 0.059944 grad: 1.159406 h:0.568645
+Epoch: 113
+LOSS: train: 0.155709 grad:1.098952 h:0.646624   |   test: 0.059418 grad: 1.141118 h:0.507286
+Epoch: 114
+LOSS: train: 0.146856 grad:1.082576 h:0.603832   |   test: 0.058287 grad: 1.124564 h:0.510843
+Epoch: 115
+LOSS: train: 0.152260 grad:1.074218 h:0.613466   |   test: 0.058093 grad: 1.114123 h:0.484639
+Epoch: 116
+LOSS: train: 0.154642 grad:1.068752 h:0.570330   |   test: 0.058916 grad: 1.094309 h:0.436707
+Epoch: 117
+LOSS: train: 0.143433 grad:1.040032 h:0.536040   |   test: 0.058227 grad: 1.093397 h:0.515239
+Epoch: 118
+LOSS: train: 0.152324 grad:1.044426 h:0.568043   |   test: 0.058120 grad: 1.078676 h:0.527682
+Epoch: 119
+LOSS: train: 0.147235 grad:1.040719 h:0.620924   |   test: 0.058931 grad: 1.062014 h:0.508480
+Epoch: 120
+LOSS: train: 0.162700 grad:1.058145 h:0.608537   |   test: 0.058573 grad: 1.046111 h:0.443010
+Epoch: 121
+LOSS: train: 0.159070 grad:1.053537 h:0.605986   |   test: 0.057748 grad: 1.045331 h:0.468725
+Epoch: 122
+LOSS: train: 0.153598 grad:1.044908 h:0.569091   |   test: 0.056997 grad: 1.041757 h:0.472162
+Epoch: 123
+LOSS: train: 0.164150 grad:1.034105 h:0.608769   |   test: 0.057483 grad: 1.031559 h:0.488879
+Epoch: 124
+LOSS: train: 0.145434 grad:1.008559 h:0.580033   |   test: 0.058523 grad: 1.023755 h:0.469384
+Epoch: 125
+LOSS: train: 0.147607 grad:1.017637 h:0.573609   |   test: 0.059143 grad: 1.007111 h:0.452996
+Epoch: 126
+LOSS: train: 0.150027 grad:0.996238 h:0.562059   |   test: 0.058201 grad: 0.984447 h:0.367396
+Epoch: 127
+LOSS: train: 0.153707 grad:0.996064 h:0.512261   |   test: 0.057771 grad: 0.970426 h:0.323114
+Epoch: 128
+LOSS: train: 0.148817 grad:0.990882 h:0.553664   |   test: 0.057973 grad: 0.970920 h:0.374540
+Epoch: 129
+LOSS: train: 0.159991 grad:1.015502 h:0.550873   |   test: 0.058373 grad: 0.965529 h:0.378205
+Epoch: 130
+LOSS: train: 0.152990 grad:0.978569 h:0.562739   |   test: 0.058244 grad: 0.951246 h:0.342060
+Epoch: 131
+LOSS: train: 0.144845 grad:0.969149 h:0.536787   |   test: 0.058013 grad: 0.936548 h:0.293808
+Epoch: 132
+LOSS: train: 0.141192 grad:0.964767 h:0.545634   |   test: 0.058265 grad: 0.924114 h:0.317047
+Epoch: 133
+LOSS: train: 0.147582 grad:0.960848 h:0.530343   |   test: 0.059268 grad: 0.910618 h:0.268268
+Epoch: 134
+LOSS: train: 0.154643 grad:0.969174 h:0.510866   |   test: 0.059285 grad: 0.917645 h:0.311192
+Epoch: 135
+LOSS: train: 0.150117 grad:0.955562 h:0.566825   |   test: 0.057969 grad: 0.933279 h:0.434731
+Epoch: 136
+LOSS: train: 0.144464 grad:0.951879 h:0.578757   |   test: 0.058515 grad: 0.920102 h:0.367720
+Epoch: 137
+LOSS: train: 0.138227 grad:0.939669 h:0.537994   |   test: 0.057936 grad: 0.895901 h:0.276572
+Epoch: 138
+
+
+ 37%|█████████████████████████████████████████████▎                                                                           | 187/500 [00:07<00:12, 24.34it/s]
+Epoch: 139
+LOSS: train: 0.152936 grad:0.929793 h:0.479269   |   test: 0.057398 grad: 0.868443 h:0.246476
+Epoch: 140
+LOSS: train: 0.133530 grad:0.903191 h:0.463734   |   test: 0.058030 grad: 0.864469 h:0.275505
+Epoch: 141
+LOSS: train: 0.156250 grad:0.951358 h:0.538345   |   test: 0.057744 grad: 0.866780 h:0.332413
+Epoch: 142
+LOSS: train: 0.145883 grad:0.925634 h:0.534794   |   test: 0.057483 grad: 0.855413 h:0.296655
+Epoch: 143
+LOSS: train: 0.139642 grad:0.906763 h:0.551165   |   test: 0.057271 grad: 0.854708 h:0.329455
+Epoch: 144
+LOSS: train: 0.146028 grad:0.911579 h:0.512708   |   test: 0.057528 grad: 0.841425 h:0.298271
+Epoch: 145
+LOSS: train: 0.148848 grad:0.904692 h:0.522094   |   test: 0.058497 grad: 0.829601 h:0.263788
+Epoch: 146
+LOSS: train: 0.151548 grad:0.928112 h:0.557182   |   test: 0.058335 grad: 0.834794 h:0.294818
+Epoch: 147
+LOSS: train: 0.143712 grad:0.919951 h:0.556777   |   test: 0.058659 grad: 0.834742 h:0.314243
+Epoch: 148
+LOSS: train: 0.160324 grad:0.935365 h:0.564783   |   test: 0.058630 grad: 0.833139 h:0.327896
+Epoch: 149
+LOSS: train: 0.159097 grad:0.944657 h:0.552029   |   test: 0.058352 grad: 0.826188 h:0.316355
+Epoch: 150
+LOSS: train: 0.146294 grad:0.902852 h:0.533945   |   test: 0.058106 grad: 0.821755 h:0.303226
+Epoch: 151
+LOSS: train: 0.142160 grad:0.894613 h:0.509738   |   test: 0.057703 grad: 0.812839 h:0.267317
+Epoch: 152
+LOSS: train: 0.151411 grad:0.913404 h:0.496026   |   test: 0.057654 grad: 0.806771 h:0.265602
+Epoch: 153
+LOSS: train: 0.139303 grad:0.888190 h:0.490773   |   test: 0.058375 grad: 0.807255 h:0.275886
+Epoch: 154
+LOSS: train: 0.142018 grad:0.914291 h:0.551846   |   test: 0.059196 grad: 0.810320 h:0.277476
+Epoch: 155
+LOSS: train: 0.139098 grad:0.906484 h:0.511169   |   test: 0.059074 grad: 0.789898 h:0.212821
+Epoch: 156
+LOSS: train: 0.141220 grad:0.883538 h:0.548759   |   test: 0.059049 grad: 0.780402 h:0.222816
+Epoch: 157
+LOSS: train: 0.138815 grad:0.875415 h:0.518440   |   test: 0.059230 grad: 0.766200 h:0.200445
+Epoch: 158
+LOSS: train: 0.146888 grad:0.899838 h:0.546878   |   test: 0.059373 grad: 0.760813 h:0.174654
+Epoch: 159
+LOSS: train: 0.133424 grad:0.884335 h:0.543316   |   test: 0.059378 grad: 0.765375 h:0.216243
+Epoch: 160
+LOSS: train: 0.141055 grad:0.880433 h:0.521430   |   test: 0.057724 grad: 0.781325 h:0.251791
+Epoch: 161
+LOSS: train: 0.133057 grad:0.883512 h:0.497588   |   test: 0.058548 grad: 0.782935 h:0.271356
+Epoch: 162
+LOSS: train: 0.135903 grad:0.874544 h:0.498696   |   test: 0.059157 grad: 0.774799 h:0.244758
+Epoch: 163
+LOSS: train: 0.136684 grad:0.895780 h:0.511200   |   test: 0.059208 grad: 0.761743 h:0.225278
+Epoch: 164
+LOSS: train: 0.133291 grad:0.863605 h:0.505594   |   test: 0.058465 grad: 0.761052 h:0.213784
+Epoch: 165
+LOSS: train: 0.135256 grad:0.871131 h:0.518218   |   test: 0.057503 grad: 0.759637 h:0.204817
+Epoch: 166
+LOSS: train: 0.144474 grad:0.891197 h:0.521473   |   test: 0.057420 grad: 0.759731 h:0.203936
+Epoch: 167
+LOSS: train: 0.134620 grad:0.870164 h:0.500071   |   test: 0.058275 grad: 0.742756 h:0.183978
+Epoch: 168
+LOSS: train: 0.130314 grad:0.855753 h:0.470155   |   test: 0.057882 grad: 0.746379 h:0.187535
+Epoch: 169
+LOSS: train: 0.127869 grad:0.851482 h:0.506921   |   test: 0.057591 grad: 0.751281 h:0.205858
+Epoch: 170
+LOSS: train: 0.132400 grad:0.848377 h:0.517749   |   test: 0.057057 grad: 0.746379 h:0.191691
+Epoch: 171
+LOSS: train: 0.146577 grad:0.895747 h:0.563228   |   test: 0.057106 grad: 0.739255 h:0.185105
+Epoch: 172
+LOSS: train: 0.136507 grad:0.867217 h:0.512920   |   test: 0.057665 grad: 0.734316 h:0.206118
+Epoch: 173
+LOSS: train: 0.128172 grad:0.851991 h:0.494686   |   test: 0.058265 grad: 0.740257 h:0.246732
+Epoch: 174
+LOSS: train: 0.146392 grad:0.875017 h:0.525624   |   test: 0.058005 grad: 0.732929 h:0.187902
+Epoch: 175
+LOSS: train: 0.128981 grad:0.840682 h:0.481039   |   test: 0.058743 grad: 0.741243 h:0.215281
+Epoch: 176
+LOSS: train: 0.126056 grad:0.864361 h:0.514494   |   test: 0.058660 grad: 0.739509 h:0.211323
+Epoch: 177
+LOSS: train: 0.135149 grad:0.863733 h:0.525645   |   test: 0.057748 grad: 0.725530 h:0.179838
+Epoch: 178
+LOSS: train: 0.130594 grad:0.857810 h:0.493728   |   test: 0.057613 grad: 0.710551 h:0.131937
+Epoch: 179
+LOSS: train: 0.141716 grad:0.881345 h:0.491038   |   test: 0.057532 grad: 0.711470 h:0.145377
+Epoch: 180
+LOSS: train: 0.133038 grad:0.849692 h:0.510844   |   test: 0.057210 grad: 0.726821 h:0.210531
+Epoch: 181
+LOSS: train: 0.128335 grad:0.869902 h:0.493423   |   test: 0.057655 grad: 0.749916 h:0.265076
+Epoch: 182
+LOSS: train: 0.144912 grad:0.895935 h:0.556956   |   test: 0.057770 grad: 0.746886 h:0.251163
+Epoch: 183
+LOSS: train: 0.137922 grad:0.860960 h:0.512692   |   test: 0.057046 grad: 0.732672 h:0.184240
+Epoch: 184
+LOSS: train: 0.135080 grad:0.856311 h:0.483581   |   test: 0.056726 grad: 0.724319 h:0.187621
+Epoch: 185
+LOSS: train: 0.125922 grad:0.838257 h:0.480827   |   test: 0.058833 grad: 0.705564 h:0.161673
+Epoch: 186
+LOSS: train: 0.146302 grad:0.875678 h:0.528595   |   test: 0.058989 grad: 0.702750 h:0.153545
+Epoch: 187
+
+ 47%|████████████████████████████████████████████████████████▊                                                                | 235/500 [00:09<00:10, 25.26it/s]
+Epoch: 188
+LOSS: train: 0.128247 grad:0.869542 h:0.559391   |   test: 0.059881 grad: 0.734889 h:0.219578
+Epoch: 189
+LOSS: train: 0.121884 grad:0.844675 h:0.506197   |   test: 0.058487 grad: 0.728664 h:0.178430
+Epoch: 190
+LOSS: train: 0.137564 grad:0.859521 h:0.487541   |   test: 0.058269 grad: 0.717219 h:0.161286
+Epoch: 191
+LOSS: train: 0.128803 grad:0.868164 h:0.480892   |   test: 0.057906 grad: 0.721596 h:0.213849
+Epoch: 192
+LOSS: train: 0.138412 grad:0.870493 h:0.520454   |   test: 0.058002 grad: 0.729899 h:0.224456
+Epoch: 193
+LOSS: train: 0.127194 grad:0.886259 h:0.528218   |   test: 0.058515 grad: 0.728149 h:0.208064
+Epoch: 194
+LOSS: train: 0.132064 grad:0.888097 h:0.536850   |   test: 0.059238 grad: 0.721854 h:0.187687
+Epoch: 195
+LOSS: train: 0.119503 grad:0.860094 h:0.526572   |   test: 0.060235 grad: 0.718013 h:0.168481
+Epoch: 196
+LOSS: train: 0.140079 grad:0.886982 h:0.539987   |   test: 0.059318 grad: 0.713237 h:0.151855
+Epoch: 197
+LOSS: train: 0.126122 grad:0.861835 h:0.506402   |   test: 0.057742 grad: 0.719879 h:0.147685
+Epoch: 198
+LOSS: train: 0.122816 grad:0.864756 h:0.526107   |   test: 0.057371 grad: 0.731818 h:0.181809
+Epoch: 199
+LOSS: train: 0.126204 grad:0.877528 h:0.496318   |   test: 0.056774 grad: 0.728652 h:0.199750
+Epoch: 200
+LOSS: train: 0.131055 grad:0.871540 h:0.500870   |   test: 0.057174 grad: 0.724216 h:0.198297
+Epoch: 201
+LOSS: train: 0.124652 grad:0.875396 h:0.518131   |   test: 0.058853 grad: 0.720955 h:0.175453
+Epoch: 202
+LOSS: train: 0.124234 grad:0.870751 h:0.504654   |   test: 0.059232 grad: 0.714188 h:0.149573
+Epoch: 203
+LOSS: train: 0.130628 grad:0.865132 h:0.498557   |   test: 0.059276 grad: 0.705447 h:0.154981
+Epoch: 204
+LOSS: train: 0.120304 grad:0.847246 h:0.555495   |   test: 0.059685 grad: 0.708659 h:0.170990
+Epoch: 205
+LOSS: train: 0.122535 grad:0.871488 h:0.521050   |   test: 0.058524 grad: 0.712165 h:0.161287
+Epoch: 206
+LOSS: train: 0.123480 grad:0.888867 h:0.504169   |   test: 0.058167 grad: 0.727203 h:0.192159
+Epoch: 207
+LOSS: train: 0.130778 grad:0.890054 h:0.481137   |   test: 0.058840 grad: 0.728627 h:0.182756
+Epoch: 208
+LOSS: train: 0.131217 grad:0.887440 h:0.494182   |   test: 0.058406 grad: 0.730524 h:0.181800
+Epoch: 209
+LOSS: train: 0.123486 grad:0.887635 h:0.528291   |   test: 0.057818 grad: 0.725024 h:0.201845
+Epoch: 210
+LOSS: train: 0.144319 grad:0.910532 h:0.515171   |   test: 0.057421 grad: 0.725660 h:0.181823
+Epoch: 211
+LOSS: train: 0.136473 grad:0.925140 h:0.495728   |   test: 0.059011 grad: 0.734029 h:0.205606
+Epoch: 212
+LOSS: train: 0.128104 grad:0.894632 h:0.527774   |   test: 0.059265 grad: 0.740992 h:0.251404
+Epoch: 213
+LOSS: train: 0.125738 grad:0.904471 h:0.534156   |   test: 0.058435 grad: 0.726856 h:0.226935
+Epoch: 214
+LOSS: train: 0.123144 grad:0.868904 h:0.523938   |   test: 0.058459 grad: 0.711630 h:0.174545
+Epoch: 215
+LOSS: train: 0.131852 grad:0.862965 h:0.496918   |   test: 0.059107 grad: 0.712182 h:0.125092
+Epoch: 216
+LOSS: train: 0.124713 grad:0.889128 h:0.493586   |   test: 0.059679 grad: 0.700832 h:0.141442
+Epoch: 217
+LOSS: train: 0.117750 grad:0.859780 h:0.519047   |   test: 0.059189 grad: 0.714176 h:0.164838
+Epoch: 218
+LOSS: train: 0.118965 grad:0.881137 h:0.525195   |   test: 0.058776 grad: 0.725191 h:0.183094
+Epoch: 219
+LOSS: train: 0.128309 grad:0.892191 h:0.533024   |   test: 0.058068 grad: 0.732304 h:0.187626
+Epoch: 220
+LOSS: train: 0.132881 grad:0.912105 h:0.524041   |   test: 0.058164 grad: 0.732199 h:0.178775
+Epoch: 221
+LOSS: train: 0.126355 grad:0.895636 h:0.483352   |   test: 0.058462 grad: 0.726307 h:0.178141
+Epoch: 222
+LOSS: train: 0.123381 grad:0.904243 h:0.505223   |   test: 0.058566 grad: 0.719442 h:0.167579
+Epoch: 223
+LOSS: train: 0.129415 grad:0.897237 h:0.512493   |   test: 0.058179 grad: 0.726412 h:0.190195
+Epoch: 224
+LOSS: train: 0.129724 grad:0.919833 h:0.507801   |   test: 0.058813 grad: 0.728084 h:0.200670
+Epoch: 225
+LOSS: train: 0.117443 grad:0.884035 h:0.496966   |   test: 0.060214 grad: 0.722933 h:0.179771
+Epoch: 226
+LOSS: train: 0.121799 grad:0.893323 h:0.512413   |   test: 0.059257 grad: 0.717152 h:0.172232
+Epoch: 227
+LOSS: train: 0.124862 grad:0.893974 h:0.517805   |   test: 0.058602 grad: 0.718806 h:0.171916
+Epoch: 228
+LOSS: train: 0.113352 grad:0.870815 h:0.478318   |   test: 0.058872 grad: 0.734425 h:0.178159
+Epoch: 229
+LOSS: train: 0.114255 grad:0.873817 h:0.454799   |   test: 0.059221 grad: 0.735932 h:0.180258
+Epoch: 230
+LOSS: train: 0.135815 grad:0.945214 h:0.478599   |   test: 0.058062 grad: 0.732834 h:0.184205
+Epoch: 231
+LOSS: train: 0.117439 grad:0.900926 h:0.493154   |   test: 0.059130 grad: 0.730871 h:0.209729
+Epoch: 232
+LOSS: train: 0.118868 grad:0.887369 h:0.542585   |   test: 0.059573 grad: 0.736268 h:0.211318
+Epoch: 233
+LOSS: train: 0.125579 grad:0.949934 h:0.545372   |   test: 0.060419 grad: 0.726990 h:0.162142
+Epoch: 234
+LOSS: train: 0.118307 grad:0.907293 h:0.504791   |   test: 0.061295 grad: 0.723561 h:0.168076
+Epoch: 235
+LOSS: train: 0.121014 grad:0.929119 h:0.550220   |   test: 0.061256 grad: 0.720137 h:0.177895
+Epoch: 236
+LOSS: train: 0.121228 grad:0.902682 h:0.530008   |   test: 0.061480 grad: 0.726440 h:0.181028
+Epoch: 237
+
+ 57%|█████████████████████████████████████████████████████████████████████▏                                                   | 286/500 [00:11<00:08, 25.36it/s]
+Epoch: 238
+LOSS: train: 0.116977 grad:0.922081 h:0.517179   |   test: 0.059205 grad: 0.744480 h:0.183599
+Epoch: 239
+LOSS: train: 0.125198 grad:0.944608 h:0.491002   |   test: 0.058796 grad: 0.752294 h:0.209411
+Epoch: 240
+LOSS: train: 0.120551 grad:0.925788 h:0.489885   |   test: 0.060124 grad: 0.743003 h:0.179163
+Epoch: 241
+LOSS: train: 0.112658 grad:0.907122 h:0.512235   |   test: 0.061713 grad: 0.745699 h:0.178851
+Epoch: 242
+LOSS: train: 0.129787 grad:0.973955 h:0.530635   |   test: 0.061300 grad: 0.736457 h:0.168042
+Epoch: 243
+LOSS: train: 0.113396 grad:0.923831 h:0.500722   |   test: 0.060452 grad: 0.738702 h:0.163805
+Epoch: 244
+LOSS: train: 0.110689 grad:0.920872 h:0.510534   |   test: 0.059377 grad: 0.739973 h:0.179904
+Epoch: 245
+LOSS: train: 0.117343 grad:0.929481 h:0.482271   |   test: 0.059113 grad: 0.739264 h:0.169574
+Epoch: 246
+LOSS: train: 0.128284 grad:0.943452 h:0.518472   |   test: 0.059113 grad: 0.741911 h:0.160585
+Epoch: 247
+LOSS: train: 0.121629 grad:0.944025 h:0.485605   |   test: 0.059354 grad: 0.748611 h:0.189483
+Epoch: 248
+LOSS: train: 0.122083 grad:0.956034 h:0.518914   |   test: 0.060788 grad: 0.749135 h:0.225558
+Epoch: 249
+LOSS: train: 0.114418 grad:0.959000 h:0.544278   |   test: 0.059510 grad: 0.752363 h:0.210173
+Epoch: 250
+LOSS: train: 0.126571 grad:0.958535 h:0.468928   |   test: 0.059185 grad: 0.754791 h:0.179305
+Epoch: 251
+LOSS: train: 0.116369 grad:0.940017 h:0.493985   |   test: 0.058772 grad: 0.769227 h:0.209173
+Epoch: 252
+LOSS: train: 0.113077 grad:0.935712 h:0.475049   |   test: 0.059030 grad: 0.765470 h:0.215232
+Epoch: 253
+LOSS: train: 0.112151 grad:0.925529 h:0.499619   |   test: 0.059489 grad: 0.758979 h:0.194934
+Epoch: 254
+LOSS: train: 0.113955 grad:0.936983 h:0.508749   |   test: 0.059386 grad: 0.748521 h:0.177426
+Epoch: 255
+LOSS: train: 0.114055 grad:0.942187 h:0.533235   |   test: 0.060260 grad: 0.755083 h:0.190429
+Epoch: 256
+LOSS: train: 0.114859 grad:0.924615 h:0.480636   |   test: 0.059761 grad: 0.756415 h:0.179962
+Epoch: 257
+LOSS: train: 0.122344 grad:0.970207 h:0.453108   |   test: 0.059682 grad: 0.764891 h:0.189255
+Epoch: 258
+LOSS: train: 0.116822 grad:0.973309 h:0.488486   |   test: 0.059360 grad: 0.773577 h:0.195386
+Epoch: 259
+LOSS: train: 0.112014 grad:0.961911 h:0.499018   |   test: 0.059361 grad: 0.776446 h:0.197595
+Epoch: 260
+LOSS: train: 0.113089 grad:0.959532 h:0.477119   |   test: 0.058940 grad: 0.778695 h:0.196166
+Epoch: 261
+LOSS: train: 0.108793 grad:0.936410 h:0.446559   |   test: 0.058893 grad: 0.776896 h:0.209933
+Epoch: 262
+LOSS: train: 0.107396 grad:0.944962 h:0.493264   |   test: 0.059963 grad: 0.777952 h:0.192333
+Epoch: 263
+LOSS: train: 0.120259 grad:0.975145 h:0.463924   |   test: 0.059577 grad: 0.773880 h:0.182209
+Epoch: 264
+LOSS: train: 0.113257 grad:0.964833 h:0.491800   |   test: 0.060253 grad: 0.769845 h:0.202618
+Epoch: 265
+LOSS: train: 0.115501 grad:0.983580 h:0.544635   |   test: 0.059738 grad: 0.779676 h:0.225563
+Epoch: 266
+LOSS: train: 0.118214 grad:0.961722 h:0.506375   |   test: 0.059887 grad: 0.790297 h:0.196512
+Epoch: 267
+LOSS: train: 0.109131 grad:0.966951 h:0.469587   |   test: 0.059630 grad: 0.783385 h:0.170514
+Epoch: 268
+LOSS: train: 0.119947 grad:0.976825 h:0.474199   |   test: 0.059174 grad: 0.778211 h:0.175614
+Epoch: 269
+LOSS: train: 0.116495 grad:0.987140 h:0.488386   |   test: 0.060316 grad: 0.771604 h:0.179626
+Epoch: 270
+LOSS: train: 0.108789 grad:0.969286 h:0.488625   |   test: 0.060849 grad: 0.769400 h:0.189696
+Epoch: 271
+LOSS: train: 0.111757 grad:0.990226 h:0.485625   |   test: 0.060445 grad: 0.775078 h:0.188905
+Epoch: 272
+LOSS: train: 0.113238 grad:0.991535 h:0.541405   |   test: 0.059155 grad: 0.788098 h:0.209114
+Epoch: 273
+LOSS: train: 0.107829 grad:0.967661 h:0.455429   |   test: 0.059276 grad: 0.810141 h:0.232589
+Epoch: 274
+LOSS: train: 0.116180 grad:1.008492 h:0.499233   |   test: 0.060157 grad: 0.801492 h:0.210608
+Epoch: 275
+LOSS: train: 0.107218 grad:0.970662 h:0.467217   |   test: 0.059635 grad: 0.793930 h:0.181235
+Epoch: 276
+LOSS: train: 0.113113 grad:0.989144 h:0.469515   |   test: 0.059676 grad: 0.787230 h:0.198427
+Epoch: 277
+LOSS: train: 0.105768 grad:0.960606 h:0.450165   |   test: 0.060257 grad: 0.796369 h:0.222949
+Epoch: 278
+LOSS: train: 0.114021 grad:0.982621 h:0.447664   |   test: 0.059376 grad: 0.795144 h:0.208462
+Epoch: 279
+LOSS: train: 0.105753 grad:0.969357 h:0.497577   |   test: 0.060553 grad: 0.801153 h:0.208451
+Epoch: 280
+LOSS: train: 0.109891 grad:1.023120 h:0.477682   |   test: 0.059734 grad: 0.811473 h:0.207309
+Epoch: 281
+LOSS: train: 0.106452 grad:1.001118 h:0.448331   |   test: 0.059133 grad: 0.807224 h:0.215404
+Epoch: 282
+LOSS: train: 0.111507 grad:0.983184 h:0.463892   |   test: 0.058686 grad: 0.800812 h:0.204662
+Epoch: 283
+LOSS: train: 0.102600 grad:0.969415 h:0.480711   |   test: 0.058384 grad: 0.803077 h:0.199692
+Epoch: 284
+LOSS: train: 0.105490 grad:1.009665 h:0.459052   |   test: 0.059461 grad: 0.818127 h:0.200134
+Epoch: 285
+LOSS: train: 0.108071 grad:1.028186 h:0.439435   |   test: 0.059907 grad: 0.824236 h:0.216205
+Epoch: 286
+LOSS: train: 0.107136 grad:1.031146 h:0.503497   |   test: 0.059865 grad: 0.810608 h:0.240139
+Epoch: 287
+
+ 67%|█████████████████████████████████████████████████████████████████████████████████▌                                       | 337/500 [00:13<00:06, 24.89it/s]
+Epoch: 288
+LOSS: train: 0.108859 grad:1.003120 h:0.437597   |   test: 0.059124 grad: 0.811152 h:0.201911
+Epoch: 289
+LOSS: train: 0.100524 grad:0.984959 h:0.436281   |   test: 0.059621 grad: 0.807495 h:0.192040
+Epoch: 290
+LOSS: train: 0.116386 grad:1.021092 h:0.478479   |   test: 0.060202 grad: 0.814195 h:0.207111
+Epoch: 291
+LOSS: train: 0.110631 grad:1.028925 h:0.496473   |   test: 0.059872 grad: 0.823658 h:0.235305
+Epoch: 292
+LOSS: train: 0.109052 grad:1.043259 h:0.484390   |   test: 0.059451 grad: 0.828559 h:0.230004
+Epoch: 293
+LOSS: train: 0.106260 grad:0.994929 h:0.481526   |   test: 0.060242 grad: 0.828318 h:0.217284
+Epoch: 294
+LOSS: train: 0.102336 grad:1.022898 h:0.443311   |   test: 0.059844 grad: 0.836944 h:0.215533
+Epoch: 295
+LOSS: train: 0.103754 grad:1.034384 h:0.440726   |   test: 0.059958 grad: 0.835441 h:0.223957
+Epoch: 296
+LOSS: train: 0.099755 grad:1.006936 h:0.448729   |   test: 0.060249 grad: 0.822174 h:0.192665
+Epoch: 297
+LOSS: train: 0.102690 grad:1.031726 h:0.430675   |   test: 0.059335 grad: 0.823780 h:0.194361
+Epoch: 298
+LOSS: train: 0.100682 grad:1.014023 h:0.425169   |   test: 0.058570 grad: 0.836089 h:0.212840
+Epoch: 299
+LOSS: train: 0.106691 grad:1.039428 h:0.421271   |   test: 0.059189 grad: 0.834609 h:0.218083
+Epoch: 300
+LOSS: train: 0.112865 grad:1.064224 h:0.444185   |   test: 0.059561 grad: 0.852923 h:0.251770
+Epoch: 301
+LOSS: train: 0.099094 grad:1.047754 h:0.486249   |   test: 0.059882 grad: 0.844373 h:0.228383
+Epoch: 302
+LOSS: train: 0.098652 grad:1.050422 h:0.474691   |   test: 0.059941 grad: 0.832741 h:0.202580
+Epoch: 303
+LOSS: train: 0.102571 grad:1.031355 h:0.417008   |   test: 0.059420 grad: 0.830187 h:0.192363
+Epoch: 304
+LOSS: train: 0.102261 grad:1.033842 h:0.421391   |   test: 0.058978 grad: 0.835817 h:0.188547
+Epoch: 305
+LOSS: train: 0.101015 grad:1.047634 h:0.453527   |   test: 0.059316 grad: 0.849018 h:0.200738
+Epoch: 306
+LOSS: train: 0.111941 grad:1.067012 h:0.417590   |   test: 0.059136 grad: 0.862510 h:0.206661
+Epoch: 307
+LOSS: train: 0.099208 grad:1.033337 h:0.421473   |   test: 0.058503 grad: 0.865829 h:0.235706
+Epoch: 308
+LOSS: train: 0.105225 grad:1.086349 h:0.459864   |   test: 0.058797 grad: 0.857961 h:0.241748
+Epoch: 309
+LOSS: train: 0.108532 grad:1.064472 h:0.471506   |   test: 0.059213 grad: 0.849188 h:0.211669
+Epoch: 310
+LOSS: train: 0.106938 grad:1.064384 h:0.434117   |   test: 0.060907 grad: 0.847055 h:0.237667
+Epoch: 311
+LOSS: train: 0.099036 grad:1.065764 h:0.434400   |   test: 0.060998 grad: 0.855237 h:0.242591
+Epoch: 312
+LOSS: train: 0.107719 grad:1.090799 h:0.462609   |   test: 0.060188 grad: 0.865162 h:0.216406
+Epoch: 313
+LOSS: train: 0.102813 grad:1.086165 h:0.432542   |   test: 0.059017 grad: 0.854160 h:0.223037
+Epoch: 314
+LOSS: train: 0.098483 grad:1.061514 h:0.463026   |   test: 0.058086 grad: 0.859989 h:0.225336
+Epoch: 315
+LOSS: train: 0.097137 grad:1.068967 h:0.437811   |   test: 0.058653 grad: 0.863649 h:0.207076
+Epoch: 316
+LOSS: train: 0.106877 grad:1.064327 h:0.402778   |   test: 0.058597 grad: 0.866958 h:0.176091
+Epoch: 317
+LOSS: train: 0.097147 grad:1.066214 h:0.437028   |   test: 0.060236 grad: 0.862322 h:0.227804
+Epoch: 318
+LOSS: train: 0.099699 grad:1.088202 h:0.461054   |   test: 0.061280 grad: 0.860739 h:0.244738
+Epoch: 319
+LOSS: train: 0.109528 grad:1.121754 h:0.469944   |   test: 0.060074 grad: 0.862826 h:0.232850
+Epoch: 320
+LOSS: train: 0.108641 grad:1.125574 h:0.497636   |   test: 0.057166 grad: 0.881784 h:0.262184
+Epoch: 321
+LOSS: train: 0.105837 grad:1.103368 h:0.423854   |   test: 0.057227 grad: 0.877962 h:0.215497
+Epoch: 322
+LOSS: train: 0.095998 grad:1.058376 h:0.390661   |   test: 0.059061 grad: 0.877996 h:0.189389
+Epoch: 323
+LOSS: train: 0.092428 grad:1.058040 h:0.395535   |   test: 0.060055 grad: 0.881179 h:0.214413
+Epoch: 324
+LOSS: train: 0.097470 grad:1.084643 h:0.402000   |   test: 0.059305 grad: 0.871895 h:0.222216
+Epoch: 325
+LOSS: train: 0.096918 grad:1.074290 h:0.436067   |   test: 0.059463 grad: 0.873194 h:0.210678
+Epoch: 326
+LOSS: train: 0.101325 grad:1.097886 h:0.408130   |   test: 0.059117 grad: 0.868999 h:0.205359
+Epoch: 327
+LOSS: train: 0.103445 grad:1.087624 h:0.429514   |   test: 0.059625 grad: 0.862559 h:0.211056
+Epoch: 328
+LOSS: train: 0.102934 grad:1.098790 h:0.430236   |   test: 0.059889 grad: 0.876807 h:0.213486
+Epoch: 329
+LOSS: train: 0.097921 grad:1.095668 h:0.408801   |   test: 0.060042 grad: 0.903380 h:0.260616
+Epoch: 330
+LOSS: train: 0.093791 grad:1.100308 h:0.430103   |   test: 0.059888 grad: 0.911448 h:0.281319
+Epoch: 331
+LOSS: train: 0.102043 grad:1.106142 h:0.416411   |   test: 0.059612 grad: 0.892283 h:0.204149
+Epoch: 332
+LOSS: train: 0.094206 grad:1.071762 h:0.400754   |   test: 0.060908 grad: 0.877424 h:0.202398
+Epoch: 333
+LOSS: train: 0.095644 grad:1.118051 h:0.438772   |   test: 0.060471 grad: 0.881608 h:0.217646
+Epoch: 334
+LOSS: train: 0.097686 grad:1.108667 h:0.430220   |   test: 0.059774 grad: 0.887347 h:0.214587
+Epoch: 335
+LOSS: train: 0.094078 grad:1.088306 h:0.419449   |   test: 0.059986 grad: 0.892765 h:0.216670
+Epoch: 336
+LOSS: train: 0.095035 grad:1.091002 h:0.416786   |   test: 0.059175 grad: 0.890175 h:0.240913
+Epoch: 337
+LOSS: train: 0.097338 grad:1.115027 h:0.436093   |   test: 0.059028 grad: 0.896305 h:0.224904
+Epoch: 338
+
+ 78%|█████████████████████████████████████████████████████████████████████████████████████████████▉                           | 388/500 [00:15<00:04, 24.38it/s]
+Epoch: 339
+LOSS: train: 0.096595 grad:1.154139 h:0.396547   |   test: 0.059727 grad: 0.905651 h:0.229342
+Epoch: 340
+LOSS: train: 0.092231 grad:1.110022 h:0.396130   |   test: 0.059887 grad: 0.905555 h:0.219478
+Epoch: 341
+LOSS: train: 0.100904 grad:1.161670 h:0.417904   |   test: 0.059206 grad: 0.896363 h:0.206812
+Epoch: 342
+LOSS: train: 0.098167 grad:1.156203 h:0.396460   |   test: 0.058081 grad: 0.898186 h:0.208624
+Epoch: 343
+LOSS: train: 0.097104 grad:1.146442 h:0.422484   |   test: 0.059773 grad: 0.895725 h:0.244574
+Epoch: 344
+LOSS: train: 0.094507 grad:1.134696 h:0.403775   |   test: 0.060404 grad: 0.890903 h:0.216401
+Epoch: 345
+LOSS: train: 0.097446 grad:1.124635 h:0.410840   |   test: 0.059418 grad: 0.901210 h:0.229725
+Epoch: 346
+LOSS: train: 0.091242 grad:1.116474 h:0.403692   |   test: 0.059151 grad: 0.913077 h:0.243273
+Epoch: 347
+LOSS: train: 0.092731 grad:1.128245 h:0.410226   |   test: 0.058945 grad: 0.927424 h:0.232997
+Epoch: 348
+LOSS: train: 0.103092 grad:1.172880 h:0.404895   |   test: 0.057316 grad: 0.915166 h:0.221251
+Epoch: 349
+LOSS: train: 0.094808 grad:1.150960 h:0.419114   |   test: 0.057571 grad: 0.917743 h:0.228928
+Epoch: 350
+LOSS: train: 0.098494 grad:1.148564 h:0.413430   |   test: 0.059676 grad: 0.924452 h:0.222520
+Epoch: 351
+LOSS: train: 0.092328 grad:1.124989 h:0.384337   |   test: 0.059810 grad: 0.926047 h:0.215440
+Epoch: 352
+LOSS: train: 0.091346 grad:1.133590 h:0.409492   |   test: 0.059016 grad: 0.917162 h:0.227612
+Epoch: 353
+LOSS: train: 0.100242 grad:1.184711 h:0.429431   |   test: 0.057820 grad: 0.923736 h:0.242303
+Epoch: 354
+LOSS: train: 0.092332 grad:1.164771 h:0.396167   |   test: 0.057597 grad: 0.933968 h:0.230539
+Epoch: 355
+LOSS: train: 0.103427 grad:1.216181 h:0.428192   |   test: 0.057438 grad: 0.941751 h:0.250058
+Epoch: 356
+LOSS: train: 0.092059 grad:1.159818 h:0.400324   |   test: 0.057898 grad: 0.932058 h:0.230080
+Epoch: 357
+LOSS: train: 0.090524 grad:1.144412 h:0.389785   |   test: 0.058369 grad: 0.913481 h:0.210493
+Epoch: 358
+LOSS: train: 0.090615 grad:1.136296 h:0.379522   |   test: 0.058737 grad: 0.911504 h:0.207835
+Epoch: 359
+LOSS: train: 0.100499 grad:1.191136 h:0.416440   |   test: 0.059017 grad: 0.910782 h:0.207240
+Epoch: 360
+LOSS: train: 0.096594 grad:1.148558 h:0.388944   |   test: 0.057748 grad: 0.935545 h:0.203129
+Epoch: 361
+LOSS: train: 0.096122 grad:1.203987 h:0.382287   |   test: 0.057608 grad: 0.956984 h:0.249487
+Epoch: 362
+LOSS: train: 0.095389 grad:1.163536 h:0.386934   |   test: 0.058634 grad: 0.947122 h:0.233604
+Epoch: 363
+LOSS: train: 0.092413 grad:1.152559 h:0.374462   |   test: 0.058565 grad: 0.929211 h:0.216721
+Epoch: 364
+LOSS: train: 0.096252 grad:1.175202 h:0.416982   |   test: 0.059892 grad: 0.920157 h:0.227322
+Epoch: 365
+LOSS: train: 0.093855 grad:1.188200 h:0.429078   |   test: 0.059695 grad: 0.924726 h:0.204407
+Epoch: 366
+LOSS: train: 0.093504 grad:1.186539 h:0.414235   |   test: 0.058914 grad: 0.938762 h:0.205265
+Epoch: 367
+LOSS: train: 0.086242 grad:1.161411 h:0.377742   |   test: 0.058272 grad: 0.935945 h:0.220868
+Epoch: 368
+LOSS: train: 0.087599 grad:1.153596 h:0.402247   |   test: 0.057468 grad: 0.936048 h:0.228915
+Epoch: 369
+LOSS: train: 0.094550 grad:1.194227 h:0.368815   |   test: 0.058037 grad: 0.952052 h:0.229870
+Epoch: 370
+LOSS: train: 0.091208 grad:1.184389 h:0.380636   |   test: 0.059034 grad: 0.961367 h:0.235354
+Epoch: 371
+LOSS: train: 0.090211 grad:1.167349 h:0.377870   |   test: 0.058653 grad: 0.945871 h:0.222570
+Epoch: 372
+LOSS: train: 0.088688 grad:1.191678 h:0.386585   |   test: 0.058140 grad: 0.939163 h:0.226946
+Epoch: 373
+LOSS: train: 0.086702 grad:1.159912 h:0.407670   |   test: 0.058068 grad: 0.948010 h:0.237507
+Epoch: 374
+LOSS: train: 0.089701 grad:1.172689 h:0.395479   |   test: 0.058135 grad: 0.954465 h:0.217908
+Epoch: 375
+LOSS: train: 0.092072 grad:1.197713 h:0.363634   |   test: 0.057769 grad: 0.948062 h:0.198528
+Epoch: 376
+LOSS: train: 0.087107 grad:1.182049 h:0.368765   |   test: 0.057407 grad: 0.956300 h:0.203196
+Epoch: 377
+LOSS: train: 0.090687 grad:1.204826 h:0.357153   |   test: 0.056961 grad: 0.957829 h:0.208947
+Epoch: 378
+LOSS: train: 0.083396 grad:1.166692 h:0.370175   |   test: 0.058252 grad: 0.948657 h:0.201576
+Epoch: 379
+LOSS: train: 0.089966 grad:1.203611 h:0.385825   |   test: 0.059200 grad: 0.952119 h:0.216572
+Epoch: 380
+LOSS: train: 0.092150 grad:1.231084 h:0.391327   |   test: 0.059421 grad: 0.942621 h:0.216198
+Epoch: 381
+LOSS: train: 0.084374 grad:1.193783 h:0.389030   |   test: 0.057998 grad: 0.948463 h:0.236843
+Epoch: 382
+LOSS: train: 0.083722 grad:1.187549 h:0.379046   |   test: 0.056232 grad: 0.957884 h:0.215318
+Epoch: 383
+LOSS: train: 0.083083 grad:1.192159 h:0.364550   |   test: 0.056519 grad: 0.962231 h:0.188466
+Epoch: 384
+LOSS: train: 0.093978 grad:1.219545 h:0.350132   |   test: 0.057199 grad: 0.966619 h:0.208672
+Epoch: 385
+LOSS: train: 0.087096 grad:1.182225 h:0.365312   |   test: 0.057263 grad: 0.966156 h:0.240649
+Epoch: 386
+LOSS: train: 0.090583 grad:1.190155 h:0.371245   |   test: 0.057488 grad: 0.955412 h:0.216392
+Epoch: 387
+
+ 87%|█████████████████████████████████████████████████████████████████████████████████████████████████████████▌               | 436/500 [00:17<00:02, 24.23it/s]
+Epoch: 388
+LOSS: train: 0.096228 grad:1.220919 h:0.396701   |   test: 0.057142 grad: 0.972601 h:0.217753
+Epoch: 389
+LOSS: train: 0.093043 grad:1.254761 h:0.374757   |   test: 0.056857 grad: 0.983724 h:0.211615
+Epoch: 390
+LOSS: train: 0.092697 grad:1.275989 h:0.380358   |   test: 0.056885 grad: 0.977774 h:0.231058
+Epoch: 391
+LOSS: train: 0.085154 grad:1.219102 h:0.388718   |   test: 0.057327 grad: 0.964665 h:0.250121
+Epoch: 392
+LOSS: train: 0.091751 grad:1.231556 h:0.391596   |   test: 0.057164 grad: 0.964286 h:0.222021
+Epoch: 393
+LOSS: train: 0.088782 grad:1.217403 h:0.359886   |   test: 0.056964 grad: 0.974673 h:0.206132
+Epoch: 394
+LOSS: train: 0.084633 grad:1.254561 h:0.362260   |   test: 0.056761 grad: 0.985307 h:0.228049
+Epoch: 395
+LOSS: train: 0.087570 grad:1.243733 h:0.365679   |   test: 0.056392 grad: 0.978485 h:0.220902
+Epoch: 396
+LOSS: train: 0.085500 grad:1.234327 h:0.364214   |   test: 0.056191 grad: 0.973837 h:0.202427
+Epoch: 397
+LOSS: train: 0.081034 grad:1.208530 h:0.335351   |   test: 0.056787 grad: 0.966865 h:0.202418
+Epoch: 398
+LOSS: train: 0.082014 grad:1.227207 h:0.335618   |   test: 0.056548 grad: 0.973035 h:0.199537
+Epoch: 399
+LOSS: train: 0.099217 grad:1.258319 h:0.381684   |   test: 0.056296 grad: 0.981357 h:0.219035
+Epoch: 400
+LOSS: train: 0.088290 grad:1.262211 h:0.367523   |   test: 0.057081 grad: 0.988297 h:0.248648
+Epoch: 401
+LOSS: train: 0.087082 grad:1.256805 h:0.414888   |   test: 0.058977 grad: 0.976604 h:0.245949
+Epoch: 402
+LOSS: train: 0.082707 grad:1.236130 h:0.396927   |   test: 0.057327 grad: 0.984072 h:0.213209
+Epoch: 403
+LOSS: train: 0.088916 grad:1.248420 h:0.371133   |   test: 0.055076 grad: 0.994235 h:0.205249
+Epoch: 404
+LOSS: train: 0.082650 grad:1.241603 h:0.353875   |   test: 0.054555 grad: 0.992210 h:0.203332
+Epoch: 405
+LOSS: train: 0.081324 grad:1.238083 h:0.341606   |   test: 0.056066 grad: 0.980702 h:0.204066
+Epoch: 406
+LOSS: train: 0.092677 grad:1.256112 h:0.364396   |   test: 0.057325 grad: 0.987029 h:0.236641
+Epoch: 407
+LOSS: train: 0.080638 grad:1.223038 h:0.397013   |   test: 0.056262 grad: 0.990125 h:0.274243
+Epoch: 408
+LOSS: train: 0.081421 grad:1.256385 h:0.411494   |   test: 0.055967 grad: 0.984305 h:0.217077
+Epoch: 409
+LOSS: train: 0.087954 grad:1.274227 h:0.352394   |   test: 0.055746 grad: 0.995122 h:0.189308
+Epoch: 410
+LOSS: train: 0.079607 grad:1.216272 h:0.357222   |   test: 0.055685 grad: 0.988669 h:0.210997
+Epoch: 411
+LOSS: train: 0.087743 grad:1.266188 h:0.401097   |   test: 0.055253 grad: 0.985693 h:0.219298
+Epoch: 412
+LOSS: train: 0.085436 grad:1.238474 h:0.335407   |   test: 0.054867 grad: 1.000754 h:0.206379
+Epoch: 413
+LOSS: train: 0.084533 grad:1.244823 h:0.317568   |   test: 0.056098 grad: 1.003016 h:0.199543
+Epoch: 414
+LOSS: train: 0.078240 grad:1.222243 h:0.346148   |   test: 0.057172 grad: 0.996698 h:0.227025
+Epoch: 415
+LOSS: train: 0.080836 grad:1.268635 h:0.381794   |   test: 0.056536 grad: 0.994880 h:0.225003
+Epoch: 416
+LOSS: train: 0.084272 grad:1.268126 h:0.386558   |   test: 0.054915 grad: 1.003241 h:0.209464
+Epoch: 417
+LOSS: train: 0.088567 grad:1.281005 h:0.392078   |   test: 0.055243 grad: 1.003435 h:0.208244
+Epoch: 418
+LOSS: train: 0.086653 grad:1.276424 h:0.341067   |   test: 0.054384 grad: 1.005381 h:0.192432
+Epoch: 419
+LOSS: train: 0.081394 grad:1.280334 h:0.342028   |   test: 0.054599 grad: 1.004798 h:0.202065
+Epoch: 420
+LOSS: train: 0.086646 grad:1.255671 h:0.340509   |   test: 0.056656 grad: 1.001731 h:0.218593
+Epoch: 421
+LOSS: train: 0.089030 grad:1.332512 h:0.345637   |   test: 0.056843 grad: 1.012583 h:0.234247
+Epoch: 422
+LOSS: train: 0.090535 grad:1.335466 h:0.388803   |   test: 0.056330 grad: 1.014916 h:0.207669
+Epoch: 423
+LOSS: train: 0.079240 grad:1.264078 h:0.388083   |   test: 0.055918 grad: 1.010337 h:0.209253
+Epoch: 424
+LOSS: train: 0.083890 grad:1.302783 h:0.367867   |   test: 0.055183 grad: 1.006253 h:0.224097
+Epoch: 425
+LOSS: train: 0.093232 grad:1.323647 h:0.388763   |   test: 0.054542 grad: 1.009579 h:0.205561
+Epoch: 426
+LOSS: train: 0.087258 grad:1.280063 h:0.342517   |   test: 0.054968 grad: 1.019933 h:0.200235
+Epoch: 427
+LOSS: train: 0.082912 grad:1.287105 h:0.365022   |   test: 0.056369 grad: 1.021565 h:0.246827
+Epoch: 428
+LOSS: train: 0.085990 grad:1.286343 h:0.391831   |   test: 0.056366 grad: 1.017752 h:0.242141
+Epoch: 429
+LOSS: train: 0.091814 grad:1.338980 h:0.368228   |   test: 0.055736 grad: 1.016235 h:0.204037
+Epoch: 430
+LOSS: train: 0.079418 grad:1.311039 h:0.365062   |   test: 0.056276 grad: 1.010579 h:0.215793
+Epoch: 431
+LOSS: train: 0.080279 grad:1.290620 h:0.396197   |   test: 0.056009 grad: 1.007220 h:0.215417
+Epoch: 432
+LOSS: train: 0.077920 grad:1.269137 h:0.369235   |   test: 0.054151 grad: 1.016041 h:0.210986
+Epoch: 433
+LOSS: train: 0.075568 grad:1.242159 h:0.335030   |   test: 0.054497 grad: 1.026461 h:0.197349
+Epoch: 434
+LOSS: train: 0.084330 grad:1.299199 h:0.314169   |   test: 0.054722 grad: 1.023391 h:0.187027
+Epoch: 435
+LOSS: train: 0.083738 grad:1.290498 h:0.324878   |   test: 0.054399 grad: 1.021703 h:0.218894
+Epoch: 436
+LOSS: train: 0.082037 grad:1.276937 h:0.411451   |   test: 0.055687 grad: 1.014082 h:0.252681
+Epoch: 437
+
+ 97%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▏   | 484/500 [00:19<00:00, 24.74it/s]
+Epoch: 438
+LOSS: train: 0.083774 grad:1.320823 h:0.360154   |   test: 0.054412 grad: 1.033305 h:0.202469
+Epoch: 439
+LOSS: train: 0.076015 grad:1.256699 h:0.321963   |   test: 0.053783 grad: 1.040298 h:0.201750
+Epoch: 440
+LOSS: train: 0.078344 grad:1.284751 h:0.333739   |   test: 0.053721 grad: 1.027671 h:0.200537
+Epoch: 441
+LOSS: train: 0.078382 grad:1.316015 h:0.350815   |   test: 0.053633 grad: 1.027921 h:0.213400
+Epoch: 442
+LOSS: train: 0.083119 grad:1.322247 h:0.354030   |   test: 0.054282 grad: 1.031072 h:0.205380
+Epoch: 443
+LOSS: train: 0.082826 grad:1.331592 h:0.354589   |   test: 0.054704 grad: 1.031445 h:0.205571
+Epoch: 444
+LOSS: train: 0.078281 grad:1.328154 h:0.355851   |   test: 0.053580 grad: 1.033617 h:0.208556
+Epoch: 445
+LOSS: train: 0.080606 grad:1.295360 h:0.342784   |   test: 0.053283 grad: 1.035851 h:0.212480
+Epoch: 446
+LOSS: train: 0.075196 grad:1.276553 h:0.353457   |   test: 0.053598 grad: 1.030527 h:0.219446
+Epoch: 447
+LOSS: train: 0.075832 grad:1.285014 h:0.335718   |   test: 0.054337 grad: 1.027919 h:0.185333
+Epoch: 448
+LOSS: train: 0.086834 grad:1.340858 h:0.362626   |   test: 0.053856 grad: 1.036657 h:0.174428
+Epoch: 449
+LOSS: train: 0.081779 grad:1.328571 h:0.318484   |   test: 0.053061 grad: 1.047573 h:0.201029
+Epoch: 450
+LOSS: train: 0.082899 grad:1.344329 h:0.349288   |   test: 0.053245 grad: 1.050988 h:0.224454
+Epoch: 451
+LOSS: train: 0.076052 grad:1.303606 h:0.334595   |   test: 0.053875 grad: 1.046498 h:0.210641
+Epoch: 452
+LOSS: train: 0.080361 grad:1.326695 h:0.343524   |   test: 0.053791 grad: 1.042065 h:0.189048
+Epoch: 453
+LOSS: train: 0.080072 grad:1.322191 h:0.366258   |   test: 0.054114 grad: 1.043873 h:0.190835
+Epoch: 454
+LOSS: train: 0.078102 grad:1.305433 h:0.349059   |   test: 0.053087 grad: 1.046603 h:0.206356
+Epoch: 455
+LOSS: train: 0.078242 grad:1.337016 h:0.334761   |   test: 0.052947 grad: 1.047474 h:0.188856
+Epoch: 456
+LOSS: train: 0.084238 grad:1.353636 h:0.317505   |   test: 0.052967 grad: 1.044198 h:0.182001
+Epoch: 457
+LOSS: train: 0.074447 grad:1.301006 h:0.327793   |   test: 0.052518 grad: 1.054509 h:0.189730
+Epoch: 458
+LOSS: train: 0.081808 grad:1.377377 h:0.338416   |   test: 0.052686 grad: 1.060485 h:0.220469
+Epoch: 459
+LOSS: train: 0.082312 grad:1.360981 h:0.347531   |   test: 0.053113 grad: 1.056340 h:0.206173
+Epoch: 460
+LOSS: train: 0.078037 grad:1.317045 h:0.381749   |   test: 0.054411 grad: 1.044647 h:0.210520
+Epoch: 461
+LOSS: train: 0.081379 grad:1.337877 h:0.347482   |   test: 0.053254 grad: 1.056978 h:0.215349
+Epoch: 462
+LOSS: train: 0.074647 grad:1.330818 h:0.335038   |   test: 0.053090 grad: 1.066886 h:0.219992
+Epoch: 463
+LOSS: train: 0.085351 grad:1.365284 h:0.352596   |   test: 0.052752 grad: 1.056933 h:0.205942
+Epoch: 464
+LOSS: train: 0.075904 grad:1.327347 h:0.337656   |   test: 0.053311 grad: 1.052652 h:0.196821
+Epoch: 465
+LOSS: train: 0.080095 grad:1.375713 h:0.356649   |   test: 0.054330 grad: 1.047271 h:0.205762
+Epoch: 466
+LOSS: train: 0.076474 grad:1.327096 h:0.354898   |   test: 0.053817 grad: 1.049208 h:0.202167
+Epoch: 467
+LOSS: train: 0.078169 grad:1.353582 h:0.328801   |   test: 0.052351 grad: 1.055357 h:0.204217
+Epoch: 468
+LOSS: train: 0.078488 grad:1.320794 h:0.344028   |   test: 0.052224 grad: 1.060072 h:0.221183
+Epoch: 469
+LOSS: train: 0.079363 grad:1.359371 h:0.363916   |   test: 0.054146 grad: 1.051614 h:0.214955
+Epoch: 470
+LOSS: train: 0.077312 grad:1.350596 h:0.363681   |   test: 0.055228 grad: 1.055608 h:0.198699
+Epoch: 471
+LOSS: train: 0.081353 grad:1.372366 h:0.357261   |   test: 0.053141 grad: 1.079598 h:0.218525
+Epoch: 472
+LOSS: train: 0.078470 grad:1.351032 h:0.326233   |   test: 0.052259 grad: 1.081460 h:0.204523
+Epoch: 473
+LOSS: train: 0.074253 grad:1.328809 h:0.335543   |   test: 0.051954 grad: 1.068195 h:0.194761
+Epoch: 474
+LOSS: train: 0.077509 grad:1.334008 h:0.328990   |   test: 0.052912 grad: 1.054904 h:0.218265
+Epoch: 475
+LOSS: train: 0.075622 grad:1.353271 h:0.354148   |   test: 0.053594 grad: 1.053147 h:0.214177
+Epoch: 476
+LOSS: train: 0.077774 grad:1.365499 h:0.344491   |   test: 0.052978 grad: 1.069740 h:0.189715
+Epoch: 477
+LOSS: train: 0.077346 grad:1.350181 h:0.319670   |   test: 0.052225 grad: 1.083642 h:0.195555
+Epoch: 478
+LOSS: train: 0.073141 grad:1.326950 h:0.334476   |   test: 0.052002 grad: 1.079394 h:0.199362
+Epoch: 479
+LOSS: train: 0.074156 grad:1.311881 h:0.344044   |   test: 0.052833 grad: 1.065493 h:0.226914
+Epoch: 480
+LOSS: train: 0.078235 grad:1.383001 h:0.352273   |   test: 0.052411 grad: 1.065697 h:0.207515
+Epoch: 481
+LOSS: train: 0.074521 grad:1.376228 h:0.378110   |   test: 0.052376 grad: 1.069996 h:0.207936
+Epoch: 482
+LOSS: train: 0.079416 grad:1.389116 h:0.363601   |   test: 0.052643 grad: 1.076576 h:0.196738
+Epoch: 483
+LOSS: train: 0.074494 grad:1.367833 h:0.323235   |   test: 0.052733 grad: 1.074685 h:0.183112
+Epoch: 484
+LOSS: train: 0.071563 grad:1.333125 h:0.333478   |   test: 0.052154 grad: 1.079845 h:0.186696
+Epoch: 485
+LOSS: train: 0.071897 grad:1.339748 h:0.314414   |   test: 0.051536 grad: 1.087485 h:0.208963
+Epoch: 486
+
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 500/500 [00:20<00:00, 24.52it/s]
+Epoch: 487
+LOSS: train: 0.075444 grad:1.374059 h:0.359984   |   test: 0.052879 grad: 1.064552 h:0.204048
+Epoch: 488
+LOSS: train: 0.070033 grad:1.283399 h:0.332218   |   test: 0.053297 grad: 1.074357 h:0.182372
+Epoch: 489
+LOSS: train: 0.076046 grad:1.355683 h:0.340705   |   test: 0.051828 grad: 1.093661 h:0.189933
+Epoch: 490
+LOSS: train: 0.071396 grad:1.353630 h:0.317341   |   test: 0.051786 grad: 1.089473 h:0.191114
+Epoch: 491
+LOSS: train: 0.071882 grad:1.371073 h:0.349503   |   test: 0.052105 grad: 1.079522 h:0.205611
+Epoch: 492
+LOSS: train: 0.078270 grad:1.369208 h:0.335664   |   test: 0.052495 grad: 1.076331 h:0.195517
+Epoch: 493
+LOSS: train: 0.079277 grad:1.381292 h:0.356464   |   test: 0.052246 grad: 1.093203 h:0.204511
+Epoch: 494
+LOSS: train: 0.078646 grad:1.406023 h:0.383896   |   test: 0.052049 grad: 1.105390 h:0.226070
+Epoch: 495
+LOSS: train: 0.072924 grad:1.410655 h:0.382125   |   test: 0.051833 grad: 1.093282 h:0.192038
+Epoch: 496
+LOSS: train: 0.081682 grad:1.366523 h:0.330252   |   test: 0.051692 grad: 1.084738 h:0.179548
+Epoch: 497
+LOSS: train: 0.077337 grad:1.385092 h:0.320563   |   test: 0.051122 grad: 1.095191 h:0.192290
+Epoch: 498
+LOSS: train: 0.070835 grad:1.381966 h:0.356191   |   test: 0.051605 grad: 1.100677 h:0.221386
+Epoch: 499
+LOSS: train: 0.073400 grad:1.452674 h:0.366316   |   test: 0.051676 grad: 1.091738 h:0.203393
+Epoch: 500
+LOSS: train: 0.072325 grad:1.377243 h:0.351702   |   test: 0.051506 grad: 1.086296 h:0.198849
