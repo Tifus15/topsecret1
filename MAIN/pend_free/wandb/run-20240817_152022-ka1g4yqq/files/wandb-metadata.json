@@ -1,0 +1,168 @@
+{
+    "os": "Linux-5.15.0-91-generic-x86_64-with-glibc2.31",
+    "python": "3.9.18",
+    "heartbeatAt": "2024-08-17T13:20:22.633153",
+    "startedAt": "2024-08-17T13:20:22.080767",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/home/ias/Desktop/theend/topsecret1/MAIN/pend_free/main_pend.py",
+    "codePathLocal": "main_pend.py",
+    "codePath": "MAIN/pend_free/main_pend.py",
+    "git": {
+        "remote": "https://github.com/Tifus15/topsecret1.git",
+        "commit": "b83dda7ee6a44e97ad71ed67911bb543dce2da43"
+    },
+    "email": "andridenis@gmail.com",
+    "root": "/home/ias/Desktop/theend/topsecret1",
+    "host": "ritchie",
+    "username": "ias",
+    "executable": "/home/ias/anaconda3/envs/pytorch_env/bin/python",
+    "cpu_count": 12,
+    "cpu_count_logical": 24,
+    "cpu_freq": {
+        "current": 2225.3862083333333,
+        "min": 2200.0,
+        "max": 3800.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2200.0,
+            "min": 2200.0,
+            "max": 3800.0
+        },
+        {
+            "current": 2200.0,
+            "min": 2200.0,
+            "max": 3800.0
+        },
+        {
+            "current": 2200.0,
+            "min": 2200.0,
+            "max": 3800.0
+        },
+        {
+            "current": 2200.0,
+            "min": 2200.0,
+            "max": 3800.0
+        },
+        {
+            "current": 2200.0,
+            "min": 2200.0,
+            "max": 3800.0
+        },
+        {
+            "current": 2200.0,
+            "min": 2200.0,
+            "max": 3800.0
+        },
+        {
+            "current": 2200.0,
+            "min": 2200.0,
+            "max": 3800.0
+        },
+        {
+            "current": 2200.0,
+            "min": 2200.0,
+            "max": 3800.0
+        },
+        {
+            "current": 2200.0,
+            "min": 2200.0,
+            "max": 3800.0
+        },
+        {
+            "current": 2200.0,
+            "min": 2200.0,
+            "max": 3800.0
+        },
+        {
+            "current": 2200.0,
+            "min": 2200.0,
+            "max": 3800.0
+        },
+        {
+            "current": 2200.0,
+            "min": 2200.0,
+            "max": 3800.0
+        },
+        {
+            "current": 2200.0,
+            "min": 2200.0,
+            "max": 3800.0
+        },
+        {
+            "current": 2200.0,
+            "min": 2200.0,
+            "max": 3800.0
+        },
+        {
+            "current": 2200.0,
+            "min": 2200.0,
+            "max": 3800.0
+        },
+        {
+            "current": 2200.0,
+            "min": 2200.0,
+            "max": 3800.0
+        },
+        {
+            "current": 2209.269,
+            "min": 2200.0,
+            "max": 3800.0
+        },
+        {
+            "current": 2200.0,
+            "min": 2200.0,
+            "max": 3800.0
+        },
+        {
+            "current": 2200.0,
+            "min": 2200.0,
+            "max": 3800.0
+        },
+        {
+            "current": 2200.0,
+            "min": 2200.0,
+            "max": 3800.0
+        },
+        {
+            "current": 2200.0,
+            "min": 2200.0,
+            "max": 3800.0
+        },
+        {
+            "current": 2200.0,
+            "min": 2200.0,
+            "max": 3800.0
+        },
+        {
+            "current": 2200.0,
+            "min": 2200.0,
+            "max": 3800.0
+        },
+        {
+            "current": 2200.0,
+            "min": 2200.0,
+            "max": 3800.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 467.8895797729492,
+            "used": 93.74424362182617
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 2080 SUPER",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 2080 SUPER",
+            "memory_total": 8589934592
+        }
+    ],
+    "memory": {
+        "total": 62.73550796508789
+    }
+}

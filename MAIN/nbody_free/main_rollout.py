@@ -108,7 +108,7 @@ print(t[1]-t[0])
 model = GNN_maker_HNN(graph1,6,128,6,["tanh",""],type="GCN")
 print(model)
 
-opti = torch.optim.AdamW(model.parameters(),lr=1e-3)
+opti = torch.optim.AdamW(model.parameters(),lr=LR)
 lossfn = loss_reader(LOSS_FN)
 loss_container=torch.zeros(EPOCHS,4)
 
