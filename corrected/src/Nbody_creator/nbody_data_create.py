@@ -44,24 +44,28 @@ def simulation_start(times=25,
             with open(npy, 'rb') as f:
                 pos = torch.tensor(np.load(f))
                 vel = torch.tensor(np.load(f))
+                acc = torch.tensor(np.load(f))
                 t = torch.tensor(np.load(f))
                 mass = np.load(f)
                 K = torch.tensor(np.load(f))
                 P = torch.tensor(np.load(f))
-            print(K.shape)
+                print("K shape {}".format(K.shape))
+                print("P shape {}".format(P.shape))            
             qp.append(torch.cat((pos.unsqueeze(1),vel.unsqueeze(1)),dim=-1))
+            print("trajectory shape:{}".format(qp[-1].shape))
             H.append((K+P).reshape(-1,1,1))
+            print("energy shape {}".format(H[-1].shape))
             time.sleep(1.0) 
             os.remove(npy)	
         out = torch.cat((qp),dim=1)
         H_out = torch.cat((H),dim=1)
-        print(out.shape)
-        print(H_out.shape)
+        print("TRAJECTORY {}".format(out.shape))
+        print("ENERGY {}".format(H_out.shape))
         filename = "nbody_" + str(bodies+i) + "_traj.pt"
         H_file = "nbody_" + str(bodies+i) + "_H.pt"
         torch.save(out,ROOT_PATH+"/"+filename)
         torch.save(H_out,ROOT_PATH+"/"+H_file)
-        print(H_out)
+        #print(H_out)
 
 
 

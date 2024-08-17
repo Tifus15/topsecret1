@@ -26,10 +26,11 @@ def simulation_start(times=25, bodies = 7,sim=True):
     print(len(arr_new))
     qp = []
     H = []
-    for npy in arr_new:
+    for i, npy in enumerate(arr_new):
         with open(npy, 'rb') as f:
             pos = torch.tensor(np.load(f))
             vel = torch.tensor(np.load(f))
+            acc = torch.tensor(np.load(f))
             t = torch.tensor(np.load(f))
             mass = np.load(f)
             K = torch.tensor(np.load(f))
@@ -38,9 +39,11 @@ def simulation_start(times=25, bodies = 7,sim=True):
         qp.append(torch.cat((pos.unsqueeze(1),vel.unsqueeze(1)),dim=-1))
         H.append((K+P).reshape(-1,1,1))
         time.sleep(1.0) 
-        os.remove(npy)	
+        os.remove(npy)
+        print(i)	
     out = torch.cat((qp),dim=1)
     H_out = torch.cat((H),dim=1)
+    
     print(out.shape)
     print(H_out.shape)
     filename = "nbody_" + str(bodies) + "_traj.pt"
